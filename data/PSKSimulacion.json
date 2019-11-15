@@ -1,0 +1,4328 @@
+[
+  {
+    "tiempo": 0,
+    "portadora": 0,
+    "moduladora": -3,
+    "Modulada": 0
+  },
+  {
+    "tiempo": 1,
+    "portadora": 0.139512947488251,
+    "moduladora": 3,
+    "Modulada": 0.418538842464752
+  },
+  {
+    "tiempo": 2,
+    "portadora": 0.278346201920131,
+    "moduladora": 3,
+    "Modulada": 0.835038605760393
+  },
+  {
+    "tiempo": 3,
+    "portadora": 0.415823381635519,
+    "moduladora": 3,
+    "Modulada": 1.24747014490656
+  },
+  {
+    "tiempo": 4,
+    "portadora": 0.551274711633998,
+    "moduladora": 3,
+    "Modulada": 1.653824134902
+  },
+  {
+    "tiempo": 5,
+    "portadora": 0.684040286651337,
+    "moduladora": 3,
+    "Modulada": 2.05212085995401
+  },
+  {
+    "tiempo": 6,
+    "portadora": 0.8134732861516,
+    "moduladora": 3,
+    "Modulada": 2.4404198584548
+  },
+  {
+    "tiempo": 7,
+    "portadora": 0.938943125571782,
+    "moduladora": 3,
+    "Modulada": 2.81682937671534
+  },
+  {
+    "tiempo": 8,
+    "portadora": 1.05983852846641,
+    "moduladora": 3,
+    "Modulada": 3.17951558539923
+  },
+  {
+    "tiempo": 9,
+    "portadora": 1.17557050458495,
+    "moduladora": 3,
+    "Modulada": 3.52671151375484
+  },
+  {
+    "tiempo": 10,
+    "portadora": 1.28557521937308,
+    "moduladora": 3,
+    "Modulada": 3.85672565811924
+  },
+  {
+    "tiempo": 11,
+    "portadora": 1.38931674091799,
+    "moduladora": 3,
+    "Modulada": 4.16795022275398
+  },
+  {
+    "tiempo": 12,
+    "portadora": 1.48628965095479,
+    "moduladora": 3,
+    "Modulada": 4.45886895286437
+  },
+  {
+    "tiempo": 13,
+    "portadora": 1.57602150721344,
+    "moduladora": 3,
+    "Modulada": 4.72806452164033
+  },
+  {
+    "tiempo": 14,
+    "portadora": 1.65807514511008,
+    "moduladora": 3,
+    "Modulada": 4.97422543533025
+  },
+  {
+    "tiempo": 15,
+    "portadora": 1.73205080756888,
+    "moduladora": 3,
+    "Modulada": 5.19615242270663
+  },
+  {
+    "tiempo": 16,
+    "portadora": 1.79758809259833,
+    "moduladora": 3,
+    "Modulada": 5.392764277795
+  },
+  {
+    "tiempo": 17,
+    "portadora": 1.85436770913357,
+    "moduladora": 3,
+    "Modulada": 5.56310312740072
+  },
+  {
+    "tiempo": 18,
+    "portadora": 1.90211303259031,
+    "moduladora": 3,
+    "Modulada": 5.70633909777092
+  },
+  {
+    "tiempo": 19,
+    "portadora": 1.94059145255199,
+    "moduladora": 3,
+    "Modulada": 5.82177435765598
+  },
+  {
+    "tiempo": 20,
+    "portadora": 1.96961550602442,
+    "moduladora": 3,
+    "Modulada": 5.90884651807325
+  },
+  {
+    "tiempo": 21,
+    "portadora": 1.98904379073655,
+    "moduladora": 3,
+    "Modulada": 5.96713137220964
+  },
+  {
+    "tiempo": 22,
+    "portadora": 1.99878165403819,
+    "moduladora": 3,
+    "Modulada": 5.99634496211457
+  },
+  {
+    "tiempo": 23,
+    "portadora": 1.99878165403819,
+    "moduladora": 3,
+    "Modulada": 5.99634496211457
+  },
+  {
+    "tiempo": 24,
+    "portadora": 1.98904379073655,
+    "moduladora": 3,
+    "Modulada": 5.96713137220964
+  },
+  {
+    "tiempo": 25,
+    "portadora": 1.96961550602442,
+    "moduladora": 3,
+    "Modulada": 5.90884651807325
+  },
+  {
+    "tiempo": 26,
+    "portadora": 1.94059145255199,
+    "moduladora": 3,
+    "Modulada": 5.82177435765598
+  },
+  {
+    "tiempo": 27,
+    "portadora": 1.90211303259031,
+    "moduladora": 3,
+    "Modulada": 5.70633909777092
+  },
+  {
+    "tiempo": 28,
+    "portadora": 1.85436770913358,
+    "moduladora": 3,
+    "Modulada": 5.56310312740072
+  },
+  {
+    "tiempo": 29,
+    "portadora": 1.79758809259833,
+    "moduladora": 3,
+    "Modulada": 5.392764277795
+  },
+  {
+    "tiempo": 30,
+    "portadora": 1.73205080756888,
+    "moduladora": 3,
+    "Modulada": 5.19615242270663
+  },
+  {
+    "tiempo": 31,
+    "portadora": 1.65807514511008,
+    "moduladora": 3,
+    "Modulada": 4.97422543533025
+  },
+  {
+    "tiempo": 32,
+    "portadora": 1.57602150721344,
+    "moduladora": 3,
+    "Modulada": 4.72806452164033
+  },
+  {
+    "tiempo": 33,
+    "portadora": 1.48628965095479,
+    "moduladora": 3,
+    "Modulada": 4.45886895286437
+  },
+  {
+    "tiempo": 34,
+    "portadora": 1.389316740918,
+    "moduladora": 3,
+    "Modulada": 4.16795022275399
+  },
+  {
+    "tiempo": 35,
+    "portadora": 1.28557521937308,
+    "moduladora": 3,
+    "Modulada": 3.85672565811924
+  },
+  {
+    "tiempo": 36,
+    "portadora": 1.17557050458495,
+    "moduladora": 3,
+    "Modulada": 3.52671151375484
+  },
+  {
+    "tiempo": 37,
+    "portadora": 1.05983852846641,
+    "moduladora": 3,
+    "Modulada": 3.17951558539923
+  },
+  {
+    "tiempo": 38,
+    "portadora": 0.938943125571781,
+    "moduladora": 3,
+    "Modulada": 2.81682937671534
+  },
+  {
+    "tiempo": 39,
+    "portadora": 0.8134732861516,
+    "moduladora": 3,
+    "Modulada": 2.4404198584548
+  },
+  {
+    "tiempo": 40,
+    "portadora": 0.684040286651338,
+    "moduladora": 3,
+    "Modulada": 2.05212085995401
+  },
+  {
+    "tiempo": 41,
+    "portadora": 0.551274711633998,
+    "moduladora": 3,
+    "Modulada": 1.653824134902
+  },
+  {
+    "tiempo": 42,
+    "portadora": 0.415823381635519,
+    "moduladora": 3,
+    "Modulada": 1.24747014490656
+  },
+  {
+    "tiempo": 43,
+    "portadora": 0.278346201920131,
+    "moduladora": 3,
+    "Modulada": 0.835038605760392
+  },
+  {
+    "tiempo": 44,
+    "portadora": 0.139512947488251,
+    "moduladora": 3,
+    "Modulada": 0.418538842464753
+  },
+  {
+    "tiempo": 45,
+    "portadora": 2.45e-16,
+    "moduladora": 3,
+    "Modulada": 7.35e-16
+  },
+  {
+    "tiempo": 46,
+    "portadora": -0.13951294748825,
+    "moduladora": 3,
+    "Modulada": -0.418538842464749
+  },
+  {
+    "tiempo": 47,
+    "portadora": -0.278346201920131,
+    "moduladora": 3,
+    "Modulada": -0.835038605760393
+  },
+  {
+    "tiempo": 48,
+    "portadora": -0.415823381635518,
+    "moduladora": 3,
+    "Modulada": -1.24747014490655
+  },
+  {
+    "tiempo": 49,
+    "portadora": -0.551274711633997,
+    "moduladora": 3,
+    "Modulada": -1.65382413490199
+  },
+  {
+    "tiempo": 50,
+    "portadora": -0.684040286651337,
+    "moduladora": 3,
+    "Modulada": -2.05212085995401
+  },
+  {
+    "tiempo": 51,
+    "portadora": -0.8134732861516,
+    "moduladora": 3,
+    "Modulada": -2.4404198584548
+  },
+  {
+    "tiempo": 52,
+    "portadora": -0.938943125571781,
+    "moduladora": 3,
+    "Modulada": -2.81682937671534
+  },
+  {
+    "tiempo": 53,
+    "portadora": -1.05983852846641,
+    "moduladora": 3,
+    "Modulada": -3.17951558539923
+  },
+  {
+    "tiempo": 54,
+    "portadora": -1.17557050458495,
+    "moduladora": 3,
+    "Modulada": -3.52671151375484
+  },
+  {
+    "tiempo": 55,
+    "portadora": -1.28557521937308,
+    "moduladora": 3,
+    "Modulada": -3.85672565811924
+  },
+  {
+    "tiempo": 56,
+    "portadora": -1.38931674091799,
+    "moduladora": 3,
+    "Modulada": -4.16795022275398
+  },
+  {
+    "tiempo": 57,
+    "portadora": -1.48628965095479,
+    "moduladora": 3,
+    "Modulada": -4.45886895286436
+  },
+  {
+    "tiempo": 58,
+    "portadora": -1.57602150721344,
+    "moduladora": 3,
+    "Modulada": -4.72806452164033
+  },
+  {
+    "tiempo": 59,
+    "portadora": -1.65807514511008,
+    "moduladora": 3,
+    "Modulada": -4.97422543533025
+  },
+  {
+    "tiempo": 60,
+    "portadora": -1.73205080756888,
+    "moduladora": 3,
+    "Modulada": -5.19615242270663
+  },
+  {
+    "tiempo": 61,
+    "portadora": -1.79758809259833,
+    "moduladora": 3,
+    "Modulada": -5.392764277795
+  },
+  {
+    "tiempo": 62,
+    "portadora": -1.85436770913357,
+    "moduladora": 3,
+    "Modulada": -5.56310312740072
+  },
+  {
+    "tiempo": 63,
+    "portadora": -1.90211303259031,
+    "moduladora": 3,
+    "Modulada": -5.70633909777092
+  },
+  {
+    "tiempo": 64,
+    "portadora": -1.94059145255199,
+    "moduladora": 3,
+    "Modulada": -5.82177435765598
+  },
+  {
+    "tiempo": 65,
+    "portadora": -1.96961550602442,
+    "moduladora": 3,
+    "Modulada": -5.90884651807325
+  },
+  {
+    "tiempo": 66,
+    "portadora": -1.98904379073655,
+    "moduladora": 3,
+    "Modulada": -5.96713137220964
+  },
+  {
+    "tiempo": 67,
+    "portadora": -1.99878165403819,
+    "moduladora": 3,
+    "Modulada": -5.99634496211457
+  },
+  {
+    "tiempo": 68,
+    "portadora": -1.99878165403819,
+    "moduladora": 3,
+    "Modulada": -5.99634496211457
+  },
+  {
+    "tiempo": 69,
+    "portadora": -1.98904379073655,
+    "moduladora": 3,
+    "Modulada": -5.96713137220964
+  },
+  {
+    "tiempo": 70,
+    "portadora": -1.96961550602442,
+    "moduladora": 3,
+    "Modulada": -5.90884651807325
+  },
+  {
+    "tiempo": 71,
+    "portadora": -1.94059145255199,
+    "moduladora": 3,
+    "Modulada": -5.82177435765598
+  },
+  {
+    "tiempo": 72,
+    "portadora": -1.90211303259031,
+    "moduladora": 3,
+    "Modulada": -5.70633909777092
+  },
+  {
+    "tiempo": 73,
+    "portadora": -1.85436770913358,
+    "moduladora": 3,
+    "Modulada": -5.56310312740072
+  },
+  {
+    "tiempo": 74,
+    "portadora": -1.79758809259833,
+    "moduladora": 3,
+    "Modulada": -5.392764277795
+  },
+  {
+    "tiempo": 75,
+    "portadora": -1.73205080756888,
+    "moduladora": 3,
+    "Modulada": -5.19615242270663
+  },
+  {
+    "tiempo": 76,
+    "portadora": -1.65807514511008,
+    "moduladora": 3,
+    "Modulada": -4.97422543533025
+  },
+  {
+    "tiempo": 77,
+    "portadora": -1.57602150721344,
+    "moduladora": 3,
+    "Modulada": -4.72806452164033
+  },
+  {
+    "tiempo": 78,
+    "portadora": -1.48628965095479,
+    "moduladora": 3,
+    "Modulada": -4.45886895286436
+  },
+  {
+    "tiempo": 79,
+    "portadora": -1.389316740918,
+    "moduladora": 3,
+    "Modulada": -4.16795022275399
+  },
+  {
+    "tiempo": 80,
+    "portadora": -1.28557521937308,
+    "moduladora": 3,
+    "Modulada": -3.85672565811924
+  },
+  {
+    "tiempo": 81,
+    "portadora": -1.17557050458495,
+    "moduladora": 3,
+    "Modulada": -3.52671151375484
+  },
+  {
+    "tiempo": 82,
+    "portadora": -1.05983852846641,
+    "moduladora": 3,
+    "Modulada": -3.17951558539923
+  },
+  {
+    "tiempo": 83,
+    "portadora": -0.938943125571782,
+    "moduladora": 3,
+    "Modulada": -2.81682937671534
+  },
+  {
+    "tiempo": 84,
+    "portadora": -0.8134732861516,
+    "moduladora": 3,
+    "Modulada": -2.4404198584548
+  },
+  {
+    "tiempo": 85,
+    "portadora": -0.684040286651339,
+    "moduladora": 3,
+    "Modulada": -2.05212085995402
+  },
+  {
+    "tiempo": 86,
+    "portadora": -0.551274711633998,
+    "moduladora": 3,
+    "Modulada": -1.65382413490199
+  },
+  {
+    "tiempo": 87,
+    "portadora": -0.41582338163552,
+    "moduladora": 3,
+    "Modulada": -1.24747014490656
+  },
+  {
+    "tiempo": 88,
+    "portadora": -0.278346201920132,
+    "moduladora": 3,
+    "Modulada": -0.835038605760395
+  },
+  {
+    "tiempo": 89,
+    "portadora": -0.139512947488251,
+    "moduladora": 3,
+    "Modulada": -0.418538842464754
+  },
+  {
+    "tiempo": 90,
+    "portadora": -4.9e-16,
+    "moduladora": 3,
+    "Modulada": -1.47e-15
+  },
+  {
+    "tiempo": 91,
+    "portadora": 0.13951294748825,
+    "moduladora": -3,
+    "Modulada": -0.418538842464751
+  },
+  {
+    "tiempo": 92,
+    "portadora": 0.278346201920129,
+    "moduladora": -3,
+    "Modulada": -0.835038605760387
+  },
+  {
+    "tiempo": 93,
+    "portadora": 0.415823381635519,
+    "moduladora": -3,
+    "Modulada": -1.24747014490656
+  },
+  {
+    "tiempo": 94,
+    "portadora": 0.551274711633999,
+    "moduladora": -3,
+    "Modulada": -1.653824134902
+  },
+  {
+    "tiempo": 95,
+    "portadora": 0.684040286651338,
+    "moduladora": -3,
+    "Modulada": -2.05212085995401
+  },
+  {
+    "tiempo": 96,
+    "portadora": 0.813473286151599,
+    "moduladora": -3,
+    "Modulada": -2.4404198584548
+  },
+  {
+    "tiempo": 97,
+    "portadora": 0.938943125571781,
+    "moduladora": -3,
+    "Modulada": -2.81682937671534
+  },
+  {
+    "tiempo": 98,
+    "portadora": 1.05983852846641,
+    "moduladora": -3,
+    "Modulada": -3.17951558539922
+  },
+  {
+    "tiempo": 99,
+    "portadora": 1.17557050458495,
+    "moduladora": -3,
+    "Modulada": -3.52671151375484
+  },
+  {
+    "tiempo": 100,
+    "portadora": 1.28557521937308,
+    "moduladora": -3,
+    "Modulada": -3.85672565811923
+  },
+  {
+    "tiempo": 101,
+    "portadora": 1.38931674091799,
+    "moduladora": -3,
+    "Modulada": -4.16795022275398
+  },
+  {
+    "tiempo": 102,
+    "portadora": 1.48628965095479,
+    "moduladora": -3,
+    "Modulada": -4.45886895286436
+  },
+  {
+    "tiempo": 103,
+    "portadora": 1.57602150721344,
+    "moduladora": -3,
+    "Modulada": -4.72806452164033
+  },
+  {
+    "tiempo": 104,
+    "portadora": 1.65807514511008,
+    "moduladora": -3,
+    "Modulada": -4.97422543533025
+  },
+  {
+    "tiempo": 105,
+    "portadora": 1.73205080756888,
+    "moduladora": -3,
+    "Modulada": -5.19615242270663
+  },
+  {
+    "tiempo": 106,
+    "portadora": 1.79758809259833,
+    "moduladora": -3,
+    "Modulada": -5.392764277795
+  },
+  {
+    "tiempo": 107,
+    "portadora": 1.85436770913357,
+    "moduladora": -3,
+    "Modulada": -5.56310312740072
+  },
+  {
+    "tiempo": 108,
+    "portadora": 1.90211303259031,
+    "moduladora": -3,
+    "Modulada": -5.70633909777092
+  },
+  {
+    "tiempo": 109,
+    "portadora": 1.94059145255199,
+    "moduladora": -3,
+    "Modulada": -5.82177435765598
+  },
+  {
+    "tiempo": 110,
+    "portadora": 1.96961550602442,
+    "moduladora": -3,
+    "Modulada": -5.90884651807325
+  },
+  {
+    "tiempo": 111,
+    "portadora": 1.98904379073655,
+    "moduladora": -3,
+    "Modulada": -5.96713137220964
+  },
+  {
+    "tiempo": 112,
+    "portadora": 1.99878165403819,
+    "moduladora": -3,
+    "Modulada": -5.99634496211457
+  },
+  {
+    "tiempo": 113,
+    "portadora": 1.99878165403819,
+    "moduladora": -3,
+    "Modulada": -5.99634496211457
+  },
+  {
+    "tiempo": 114,
+    "portadora": 1.98904379073655,
+    "moduladora": -3,
+    "Modulada": -5.96713137220964
+  },
+  {
+    "tiempo": 115,
+    "portadora": 1.96961550602442,
+    "moduladora": -3,
+    "Modulada": -5.90884651807325
+  },
+  {
+    "tiempo": 116,
+    "portadora": 1.94059145255199,
+    "moduladora": -3,
+    "Modulada": -5.82177435765598
+  },
+  {
+    "tiempo": 117,
+    "portadora": 1.90211303259031,
+    "moduladora": -3,
+    "Modulada": -5.70633909777092
+  },
+  {
+    "tiempo": 118,
+    "portadora": 1.85436770913358,
+    "moduladora": -3,
+    "Modulada": -5.56310312740073
+  },
+  {
+    "tiempo": 119,
+    "portadora": 1.79758809259833,
+    "moduladora": -3,
+    "Modulada": -5.392764277795
+  },
+  {
+    "tiempo": 120,
+    "portadora": 1.73205080756888,
+    "moduladora": -3,
+    "Modulada": -5.19615242270664
+  },
+  {
+    "tiempo": 121,
+    "portadora": 1.65807514511008,
+    "moduladora": -3,
+    "Modulada": -4.97422543533025
+  },
+  {
+    "tiempo": 122,
+    "portadora": 1.57602150721344,
+    "moduladora": -3,
+    "Modulada": -4.72806452164033
+  },
+  {
+    "tiempo": 123,
+    "portadora": 1.48628965095479,
+    "moduladora": -3,
+    "Modulada": -4.45886895286436
+  },
+  {
+    "tiempo": 124,
+    "portadora": 1.389316740918,
+    "moduladora": -3,
+    "Modulada": -4.16795022275399
+  },
+  {
+    "tiempo": 125,
+    "portadora": 1.28557521937308,
+    "moduladora": -3,
+    "Modulada": -3.85672565811924
+  },
+  {
+    "tiempo": 126,
+    "portadora": 1.17557050458495,
+    "moduladora": -3,
+    "Modulada": -3.52671151375484
+  },
+  {
+    "tiempo": 127,
+    "portadora": 1.05983852846641,
+    "moduladora": -3,
+    "Modulada": -3.17951558539923
+  },
+  {
+    "tiempo": 128,
+    "portadora": 0.938943125571782,
+    "moduladora": -3,
+    "Modulada": -2.81682937671535
+  },
+  {
+    "tiempo": 129,
+    "portadora": 0.813473286151602,
+    "moduladora": -3,
+    "Modulada": -2.44041985845481
+  },
+  {
+    "tiempo": 130,
+    "portadora": 0.684040286651337,
+    "moduladora": -3,
+    "Modulada": -2.05212085995401
+  },
+  {
+    "tiempo": 131,
+    "portadora": 0.551274711634,
+    "moduladora": -3,
+    "Modulada": -1.653824134902
+  },
+  {
+    "tiempo": 132,
+    "portadora": 0.415823381635522,
+    "moduladora": -3,
+    "Modulada": -1.24747014490657
+  },
+  {
+    "tiempo": 133,
+    "portadora": 0.278346201920132,
+    "moduladora": -3,
+    "Modulada": -0.835038605760396
+  },
+  {
+    "tiempo": 134,
+    "portadora": 0.13951294748825,
+    "moduladora": -3,
+    "Modulada": -0.418538842464749
+  },
+  {
+    "tiempo": 135,
+    "portadora": 7.35e-16,
+    "moduladora": -3,
+    "Modulada": -2.2e-15
+  },
+  {
+    "tiempo": 136,
+    "portadora": -0.139512947488248,
+    "moduladora": -3,
+    "Modulada": 0.418538842464745
+  },
+  {
+    "tiempo": 137,
+    "portadora": -0.27834620192013,
+    "moduladora": -3,
+    "Modulada": 0.835038605760392
+  },
+  {
+    "tiempo": 138,
+    "portadora": -0.41582338163552,
+    "moduladora": -3,
+    "Modulada": 1.24747014490656
+  },
+  {
+    "tiempo": 139,
+    "portadora": -0.551274711633998,
+    "moduladora": -3,
+    "Modulada": 1.653824134902
+  },
+  {
+    "tiempo": 140,
+    "portadora": -0.684040286651336,
+    "moduladora": -3,
+    "Modulada": 2.05212085995401
+  },
+  {
+    "tiempo": 141,
+    "portadora": -0.813473286151601,
+    "moduladora": -3,
+    "Modulada": 2.4404198584548
+  },
+  {
+    "tiempo": 142,
+    "portadora": -0.93894312557178,
+    "moduladora": -3,
+    "Modulada": 2.81682937671534
+  },
+  {
+    "tiempo": 143,
+    "portadora": -1.05983852846641,
+    "moduladora": -3,
+    "Modulada": 3.17951558539922
+  },
+  {
+    "tiempo": 144,
+    "portadora": -1.17557050458495,
+    "moduladora": -3,
+    "Modulada": 3.52671151375484
+  },
+  {
+    "tiempo": 145,
+    "portadora": -1.28557521937308,
+    "moduladora": -3,
+    "Modulada": 3.85672565811924
+  },
+  {
+    "tiempo": 146,
+    "portadora": -1.38931674091799,
+    "moduladora": -3,
+    "Modulada": 4.16795022275398
+  },
+  {
+    "tiempo": 147,
+    "portadora": -1.48628965095479,
+    "moduladora": -3,
+    "Modulada": 4.45886895286436
+  },
+  {
+    "tiempo": 148,
+    "portadora": -1.57602150721344,
+    "moduladora": -3,
+    "Modulada": 4.72806452164033
+  },
+  {
+    "tiempo": 149,
+    "portadora": -1.65807514511008,
+    "moduladora": -3,
+    "Modulada": 4.97422543533025
+  },
+  {
+    "tiempo": 150,
+    "portadora": -1.73205080756888,
+    "moduladora": -3,
+    "Modulada": 5.19615242270663
+  },
+  {
+    "tiempo": 151,
+    "portadora": -1.79758809259833,
+    "moduladora": -3,
+    "Modulada": 5.392764277795
+  },
+  {
+    "tiempo": 152,
+    "portadora": -1.85436770913358,
+    "moduladora": -3,
+    "Modulada": 5.56310312740073
+  },
+  {
+    "tiempo": 153,
+    "portadora": -1.90211303259031,
+    "moduladora": -3,
+    "Modulada": 5.70633909777092
+  },
+  {
+    "tiempo": 154,
+    "portadora": -1.94059145255199,
+    "moduladora": -3,
+    "Modulada": 5.82177435765598
+  },
+  {
+    "tiempo": 155,
+    "portadora": -1.96961550602442,
+    "moduladora": -3,
+    "Modulada": 5.90884651807325
+  },
+  {
+    "tiempo": 156,
+    "portadora": -1.98904379073655,
+    "moduladora": -3,
+    "Modulada": 5.96713137220964
+  },
+  {
+    "tiempo": 157,
+    "portadora": -1.99878165403819,
+    "moduladora": -3,
+    "Modulada": 5.99634496211457
+  },
+  {
+    "tiempo": 158,
+    "portadora": -1.99878165403819,
+    "moduladora": -3,
+    "Modulada": 5.99634496211457
+  },
+  {
+    "tiempo": 159,
+    "portadora": -1.98904379073655,
+    "moduladora": -3,
+    "Modulada": 5.96713137220964
+  },
+  {
+    "tiempo": 160,
+    "portadora": -1.96961550602442,
+    "moduladora": -3,
+    "Modulada": 5.90884651807325
+  },
+  {
+    "tiempo": 161,
+    "portadora": -1.94059145255199,
+    "moduladora": -3,
+    "Modulada": 5.82177435765598
+  },
+  {
+    "tiempo": 162,
+    "portadora": -1.90211303259031,
+    "moduladora": -3,
+    "Modulada": 5.70633909777092
+  },
+  {
+    "tiempo": 163,
+    "portadora": -1.85436770913358,
+    "moduladora": -3,
+    "Modulada": 5.56310312740073
+  },
+  {
+    "tiempo": 164,
+    "portadora": -1.79758809259833,
+    "moduladora": -3,
+    "Modulada": 5.392764277795
+  },
+  {
+    "tiempo": 165,
+    "portadora": -1.73205080756888,
+    "moduladora": -3,
+    "Modulada": 5.19615242270664
+  },
+  {
+    "tiempo": 166,
+    "portadora": -1.65807514511008,
+    "moduladora": -3,
+    "Modulada": 4.97422543533025
+  },
+  {
+    "tiempo": 167,
+    "portadora": -1.57602150721344,
+    "moduladora": -3,
+    "Modulada": 4.72806452164033
+  },
+  {
+    "tiempo": 168,
+    "portadora": -1.48628965095479,
+    "moduladora": -3,
+    "Modulada": 4.45886895286437
+  },
+  {
+    "tiempo": 169,
+    "portadora": -1.389316740918,
+    "moduladora": -3,
+    "Modulada": 4.16795022275399
+  },
+  {
+    "tiempo": 170,
+    "portadora": -1.28557521937308,
+    "moduladora": -3,
+    "Modulada": 3.85672565811924
+  },
+  {
+    "tiempo": 171,
+    "portadora": -1.17557050458495,
+    "moduladora": -3,
+    "Modulada": 3.52671151375484
+  },
+  {
+    "tiempo": 172,
+    "portadora": -1.05983852846641,
+    "moduladora": -3,
+    "Modulada": 3.17951558539923
+  },
+  {
+    "tiempo": 173,
+    "portadora": -0.938943125571782,
+    "moduladora": -3,
+    "Modulada": 2.81682937671535
+  },
+  {
+    "tiempo": 174,
+    "portadora": -0.813473286151602,
+    "moduladora": -3,
+    "Modulada": 2.44041985845481
+  },
+  {
+    "tiempo": 175,
+    "portadora": -0.684040286651338,
+    "moduladora": -3,
+    "Modulada": 2.05212085995401
+  },
+  {
+    "tiempo": 176,
+    "portadora": -0.551274711634,
+    "moduladora": -3,
+    "Modulada": 1.653824134902
+  },
+  {
+    "tiempo": 177,
+    "portadora": -0.415823381635522,
+    "moduladora": -3,
+    "Modulada": 1.24747014490657
+  },
+  {
+    "tiempo": 178,
+    "portadora": -0.278346201920132,
+    "moduladora": -3,
+    "Modulada": 0.835038605760397
+  },
+  {
+    "tiempo": 179,
+    "portadora": -0.13951294748825,
+    "moduladora": -3,
+    "Modulada": 0.41853884246475
+  },
+  {
+    "tiempo": 180,
+    "portadora": -9.8e-16,
+    "moduladora": -3,
+    "Modulada": 2.94e-15
+  },
+  {
+    "tiempo": 181,
+    "portadora": 0.139512947488248,
+    "moduladora": 3,
+    "Modulada": 0.418538842464744
+  },
+  {
+    "tiempo": 182,
+    "portadora": 0.27834620192013,
+    "moduladora": 3,
+    "Modulada": 0.835038605760391
+  },
+  {
+    "tiempo": 183,
+    "portadora": 0.415823381635517,
+    "moduladora": 3,
+    "Modulada": 1.24747014490655
+  },
+  {
+    "tiempo": 184,
+    "portadora": 0.551274711633995,
+    "moduladora": 3,
+    "Modulada": 1.65382413490198
+  },
+  {
+    "tiempo": 185,
+    "portadora": 0.684040286651336,
+    "moduladora": 3,
+    "Modulada": 2.05212085995401
+  },
+  {
+    "tiempo": 186,
+    "portadora": 0.813473286151601,
+    "moduladora": 3,
+    "Modulada": 2.4404198584548
+  },
+  {
+    "tiempo": 187,
+    "portadora": 0.938943125571783,
+    "moduladora": 3,
+    "Modulada": 2.81682937671535
+  },
+  {
+    "tiempo": 188,
+    "portadora": 1.05983852846641,
+    "moduladora": 3,
+    "Modulada": 3.17951558539923
+  },
+  {
+    "tiempo": 189,
+    "portadora": 1.17557050458495,
+    "moduladora": 3,
+    "Modulada": 3.52671151375484
+  },
+  {
+    "tiempo": 190,
+    "portadora": 1.28557521937308,
+    "moduladora": 3,
+    "Modulada": 3.85672565811924
+  },
+  {
+    "tiempo": 191,
+    "portadora": 1.38931674091799,
+    "moduladora": 3,
+    "Modulada": 4.16795022275398
+  },
+  {
+    "tiempo": 192,
+    "portadora": 1.48628965095479,
+    "moduladora": 3,
+    "Modulada": 4.45886895286436
+  },
+  {
+    "tiempo": 193,
+    "portadora": 1.57602150721344,
+    "moduladora": 3,
+    "Modulada": 4.72806452164033
+  },
+  {
+    "tiempo": 194,
+    "portadora": 1.65807514511008,
+    "moduladora": 3,
+    "Modulada": 4.97422543533025
+  },
+  {
+    "tiempo": 195,
+    "portadora": 1.73205080756888,
+    "moduladora": 3,
+    "Modulada": 5.19615242270663
+  },
+  {
+    "tiempo": 196,
+    "portadora": 1.79758809259833,
+    "moduladora": 3,
+    "Modulada": 5.392764277795
+  },
+  {
+    "tiempo": 197,
+    "portadora": 1.85436770913358,
+    "moduladora": 3,
+    "Modulada": 5.56310312740073
+  },
+  {
+    "tiempo": 198,
+    "portadora": 1.90211303259031,
+    "moduladora": 3,
+    "Modulada": 5.70633909777092
+  },
+  {
+    "tiempo": 199,
+    "portadora": 1.94059145255199,
+    "moduladora": 3,
+    "Modulada": 5.82177435765598
+  },
+  {
+    "tiempo": 200,
+    "portadora": 1.96961550602442,
+    "moduladora": 3,
+    "Modulada": 5.90884651807325
+  },
+  {
+    "tiempo": 201,
+    "portadora": 1.98904379073655,
+    "moduladora": 3,
+    "Modulada": 5.96713137220964
+  },
+  {
+    "tiempo": 202,
+    "portadora": 1.99878165403819,
+    "moduladora": 3,
+    "Modulada": 5.99634496211457
+  },
+  {
+    "tiempo": 203,
+    "portadora": 1.99878165403819,
+    "moduladora": 3,
+    "Modulada": 5.99634496211457
+  },
+  {
+    "tiempo": 204,
+    "portadora": 1.98904379073655,
+    "moduladora": 3,
+    "Modulada": 5.96713137220964
+  },
+  {
+    "tiempo": 205,
+    "portadora": 1.96961550602442,
+    "moduladora": 3,
+    "Modulada": 5.90884651807325
+  },
+  {
+    "tiempo": 206,
+    "portadora": 1.94059145255199,
+    "moduladora": 3,
+    "Modulada": 5.82177435765598
+  },
+  {
+    "tiempo": 207,
+    "portadora": 1.90211303259031,
+    "moduladora": 3,
+    "Modulada": 5.70633909777093
+  },
+  {
+    "tiempo": 208,
+    "portadora": 1.85436770913358,
+    "moduladora": 3,
+    "Modulada": 5.56310312740073
+  },
+  {
+    "tiempo": 209,
+    "portadora": 1.79758809259833,
+    "moduladora": 3,
+    "Modulada": 5.392764277795
+  },
+  {
+    "tiempo": 210,
+    "portadora": 1.73205080756888,
+    "moduladora": 3,
+    "Modulada": 5.19615242270663
+  },
+  {
+    "tiempo": 211,
+    "portadora": 1.65807514511008,
+    "moduladora": 3,
+    "Modulada": 4.97422543533025
+  },
+  {
+    "tiempo": 212,
+    "portadora": 1.57602150721345,
+    "moduladora": 3,
+    "Modulada": 4.72806452164034
+  },
+  {
+    "tiempo": 213,
+    "portadora": 1.48628965095479,
+    "moduladora": 3,
+    "Modulada": 4.45886895286437
+  },
+  {
+    "tiempo": 214,
+    "portadora": 1.389316740918,
+    "moduladora": 3,
+    "Modulada": 4.16795022275399
+  },
+  {
+    "tiempo": 215,
+    "portadora": 1.28557521937308,
+    "moduladora": 3,
+    "Modulada": 3.85672565811924
+  },
+  {
+    "tiempo": 216,
+    "portadora": 1.17557050458495,
+    "moduladora": 3,
+    "Modulada": 3.52671151375484
+  },
+  {
+    "tiempo": 217,
+    "portadora": 1.05983852846641,
+    "moduladora": 3,
+    "Modulada": 3.17951558539924
+  },
+  {
+    "tiempo": 218,
+    "portadora": 0.938943125571785,
+    "moduladora": 3,
+    "Modulada": 2.81682937671536
+  },
+  {
+    "tiempo": 219,
+    "portadora": 0.813473286151603,
+    "moduladora": 3,
+    "Modulada": 2.44041985845481
+  },
+  {
+    "tiempo": 220,
+    "portadora": 0.684040286651338,
+    "moduladora": 3,
+    "Modulada": 2.05212085995401
+  },
+  {
+    "tiempo": 221,
+    "portadora": 0.551274711633997,
+    "moduladora": 3,
+    "Modulada": 1.65382413490199
+  },
+  {
+    "tiempo": 222,
+    "portadora": 0.415823381635519,
+    "moduladora": 3,
+    "Modulada": 1.24747014490656
+  },
+  {
+    "tiempo": 223,
+    "portadora": 0.278346201920132,
+    "moduladora": 3,
+    "Modulada": 0.835038605760397
+  },
+  {
+    "tiempo": 224,
+    "portadora": 0.13951294748825,
+    "moduladora": 3,
+    "Modulada": 0.418538842464751
+  },
+  {
+    "tiempo": 225,
+    "portadora": 1.22e-15,
+    "moduladora": 3,
+    "Modulada": 3.67e-15
+  },
+  {
+    "tiempo": 226,
+    "portadora": -0.139512947488248,
+    "moduladora": 3,
+    "Modulada": -0.418538842464743
+  },
+  {
+    "tiempo": 227,
+    "portadora": -0.27834620192013,
+    "moduladora": 3,
+    "Modulada": -0.83503860576039
+  },
+  {
+    "tiempo": 228,
+    "portadora": -0.415823381635516,
+    "moduladora": 3,
+    "Modulada": -1.24747014490655
+  },
+  {
+    "tiempo": 229,
+    "portadora": -0.551274711633995,
+    "moduladora": 3,
+    "Modulada": -1.65382413490198
+  },
+  {
+    "tiempo": 230,
+    "portadora": -0.684040286651336,
+    "moduladora": 3,
+    "Modulada": -2.05212085995401
+  },
+  {
+    "tiempo": 231,
+    "portadora": -0.813473286151604,
+    "moduladora": 3,
+    "Modulada": -2.44041985845481
+  },
+  {
+    "tiempo": 232,
+    "portadora": -0.938943125571783,
+    "moduladora": 3,
+    "Modulada": -2.81682937671535
+  },
+  {
+    "tiempo": 233,
+    "portadora": -1.05983852846641,
+    "moduladora": 3,
+    "Modulada": -3.17951558539923
+  },
+  {
+    "tiempo": 234,
+    "portadora": -1.17557050458495,
+    "moduladora": 3,
+    "Modulada": -3.52671151375484
+  },
+  {
+    "tiempo": 235,
+    "portadora": -1.28557521937308,
+    "moduladora": 3,
+    "Modulada": -3.85672565811923
+  },
+  {
+    "tiempo": 236,
+    "portadora": -1.38931674091799,
+    "moduladora": 3,
+    "Modulada": -4.16795022275397
+  },
+  {
+    "tiempo": 237,
+    "portadora": -1.48628965095479,
+    "moduladora": 3,
+    "Modulada": -4.45886895286437
+  },
+  {
+    "tiempo": 238,
+    "portadora": -1.57602150721344,
+    "moduladora": 3,
+    "Modulada": -4.72806452164033
+  },
+  {
+    "tiempo": 239,
+    "portadora": -1.65807514511008,
+    "moduladora": 3,
+    "Modulada": -4.97422543533025
+  },
+  {
+    "tiempo": 240,
+    "portadora": -1.73205080756888,
+    "moduladora": 3,
+    "Modulada": -5.19615242270663
+  },
+  {
+    "tiempo": 241,
+    "portadora": -1.79758809259833,
+    "moduladora": 3,
+    "Modulada": -5.392764277795
+  },
+  {
+    "tiempo": 242,
+    "portadora": -1.85436770913358,
+    "moduladora": 3,
+    "Modulada": -5.56310312740072
+  },
+  {
+    "tiempo": 243,
+    "portadora": -1.90211303259031,
+    "moduladora": 3,
+    "Modulada": -5.70633909777092
+  },
+  {
+    "tiempo": 244,
+    "portadora": -1.94059145255199,
+    "moduladora": 3,
+    "Modulada": -5.82177435765598
+  },
+  {
+    "tiempo": 245,
+    "portadora": -1.96961550602442,
+    "moduladora": 3,
+    "Modulada": -5.90884651807325
+  },
+  {
+    "tiempo": 246,
+    "portadora": -1.98904379073655,
+    "moduladora": 3,
+    "Modulada": -5.96713137220964
+  },
+  {
+    "tiempo": 247,
+    "portadora": -1.99878165403819,
+    "moduladora": 3,
+    "Modulada": -5.99634496211457
+  },
+  {
+    "tiempo": 248,
+    "portadora": -1.99878165403819,
+    "moduladora": 3,
+    "Modulada": -5.99634496211457
+  },
+  {
+    "tiempo": 249,
+    "portadora": -1.98904379073655,
+    "moduladora": 3,
+    "Modulada": -5.96713137220964
+  },
+  {
+    "tiempo": 250,
+    "portadora": -1.96961550602442,
+    "moduladora": 3,
+    "Modulada": -5.90884651807325
+  },
+  {
+    "tiempo": 251,
+    "portadora": -1.94059145255199,
+    "moduladora": 3,
+    "Modulada": -5.82177435765598
+  },
+  {
+    "tiempo": 252,
+    "portadora": -1.90211303259031,
+    "moduladora": 3,
+    "Modulada": -5.70633909777092
+  },
+  {
+    "tiempo": 253,
+    "portadora": -1.85436770913358,
+    "moduladora": 3,
+    "Modulada": -5.56310312740073
+  },
+  {
+    "tiempo": 254,
+    "portadora": -1.79758809259833,
+    "moduladora": 3,
+    "Modulada": -5.392764277795
+  },
+  {
+    "tiempo": 255,
+    "portadora": -1.73205080756888,
+    "moduladora": 3,
+    "Modulada": -5.19615242270663
+  },
+  {
+    "tiempo": 256,
+    "portadora": -1.65807514511008,
+    "moduladora": 3,
+    "Modulada": -4.97422543533025
+  },
+  {
+    "tiempo": 257,
+    "portadora": -1.57602150721345,
+    "moduladora": 3,
+    "Modulada": -4.72806452164034
+  },
+  {
+    "tiempo": 258,
+    "portadora": -1.48628965095479,
+    "moduladora": 3,
+    "Modulada": -4.45886895286437
+  },
+  {
+    "tiempo": 259,
+    "portadora": -1.38931674091799,
+    "moduladora": 3,
+    "Modulada": -4.16795022275398
+  },
+  {
+    "tiempo": 260,
+    "portadora": -1.28557521937308,
+    "moduladora": 3,
+    "Modulada": -3.85672565811924
+  },
+  {
+    "tiempo": 261,
+    "portadora": -1.17557050458495,
+    "moduladora": 3,
+    "Modulada": -3.52671151375484
+  },
+  {
+    "tiempo": 262,
+    "portadora": -1.05983852846641,
+    "moduladora": 3,
+    "Modulada": -3.17951558539924
+  },
+  {
+    "tiempo": 263,
+    "portadora": -0.938943125571786,
+    "moduladora": 3,
+    "Modulada": -2.81682937671536
+  },
+  {
+    "tiempo": 264,
+    "portadora": -0.813473286151606,
+    "moduladora": 3,
+    "Modulada": -2.44041985845482
+  },
+  {
+    "tiempo": 265,
+    "portadora": -0.684040286651338,
+    "moduladora": 3,
+    "Modulada": -2.05212085995401
+  },
+  {
+    "tiempo": 266,
+    "portadora": -0.551274711634001,
+    "moduladora": 3,
+    "Modulada": -1.653824134902
+  },
+  {
+    "tiempo": 267,
+    "portadora": -0.415823381635515,
+    "moduladora": 3,
+    "Modulada": -1.24747014490655
+  },
+  {
+    "tiempo": 268,
+    "portadora": -0.278346201920129,
+    "moduladora": 3,
+    "Modulada": -0.835038605760388
+  },
+  {
+    "tiempo": 269,
+    "portadora": -0.139512947488251,
+    "moduladora": 3,
+    "Modulada": -0.418538842464751
+  },
+  {
+    "tiempo": 270,
+    "portadora": -1.47e-15,
+    "moduladora": 3,
+    "Modulada": -4.41e-15
+  },
+  {
+    "tiempo": 271,
+    "portadora": 0.139512947488248,
+    "moduladora": -3,
+    "Modulada": -0.418538842464743
+  },
+  {
+    "tiempo": 272,
+    "portadora": 0.278346201920126,
+    "moduladora": -3,
+    "Modulada": -0.835038605760379
+  },
+  {
+    "tiempo": 273,
+    "portadora": 0.415823381635513,
+    "moduladora": -3,
+    "Modulada": -1.24747014490654
+  },
+  {
+    "tiempo": 274,
+    "portadora": 0.551274711633998,
+    "moduladora": -3,
+    "Modulada": -1.65382413490199
+  },
+  {
+    "tiempo": 275,
+    "portadora": 0.684040286651335,
+    "moduladora": -3,
+    "Modulada": -2.05212085995401
+  },
+  {
+    "tiempo": 276,
+    "portadora": 0.813473286151603,
+    "moduladora": -3,
+    "Modulada": -2.44041985845481
+  },
+  {
+    "tiempo": 277,
+    "portadora": 0.938943125571783,
+    "moduladora": -3,
+    "Modulada": -2.81682937671535
+  },
+  {
+    "tiempo": 278,
+    "portadora": 1.05983852846641,
+    "moduladora": -3,
+    "Modulada": -3.17951558539923
+  },
+  {
+    "tiempo": 279,
+    "portadora": 1.17557050458495,
+    "moduladora": -3,
+    "Modulada": -3.52671151375483
+  },
+  {
+    "tiempo": 280,
+    "portadora": 1.28557521937308,
+    "moduladora": -3,
+    "Modulada": -3.85672565811923
+  },
+  {
+    "tiempo": 281,
+    "portadora": 1.38931674091799,
+    "moduladora": -3,
+    "Modulada": -4.16795022275397
+  },
+  {
+    "tiempo": 282,
+    "portadora": 1.48628965095479,
+    "moduladora": -3,
+    "Modulada": -4.45886895286437
+  },
+  {
+    "tiempo": 283,
+    "portadora": 1.57602150721344,
+    "moduladora": -3,
+    "Modulada": -4.72806452164033
+  },
+  {
+    "tiempo": 284,
+    "portadora": 1.65807514511008,
+    "moduladora": -3,
+    "Modulada": -4.97422543533025
+  },
+  {
+    "tiempo": 285,
+    "portadora": 1.73205080756888,
+    "moduladora": -3,
+    "Modulada": -5.19615242270663
+  },
+  {
+    "tiempo": 286,
+    "portadora": 1.79758809259833,
+    "moduladora": -3,
+    "Modulada": -5.392764277795
+  },
+  {
+    "tiempo": 287,
+    "portadora": 1.85436770913358,
+    "moduladora": -3,
+    "Modulada": -5.56310312740072
+  },
+  {
+    "tiempo": 288,
+    "portadora": 1.90211303259031,
+    "moduladora": -3,
+    "Modulada": -5.70633909777092
+  },
+  {
+    "tiempo": 289,
+    "portadora": 1.94059145255199,
+    "moduladora": -3,
+    "Modulada": -5.82177435765598
+  },
+  {
+    "tiempo": 290,
+    "portadora": 1.96961550602442,
+    "moduladora": -3,
+    "Modulada": -5.90884651807325
+  },
+  {
+    "tiempo": 291,
+    "portadora": 1.98904379073655,
+    "moduladora": -3,
+    "Modulada": -5.96713137220964
+  },
+  {
+    "tiempo": 292,
+    "portadora": 1.99878165403819,
+    "moduladora": -3,
+    "Modulada": -5.99634496211457
+  },
+  {
+    "tiempo": 293,
+    "portadora": 1.99878165403819,
+    "moduladora": -3,
+    "Modulada": -5.99634496211457
+  },
+  {
+    "tiempo": 294,
+    "portadora": 1.98904379073655,
+    "moduladora": -3,
+    "Modulada": -5.96713137220964
+  },
+  {
+    "tiempo": 295,
+    "portadora": 1.96961550602442,
+    "moduladora": -3,
+    "Modulada": -5.90884651807325
+  },
+  {
+    "tiempo": 296,
+    "portadora": 1.94059145255199,
+    "moduladora": -3,
+    "Modulada": -5.82177435765598
+  },
+  {
+    "tiempo": 297,
+    "portadora": 1.90211303259031,
+    "moduladora": -3,
+    "Modulada": -5.70633909777092
+  },
+  {
+    "tiempo": 298,
+    "portadora": 1.85436770913358,
+    "moduladora": -3,
+    "Modulada": -5.56310312740073
+  },
+  {
+    "tiempo": 299,
+    "portadora": 1.79758809259833,
+    "moduladora": -3,
+    "Modulada": -5.392764277795
+  },
+  {
+    "tiempo": 300,
+    "portadora": 1.73205080756888,
+    "moduladora": -3,
+    "Modulada": -5.19615242270663
+  },
+  {
+    "tiempo": 301,
+    "portadora": 1.65807514511008,
+    "moduladora": -3,
+    "Modulada": -4.97422543533025
+  },
+  {
+    "tiempo": 302,
+    "portadora": 1.57602150721345,
+    "moduladora": -3,
+    "Modulada": -4.72806452164034
+  },
+  {
+    "tiempo": 303,
+    "portadora": 1.48628965095479,
+    "moduladora": -3,
+    "Modulada": -4.45886895286437
+  },
+  {
+    "tiempo": 304,
+    "portadora": 1.38931674091799,
+    "moduladora": -3,
+    "Modulada": -4.16795022275398
+  },
+  {
+    "tiempo": 305,
+    "portadora": 1.28557521937308,
+    "moduladora": -3,
+    "Modulada": -3.85672565811924
+  },
+  {
+    "tiempo": 306,
+    "portadora": 1.17557050458495,
+    "moduladora": -3,
+    "Modulada": -3.52671151375484
+  },
+  {
+    "tiempo": 307,
+    "portadora": 1.05983852846641,
+    "moduladora": -3,
+    "Modulada": -3.17951558539924
+  },
+  {
+    "tiempo": 308,
+    "portadora": 0.938943125571786,
+    "moduladora": -3,
+    "Modulada": -2.81682937671536
+  },
+  {
+    "tiempo": 309,
+    "portadora": 0.813473286151606,
+    "moduladora": -3,
+    "Modulada": -2.44041985845482
+  },
+  {
+    "tiempo": 310,
+    "portadora": 0.684040286651338,
+    "moduladora": -3,
+    "Modulada": -2.05212085995401
+  },
+  {
+    "tiempo": 311,
+    "portadora": 0.551274711634001,
+    "moduladora": -3,
+    "Modulada": -1.653824134902
+  },
+  {
+    "tiempo": 312,
+    "portadora": 0.415823381635516,
+    "moduladora": -3,
+    "Modulada": -1.24747014490655
+  },
+  {
+    "tiempo": 313,
+    "portadora": 0.278346201920129,
+    "moduladora": -3,
+    "Modulada": -0.835038605760388
+  },
+  {
+    "tiempo": 314,
+    "portadora": 0.139512947488251,
+    "moduladora": -3,
+    "Modulada": -0.418538842464752
+  },
+  {
+    "tiempo": 315,
+    "portadora": 1.71e-15,
+    "moduladora": -3,
+    "Modulada": -5.14e-15
+  },
+  {
+    "tiempo": 316,
+    "portadora": -0.139512947488247,
+    "moduladora": -3,
+    "Modulada": 0.418538842464742
+  },
+  {
+    "tiempo": 317,
+    "portadora": -0.278346201920126,
+    "moduladora": -3,
+    "Modulada": 0.835038605760378
+  },
+  {
+    "tiempo": 318,
+    "portadora": -0.415823381635512,
+    "moduladora": -3,
+    "Modulada": 1.24747014490654
+  },
+  {
+    "tiempo": 319,
+    "portadora": -0.551274711633997,
+    "moduladora": -3,
+    "Modulada": 1.65382413490199
+  },
+  {
+    "tiempo": 320,
+    "portadora": -0.684040286651335,
+    "moduladora": -3,
+    "Modulada": 2.05212085995401
+  },
+  {
+    "tiempo": 321,
+    "portadora": -0.813473286151603,
+    "moduladora": -3,
+    "Modulada": 2.44041985845481
+  },
+  {
+    "tiempo": 322,
+    "portadora": -0.938943125571783,
+    "moduladora": -3,
+    "Modulada": 2.81682937671535
+  },
+  {
+    "tiempo": 323,
+    "portadora": -1.05983852846641,
+    "moduladora": -3,
+    "Modulada": 3.17951558539923
+  },
+  {
+    "tiempo": 324,
+    "portadora": -1.17557050458495,
+    "moduladora": -3,
+    "Modulada": 3.52671151375483
+  },
+  {
+    "tiempo": 325,
+    "portadora": -1.28557521937308,
+    "moduladora": -3,
+    "Modulada": 3.85672565811923
+  },
+  {
+    "tiempo": 326,
+    "portadora": -1.38931674091799,
+    "moduladora": -3,
+    "Modulada": 4.16795022275397
+  },
+  {
+    "tiempo": 327,
+    "portadora": -1.48628965095479,
+    "moduladora": -3,
+    "Modulada": 4.45886895286437
+  },
+  {
+    "tiempo": 328,
+    "portadora": -1.57602150721344,
+    "moduladora": -3,
+    "Modulada": 4.72806452164033
+  },
+  {
+    "tiempo": 329,
+    "portadora": -1.65807514511008,
+    "moduladora": -3,
+    "Modulada": 4.97422543533025
+  },
+  {
+    "tiempo": 330,
+    "portadora": -1.73205080756888,
+    "moduladora": -3,
+    "Modulada": 5.19615242270663
+  },
+  {
+    "tiempo": 331,
+    "portadora": -1.79758809259833,
+    "moduladora": -3,
+    "Modulada": 5.39276427779499
+  },
+  {
+    "tiempo": 332,
+    "portadora": -1.85436770913357,
+    "moduladora": -3,
+    "Modulada": 5.56310312740072
+  },
+  {
+    "tiempo": 333,
+    "portadora": -1.90211303259031,
+    "moduladora": -3,
+    "Modulada": 5.70633909777092
+  },
+  {
+    "tiempo": 334,
+    "portadora": -1.94059145255199,
+    "moduladora": -3,
+    "Modulada": 5.82177435765598
+  },
+  {
+    "tiempo": 335,
+    "portadora": -1.96961550602442,
+    "moduladora": -3,
+    "Modulada": 5.90884651807325
+  },
+  {
+    "tiempo": 336,
+    "portadora": -1.98904379073655,
+    "moduladora": -3,
+    "Modulada": 5.96713137220964
+  },
+  {
+    "tiempo": 337,
+    "portadora": -1.99878165403819,
+    "moduladora": -3,
+    "Modulada": 5.99634496211457
+  },
+  {
+    "tiempo": 338,
+    "portadora": -1.99878165403819,
+    "moduladora": -3,
+    "Modulada": 5.99634496211457
+  },
+  {
+    "tiempo": 339,
+    "portadora": -1.98904379073655,
+    "moduladora": -3,
+    "Modulada": 5.96713137220964
+  },
+  {
+    "tiempo": 340,
+    "portadora": -1.96961550602442,
+    "moduladora": -3,
+    "Modulada": 5.90884651807325
+  },
+  {
+    "tiempo": 341,
+    "portadora": -1.94059145255199,
+    "moduladora": -3,
+    "Modulada": 5.82177435765598
+  },
+  {
+    "tiempo": 342,
+    "portadora": -1.90211303259031,
+    "moduladora": -3,
+    "Modulada": 5.70633909777092
+  },
+  {
+    "tiempo": 343,
+    "portadora": -1.85436770913358,
+    "moduladora": -3,
+    "Modulada": 5.56310312740073
+  },
+  {
+    "tiempo": 344,
+    "portadora": -1.79758809259833,
+    "moduladora": -3,
+    "Modulada": 5.392764277795
+  },
+  {
+    "tiempo": 345,
+    "portadora": -1.73205080756888,
+    "moduladora": -3,
+    "Modulada": 5.19615242270663
+  },
+  {
+    "tiempo": 346,
+    "portadora": -1.65807514511008,
+    "moduladora": -3,
+    "Modulada": 4.97422543533025
+  },
+  {
+    "tiempo": 347,
+    "portadora": -1.57602150721345,
+    "moduladora": -3,
+    "Modulada": 4.72806452164034
+  },
+  {
+    "tiempo": 348,
+    "portadora": -1.48628965095479,
+    "moduladora": -3,
+    "Modulada": 4.45886895286437
+  },
+  {
+    "tiempo": 349,
+    "portadora": -1.38931674091799,
+    "moduladora": -3,
+    "Modulada": 4.16795022275398
+  },
+  {
+    "tiempo": 350,
+    "portadora": -1.28557521937308,
+    "moduladora": -3,
+    "Modulada": 3.85672565811924
+  },
+  {
+    "tiempo": 351,
+    "portadora": -1.17557050458495,
+    "moduladora": -3,
+    "Modulada": 3.52671151375484
+  },
+  {
+    "tiempo": 352,
+    "portadora": -1.05983852846641,
+    "moduladora": -3,
+    "Modulada": 3.17951558539924
+  },
+  {
+    "tiempo": 353,
+    "portadora": -0.938943125571786,
+    "moduladora": -3,
+    "Modulada": 2.81682937671536
+  },
+  {
+    "tiempo": 354,
+    "portadora": -0.813473286151607,
+    "moduladora": -3,
+    "Modulada": 2.44041985845482
+  },
+  {
+    "tiempo": 355,
+    "portadora": -0.684040286651339,
+    "moduladora": -3,
+    "Modulada": 2.05212085995402
+  },
+  {
+    "tiempo": 356,
+    "portadora": -0.551274711634001,
+    "moduladora": -3,
+    "Modulada": 1.653824134902
+  },
+  {
+    "tiempo": 357,
+    "portadora": -0.415823381635516,
+    "moduladora": -3,
+    "Modulada": 1.24747014490655
+  },
+  {
+    "tiempo": 358,
+    "portadora": -0.27834620192013,
+    "moduladora": -3,
+    "Modulada": 0.835038605760389
+  },
+  {
+    "tiempo": 359,
+    "portadora": -0.139512947488251,
+    "moduladora": -3,
+    "Modulada": 0.418538842464753
+  },
+  {
+    "tiempo": 360,
+    "portadora": -1.96e-15,
+    "moduladora": -3,
+    "Modulada": 5.88e-15
+  },
+  {
+    "tiempo": 361,
+    "portadora": 0.139512947488247,
+    "moduladora": 3,
+    "Modulada": 0.418538842464741
+  },
+  {
+    "tiempo": 362,
+    "portadora": 0.278346201920126,
+    "moduladora": 3,
+    "Modulada": 0.835038605760377
+  },
+  {
+    "tiempo": 363,
+    "portadora": 0.415823381635512,
+    "moduladora": 3,
+    "Modulada": 1.24747014490654
+  },
+  {
+    "tiempo": 364,
+    "portadora": 0.551274711633997,
+    "moduladora": 3,
+    "Modulada": 1.65382413490199
+  },
+  {
+    "tiempo": 365,
+    "portadora": 0.684040286651335,
+    "moduladora": 3,
+    "Modulada": 2.052120859954
+  },
+  {
+    "tiempo": 366,
+    "portadora": 0.813473286151596,
+    "moduladora": 3,
+    "Modulada": 2.44041985845479
+  },
+  {
+    "tiempo": 367,
+    "portadora": 0.938943125571776,
+    "moduladora": 3,
+    "Modulada": 2.81682937671533
+  },
+  {
+    "tiempo": 368,
+    "portadora": 1.0598385284664,
+    "moduladora": 3,
+    "Modulada": 3.17951558539921
+  },
+  {
+    "tiempo": 369,
+    "portadora": 1.17557050458494,
+    "moduladora": 3,
+    "Modulada": 3.52671151375482
+  },
+  {
+    "tiempo": 370,
+    "portadora": 1.28557521937308,
+    "moduladora": 3,
+    "Modulada": 3.85672565811923
+  },
+  {
+    "tiempo": 371,
+    "portadora": 1.38931674091799,
+    "moduladora": 3,
+    "Modulada": 4.16795022275397
+  },
+  {
+    "tiempo": 372,
+    "portadora": 1.48628965095479,
+    "moduladora": 3,
+    "Modulada": 4.45886895286437
+  },
+  {
+    "tiempo": 373,
+    "portadora": 1.57602150721345,
+    "moduladora": 3,
+    "Modulada": 4.72806452164034
+  },
+  {
+    "tiempo": 374,
+    "portadora": 1.65807514511009,
+    "moduladora": 3,
+    "Modulada": 4.97422543533026
+  },
+  {
+    "tiempo": 375,
+    "portadora": 1.73205080756888,
+    "moduladora": 3,
+    "Modulada": 5.19615242270664
+  },
+  {
+    "tiempo": 376,
+    "portadora": 1.79758809259833,
+    "moduladora": 3,
+    "Modulada": 5.392764277795
+  },
+  {
+    "tiempo": 377,
+    "portadora": 1.85436770913357,
+    "moduladora": 3,
+    "Modulada": 5.56310312740072
+  },
+  {
+    "tiempo": 378,
+    "portadora": 1.90211303259031,
+    "moduladora": 3,
+    "Modulada": 5.70633909777092
+  },
+  {
+    "tiempo": 379,
+    "portadora": 1.94059145255199,
+    "moduladora": 3,
+    "Modulada": 5.82177435765598
+  },
+  {
+    "tiempo": 380,
+    "portadora": 1.96961550602442,
+    "moduladora": 3,
+    "Modulada": 5.90884651807325
+  },
+  {
+    "tiempo": 381,
+    "portadora": 1.98904379073655,
+    "moduladora": 3,
+    "Modulada": 5.96713137220964
+  },
+  {
+    "tiempo": 382,
+    "portadora": 1.99878165403819,
+    "moduladora": 3,
+    "Modulada": 5.99634496211457
+  },
+  {
+    "tiempo": 383,
+    "portadora": 1.99878165403819,
+    "moduladora": 3,
+    "Modulada": 5.99634496211457
+  },
+  {
+    "tiempo": 384,
+    "portadora": 1.98904379073655,
+    "moduladora": 3,
+    "Modulada": 5.96713137220964
+  },
+  {
+    "tiempo": 385,
+    "portadora": 1.96961550602442,
+    "moduladora": 3,
+    "Modulada": 5.90884651807325
+  },
+  {
+    "tiempo": 386,
+    "portadora": 1.94059145255199,
+    "moduladora": 3,
+    "Modulada": 5.82177435765598
+  },
+  {
+    "tiempo": 387,
+    "portadora": 1.90211303259031,
+    "moduladora": 3,
+    "Modulada": 5.70633909777092
+  },
+  {
+    "tiempo": 388,
+    "portadora": 1.85436770913358,
+    "moduladora": 3,
+    "Modulada": 5.56310312740073
+  },
+  {
+    "tiempo": 389,
+    "portadora": 1.79758809259834,
+    "moduladora": 3,
+    "Modulada": 5.39276427779501
+  },
+  {
+    "tiempo": 390,
+    "portadora": 1.73205080756888,
+    "moduladora": 3,
+    "Modulada": 5.19615242270664
+  },
+  {
+    "tiempo": 391,
+    "portadora": 1.65807514511009,
+    "moduladora": 3,
+    "Modulada": 4.97422543533027
+  },
+  {
+    "tiempo": 392,
+    "portadora": 1.57602150721345,
+    "moduladora": 3,
+    "Modulada": 4.72806452164035
+  },
+  {
+    "tiempo": 393,
+    "portadora": 1.48628965095479,
+    "moduladora": 3,
+    "Modulada": 4.45886895286438
+  },
+  {
+    "tiempo": 394,
+    "portadora": 1.38931674091799,
+    "moduladora": 3,
+    "Modulada": 4.16795022275398
+  },
+  {
+    "tiempo": 395,
+    "portadora": 1.28557521937308,
+    "moduladora": 3,
+    "Modulada": 3.85672565811924
+  },
+  {
+    "tiempo": 396,
+    "portadora": 1.17557050458494,
+    "moduladora": 3,
+    "Modulada": 3.52671151375483
+  },
+  {
+    "tiempo": 397,
+    "portadora": 1.05983852846641,
+    "moduladora": 3,
+    "Modulada": 3.17951558539922
+  },
+  {
+    "tiempo": 398,
+    "portadora": 0.93894312557178,
+    "moduladora": 3,
+    "Modulada": 2.81682937671534
+  },
+  {
+    "tiempo": 399,
+    "portadora": 0.8134732861516,
+    "moduladora": 3,
+    "Modulada": 2.4404198584548
+  },
+  {
+    "tiempo": 400,
+    "portadora": 0.684040286651339,
+    "moduladora": 3,
+    "Modulada": 2.05212085995402
+  },
+  {
+    "tiempo": 401,
+    "portadora": 0.551274711634001,
+    "moduladora": 3,
+    "Modulada": 1.653824134902
+  },
+  {
+    "tiempo": 402,
+    "portadora": 0.415823381635516,
+    "moduladora": 3,
+    "Modulada": 1.24747014490655
+  },
+  {
+    "tiempo": 403,
+    "portadora": 0.27834620192013,
+    "moduladora": 3,
+    "Modulada": 0.83503860576039
+  },
+  {
+    "tiempo": 404,
+    "portadora": 0.139512947488251,
+    "moduladora": 3,
+    "Modulada": 0.418538842464754
+  },
+  {
+    "tiempo": 405,
+    "portadora": 2.2e-15,
+    "moduladora": 3,
+    "Modulada": 6.61e-15
+  },
+  {
+    "tiempo": 406,
+    "portadora": -0.139512947488247,
+    "moduladora": 3,
+    "Modulada": -0.418538842464741
+  },
+  {
+    "tiempo": 407,
+    "portadora": -0.278346201920126,
+    "moduladora": 3,
+    "Modulada": -0.835038605760377
+  },
+  {
+    "tiempo": 408,
+    "portadora": -0.415823381635512,
+    "moduladora": 3,
+    "Modulada": -1.24747014490654
+  },
+  {
+    "tiempo": 409,
+    "portadora": -0.551274711633997,
+    "moduladora": 3,
+    "Modulada": -1.65382413490199
+  },
+  {
+    "tiempo": 410,
+    "portadora": -0.684040286651335,
+    "moduladora": 3,
+    "Modulada": -2.052120859954
+  },
+  {
+    "tiempo": 411,
+    "portadora": -0.813473286151596,
+    "moduladora": 3,
+    "Modulada": -2.44041985845479
+  },
+  {
+    "tiempo": 412,
+    "portadora": -0.938943125571776,
+    "moduladora": 3,
+    "Modulada": -2.81682937671533
+  },
+  {
+    "tiempo": 413,
+    "portadora": -1.0598385284664,
+    "moduladora": 3,
+    "Modulada": -3.17951558539921
+  },
+  {
+    "tiempo": 414,
+    "portadora": -1.17557050458494,
+    "moduladora": 3,
+    "Modulada": -3.52671151375482
+  },
+  {
+    "tiempo": 415,
+    "portadora": -1.28557521937308,
+    "moduladora": 3,
+    "Modulada": -3.85672565811923
+  },
+  {
+    "tiempo": 416,
+    "portadora": -1.38931674091799,
+    "moduladora": 3,
+    "Modulada": -4.16795022275397
+  },
+  {
+    "tiempo": 417,
+    "portadora": -1.48628965095479,
+    "moduladora": 3,
+    "Modulada": -4.45886895286437
+  },
+  {
+    "tiempo": 418,
+    "portadora": -1.57602150721345,
+    "moduladora": 3,
+    "Modulada": -4.72806452164034
+  },
+  {
+    "tiempo": 419,
+    "portadora": -1.65807514511009,
+    "moduladora": 3,
+    "Modulada": -4.97422543533026
+  },
+  {
+    "tiempo": 420,
+    "portadora": -1.73205080756888,
+    "moduladora": 3,
+    "Modulada": -5.19615242270664
+  },
+  {
+    "tiempo": 421,
+    "portadora": -1.79758809259833,
+    "moduladora": 3,
+    "Modulada": -5.392764277795
+  },
+  {
+    "tiempo": 422,
+    "portadora": -1.85436770913357,
+    "moduladora": 3,
+    "Modulada": -5.56310312740072
+  },
+  {
+    "tiempo": 423,
+    "portadora": -1.90211303259031,
+    "moduladora": 3,
+    "Modulada": -5.70633909777092
+  },
+  {
+    "tiempo": 424,
+    "portadora": -1.94059145255199,
+    "moduladora": 3,
+    "Modulada": -5.82177435765598
+  },
+  {
+    "tiempo": 425,
+    "portadora": -1.96961550602442,
+    "moduladora": 3,
+    "Modulada": -5.90884651807325
+  },
+  {
+    "tiempo": 426,
+    "portadora": -1.98904379073655,
+    "moduladora": 3,
+    "Modulada": -5.96713137220964
+  },
+  {
+    "tiempo": 427,
+    "portadora": -1.99878165403819,
+    "moduladora": 3,
+    "Modulada": -5.99634496211457
+  },
+  {
+    "tiempo": 428,
+    "portadora": -1.99878165403819,
+    "moduladora": 3,
+    "Modulada": -5.99634496211457
+  },
+  {
+    "tiempo": 429,
+    "portadora": -1.98904379073655,
+    "moduladora": 3,
+    "Modulada": -5.96713137220964
+  },
+  {
+    "tiempo": 430,
+    "portadora": -1.96961550602442,
+    "moduladora": 3,
+    "Modulada": -5.90884651807325
+  },
+  {
+    "tiempo": 431,
+    "portadora": -1.94059145255199,
+    "moduladora": 3,
+    "Modulada": -5.82177435765598
+  },
+  {
+    "tiempo": 432,
+    "portadora": -1.90211303259031,
+    "moduladora": 3,
+    "Modulada": -5.70633909777092
+  },
+  {
+    "tiempo": 433,
+    "portadora": -1.85436770913358,
+    "moduladora": 3,
+    "Modulada": -5.56310312740073
+  },
+  {
+    "tiempo": 434,
+    "portadora": -1.79758809259834,
+    "moduladora": 3,
+    "Modulada": -5.39276427779501
+  },
+  {
+    "tiempo": 435,
+    "portadora": -1.73205080756888,
+    "moduladora": 3,
+    "Modulada": -5.19615242270664
+  },
+  {
+    "tiempo": 436,
+    "portadora": -1.65807514511009,
+    "moduladora": 3,
+    "Modulada": -4.97422543533027
+  },
+  {
+    "tiempo": 437,
+    "portadora": -1.57602150721345,
+    "moduladora": 3,
+    "Modulada": -4.72806452164035
+  },
+  {
+    "tiempo": 438,
+    "portadora": -1.48628965095479,
+    "moduladora": 3,
+    "Modulada": -4.45886895286438
+  },
+  {
+    "tiempo": 439,
+    "portadora": -1.38931674091799,
+    "moduladora": 3,
+    "Modulada": -4.16795022275398
+  },
+  {
+    "tiempo": 440,
+    "portadora": -1.28557521937308,
+    "moduladora": 3,
+    "Modulada": -3.85672565811924
+  },
+  {
+    "tiempo": 441,
+    "portadora": -1.17557050458494,
+    "moduladora": 3,
+    "Modulada": -3.52671151375483
+  },
+  {
+    "tiempo": 442,
+    "portadora": -1.05983852846641,
+    "moduladora": 3,
+    "Modulada": -3.17951558539922
+  },
+  {
+    "tiempo": 443,
+    "portadora": -0.93894312557178,
+    "moduladora": 3,
+    "Modulada": -2.81682937671534
+  },
+  {
+    "tiempo": 444,
+    "portadora": -0.8134732861516,
+    "moduladora": 3,
+    "Modulada": -2.4404198584548
+  },
+  {
+    "tiempo": 445,
+    "portadora": -0.684040286651339,
+    "moduladora": 3,
+    "Modulada": -2.05212085995402
+  },
+  {
+    "tiempo": 446,
+    "portadora": -0.551274711634001,
+    "moduladora": 3,
+    "Modulada": -1.653824134902
+  },
+  {
+    "tiempo": 447,
+    "portadora": -0.415823381635516,
+    "moduladora": 3,
+    "Modulada": -1.24747014490655
+  },
+  {
+    "tiempo": 448,
+    "portadora": -0.27834620192013,
+    "moduladora": 3,
+    "Modulada": -0.83503860576039
+  },
+  {
+    "tiempo": 449,
+    "portadora": -0.139512947488251,
+    "moduladora": 3,
+    "Modulada": -0.418538842464754
+  },
+  {
+    "tiempo": 450,
+    "portadora": -2.45e-15,
+    "moduladora": 3,
+    "Modulada": -7.35e-15
+  },
+  {
+    "tiempo": 451,
+    "portadora": 0.139512947488247,
+    "moduladora": -3,
+    "Modulada": -0.41853884246474
+  },
+  {
+    "tiempo": 452,
+    "portadora": 0.278346201920125,
+    "moduladora": -3,
+    "Modulada": -0.835038605760376
+  },
+  {
+    "tiempo": 453,
+    "portadora": 0.415823381635512,
+    "moduladora": -3,
+    "Modulada": -1.24747014490653
+  },
+  {
+    "tiempo": 454,
+    "portadora": 0.551274711633997,
+    "moduladora": -3,
+    "Modulada": -1.65382413490199
+  },
+  {
+    "tiempo": 455,
+    "portadora": 0.684040286651334,
+    "moduladora": -3,
+    "Modulada": -2.052120859954
+  },
+  {
+    "tiempo": 456,
+    "portadora": 0.813473286151596,
+    "moduladora": -3,
+    "Modulada": -2.44041985845479
+  },
+  {
+    "tiempo": 457,
+    "portadora": 0.938943125571776,
+    "moduladora": -3,
+    "Modulada": -2.81682937671533
+  },
+  {
+    "tiempo": 458,
+    "portadora": 1.0598385284664,
+    "moduladora": -3,
+    "Modulada": -3.17951558539921
+  },
+  {
+    "tiempo": 459,
+    "portadora": 1.17557050458494,
+    "moduladora": -3,
+    "Modulada": -3.52671151375482
+  },
+  {
+    "tiempo": 460,
+    "portadora": 1.28557521937308,
+    "moduladora": -3,
+    "Modulada": -3.85672565811923
+  },
+  {
+    "tiempo": 461,
+    "portadora": 1.38931674091799,
+    "moduladora": -3,
+    "Modulada": -4.16795022275396
+  },
+  {
+    "tiempo": 462,
+    "portadora": 1.48628965095479,
+    "moduladora": -3,
+    "Modulada": -4.45886895286438
+  },
+  {
+    "tiempo": 463,
+    "portadora": 1.57602150721344,
+    "moduladora": -3,
+    "Modulada": -4.72806452164033
+  },
+  {
+    "tiempo": 464,
+    "portadora": 1.65807514511009,
+    "moduladora": -3,
+    "Modulada": -4.97422543533026
+  },
+  {
+    "tiempo": 465,
+    "portadora": 1.73205080756887,
+    "moduladora": -3,
+    "Modulada": -5.19615242270662
+  },
+  {
+    "tiempo": 466,
+    "portadora": 1.79758809259833,
+    "moduladora": -3,
+    "Modulada": -5.392764277795
+  },
+  {
+    "tiempo": 467,
+    "portadora": 1.85436770913358,
+    "moduladora": -3,
+    "Modulada": -5.56310312740073
+  },
+  {
+    "tiempo": 468,
+    "portadora": 1.90211303259031,
+    "moduladora": -3,
+    "Modulada": -5.70633909777092
+  },
+  {
+    "tiempo": 469,
+    "portadora": 1.94059145255199,
+    "moduladora": -3,
+    "Modulada": -5.82177435765598
+  },
+  {
+    "tiempo": 470,
+    "portadora": 1.96961550602442,
+    "moduladora": -3,
+    "Modulada": -5.90884651807325
+  },
+  {
+    "tiempo": 471,
+    "portadora": 1.98904379073655,
+    "moduladora": -3,
+    "Modulada": -5.96713137220964
+  },
+  {
+    "tiempo": 472,
+    "portadora": 1.99878165403819,
+    "moduladora": -3,
+    "Modulada": -5.99634496211457
+  },
+  {
+    "tiempo": 473,
+    "portadora": 1.99878165403819,
+    "moduladora": -3,
+    "Modulada": -5.99634496211457
+  },
+  {
+    "tiempo": 474,
+    "portadora": 1.98904379073655,
+    "moduladora": -3,
+    "Modulada": -5.96713137220964
+  },
+  {
+    "tiempo": 475,
+    "portadora": 1.96961550602442,
+    "moduladora": -3,
+    "Modulada": -5.90884651807325
+  },
+  {
+    "tiempo": 476,
+    "portadora": 1.94059145255199,
+    "moduladora": -3,
+    "Modulada": -5.82177435765598
+  },
+  {
+    "tiempo": 477,
+    "portadora": 1.90211303259031,
+    "moduladora": -3,
+    "Modulada": -5.70633909777093
+  },
+  {
+    "tiempo": 478,
+    "portadora": 1.85436770913358,
+    "moduladora": -3,
+    "Modulada": -5.56310312740073
+  },
+  {
+    "tiempo": 479,
+    "portadora": 1.79758809259834,
+    "moduladora": -3,
+    "Modulada": -5.39276427779502
+  },
+  {
+    "tiempo": 480,
+    "portadora": 1.73205080756888,
+    "moduladora": -3,
+    "Modulada": -5.19615242270664
+  },
+  {
+    "tiempo": 481,
+    "portadora": 1.65807514511008,
+    "moduladora": -3,
+    "Modulada": -4.97422543533025
+  },
+  {
+    "tiempo": 482,
+    "portadora": 1.57602150721345,
+    "moduladora": -3,
+    "Modulada": -4.72806452164035
+  },
+  {
+    "tiempo": 483,
+    "portadora": 1.48628965095479,
+    "moduladora": -3,
+    "Modulada": -4.45886895286438
+  },
+  {
+    "tiempo": 484,
+    "portadora": 1.38931674091799,
+    "moduladora": -3,
+    "Modulada": -4.16795022275398
+  },
+  {
+    "tiempo": 485,
+    "portadora": 1.28557521937307,
+    "moduladora": -3,
+    "Modulada": -3.85672565811922
+  },
+  {
+    "tiempo": 486,
+    "portadora": 1.17557050458495,
+    "moduladora": -3,
+    "Modulada": -3.52671151375485
+  },
+  {
+    "tiempo": 487,
+    "portadora": 1.05983852846641,
+    "moduladora": -3,
+    "Modulada": -3.17951558539922
+  },
+  {
+    "tiempo": 488,
+    "portadora": 0.938943125571787,
+    "moduladora": -3,
+    "Modulada": -2.81682937671536
+  },
+  {
+    "tiempo": 489,
+    "portadora": 0.813473286151601,
+    "moduladora": -3,
+    "Modulada": -2.4404198584548
+  },
+  {
+    "tiempo": 490,
+    "portadora": 0.684040286651333,
+    "moduladora": -3,
+    "Modulada": -2.052120859954
+  },
+  {
+    "tiempo": 491,
+    "portadora": 0.551274711634002,
+    "moduladora": -3,
+    "Modulada": -1.653824134902
+  },
+  {
+    "tiempo": 492,
+    "portadora": 0.415823381635517,
+    "moduladora": -3,
+    "Modulada": -1.24747014490655
+  },
+  {
+    "tiempo": 493,
+    "portadora": 0.278346201920137,
+    "moduladora": -3,
+    "Modulada": -0.835038605760412
+  },
+  {
+    "tiempo": 494,
+    "portadora": 0.139512947488252,
+    "moduladora": -3,
+    "Modulada": -0.418538842464755
+  },
+  {
+    "tiempo": 495,
+    "portadora": 9.8e-15,
+    "moduladora": -3,
+    "Modulada": -2.94e-14
+  },
+  {
+    "tiempo": 496,
+    "portadora": -0.139512947488246,
+    "moduladora": -3,
+    "Modulada": 0.418538842464739
+  },
+  {
+    "tiempo": 497,
+    "portadora": -0.278346201920132,
+    "moduladora": -3,
+    "Modulada": 0.835038605760396
+  },
+  {
+    "tiempo": 498,
+    "portadora": -0.415823381635511,
+    "moduladora": -3,
+    "Modulada": 1.24747014490653
+  },
+  {
+    "tiempo": 499,
+    "portadora": -0.551274711633997,
+    "moduladora": -3,
+    "Modulada": 1.65382413490199
+  },
+  {
+    "tiempo": 500,
+    "portadora": -0.684040286651328,
+    "moduladora": -3,
+    "Modulada": 2.05212085995398
+  },
+  {
+    "tiempo": 501,
+    "portadora": -0.813473286151596,
+    "moduladora": -3,
+    "Modulada": 2.44041985845479
+  },
+  {
+    "tiempo": 502,
+    "portadora": -0.938943125571782,
+    "moduladora": -3,
+    "Modulada": 2.81682937671535
+  },
+  {
+    "tiempo": 503,
+    "portadora": -1.0598385284664,
+    "moduladora": -3,
+    "Modulada": 3.17951558539921
+  },
+  {
+    "tiempo": 504,
+    "portadora": -1.17557050458494,
+    "moduladora": -3,
+    "Modulada": 3.52671151375483
+  },
+  {
+    "tiempo": 505,
+    "portadora": -1.28557521937307,
+    "moduladora": -3,
+    "Modulada": 3.85672565811921
+  },
+  {
+    "tiempo": 506,
+    "portadora": -1.38931674091799,
+    "moduladora": -3,
+    "Modulada": 4.16795022275397
+  },
+  {
+    "tiempo": 507,
+    "portadora": -1.48628965095479,
+    "moduladora": -3,
+    "Modulada": 4.45886895286437
+  },
+  {
+    "tiempo": 508,
+    "portadora": -1.57602150721345,
+    "moduladora": -3,
+    "Modulada": 4.72806452164034
+  },
+  {
+    "tiempo": 509,
+    "portadora": -1.65807514511008,
+    "moduladora": -3,
+    "Modulada": 4.97422543533024
+  },
+  {
+    "tiempo": 510,
+    "portadora": -1.73205080756888,
+    "moduladora": -3,
+    "Modulada": 5.19615242270664
+  },
+  {
+    "tiempo": 511,
+    "portadora": -1.79758809259834,
+    "moduladora": -3,
+    "Modulada": 5.39276427779501
+  },
+  {
+    "tiempo": 512,
+    "portadora": -1.85436770913357,
+    "moduladora": -3,
+    "Modulada": 5.56310312740072
+  },
+  {
+    "tiempo": 513,
+    "portadora": -1.90211303259031,
+    "moduladora": -3,
+    "Modulada": 5.70633909777093
+  },
+  {
+    "tiempo": 514,
+    "portadora": -1.94059145255199,
+    "moduladora": -3,
+    "Modulada": 5.82177435765598
+  },
+  {
+    "tiempo": 515,
+    "portadora": -1.96961550602442,
+    "moduladora": -3,
+    "Modulada": 5.90884651807325
+  },
+  {
+    "tiempo": 516,
+    "portadora": -1.98904379073655,
+    "moduladora": -3,
+    "Modulada": 5.96713137220964
+  },
+  {
+    "tiempo": 517,
+    "portadora": -1.99878165403819,
+    "moduladora": -3,
+    "Modulada": 5.99634496211457
+  },
+  {
+    "tiempo": 518,
+    "portadora": -1.99878165403819,
+    "moduladora": -3,
+    "Modulada": 5.99634496211457
+  },
+  {
+    "tiempo": 519,
+    "portadora": -1.98904379073655,
+    "moduladora": -3,
+    "Modulada": 5.96713137220964
+  },
+  {
+    "tiempo": 520,
+    "portadora": -1.96961550602442,
+    "moduladora": -3,
+    "Modulada": 5.90884651807325
+  },
+  {
+    "tiempo": 521,
+    "portadora": -1.940591452552,
+    "moduladora": -3,
+    "Modulada": 5.82177435765598
+  },
+  {
+    "tiempo": 522,
+    "portadora": -1.90211303259031,
+    "moduladora": -3,
+    "Modulada": 5.70633909777092
+  },
+  {
+    "tiempo": 523,
+    "portadora": -1.85436770913358,
+    "moduladora": -3,
+    "Modulada": 5.56310312740074
+  },
+  {
+    "tiempo": 524,
+    "portadora": -1.79758809259834,
+    "moduladora": -3,
+    "Modulada": 5.39276427779501
+  },
+  {
+    "tiempo": 525,
+    "portadora": -1.73205080756888,
+    "moduladora": -3,
+    "Modulada": 5.19615242270663
+  },
+  {
+    "tiempo": 526,
+    "portadora": -1.65807514511009,
+    "moduladora": -3,
+    "Modulada": 4.97422543533027
+  },
+  {
+    "tiempo": 527,
+    "portadora": -1.57602150721345,
+    "moduladora": -3,
+    "Modulada": 4.72806452164034
+  },
+  {
+    "tiempo": 528,
+    "portadora": -1.4862896509548,
+    "moduladora": -3,
+    "Modulada": 4.45886895286439
+  },
+  {
+    "tiempo": 529,
+    "portadora": -1.38931674091799,
+    "moduladora": -3,
+    "Modulada": 4.16795022275397
+  },
+  {
+    "tiempo": 530,
+    "portadora": -1.28557521937308,
+    "moduladora": -3,
+    "Modulada": 3.85672565811924
+  },
+  {
+    "tiempo": 531,
+    "portadora": -1.17557050458494,
+    "moduladora": -3,
+    "Modulada": 3.52671151375483
+  },
+  {
+    "tiempo": 532,
+    "portadora": -1.05983852846641,
+    "moduladora": -3,
+    "Modulada": 3.17951558539924
+  },
+  {
+    "tiempo": 533,
+    "portadora": -0.938943125571781,
+    "moduladora": -3,
+    "Modulada": 2.81682937671534
+  },
+  {
+    "tiempo": 534,
+    "portadora": -0.813473286151594,
+    "moduladora": -3,
+    "Modulada": 2.44041985845478
+  },
+  {
+    "tiempo": 535,
+    "portadora": -0.684040286651339,
+    "moduladora": -3,
+    "Modulada": 2.05212085995402
+  },
+  {
+    "tiempo": 536,
+    "portadora": -0.551274711633995,
+    "moduladora": -3,
+    "Modulada": 1.65382413490199
+  },
+  {
+    "tiempo": 537,
+    "portadora": -0.415823381635524,
+    "moduladora": -3,
+    "Modulada": 1.24747014490657
+  },
+  {
+    "tiempo": 538,
+    "portadora": -0.278346201920131,
+    "moduladora": -3,
+    "Modulada": 0.835038605760392
+  },
+  {
+    "tiempo": 539,
+    "portadora": -0.139512947488259,
+    "moduladora": -3,
+    "Modulada": 0.418538842464777
+  },
+  {
+    "tiempo": 540,
+    "portadora": -2.94e-15,
+    "moduladora": -3,
+    "Modulada": 8.82e-15
+  },
+  {
+    "tiempo": 541,
+    "portadora": 0.139512947488253,
+    "moduladora": 3,
+    "Modulada": 0.41853884246476
+  },
+  {
+    "tiempo": 542,
+    "portadora": 0.278346201920125,
+    "moduladora": 3,
+    "Modulada": 0.835038605760374
+  },
+  {
+    "tiempo": 543,
+    "portadora": 0.415823381635518,
+    "moduladora": 3,
+    "Modulada": 1.24747014490655
+  },
+  {
+    "tiempo": 544,
+    "portadora": 0.551274711633989,
+    "moduladora": 3,
+    "Modulada": 1.65382413490197
+  },
+  {
+    "tiempo": 545,
+    "portadora": 0.684040286651334,
+    "moduladora": 3,
+    "Modulada": 2.052120859954
+  },
+  {
+    "tiempo": 546,
+    "portadora": 0.813473286151589,
+    "moduladora": 3,
+    "Modulada": 2.44041985845477
+  },
+  {
+    "tiempo": 547,
+    "portadora": 0.938943125571775,
+    "moduladora": 3,
+    "Modulada": 2.81682937671533
+  },
+  {
+    "tiempo": 548,
+    "portadora": 1.05983852846641,
+    "moduladora": 3,
+    "Modulada": 3.17951558539923
+  },
+  {
+    "tiempo": 549,
+    "portadora": 1.17557050458494,
+    "moduladora": 3,
+    "Modulada": 3.52671151375481
+  },
+  {
+    "tiempo": 550,
+    "portadora": 1.28557521937308,
+    "moduladora": 3,
+    "Modulada": 3.85672565811923
+  },
+  {
+    "tiempo": 551,
+    "portadora": 1.38931674091799,
+    "moduladora": 3,
+    "Modulada": 4.16795022275396
+  },
+  {
+    "tiempo": 552,
+    "portadora": 1.48628965095479,
+    "moduladora": 3,
+    "Modulada": 4.45886895286438
+  },
+  {
+    "tiempo": 553,
+    "portadora": 1.57602150721344,
+    "moduladora": 3,
+    "Modulada": 4.72806452164033
+  },
+  {
+    "tiempo": 554,
+    "portadora": 1.65807514511009,
+    "moduladora": 3,
+    "Modulada": 4.97422543533026
+  },
+  {
+    "tiempo": 555,
+    "portadora": 1.73205080756887,
+    "moduladora": 3,
+    "Modulada": 5.19615242270662
+  },
+  {
+    "tiempo": 556,
+    "portadora": 1.79758809259833,
+    "moduladora": 3,
+    "Modulada": 5.392764277795
+  },
+  {
+    "tiempo": 557,
+    "portadora": 1.85436770913358,
+    "moduladora": 3,
+    "Modulada": 5.56310312740073
+  },
+  {
+    "tiempo": 558,
+    "portadora": 1.90211303259031,
+    "moduladora": 3,
+    "Modulada": 5.70633909777092
+  },
+  {
+    "tiempo": 559,
+    "portadora": 1.94059145255199,
+    "moduladora": 3,
+    "Modulada": 5.82177435765598
+  },
+  {
+    "tiempo": 560,
+    "portadora": 1.96961550602441,
+    "moduladora": 3,
+    "Modulada": 5.90884651807325
+  },
+  {
+    "tiempo": 561,
+    "portadora": 1.98904379073655,
+    "moduladora": 3,
+    "Modulada": 5.96713137220964
+  },
+  {
+    "tiempo": 562,
+    "portadora": 1.99878165403819,
+    "moduladora": 3,
+    "Modulada": 5.99634496211457
+  },
+  {
+    "tiempo": 563,
+    "portadora": 1.99878165403819,
+    "moduladora": 3,
+    "Modulada": 5.99634496211457
+  },
+  {
+    "tiempo": 564,
+    "portadora": 1.98904379073655,
+    "moduladora": 3,
+    "Modulada": 5.96713137220964
+  },
+  {
+    "tiempo": 565,
+    "portadora": 1.96961550602442,
+    "moduladora": 3,
+    "Modulada": 5.90884651807325
+  },
+  {
+    "tiempo": 566,
+    "portadora": 1.94059145255199,
+    "moduladora": 3,
+    "Modulada": 5.82177435765598
+  },
+  {
+    "tiempo": 567,
+    "portadora": 1.90211303259031,
+    "moduladora": 3,
+    "Modulada": 5.70633909777093
+  },
+  {
+    "tiempo": 568,
+    "portadora": 1.85436770913358,
+    "moduladora": 3,
+    "Modulada": 5.56310312740073
+  },
+  {
+    "tiempo": 569,
+    "portadora": 1.79758809259834,
+    "moduladora": 3,
+    "Modulada": 5.39276427779502
+  },
+  {
+    "tiempo": 570,
+    "portadora": 1.73205080756888,
+    "moduladora": 3,
+    "Modulada": 5.19615242270664
+  },
+  {
+    "tiempo": 571,
+    "portadora": 1.65807514511008,
+    "moduladora": 3,
+    "Modulada": 4.97422543533025
+  },
+  {
+    "tiempo": 572,
+    "portadora": 1.57602150721345,
+    "moduladora": 3,
+    "Modulada": 4.72806452164035
+  },
+  {
+    "tiempo": 573,
+    "portadora": 1.48628965095479,
+    "moduladora": 3,
+    "Modulada": 4.45886895286438
+  },
+  {
+    "tiempo": 574,
+    "portadora": 1.38931674091799,
+    "moduladora": 3,
+    "Modulada": 4.16795022275398
+  },
+  {
+    "tiempo": 575,
+    "portadora": 1.28557521937307,
+    "moduladora": 3,
+    "Modulada": 3.85672565811922
+  },
+  {
+    "tiempo": 576,
+    "portadora": 1.17557050458495,
+    "moduladora": 3,
+    "Modulada": 3.52671151375485
+  },
+  {
+    "tiempo": 577,
+    "portadora": 1.05983852846641,
+    "moduladora": 3,
+    "Modulada": 3.17951558539922
+  },
+  {
+    "tiempo": 578,
+    "portadora": 0.938943125571787,
+    "moduladora": 3,
+    "Modulada": 2.81682937671536
+  },
+  {
+    "tiempo": 579,
+    "portadora": 0.813473286151601,
+    "moduladora": 3,
+    "Modulada": 2.4404198584548
+  },
+  {
+    "tiempo": 580,
+    "portadora": 0.684040286651333,
+    "moduladora": 3,
+    "Modulada": 2.052120859954
+  },
+  {
+    "tiempo": 581,
+    "portadora": 0.551274711634002,
+    "moduladora": 3,
+    "Modulada": 1.65382413490201
+  },
+  {
+    "tiempo": 582,
+    "portadora": 0.415823381635517,
+    "moduladora": 3,
+    "Modulada": 1.24747014490655
+  },
+  {
+    "tiempo": 583,
+    "portadora": 0.278346201920138,
+    "moduladora": 3,
+    "Modulada": 0.835038605760414
+  },
+  {
+    "tiempo": 584,
+    "portadora": 0.139512947488252,
+    "moduladora": 3,
+    "Modulada": 0.418538842464757
+  },
+  {
+    "tiempo": 585,
+    "portadora": -3.92e-15,
+    "moduladora": 3,
+    "Modulada": -1.18e-14
+  },
+  {
+    "tiempo": 586,
+    "portadora": -0.139512947488246,
+    "moduladora": 3,
+    "Modulada": -0.418538842464738
+  },
+  {
+    "tiempo": 587,
+    "portadora": -0.278346201920132,
+    "moduladora": 3,
+    "Modulada": -0.835038605760395
+  },
+  {
+    "tiempo": 588,
+    "portadora": -0.415823381635511,
+    "moduladora": 3,
+    "Modulada": -1.24747014490653
+  },
+  {
+    "tiempo": 589,
+    "portadora": -0.551274711633996,
+    "moduladora": 3,
+    "Modulada": -1.65382413490199
+  },
+  {
+    "tiempo": 590,
+    "portadora": -0.684040286651327,
+    "moduladora": 3,
+    "Modulada": -2.05212085995398
+  },
+  {
+    "tiempo": 591,
+    "portadora": -0.813473286151595,
+    "moduladora": 3,
+    "Modulada": -2.44041985845479
+  },
+  {
+    "tiempo": 592,
+    "portadora": -0.938943125571782,
+    "moduladora": 3,
+    "Modulada": -2.81682937671534
+  },
+  {
+    "tiempo": 593,
+    "portadora": -1.0598385284664,
+    "moduladora": 3,
+    "Modulada": -3.17951558539921
+  },
+  {
+    "tiempo": 594,
+    "portadora": -1.17557050458494,
+    "moduladora": 3,
+    "Modulada": -3.52671151375483
+  },
+  {
+    "tiempo": 595,
+    "portadora": -1.28557521937307,
+    "moduladora": 3,
+    "Modulada": -3.85672565811921
+  },
+  {
+    "tiempo": 596,
+    "portadora": -1.38931674091799,
+    "moduladora": 3,
+    "Modulada": -4.16795022275397
+  },
+  {
+    "tiempo": 597,
+    "portadora": -1.48628965095479,
+    "moduladora": 3,
+    "Modulada": -4.45886895286436
+  },
+  {
+    "tiempo": 598,
+    "portadora": -1.57602150721345,
+    "moduladora": 3,
+    "Modulada": -4.72806452164034
+  },
+  {
+    "tiempo": 599,
+    "portadora": -1.65807514511008,
+    "moduladora": 3,
+    "Modulada": -4.97422543533024
+  },
+  {
+    "tiempo": 600,
+    "portadora": -1.73205080756888,
+    "moduladora": 3,
+    "Modulada": -5.19615242270663
+  },
+  {
+    "tiempo": 601,
+    "portadora": -1.79758809259834,
+    "moduladora": 3,
+    "Modulada": -5.39276427779501
+  },
+  {
+    "tiempo": 602,
+    "portadora": -1.85436770913357,
+    "moduladora": 3,
+    "Modulada": -5.56310312740072
+  },
+  {
+    "tiempo": 603,
+    "portadora": -1.90211303259031,
+    "moduladora": 3,
+    "Modulada": -5.70633909777093
+  },
+  {
+    "tiempo": 604,
+    "portadora": -1.94059145255199,
+    "moduladora": 3,
+    "Modulada": -5.82177435765598
+  },
+  {
+    "tiempo": 605,
+    "portadora": -1.96961550602442,
+    "moduladora": 3,
+    "Modulada": -5.90884651807325
+  },
+  {
+    "tiempo": 606,
+    "portadora": -1.98904379073655,
+    "moduladora": 3,
+    "Modulada": -5.96713137220964
+  },
+  {
+    "tiempo": 607,
+    "portadora": -1.99878165403819,
+    "moduladora": 3,
+    "Modulada": -5.99634496211457
+  },
+  {
+    "tiempo": 608,
+    "portadora": -1.99878165403819,
+    "moduladora": 3,
+    "Modulada": -5.99634496211457
+  },
+  {
+    "tiempo": 609,
+    "portadora": -1.98904379073655,
+    "moduladora": 3,
+    "Modulada": -5.96713137220964
+  },
+  {
+    "tiempo": 610,
+    "portadora": -1.96961550602442,
+    "moduladora": 3,
+    "Modulada": -5.90884651807325
+  },
+  {
+    "tiempo": 611,
+    "portadora": -1.940591452552,
+    "moduladora": 3,
+    "Modulada": -5.82177435765599
+  },
+  {
+    "tiempo": 612,
+    "portadora": -1.90211303259031,
+    "moduladora": 3,
+    "Modulada": -5.70633909777092
+  },
+  {
+    "tiempo": 613,
+    "portadora": -1.85436770913358,
+    "moduladora": 3,
+    "Modulada": -5.56310312740074
+  },
+  {
+    "tiempo": 614,
+    "portadora": -1.79758809259834,
+    "moduladora": 3,
+    "Modulada": -5.39276427779501
+  },
+  {
+    "tiempo": 615,
+    "portadora": -1.73205080756888,
+    "moduladora": 3,
+    "Modulada": -5.19615242270663
+  },
+  {
+    "tiempo": 616,
+    "portadora": -1.65807514511009,
+    "moduladora": 3,
+    "Modulada": -4.97422543533027
+  },
+  {
+    "tiempo": 617,
+    "portadora": -1.57602150721345,
+    "moduladora": 3,
+    "Modulada": -4.72806452164034
+  },
+  {
+    "tiempo": 618,
+    "portadora": -1.4862896509548,
+    "moduladora": 3,
+    "Modulada": -4.45886895286439
+  },
+  {
+    "tiempo": 619,
+    "portadora": -1.38931674091799,
+    "moduladora": 3,
+    "Modulada": -4.16795022275397
+  },
+  {
+    "tiempo": 620,
+    "portadora": -1.28557521937308,
+    "moduladora": 3,
+    "Modulada": -3.85672565811924
+  },
+  {
+    "tiempo": 621,
+    "portadora": -1.17557050458494,
+    "moduladora": 3,
+    "Modulada": -3.52671151375483
+  },
+  {
+    "tiempo": 622,
+    "portadora": -1.05983852846641,
+    "moduladora": 3,
+    "Modulada": -3.17951558539924
+  },
+  {
+    "tiempo": 623,
+    "portadora": -0.938943125571781,
+    "moduladora": 3,
+    "Modulada": -2.81682937671534
+  },
+  {
+    "tiempo": 624,
+    "portadora": -0.813473286151595,
+    "moduladora": 3,
+    "Modulada": -2.44041985845478
+  },
+  {
+    "tiempo": 625,
+    "portadora": -0.68404028665134,
+    "moduladora": 3,
+    "Modulada": -2.05212085995402
+  },
+  {
+    "tiempo": 626,
+    "portadora": -0.551274711633996,
+    "moduladora": 3,
+    "Modulada": -1.65382413490199
+  },
+  {
+    "tiempo": 627,
+    "portadora": -0.415823381635524,
+    "moduladora": 3,
+    "Modulada": -1.24747014490657
+  },
+  {
+    "tiempo": 628,
+    "portadora": -0.278346201920131,
+    "moduladora": 3,
+    "Modulada": -0.835038605760393
+  },
+  {
+    "tiempo": 629,
+    "portadora": -0.13951294748826,
+    "moduladora": 3,
+    "Modulada": -0.418538842464779
+  },
+  {
+    "tiempo": 630,
+    "portadora": -3.43e-15,
+    "moduladora": 3,
+    "Modulada": -1.03e-14
+  },
+  {
+    "tiempo": 631,
+    "portadora": 0.139512947488253,
+    "moduladora": -3,
+    "Modulada": -0.418538842464758
+  },
+  {
+    "tiempo": 632,
+    "portadora": 0.278346201920124,
+    "moduladora": -3,
+    "Modulada": -0.835038605760373
+  },
+  {
+    "tiempo": 633,
+    "portadora": 0.415823381635518,
+    "moduladora": -3,
+    "Modulada": -1.24747014490655
+  },
+  {
+    "tiempo": 634,
+    "portadora": 0.551274711633989,
+    "moduladora": -3,
+    "Modulada": -1.65382413490197
+  },
+  {
+    "tiempo": 635,
+    "portadora": 0.684040286651333,
+    "moduladora": -3,
+    "Modulada": -2.052120859954
+  },
+  {
+    "tiempo": 636,
+    "portadora": 0.813473286151589,
+    "moduladora": -3,
+    "Modulada": -2.44041985845477
+  },
+  {
+    "tiempo": 637,
+    "portadora": 0.938943125571775,
+    "moduladora": -3,
+    "Modulada": -2.81682937671532
+  },
+  {
+    "tiempo": 638,
+    "portadora": 1.05983852846641,
+    "moduladora": -3,
+    "Modulada": -3.17951558539922
+  },
+  {
+    "tiempo": 639,
+    "portadora": 1.17557050458494,
+    "moduladora": -3,
+    "Modulada": -3.52671151375481
+  },
+  {
+    "tiempo": 640,
+    "portadora": 1.28557521937307,
+    "moduladora": -3,
+    "Modulada": -3.85672565811922
+  },
+  {
+    "tiempo": 641,
+    "portadora": 1.38931674091798,
+    "moduladora": -3,
+    "Modulada": -4.16795022275395
+  },
+  {
+    "tiempo": 642,
+    "portadora": 1.48628965095479,
+    "moduladora": -3,
+    "Modulada": -4.45886895286438
+  },
+  {
+    "tiempo": 643,
+    "portadora": 1.57602150721344,
+    "moduladora": -3,
+    "Modulada": -4.72806452164033
+  },
+  {
+    "tiempo": 644,
+    "portadora": 1.65807514511009,
+    "moduladora": -3,
+    "Modulada": -4.97422543533026
+  },
+  {
+    "tiempo": 645,
+    "portadora": 1.73205080756887,
+    "moduladora": -3,
+    "Modulada": -5.19615242270662
+  },
+  {
+    "tiempo": 646,
+    "portadora": 1.79758809259833,
+    "moduladora": -3,
+    "Modulada": -5.392764277795
+  },
+  {
+    "tiempo": 647,
+    "portadora": 1.85436770913358,
+    "moduladora": -3,
+    "Modulada": -5.56310312740073
+  },
+  {
+    "tiempo": 648,
+    "portadora": 1.90211303259031,
+    "moduladora": -3,
+    "Modulada": -5.70633909777092
+  },
+  {
+    "tiempo": 649,
+    "portadora": 1.94059145255199,
+    "moduladora": -3,
+    "Modulada": -5.82177435765598
+  },
+  {
+    "tiempo": 650,
+    "portadora": 1.96961550602441,
+    "moduladora": -3,
+    "Modulada": -5.90884651807325
+  },
+  {
+    "tiempo": 651,
+    "portadora": 1.98904379073655,
+    "moduladora": -3,
+    "Modulada": -5.96713137220964
+  },
+  {
+    "tiempo": 652,
+    "portadora": 1.99878165403819,
+    "moduladora": -3,
+    "Modulada": -5.99634496211457
+  },
+  {
+    "tiempo": 653,
+    "portadora": 1.99878165403819,
+    "moduladora": -3,
+    "Modulada": -5.99634496211457
+  },
+  {
+    "tiempo": 654,
+    "portadora": 1.98904379073655,
+    "moduladora": -3,
+    "Modulada": -5.96713137220964
+  },
+  {
+    "tiempo": 655,
+    "portadora": 1.96961550602442,
+    "moduladora": -3,
+    "Modulada": -5.90884651807325
+  },
+  {
+    "tiempo": 656,
+    "portadora": 1.94059145255199,
+    "moduladora": -3,
+    "Modulada": -5.82177435765598
+  },
+  {
+    "tiempo": 657,
+    "portadora": 1.90211303259031,
+    "moduladora": -3,
+    "Modulada": -5.70633909777093
+  },
+  {
+    "tiempo": 658,
+    "portadora": 1.85436770913358,
+    "moduladora": -3,
+    "Modulada": -5.56310312740073
+  },
+  {
+    "tiempo": 659,
+    "portadora": 1.79758809259834,
+    "moduladora": -3,
+    "Modulada": -5.39276427779502
+  },
+  {
+    "tiempo": 660,
+    "portadora": 1.73205080756888,
+    "moduladora": -3,
+    "Modulada": -5.19615242270664
+  },
+  {
+    "tiempo": 661,
+    "portadora": 1.65807514511009,
+    "moduladora": -3,
+    "Modulada": -4.97422543533026
+  },
+  {
+    "tiempo": 662,
+    "portadora": 1.57602150721345,
+    "moduladora": -3,
+    "Modulada": -4.72806452164035
+  },
+  {
+    "tiempo": 663,
+    "portadora": 1.48628965095479,
+    "moduladora": -3,
+    "Modulada": -4.45886895286438
+  },
+  {
+    "tiempo": 664,
+    "portadora": 1.389316740918,
+    "moduladora": -3,
+    "Modulada": -4.16795022275399
+  },
+  {
+    "tiempo": 665,
+    "portadora": 1.28557521937307,
+    "moduladora": -3,
+    "Modulada": -3.85672565811922
+  },
+  {
+    "tiempo": 666,
+    "portadora": 1.17557050458495,
+    "moduladora": -3,
+    "Modulada": -3.52671151375485
+  },
+  {
+    "tiempo": 667,
+    "portadora": 1.05983852846641,
+    "moduladora": -3,
+    "Modulada": -3.17951558539922
+  },
+  {
+    "tiempo": 668,
+    "portadora": 0.938943125571787,
+    "moduladora": -3,
+    "Modulada": -2.81682937671536
+  },
+  {
+    "tiempo": 669,
+    "portadora": 0.813473286151602,
+    "moduladora": -3,
+    "Modulada": -2.4404198584548
+  },
+  {
+    "tiempo": 670,
+    "portadora": 0.684040286651333,
+    "moduladora": -3,
+    "Modulada": -2.052120859954
+  },
+  {
+    "tiempo": 671,
+    "portadora": 0.551274711634003,
+    "moduladora": -3,
+    "Modulada": -1.65382413490201
+  },
+  {
+    "tiempo": 672,
+    "portadora": 0.415823381635518,
+    "moduladora": -3,
+    "Modulada": -1.24747014490655
+  },
+  {
+    "tiempo": 673,
+    "portadora": 0.278346201920138,
+    "moduladora": -3,
+    "Modulada": -0.835038605760415
+  },
+  {
+    "tiempo": 674,
+    "portadora": 0.139512947488253,
+    "moduladora": -3,
+    "Modulada": -0.418538842464758
+  },
+  {
+    "tiempo": 675,
+    "portadora": 1.08e-14,
+    "moduladora": -3,
+    "Modulada": -3.23e-14
+  },
+  {
+    "tiempo": 676,
+    "portadora": -0.139512947488245,
+    "moduladora": -3,
+    "Modulada": 0.418538842464736
+  },
+  {
+    "tiempo": 677,
+    "portadora": -0.278346201920131,
+    "moduladora": -3,
+    "Modulada": 0.835038605760393
+  },
+  {
+    "tiempo": 678,
+    "portadora": -0.41582338163551,
+    "moduladora": -3,
+    "Modulada": 1.24747014490653
+  },
+  {
+    "tiempo": 679,
+    "portadora": -0.551274711633996,
+    "moduladora": -3,
+    "Modulada": 1.65382413490199
+  },
+  {
+    "tiempo": 680,
+    "portadora": -0.684040286651327,
+    "moduladora": -3,
+    "Modulada": 2.05212085995398
+  },
+  {
+    "tiempo": 681,
+    "portadora": -0.813473286151595,
+    "moduladora": -3,
+    "Modulada": 2.44041985845478
+  },
+  {
+    "tiempo": 682,
+    "portadora": -0.938943125571781,
+    "moduladora": -3,
+    "Modulada": 2.81682937671534
+  },
+  {
+    "tiempo": 683,
+    "portadora": -1.0598385284664,
+    "moduladora": -3,
+    "Modulada": 3.17951558539921
+  },
+  {
+    "tiempo": 684,
+    "portadora": -1.17557050458494,
+    "moduladora": -3,
+    "Modulada": 3.52671151375483
+  },
+  {
+    "tiempo": 685,
+    "portadora": -1.28557521937307,
+    "moduladora": -3,
+    "Modulada": 3.85672565811921
+  },
+  {
+    "tiempo": 686,
+    "portadora": -1.38931674091799,
+    "moduladora": -3,
+    "Modulada": 4.16795022275397
+  },
+  {
+    "tiempo": 687,
+    "portadora": -1.48628965095479,
+    "moduladora": -3,
+    "Modulada": 4.45886895286436
+  },
+  {
+    "tiempo": 688,
+    "portadora": -1.57602150721345,
+    "moduladora": -3,
+    "Modulada": 4.72806452164034
+  },
+  {
+    "tiempo": 689,
+    "portadora": -1.65807514511008,
+    "moduladora": -3,
+    "Modulada": 4.97422543533024
+  },
+  {
+    "tiempo": 690,
+    "portadora": -1.73205080756888,
+    "moduladora": -3,
+    "Modulada": 5.19615242270663
+  },
+  {
+    "tiempo": 691,
+    "portadora": -1.79758809259834,
+    "moduladora": -3,
+    "Modulada": 5.39276427779501
+  },
+  {
+    "tiempo": 692,
+    "portadora": -1.85436770913357,
+    "moduladora": -3,
+    "Modulada": 5.56310312740072
+  },
+  {
+    "tiempo": 693,
+    "portadora": -1.90211303259031,
+    "moduladora": -3,
+    "Modulada": 5.70633909777092
+  },
+  {
+    "tiempo": 694,
+    "portadora": -1.94059145255199,
+    "moduladora": -3,
+    "Modulada": 5.82177435765597
+  },
+  {
+    "tiempo": 695,
+    "portadora": -1.96961550602442,
+    "moduladora": -3,
+    "Modulada": 5.90884651807325
+  },
+  {
+    "tiempo": 696,
+    "portadora": -1.98904379073655,
+    "moduladora": -3,
+    "Modulada": 5.96713137220964
+  },
+  {
+    "tiempo": 697,
+    "portadora": -1.99878165403819,
+    "moduladora": -3,
+    "Modulada": 5.99634496211457
+  },
+  {
+    "tiempo": 698,
+    "portadora": -1.99878165403819,
+    "moduladora": -3,
+    "Modulada": 5.99634496211457
+  },
+  {
+    "tiempo": 699,
+    "portadora": -1.98904379073655,
+    "moduladora": -3,
+    "Modulada": 5.96713137220964
+  },
+  {
+    "tiempo": 700,
+    "portadora": -1.96961550602442,
+    "moduladora": -3,
+    "Modulada": 5.90884651807325
+  },
+  {
+    "tiempo": 701,
+    "portadora": -1.940591452552,
+    "moduladora": -3,
+    "Modulada": 5.82177435765599
+  },
+  {
+    "tiempo": 702,
+    "portadora": -1.90211303259031,
+    "moduladora": -3,
+    "Modulada": 5.70633909777093
+  },
+  {
+    "tiempo": 703,
+    "portadora": -1.85436770913358,
+    "moduladora": -3,
+    "Modulada": 5.56310312740074
+  },
+  {
+    "tiempo": 704,
+    "portadora": -1.79758809259834,
+    "moduladora": -3,
+    "Modulada": 5.39276427779501
+  },
+  {
+    "tiempo": 705,
+    "portadora": -1.73205080756888,
+    "moduladora": -3,
+    "Modulada": 5.19615242270663
+  },
+  {
+    "tiempo": 706,
+    "portadora": -1.65807514511009,
+    "moduladora": -3,
+    "Modulada": 4.97422543533027
+  },
+  {
+    "tiempo": 707,
+    "portadora": -1.57602150721345,
+    "moduladora": -3,
+    "Modulada": 4.72806452164034
+  },
+  {
+    "tiempo": 708,
+    "portadora": -1.4862896509548,
+    "moduladora": -3,
+    "Modulada": 4.45886895286439
+  },
+  {
+    "tiempo": 709,
+    "portadora": -1.38931674091799,
+    "moduladora": -3,
+    "Modulada": 4.16795022275397
+  },
+  {
+    "tiempo": 710,
+    "portadora": -1.28557521937308,
+    "moduladora": -3,
+    "Modulada": 3.85672565811924
+  },
+  {
+    "tiempo": 711,
+    "portadora": -1.17557050458494,
+    "moduladora": -3,
+    "Modulada": 3.52671151375483
+  },
+  {
+    "tiempo": 712,
+    "portadora": -1.05983852846641,
+    "moduladora": -3,
+    "Modulada": 3.17951558539924
+  },
+  {
+    "tiempo": 713,
+    "portadora": -0.938943125571782,
+    "moduladora": -3,
+    "Modulada": 2.81682937671534
+  },
+  {
+    "tiempo": 714,
+    "portadora": -0.813473286151595,
+    "moduladora": -3,
+    "Modulada": 2.44041985845479
+  },
+  {
+    "tiempo": 715,
+    "portadora": -0.68404028665134,
+    "moduladora": -3,
+    "Modulada": 2.05212085995402
+  },
+  {
+    "tiempo": 716,
+    "portadora": -0.551274711633996,
+    "moduladora": -3,
+    "Modulada": 1.65382413490199
+  },
+  {
+    "tiempo": 717,
+    "portadora": -0.415823381635525,
+    "moduladora": -3,
+    "Modulada": 1.24747014490657
+  },
+  {
+    "tiempo": 718,
+    "portadora": -0.278346201920132,
+    "moduladora": -3,
+    "Modulada": 0.835038605760395
+  },
+  {
+    "tiempo": 719,
+    "portadora": -0.13951294748826,
+    "moduladora": -3,
+    "Modulada": 0.41853884246478
+  },
+  {
+    "tiempo": 720,
+    "portadora": -3.92e-15,
+    "moduladora": -3,
+    "Modulada": 1.18e-14
+  }
+]

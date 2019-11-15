@@ -1,0 +1,5770 @@
+[
+ {
+   "tiempo": 0,
+   "Portadora": 0,
+   "Espacio": 0,
+   "Marca": 0,
+   "moduladora": -4,
+   "Modulada": 0
+ },
+ {
+   "tiempo": 1,
+   "Portadora": 1.36808057330267,
+   "Espacio": 0.694592710667721,
+   "Marca": 2,
+   "moduladora": 4,
+   "Modulada": 2
+ },
+ {
+   "tiempo": 2,
+   "Portadora": 2.57115043874616,
+   "Espacio": 1.36808057330267,
+   "Marca": 3.46410161513775,
+   "moduladora": 4,
+   "Modulada": 3.46410161513775
+ },
+ {
+   "tiempo": 3,
+   "Portadora": 3.46410161513775,
+   "Espacio": 2,
+   "Marca": 4,
+   "moduladora": 4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 4,
+   "Portadora": 3.93923101204883,
+   "Espacio": 2.57115043874616,
+   "Marca": 3.46410161513775,
+   "moduladora": 4,
+   "Modulada": 3.46410161513775
+ },
+ {
+   "tiempo": 5,
+   "Portadora": 3.93923101204883,
+   "Espacio": 3.06417777247591,
+   "Marca": 2,
+   "moduladora": 4,
+   "Modulada": 2
+ },
+ {
+   "tiempo": 6,
+   "Portadora": 3.46410161513775,
+   "Espacio": 3.46410161513775,
+   "Marca": 4.9e-16,
+   "moduladora": 4,
+   "Modulada": 4.9e-16
+ },
+ {
+   "tiempo": 7,
+   "Portadora": 2.57115043874616,
+   "Espacio": 3.75877048314363,
+   "Marca": -2,
+   "moduladora": 4,
+   "Modulada": -2
+ },
+ {
+   "tiempo": 8,
+   "Portadora": 1.36808057330268,
+   "Espacio": 3.93923101204883,
+   "Marca": -3.46410161513775,
+   "moduladora": 4,
+   "Modulada": -3.46410161513775
+ },
+ {
+   "tiempo": 9,
+   "Portadora": 4.9e-16,
+   "Espacio": 4,
+   "Marca": -4,
+   "moduladora": 4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 10,
+   "Portadora": -1.36808057330267,
+   "Espacio": 3.93923101204883,
+   "Marca": -3.46410161513775,
+   "moduladora": 4,
+   "Modulada": -3.46410161513775
+ },
+ {
+   "tiempo": 11,
+   "Portadora": -2.57115043874616,
+   "Espacio": 3.75877048314363,
+   "Marca": -2,
+   "moduladora": 4,
+   "Modulada": -2
+ },
+ {
+   "tiempo": 12,
+   "Portadora": -3.46410161513775,
+   "Espacio": 3.46410161513775,
+   "Marca": -9.8e-16,
+   "moduladora": 4,
+   "Modulada": -9.8e-16
+ },
+ {
+   "tiempo": 13,
+   "Portadora": -3.93923101204883,
+   "Espacio": 3.06417777247591,
+   "Marca": 2,
+   "moduladora": 4,
+   "Modulada": 2
+ },
+ {
+   "tiempo": 14,
+   "Portadora": -3.93923101204883,
+   "Espacio": 2.57115043874616,
+   "Marca": 3.46410161513776,
+   "moduladora": 4,
+   "Modulada": 3.46410161513776
+ },
+ {
+   "tiempo": 15,
+   "Portadora": -3.46410161513775,
+   "Espacio": 2,
+   "Marca": 4,
+   "moduladora": 4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 16,
+   "Portadora": -2.57115043874616,
+   "Espacio": 1.36808057330268,
+   "Marca": 3.46410161513776,
+   "moduladora": 4,
+   "Modulada": 3.46410161513776
+ },
+ {
+   "tiempo": 17,
+   "Portadora": -1.36808057330268,
+   "Espacio": 0.694592710667723,
+   "Marca": 2,
+   "moduladora": 4,
+   "Modulada": 2
+ },
+ {
+   "tiempo": 18,
+   "Portadora": -9.8e-16,
+   "Espacio": 4.9e-16,
+   "Marca": 1.47e-15,
+   "moduladora": 4,
+   "Modulada": 1.47e-15
+ },
+ {
+   "tiempo": 19,
+   "Portadora": 1.36808057330268,
+   "Espacio": -0.694592710667722,
+   "Marca": -2,
+   "moduladora": 4,
+   "Modulada": -2
+ },
+ {
+   "tiempo": 20,
+   "Portadora": 2.57115043874616,
+   "Espacio": -1.36808057330267,
+   "Marca": -3.46410161513775,
+   "moduladora": 4,
+   "Modulada": -3.46410161513775
+ },
+ {
+   "tiempo": 21,
+   "Portadora": 3.46410161513776,
+   "Espacio": -2,
+   "Marca": -4,
+   "moduladora": 4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 22,
+   "Portadora": 3.93923101204883,
+   "Espacio": -2.57115043874616,
+   "Marca": -3.46410161513776,
+   "moduladora": 4,
+   "Modulada": -3.46410161513776
+ },
+ {
+   "tiempo": 23,
+   "Portadora": 3.93923101204883,
+   "Espacio": -3.06417777247591,
+   "Marca": -2,
+   "moduladora": 4,
+   "Modulada": -2
+ },
+ {
+   "tiempo": 24,
+   "Portadora": 3.46410161513776,
+   "Espacio": -3.46410161513775,
+   "Marca": -1.96e-15,
+   "moduladora": 4,
+   "Modulada": -1.96e-15
+ },
+ {
+   "tiempo": 25,
+   "Portadora": 2.57115043874616,
+   "Espacio": -3.75877048314363,
+   "Marca": 2,
+   "moduladora": 4,
+   "Modulada": 2
+ },
+ {
+   "tiempo": 26,
+   "Portadora": 1.36808057330267,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513775,
+   "moduladora": 4,
+   "Modulada": 3.46410161513775
+ },
+ {
+   "tiempo": 27,
+   "Portadora": 1.47e-15,
+   "Espacio": -4,
+   "Marca": 4,
+   "moduladora": 4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 28,
+   "Portadora": -1.36808057330267,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513775,
+   "moduladora": 4,
+   "Modulada": 3.46410161513775
+ },
+ {
+   "tiempo": 29,
+   "Portadora": -2.57115043874616,
+   "Espacio": -3.75877048314363,
+   "Marca": 2.00000000000001,
+   "moduladora": 4,
+   "Modulada": 2.00000000000001
+ },
+ {
+   "tiempo": 30,
+   "Portadora": -3.46410161513775,
+   "Espacio": -3.46410161513775,
+   "Marca": 2.45e-15,
+   "moduladora": 4,
+   "Modulada": 2.45e-15
+ },
+ {
+   "tiempo": 31,
+   "Portadora": -3.93923101204883,
+   "Espacio": -3.06417777247591,
+   "Marca": -2,
+   "moduladora": 4,
+   "Modulada": -2
+ },
+ {
+   "tiempo": 32,
+   "Portadora": -3.93923101204883,
+   "Espacio": -2.57115043874616,
+   "Marca": -3.46410161513775,
+   "moduladora": 4,
+   "Modulada": -3.46410161513775
+ },
+ {
+   "tiempo": 33,
+   "Portadora": -3.46410161513776,
+   "Espacio": -2,
+   "Marca": -4,
+   "moduladora": 4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 34,
+   "Portadora": -2.57115043874616,
+   "Espacio": -1.36808057330268,
+   "Marca": -3.46410161513775,
+   "moduladora": 4,
+   "Modulada": -3.46410161513775
+ },
+ {
+   "tiempo": 35,
+   "Portadora": -1.36808057330268,
+   "Espacio": -0.694592710667722,
+   "Marca": -2,
+   "moduladora": 4,
+   "Modulada": -2
+ },
+ {
+   "tiempo": 36,
+   "Portadora": -1.96e-15,
+   "Espacio": -9.8e-16,
+   "Marca": -2.94e-15,
+   "moduladora": 4,
+   "Modulada": -2.94e-15
+ },
+ {
+   "tiempo": 37,
+   "Portadora": 1.36808057330267,
+   "Espacio": 0.69459271066772,
+   "Marca": 2,
+   "moduladora": 4,
+   "Modulada": 2
+ },
+ {
+   "tiempo": 38,
+   "Portadora": 2.57115043874616,
+   "Espacio": 1.36808057330268,
+   "Marca": 3.46410161513775,
+   "moduladora": 4,
+   "Modulada": 3.46410161513775
+ },
+ {
+   "tiempo": 39,
+   "Portadora": 3.46410161513775,
+   "Espacio": 2,
+   "Marca": 4,
+   "moduladora": 4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 40,
+   "Portadora": 3.93923101204883,
+   "Espacio": 2.57115043874616,
+   "Marca": 3.46410161513775,
+   "moduladora": 4,
+   "Modulada": 3.46410161513775
+ },
+ {
+   "tiempo": 41,
+   "Portadora": 3.93923101204883,
+   "Espacio": 3.06417777247591,
+   "Marca": 2,
+   "moduladora": 4,
+   "Modulada": 2
+ },
+ {
+   "tiempo": 42,
+   "Portadora": 3.46410161513775,
+   "Espacio": 3.46410161513776,
+   "Marca": 3.43e-15,
+   "moduladora": 4,
+   "Modulada": 3.43e-15
+ },
+ {
+   "tiempo": 43,
+   "Portadora": 2.57115043874616,
+   "Espacio": 3.75877048314363,
+   "Marca": -2,
+   "moduladora": 4,
+   "Modulada": -2
+ },
+ {
+   "tiempo": 44,
+   "Portadora": 1.36808057330268,
+   "Espacio": 3.93923101204883,
+   "Marca": -3.46410161513775,
+   "moduladora": 4,
+   "Modulada": -3.46410161513775
+ },
+ {
+   "tiempo": 45,
+   "Portadora": 2.45e-15,
+   "Espacio": 4,
+   "Marca": -4,
+   "moduladora": 4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 46,
+   "Portadora": -1.36808057330267,
+   "Espacio": 3.93923101204883,
+   "Marca": -3.46410161513775,
+   "moduladora": -4,
+   "Modulada": 3.93923101204883
+ },
+ {
+   "tiempo": 47,
+   "Portadora": -2.57115043874615,
+   "Espacio": 3.75877048314363,
+   "Marca": -2,
+   "moduladora": -4,
+   "Modulada": 3.75877048314363
+ },
+ {
+   "tiempo": 48,
+   "Portadora": -3.46410161513775,
+   "Espacio": 3.46410161513776,
+   "Marca": -3.92e-15,
+   "moduladora": -4,
+   "Modulada": 3.46410161513776
+ },
+ {
+   "tiempo": 49,
+   "Portadora": -3.93923101204883,
+   "Espacio": 3.06417777247591,
+   "Marca": 2,
+   "moduladora": -4,
+   "Modulada": 3.06417777247591
+ },
+ {
+   "tiempo": 50,
+   "Portadora": -3.93923101204883,
+   "Espacio": 2.57115043874616,
+   "Marca": 3.46410161513776,
+   "moduladora": -4,
+   "Modulada": 2.57115043874616
+ },
+ {
+   "tiempo": 51,
+   "Portadora": -3.46410161513775,
+   "Espacio": 2,
+   "Marca": 4,
+   "moduladora": -4,
+   "Modulada": 2
+ },
+ {
+   "tiempo": 52,
+   "Portadora": -2.57115043874616,
+   "Espacio": 1.36808057330267,
+   "Marca": 3.46410161513776,
+   "moduladora": -4,
+   "Modulada": 1.36808057330267
+ },
+ {
+   "tiempo": 53,
+   "Portadora": -1.36808057330268,
+   "Espacio": 0.694592710667722,
+   "Marca": 2,
+   "moduladora": -4,
+   "Modulada": 0.694592710667722
+ },
+ {
+   "tiempo": 54,
+   "Portadora": -2.94e-15,
+   "Espacio": 1.47e-15,
+   "Marca": 4.41e-15,
+   "moduladora": -4,
+   "Modulada": 1.47e-15
+ },
+ {
+   "tiempo": 55,
+   "Portadora": 1.36808057330267,
+   "Espacio": -0.694592710667719,
+   "Marca": -2,
+   "moduladora": -4,
+   "Modulada": -0.694592710667719
+ },
+ {
+   "tiempo": 56,
+   "Portadora": 2.57115043874615,
+   "Espacio": -1.36808057330267,
+   "Marca": -3.46410161513776,
+   "moduladora": -4,
+   "Modulada": -1.36808057330267
+ },
+ {
+   "tiempo": 57,
+   "Portadora": 3.46410161513775,
+   "Espacio": -2,
+   "Marca": -4,
+   "moduladora": -4,
+   "Modulada": -2
+ },
+ {
+   "tiempo": 58,
+   "Portadora": 3.93923101204883,
+   "Espacio": -2.57115043874616,
+   "Marca": -3.46410161513776,
+   "moduladora": -4,
+   "Modulada": -2.57115043874616
+ },
+ {
+   "tiempo": 59,
+   "Portadora": 3.93923101204883,
+   "Espacio": -3.06417777247591,
+   "Marca": -2,
+   "moduladora": -4,
+   "Modulada": -3.06417777247591
+ },
+ {
+   "tiempo": 60,
+   "Portadora": 3.46410161513775,
+   "Espacio": -3.46410161513775,
+   "Marca": -4.9e-15,
+   "moduladora": -4,
+   "Modulada": -3.46410161513775
+ },
+ {
+   "tiempo": 61,
+   "Portadora": 2.57115043874616,
+   "Espacio": -3.75877048314363,
+   "Marca": 1.99999999999999,
+   "moduladora": -4,
+   "Modulada": -3.75877048314363
+ },
+ {
+   "tiempo": 62,
+   "Portadora": 1.36808057330268,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513775,
+   "moduladora": -4,
+   "Modulada": -3.93923101204883
+ },
+ {
+   "tiempo": 63,
+   "Portadora": 3.43e-15,
+   "Espacio": -4,
+   "Marca": 4,
+   "moduladora": -4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 64,
+   "Portadora": -1.36808057330267,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513776,
+   "moduladora": -4,
+   "Modulada": -3.93923101204883
+ },
+ {
+   "tiempo": 65,
+   "Portadora": -2.57115043874615,
+   "Espacio": -3.75877048314363,
+   "Marca": 2,
+   "moduladora": -4,
+   "Modulada": -3.75877048314363
+ },
+ {
+   "tiempo": 66,
+   "Portadora": -3.46410161513775,
+   "Espacio": -3.46410161513776,
+   "Marca": 1.96e-14,
+   "moduladora": -4,
+   "Modulada": -3.46410161513776
+ },
+ {
+   "tiempo": 67,
+   "Portadora": -3.93923101204883,
+   "Espacio": -3.06417777247591,
+   "Marca": -1.99999999999999,
+   "moduladora": -4,
+   "Modulada": -3.06417777247591
+ },
+ {
+   "tiempo": 68,
+   "Portadora": -3.93923101204883,
+   "Espacio": -2.57115043874616,
+   "Marca": -3.46410161513776,
+   "moduladora": -4,
+   "Modulada": -2.57115043874616
+ },
+ {
+   "tiempo": 69,
+   "Portadora": -3.46410161513775,
+   "Espacio": -2,
+   "Marca": -4,
+   "moduladora": -4,
+   "Modulada": -2
+ },
+ {
+   "tiempo": 70,
+   "Portadora": -2.57115043874616,
+   "Espacio": -1.36808057330268,
+   "Marca": -3.46410161513776,
+   "moduladora": -4,
+   "Modulada": -1.36808057330268
+ },
+ {
+   "tiempo": 71,
+   "Portadora": -1.36808057330268,
+   "Espacio": -0.694592710667723,
+   "Marca": -1.99999999999999,
+   "moduladora": -4,
+   "Modulada": -0.694592710667723
+ },
+ {
+   "tiempo": 72,
+   "Portadora": -3.92e-15,
+   "Espacio": -1.96e-15,
+   "Marca": -5.88e-15,
+   "moduladora": -4,
+   "Modulada": -1.96e-15
+ },
+ {
+   "tiempo": 73,
+   "Portadora": 1.36808057330267,
+   "Espacio": 0.694592710667719,
+   "Marca": 1.99999999999998,
+   "moduladora": -4,
+   "Modulada": 0.694592710667719
+ },
+ {
+   "tiempo": 74,
+   "Portadora": 2.57115043874615,
+   "Espacio": 1.36808057330267,
+   "Marca": 3.46410161513775,
+   "moduladora": -4,
+   "Modulada": 1.36808057330267
+ },
+ {
+   "tiempo": 75,
+   "Portadora": 3.46410161513776,
+   "Espacio": 2,
+   "Marca": 4,
+   "moduladora": -4,
+   "Modulada": 2
+ },
+ {
+   "tiempo": 76,
+   "Portadora": 3.93923101204883,
+   "Espacio": 2.57115043874616,
+   "Marca": 3.46410161513776,
+   "moduladora": -4,
+   "Modulada": 2.57115043874616
+ },
+ {
+   "tiempo": 77,
+   "Portadora": 3.93923101204883,
+   "Espacio": 3.06417777247591,
+   "Marca": 2,
+   "moduladora": -4,
+   "Modulada": 3.06417777247591
+ },
+ {
+   "tiempo": 78,
+   "Portadora": 3.46410161513776,
+   "Espacio": 3.46410161513775,
+   "Marca": -7.84e-15,
+   "moduladora": -4,
+   "Modulada": 3.46410161513775
+ },
+ {
+   "tiempo": 79,
+   "Portadora": 2.57115043874616,
+   "Espacio": 3.75877048314363,
+   "Marca": -1.99999999999999,
+   "moduladora": -4,
+   "Modulada": 3.75877048314363
+ },
+ {
+   "tiempo": 80,
+   "Portadora": 1.36808057330268,
+   "Espacio": 3.93923101204883,
+   "Marca": -3.46410161513776,
+   "moduladora": -4,
+   "Modulada": 3.93923101204883
+ },
+ {
+   "tiempo": 81,
+   "Portadora": 4.41e-15,
+   "Espacio": 4,
+   "Marca": -4,
+   "moduladora": -4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 82,
+   "Portadora": -1.36808057330267,
+   "Espacio": 3.93923101204883,
+   "Marca": -3.46410161513776,
+   "moduladora": -4,
+   "Modulada": 3.93923101204883
+ },
+ {
+   "tiempo": 83,
+   "Portadora": -2.57115043874615,
+   "Espacio": 3.75877048314363,
+   "Marca": -1.99999999999999,
+   "moduladora": -4,
+   "Modulada": 3.75877048314363
+ },
+ {
+   "tiempo": 84,
+   "Portadora": -3.46410161513776,
+   "Espacio": 3.46410161513775,
+   "Marca": -6.86e-15,
+   "moduladora": -4,
+   "Modulada": 3.46410161513775
+ },
+ {
+   "tiempo": 85,
+   "Portadora": -3.93923101204883,
+   "Espacio": 3.06417777247591,
+   "Marca": 1.99999999999998,
+   "moduladora": -4,
+   "Modulada": 3.06417777247591
+ },
+ {
+   "tiempo": 86,
+   "Portadora": -3.93923101204883,
+   "Espacio": 2.57115043874616,
+   "Marca": 3.46410161513775,
+   "moduladora": -4,
+   "Modulada": 2.57115043874616
+ },
+ {
+   "tiempo": 87,
+   "Portadora": -3.46410161513776,
+   "Espacio": 2.00000000000001,
+   "Marca": 4,
+   "moduladora": -4,
+   "Modulada": 2.00000000000001
+ },
+ {
+   "tiempo": 88,
+   "Portadora": -2.57115043874616,
+   "Espacio": 1.36808057330268,
+   "Marca": 3.46410161513776,
+   "moduladora": -4,
+   "Modulada": 1.36808057330268
+ },
+ {
+   "tiempo": 89,
+   "Portadora": -1.36808057330268,
+   "Espacio": 0.694592710667723,
+   "Marca": 2,
+   "moduladora": -4,
+   "Modulada": 0.694592710667723
+ },
+ {
+   "tiempo": 90,
+   "Portadora": -4.9e-15,
+   "Espacio": 2.45e-15,
+   "Marca": 2.16e-14,
+   "moduladora": -4,
+   "Modulada": 2.45e-15
+ },
+ {
+   "tiempo": 91,
+   "Portadora": 1.36808057330267,
+   "Espacio": -0.694592710667718,
+   "Marca": -1.99999999999999,
+   "moduladora": 4,
+   "Modulada": -1.99999999999999
+ },
+ {
+   "tiempo": 92,
+   "Portadora": 2.57115043874615,
+   "Espacio": -1.36808057330267,
+   "Marca": -3.46410161513776,
+   "moduladora": 4,
+   "Modulada": -3.46410161513776
+ },
+ {
+   "tiempo": 93,
+   "Portadora": 3.46410161513775,
+   "Espacio": -2,
+   "Marca": -4,
+   "moduladora": 4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 94,
+   "Portadora": 3.93923101204883,
+   "Espacio": -2.57115043874615,
+   "Marca": -3.46410161513776,
+   "moduladora": 4,
+   "Modulada": -3.46410161513776
+ },
+ {
+   "tiempo": 95,
+   "Portadora": 3.93923101204883,
+   "Espacio": -3.06417777247591,
+   "Marca": -1.99999999999999,
+   "moduladora": 4,
+   "Modulada": -1.99999999999999
+ },
+ {
+   "tiempo": 96,
+   "Portadora": 3.46410161513776,
+   "Espacio": -3.46410161513775,
+   "Marca": -7.84e-15,
+   "moduladora": 4,
+   "Modulada": -7.84e-15
+ },
+ {
+   "tiempo": 97,
+   "Portadora": 2.57115043874615,
+   "Espacio": -3.75877048314364,
+   "Marca": 2,
+   "moduladora": 4,
+   "Modulada": 2
+ },
+ {
+   "tiempo": 98,
+   "Portadora": 1.36808057330267,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513775,
+   "moduladora": 4,
+   "Modulada": 3.46410161513775
+ },
+ {
+   "tiempo": 99,
+   "Portadora": 1.96e-14,
+   "Espacio": -4,
+   "Marca": 4,
+   "moduladora": 4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 100,
+   "Portadora": -1.36808057330266,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513775,
+   "moduladora": 4,
+   "Modulada": 3.46410161513775
+ },
+ {
+   "tiempo": 101,
+   "Portadora": -2.57115043874614,
+   "Espacio": -3.75877048314364,
+   "Marca": 2.00000000000003,
+   "moduladora": 4,
+   "Modulada": 2.00000000000003
+ },
+ {
+   "tiempo": 102,
+   "Portadora": -3.46410161513776,
+   "Espacio": -3.46410161513775,
+   "Marca": -5.88e-15,
+   "moduladora": 4,
+   "Modulada": -5.88e-15
+ },
+ {
+   "tiempo": 103,
+   "Portadora": -3.93923101204883,
+   "Espacio": -3.06417777247591,
+   "Marca": -2.00000000000001,
+   "moduladora": 4,
+   "Modulada": -2.00000000000001
+ },
+ {
+   "tiempo": 104,
+   "Portadora": -3.93923101204883,
+   "Espacio": -2.57115043874616,
+   "Marca": -3.46410161513774,
+   "moduladora": 4,
+   "Modulada": -3.46410161513774
+ },
+ {
+   "tiempo": 105,
+   "Portadora": -3.46410161513776,
+   "Espacio": -2,
+   "Marca": -4,
+   "moduladora": 4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 106,
+   "Portadora": -2.57115043874616,
+   "Espacio": -1.36808057330268,
+   "Marca": -3.46410161513776,
+   "moduladora": 4,
+   "Modulada": -3.46410161513776
+ },
+ {
+   "tiempo": 107,
+   "Portadora": -1.36808057330268,
+   "Espacio": -0.694592710667723,
+   "Marca": -2.00000000000002,
+   "moduladora": 4,
+   "Modulada": -2.00000000000002
+ },
+ {
+   "tiempo": 108,
+   "Portadora": -5.88e-15,
+   "Espacio": -2.94e-15,
+   "Marca": -8.82e-15,
+   "moduladora": 4,
+   "Modulada": -8.82e-15
+ },
+ {
+   "tiempo": 109,
+   "Portadora": 1.36808057330267,
+   "Espacio": 0.694592710667718,
+   "Marca": 2,
+   "moduladora": 4,
+   "Modulada": 2
+ },
+ {
+   "tiempo": 110,
+   "Portadora": 2.57115043874615,
+   "Espacio": 1.36808057330267,
+   "Marca": 3.46410161513775,
+   "moduladora": 4,
+   "Modulada": 3.46410161513775
+ },
+ {
+   "tiempo": 111,
+   "Portadora": 3.46410161513775,
+   "Espacio": 2,
+   "Marca": 4,
+   "moduladora": 4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 112,
+   "Portadora": 3.93923101204883,
+   "Espacio": 2.57115043874615,
+   "Marca": 3.46410161513775,
+   "moduladora": 4,
+   "Modulada": 3.46410161513775
+ },
+ {
+   "tiempo": 113,
+   "Portadora": 3.93923101204883,
+   "Espacio": 3.06417777247591,
+   "Marca": 2.00000000000003,
+   "moduladora": 4,
+   "Modulada": 2.00000000000003
+ },
+ {
+   "tiempo": 114,
+   "Portadora": 3.46410161513776,
+   "Espacio": 3.46410161513775,
+   "Marca": 2.35e-14,
+   "moduladora": 4,
+   "Modulada": 2.35e-14
+ },
+ {
+   "tiempo": 115,
+   "Portadora": 2.57115043874615,
+   "Espacio": 3.75877048314364,
+   "Marca": -2.00000000000001,
+   "moduladora": 4,
+   "Modulada": -2.00000000000001
+ },
+ {
+   "tiempo": 116,
+   "Portadora": 1.36808057330267,
+   "Espacio": 3.93923101204883,
+   "Marca": -3.46410161513774,
+   "moduladora": 4,
+   "Modulada": -3.46410161513774
+ },
+ {
+   "tiempo": 117,
+   "Portadora": -7.84e-15,
+   "Espacio": 4,
+   "Marca": -4,
+   "moduladora": 4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 118,
+   "Portadora": -1.36808057330265,
+   "Espacio": 3.93923101204883,
+   "Marca": -3.46410161513776,
+   "moduladora": 4,
+   "Modulada": -3.46410161513776
+ },
+ {
+   "tiempo": 119,
+   "Portadora": -2.57115043874614,
+   "Espacio": 3.75877048314364,
+   "Marca": -2.00000000000002,
+   "moduladora": 4,
+   "Modulada": -2.00000000000002
+ },
+ {
+   "tiempo": 120,
+   "Portadora": -3.46410161513776,
+   "Espacio": 3.46410161513775,
+   "Marca": -9.8e-15,
+   "moduladora": 4,
+   "Modulada": -9.8e-15
+ },
+ {
+   "tiempo": 121,
+   "Portadora": -3.93923101204883,
+   "Espacio": 3.06417777247591,
+   "Marca": 2,
+   "moduladora": 4,
+   "Modulada": 2
+ },
+ {
+   "tiempo": 122,
+   "Portadora": -3.93923101204883,
+   "Espacio": 2.57115043874616,
+   "Marca": 3.46410161513775,
+   "moduladora": 4,
+   "Modulada": 3.46410161513775
+ },
+ {
+   "tiempo": 123,
+   "Portadora": -3.46410161513776,
+   "Espacio": 2,
+   "Marca": 4,
+   "moduladora": 4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 124,
+   "Portadora": -2.57115043874616,
+   "Espacio": 1.36808057330268,
+   "Marca": 3.46410161513776,
+   "moduladora": 4,
+   "Modulada": 3.46410161513776
+ },
+ {
+   "tiempo": 125,
+   "Portadora": -1.36808057330268,
+   "Espacio": 0.694592710667724,
+   "Marca": 2.00000000000001,
+   "moduladora": 4,
+   "Modulada": 2.00000000000001
+ },
+ {
+   "tiempo": 126,
+   "Portadora": -6.86e-15,
+   "Espacio": 3.43e-15,
+   "Marca": -3.92e-15,
+   "moduladora": 4,
+   "Modulada": -3.92e-15
+ },
+ {
+   "tiempo": 127,
+   "Portadora": 1.36808057330267,
+   "Espacio": -0.694592710667717,
+   "Marca": -2.00000000000001,
+   "moduladora": 4,
+   "Modulada": -2.00000000000001
+ },
+ {
+   "tiempo": 128,
+   "Portadora": 2.57115043874615,
+   "Espacio": -1.36808057330267,
+   "Marca": -3.46410161513774,
+   "moduladora": 4,
+   "Modulada": -3.46410161513774
+ },
+ {
+   "tiempo": 129,
+   "Portadora": 3.46410161513775,
+   "Espacio": -2,
+   "Marca": -4,
+   "moduladora": 4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 130,
+   "Portadora": 3.93923101204883,
+   "Espacio": -2.57115043874615,
+   "Marca": -3.46410161513776,
+   "moduladora": 4,
+   "Modulada": -3.46410161513776
+ },
+ {
+   "tiempo": 131,
+   "Portadora": 3.93923101204883,
+   "Espacio": -3.06417777247591,
+   "Marca": -2.00000000000004,
+   "moduladora": 4,
+   "Modulada": -2.00000000000004
+ },
+ {
+   "tiempo": 132,
+   "Portadora": 3.46410161513776,
+   "Espacio": -3.46410161513775,
+   "Marca": -3.92e-14,
+   "moduladora": 4,
+   "Modulada": -3.92e-14
+ },
+ {
+   "tiempo": 133,
+   "Portadora": 2.57115043874615,
+   "Espacio": -3.75877048314364,
+   "Marca": 2.00000000000003,
+   "moduladora": 4,
+   "Modulada": 2.00000000000003
+ },
+ {
+   "tiempo": 134,
+   "Portadora": 1.36808057330267,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513775,
+   "moduladora": 4,
+   "Modulada": 3.46410161513775
+ },
+ {
+   "tiempo": 135,
+   "Portadora": 2.16e-14,
+   "Espacio": -4,
+   "Marca": 4,
+   "moduladora": 4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 136,
+   "Portadora": -1.36808057330265,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513775,
+   "moduladora": -4,
+   "Modulada": -3.93923101204883
+ },
+ {
+   "tiempo": 137,
+   "Portadora": -2.57115043874614,
+   "Espacio": -3.75877048314364,
+   "Marca": 2.00000000000003,
+   "moduladora": -4,
+   "Modulada": -3.75877048314364
+ },
+ {
+   "tiempo": 138,
+   "Portadora": -3.46410161513776,
+   "Espacio": -3.46410161513775,
+   "Marca": 2.55e-14,
+   "moduladora": -4,
+   "Modulada": -3.46410161513775
+ },
+ {
+   "tiempo": 139,
+   "Portadora": -3.93923101204883,
+   "Espacio": -3.06417777247591,
+   "Marca": -1.99999999999999,
+   "moduladora": -4,
+   "Modulada": -3.06417777247591
+ },
+ {
+   "tiempo": 140,
+   "Portadora": -3.93923101204883,
+   "Espacio": -2.57115043874616,
+   "Marca": -3.46410161513775,
+   "moduladora": -4,
+   "Modulada": -2.57115043874616
+ },
+ {
+   "tiempo": 141,
+   "Portadora": -3.46410161513776,
+   "Espacio": -2,
+   "Marca": -4,
+   "moduladora": -4,
+   "Modulada": -2
+ },
+ {
+   "tiempo": 142,
+   "Portadora": -2.57115043874616,
+   "Espacio": -1.36808057330268,
+   "Marca": -3.46410161513774,
+   "moduladora": -4,
+   "Modulada": -1.36808057330268
+ },
+ {
+   "tiempo": 143,
+   "Portadora": -1.36808057330268,
+   "Espacio": -0.694592710667724,
+   "Marca": -2.00000000000002,
+   "moduladora": -4,
+   "Modulada": -0.694592710667724
+ },
+ {
+   "tiempo": 144,
+   "Portadora": -7.84e-15,
+   "Espacio": -3.92e-15,
+   "Marca": -1.18e-14,
+   "moduladora": -4,
+   "Modulada": -3.92e-15
+ },
+ {
+   "tiempo": 145,
+   "Portadora": 1.36808057330267,
+   "Espacio": 0.694592710667717,
+   "Marca": 2,
+   "moduladora": -4,
+   "Modulada": 0.694592710667717
+ },
+ {
+   "tiempo": 146,
+   "Portadora": 2.57115043874615,
+   "Espacio": 1.36808057330267,
+   "Marca": 3.46410161513773,
+   "moduladora": -4,
+   "Modulada": 1.36808057330267
+ },
+ {
+   "tiempo": 147,
+   "Portadora": 3.46410161513775,
+   "Espacio": 2,
+   "Marca": 4,
+   "moduladora": -4,
+   "Modulada": 2
+ },
+ {
+   "tiempo": 148,
+   "Portadora": 3.93923101204883,
+   "Espacio": 2.57115043874615,
+   "Marca": 3.46410161513777,
+   "moduladora": -4,
+   "Modulada": 2.57115043874615
+ },
+ {
+   "tiempo": 149,
+   "Portadora": 3.93923101204883,
+   "Espacio": 3.06417777247592,
+   "Marca": 2.00000000000001,
+   "moduladora": -4,
+   "Modulada": 3.06417777247592
+ },
+ {
+   "tiempo": 150,
+   "Portadora": 3.46410161513775,
+   "Espacio": 3.46410161513776,
+   "Marca": -1.96e-15,
+   "moduladora": -4,
+   "Modulada": 3.46410161513776
+ },
+ {
+   "tiempo": 151,
+   "Portadora": 2.57115043874615,
+   "Espacio": 3.75877048314363,
+   "Marca": -2.00000000000001,
+   "moduladora": -4,
+   "Modulada": 3.75877048314363
+ },
+ {
+   "tiempo": 152,
+   "Portadora": 1.36808057330267,
+   "Espacio": 3.93923101204883,
+   "Marca": -3.46410161513774,
+   "moduladora": -4,
+   "Modulada": 3.93923101204883
+ },
+ {
+   "tiempo": 153,
+   "Portadora": -5.88e-15,
+   "Espacio": 4,
+   "Marca": -4,
+   "moduladora": -4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 154,
+   "Portadora": -1.36808057330265,
+   "Espacio": 3.93923101204883,
+   "Marca": -3.46410161513776,
+   "moduladora": -4,
+   "Modulada": 3.93923101204883
+ },
+ {
+   "tiempo": 155,
+   "Portadora": -2.57115043874614,
+   "Espacio": 3.75877048314364,
+   "Marca": -2.00000000000005,
+   "moduladora": -4,
+   "Modulada": 3.75877048314364
+ },
+ {
+   "tiempo": 156,
+   "Portadora": -3.46410161513774,
+   "Espacio": 3.46410161513776,
+   "Marca": 1.57e-14,
+   "moduladora": -4,
+   "Modulada": 3.46410161513776
+ },
+ {
+   "tiempo": 157,
+   "Portadora": -3.93923101204883,
+   "Espacio": 3.06417777247592,
+   "Marca": 2.00000000000002,
+   "moduladora": -4,
+   "Modulada": 3.06417777247592
+ },
+ {
+   "tiempo": 158,
+   "Portadora": -3.93923101204883,
+   "Espacio": 2.57115043874616,
+   "Marca": 3.46410161513775,
+   "moduladora": -4,
+   "Modulada": 2.57115043874616
+ },
+ {
+   "tiempo": 159,
+   "Portadora": -3.46410161513776,
+   "Espacio": 2,
+   "Marca": 4,
+   "moduladora": -4,
+   "Modulada": 2
+ },
+ {
+   "tiempo": 160,
+   "Portadora": -2.57115043874616,
+   "Espacio": 1.36808057330268,
+   "Marca": 3.46410161513775,
+   "moduladora": -4,
+   "Modulada": 1.36808057330268
+ },
+ {
+   "tiempo": 161,
+   "Portadora": -1.36808057330268,
+   "Espacio": 0.694592710667725,
+   "Marca": 2.00000000000003,
+   "moduladora": -4,
+   "Modulada": 0.694592710667725
+ },
+ {
+   "tiempo": 162,
+   "Portadora": -8.82e-15,
+   "Espacio": 4.41e-15,
+   "Marca": 2.74e-14,
+   "moduladora": -4,
+   "Modulada": 4.41e-15
+ },
+ {
+   "tiempo": 163,
+   "Portadora": 1.36808057330267,
+   "Espacio": -0.694592710667716,
+   "Marca": -1.99999999999999,
+   "moduladora": -4,
+   "Modulada": -0.694592710667716
+ },
+ {
+   "tiempo": 164,
+   "Portadora": 2.57115043874615,
+   "Espacio": -1.36808057330267,
+   "Marca": -3.46410161513775,
+   "moduladora": -4,
+   "Modulada": -1.36808057330267
+ },
+ {
+   "tiempo": 165,
+   "Portadora": 3.46410161513775,
+   "Espacio": -2,
+   "Marca": -4,
+   "moduladora": -4,
+   "Modulada": -2
+ },
+ {
+   "tiempo": 166,
+   "Portadora": 3.93923101204883,
+   "Espacio": -2.57115043874615,
+   "Marca": -3.46410161513774,
+   "moduladora": -4,
+   "Modulada": -2.57115043874615
+ },
+ {
+   "tiempo": 167,
+   "Portadora": 3.93923101204883,
+   "Espacio": -3.06417777247592,
+   "Marca": -2.00000000000002,
+   "moduladora": -4,
+   "Modulada": -3.06417777247592
+ },
+ {
+   "tiempo": 168,
+   "Portadora": 3.46410161513775,
+   "Espacio": -3.46410161513776,
+   "Marca": -1.37e-14,
+   "moduladora": -4,
+   "Modulada": -3.46410161513776
+ },
+ {
+   "tiempo": 169,
+   "Portadora": 2.57115043874615,
+   "Espacio": -3.75877048314363,
+   "Marca": 2,
+   "moduladora": -4,
+   "Modulada": -3.75877048314363
+ },
+ {
+   "tiempo": 170,
+   "Portadora": 1.36808057330267,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513773,
+   "moduladora": -4,
+   "Modulada": -3.93923101204883
+ },
+ {
+   "tiempo": 171,
+   "Portadora": 2.35e-14,
+   "Espacio": -4,
+   "Marca": 4,
+   "moduladora": -4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 172,
+   "Portadora": -1.36808057330265,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513777,
+   "moduladora": -4,
+   "Modulada": -3.93923101204883
+ },
+ {
+   "tiempo": 173,
+   "Portadora": -2.57115043874614,
+   "Espacio": -3.75877048314364,
+   "Marca": 2.00000000000001,
+   "moduladora": -4,
+   "Modulada": -3.75877048314364
+ },
+ {
+   "tiempo": 174,
+   "Portadora": -3.46410161513774,
+   "Espacio": -3.46410161513776,
+   "Marca": -4.95e-18,
+   "moduladora": -4,
+   "Modulada": -3.46410161513776
+ },
+ {
+   "tiempo": 175,
+   "Portadora": -3.93923101204883,
+   "Espacio": -3.06417777247592,
+   "Marca": -2.00000000000001,
+   "moduladora": -4,
+   "Modulada": -3.06417777247592
+ },
+ {
+   "tiempo": 176,
+   "Portadora": -3.93923101204883,
+   "Espacio": -2.57115043874616,
+   "Marca": -3.46410161513774,
+   "moduladora": -4,
+   "Modulada": -2.57115043874616
+ },
+ {
+   "tiempo": 177,
+   "Portadora": -3.46410161513776,
+   "Espacio": -2,
+   "Marca": -4,
+   "moduladora": -4,
+   "Modulada": -2
+ },
+ {
+   "tiempo": 178,
+   "Portadora": -2.57115043874616,
+   "Espacio": -1.36808057330268,
+   "Marca": -3.46410161513776,
+   "moduladora": -4,
+   "Modulada": -1.36808057330268
+ },
+ {
+   "tiempo": 179,
+   "Portadora": -1.36808057330268,
+   "Espacio": -0.694592710667725,
+   "Marca": -2.00000000000005,
+   "moduladora": -4,
+   "Modulada": -0.694592710667725
+ },
+ {
+   "tiempo": 180,
+   "Portadora": -9.8e-15,
+   "Espacio": -4.9e-15,
+   "Marca": -4.31e-14,
+   "moduladora": -4,
+   "Modulada": -4.9e-15
+ },
+ {
+   "tiempo": 181,
+   "Portadora": 1.36808057330266,
+   "Espacio": 0.694592710667716,
+   "Marca": 2.00000000000002,
+   "moduladora": 4,
+   "Modulada": 2.00000000000002
+ },
+ {
+   "tiempo": 182,
+   "Portadora": 2.57115043874615,
+   "Espacio": 1.36808057330267,
+   "Marca": 3.46410161513774,
+   "moduladora": 4,
+   "Modulada": 3.46410161513774
+ },
+ {
+   "tiempo": 183,
+   "Portadora": 3.46410161513775,
+   "Espacio": 1.99999999999999,
+   "Marca": 4,
+   "moduladora": 4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 184,
+   "Portadora": 3.93923101204883,
+   "Espacio": 2.57115043874615,
+   "Marca": 3.46410161513775,
+   "moduladora": 4,
+   "Modulada": 3.46410161513775
+ },
+ {
+   "tiempo": 185,
+   "Portadora": 3.93923101204883,
+   "Espacio": 3.06417777247592,
+   "Marca": 2.00000000000004,
+   "moduladora": 4,
+   "Modulada": 2.00000000000004
+ },
+ {
+   "tiempo": 186,
+   "Portadora": 3.46410161513776,
+   "Espacio": 3.46410161513775,
+   "Marca": 2.94e-14,
+   "moduladora": 4,
+   "Modulada": 2.94e-14
+ },
+ {
+   "tiempo": 187,
+   "Portadora": 2.57115043874615,
+   "Espacio": 3.75877048314363,
+   "Marca": -1.99999999999998,
+   "moduladora": 4,
+   "Modulada": -1.99999999999998
+ },
+ {
+   "tiempo": 188,
+   "Portadora": 1.3680805733027,
+   "Espacio": 3.93923101204883,
+   "Marca": -3.46410161513775,
+   "moduladora": 4,
+   "Modulada": -3.46410161513775
+ },
+ {
+   "tiempo": 189,
+   "Portadora": -3.92e-15,
+   "Espacio": 4,
+   "Marca": -4,
+   "moduladora": 4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 190,
+   "Portadora": -1.36808057330265,
+   "Espacio": 3.93923101204883,
+   "Marca": -3.46410161513775,
+   "moduladora": 4,
+   "Modulada": -3.46410161513775
+ },
+ {
+   "tiempo": 191,
+   "Portadora": -2.57115043874616,
+   "Espacio": 3.75877048314363,
+   "Marca": -2.00000000000002,
+   "moduladora": 4,
+   "Modulada": -2.00000000000002
+ },
+ {
+   "tiempo": 192,
+   "Portadora": -3.46410161513774,
+   "Espacio": 3.46410161513776,
+   "Marca": -1.57e-14,
+   "moduladora": 4,
+   "Modulada": -1.57e-14
+ },
+ {
+   "tiempo": 193,
+   "Portadora": -3.93923101204883,
+   "Espacio": 3.06417777247591,
+   "Marca": 1.99999999999995,
+   "moduladora": 4,
+   "Modulada": 1.99999999999995
+ },
+ {
+   "tiempo": 194,
+   "Portadora": -3.93923101204883,
+   "Espacio": 2.57115043874615,
+   "Marca": 3.46410161513776,
+   "moduladora": 4,
+   "Modulada": 3.46410161513776
+ },
+ {
+   "tiempo": 195,
+   "Portadora": -3.46410161513776,
+   "Espacio": 2,
+   "Marca": 4,
+   "moduladora": 4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 196,
+   "Portadora": -2.57115043874614,
+   "Espacio": 1.36808057330267,
+   "Marca": 3.46410161513777,
+   "moduladora": 4,
+   "Modulada": 3.46410161513777
+ },
+ {
+   "tiempo": 197,
+   "Portadora": -1.36808057330268,
+   "Espacio": 0.694592710667726,
+   "Marca": 2.00000000000001,
+   "moduladora": 4,
+   "Modulada": 2.00000000000001
+ },
+ {
+   "tiempo": 198,
+   "Portadora": -3.92e-14,
+   "Espacio": 1.96e-14,
+   "Marca": 1.95e-15,
+   "moduladora": 4,
+   "Modulada": 1.95e-15
+ },
+ {
+   "tiempo": 199,
+   "Portadora": 1.36808057330266,
+   "Espacio": -0.694592710667715,
+   "Marca": -1.99999999999996,
+   "moduladora": 4,
+   "Modulada": -1.99999999999996
+ },
+ {
+   "tiempo": 200,
+   "Portadora": 2.57115043874612,
+   "Espacio": -1.36808057330266,
+   "Marca": -3.46410161513777,
+   "moduladora": 4,
+   "Modulada": -3.46410161513777
+ },
+ {
+   "tiempo": 201,
+   "Portadora": 3.46410161513775,
+   "Espacio": -1.99999999999999,
+   "Marca": -4,
+   "moduladora": 4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 202,
+   "Portadora": 3.93923101204882,
+   "Espacio": -2.57115043874614,
+   "Marca": -3.46410161513779,
+   "moduladora": 4,
+   "Modulada": -3.46410161513779
+ },
+ {
+   "tiempo": 203,
+   "Portadora": 3.93923101204884,
+   "Espacio": -3.06417777247591,
+   "Marca": -2,
+   "moduladora": 4,
+   "Modulada": -2
+ },
+ {
+   "tiempo": 204,
+   "Portadora": 3.46410161513775,
+   "Espacio": -3.46410161513776,
+   "Marca": 1.18e-14,
+   "moduladora": 4,
+   "Modulada": 1.18e-14
+ },
+ {
+   "tiempo": 205,
+   "Portadora": 2.57115043874617,
+   "Espacio": -3.75877048314363,
+   "Marca": 1.99999999999997,
+   "moduladora": 4,
+   "Modulada": 1.99999999999997
+ },
+ {
+   "tiempo": 206,
+   "Portadora": 1.36808057330267,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513777,
+   "moduladora": 4,
+   "Modulada": 3.46410161513777
+ },
+ {
+   "tiempo": 207,
+   "Portadora": 2.55e-14,
+   "Espacio": -4,
+   "Marca": 4,
+   "moduladora": 4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 208,
+   "Portadora": -1.36808057330268,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513778,
+   "moduladora": 4,
+   "Modulada": 3.46410161513778
+ },
+ {
+   "tiempo": 209,
+   "Portadora": -2.57115043874614,
+   "Espacio": -3.75877048314364,
+   "Marca": 1.99999999999999,
+   "moduladora": 4,
+   "Modulada": 1.99999999999999
+ },
+ {
+   "tiempo": 210,
+   "Portadora": -3.46410161513775,
+   "Espacio": -3.46410161513776,
+   "Marca": 3.14e-14,
+   "moduladora": 4,
+   "Modulada": 3.14e-14
+ },
+ {
+   "tiempo": 211,
+   "Portadora": -3.93923101204883,
+   "Espacio": -3.06417777247592,
+   "Marca": -1.99999999999998,
+   "moduladora": 4,
+   "Modulada": -1.99999999999998
+ },
+ {
+   "tiempo": 212,
+   "Portadora": -3.93923101204883,
+   "Espacio": -2.57115043874616,
+   "Marca": -3.46410161513775,
+   "moduladora": 4,
+   "Modulada": -3.46410161513775
+ },
+ {
+   "tiempo": 213,
+   "Portadora": -3.46410161513774,
+   "Espacio": -1.99999999999999,
+   "Marca": -4,
+   "moduladora": 4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 214,
+   "Portadora": -2.57115043874616,
+   "Espacio": -1.36808057330268,
+   "Marca": -3.46410161513778,
+   "moduladora": 4,
+   "Modulada": -3.46410161513778
+ },
+ {
+   "tiempo": 215,
+   "Portadora": -1.36808057330266,
+   "Espacio": -0.694592710667712,
+   "Marca": -1.99999999999998,
+   "moduladora": 4,
+   "Modulada": -1.99999999999998
+ },
+ {
+   "tiempo": 216,
+   "Portadora": -1.18e-14,
+   "Espacio": -5.88e-15,
+   "Marca": -1.76e-14,
+   "moduladora": 4,
+   "Modulada": -1.76e-14
+ },
+ {
+   "tiempo": 217,
+   "Portadora": 1.36808057330264,
+   "Espacio": 0.694592710667701,
+   "Marca": 1.99999999999995,
+   "moduladora": 4,
+   "Modulada": 1.99999999999995
+ },
+ {
+   "tiempo": 218,
+   "Portadora": 2.57115043874615,
+   "Espacio": 1.36808057330267,
+   "Marca": 3.46410161513776,
+   "moduladora": 4,
+   "Modulada": 3.46410161513776
+ },
+ {
+   "tiempo": 219,
+   "Portadora": 3.46410161513773,
+   "Espacio": 1.99999999999998,
+   "Marca": 4,
+   "moduladora": 4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 220,
+   "Portadora": 3.93923101204883,
+   "Espacio": 2.57115043874615,
+   "Marca": 3.46410161513777,
+   "moduladora": 4,
+   "Modulada": 3.46410161513777
+ },
+ {
+   "tiempo": 221,
+   "Portadora": 3.93923101204883,
+   "Espacio": 3.06417777247591,
+   "Marca": 2.00000000000001,
+   "moduladora": 4,
+   "Modulada": 2.00000000000001
+ },
+ {
+   "tiempo": 222,
+   "Portadora": 3.46410161513777,
+   "Espacio": 3.46410161513775,
+   "Marca": 3.91e-15,
+   "moduladora": 4,
+   "Modulada": 3.91e-15
+ },
+ {
+   "tiempo": 223,
+   "Portadora": 2.57115043874615,
+   "Espacio": 3.75877048314363,
+   "Marca": -1.99999999999996,
+   "moduladora": 4,
+   "Modulada": -1.99999999999996
+ },
+ {
+   "tiempo": 224,
+   "Portadora": 1.3680805733027,
+   "Espacio": 3.93923101204883,
+   "Marca": -3.46410161513776,
+   "moduladora": 4,
+   "Modulada": -3.46410161513776
+ },
+ {
+   "tiempo": 225,
+   "Portadora": -1.96e-15,
+   "Espacio": 4,
+   "Marca": -4,
+   "moduladora": 4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 226,
+   "Portadora": -1.36808057330265,
+   "Espacio": 3.93923101204883,
+   "Marca": -3.46410161513779,
+   "moduladora": -4,
+   "Modulada": 3.93923101204883
+ },
+ {
+   "tiempo": 227,
+   "Portadora": -2.57115043874616,
+   "Espacio": 3.75877048314363,
+   "Marca": -2,
+   "moduladora": -4,
+   "Modulada": 3.75877048314363
+ },
+ {
+   "tiempo": 228,
+   "Portadora": -3.46410161513774,
+   "Espacio": 3.46410161513776,
+   "Marca": -4.7e-14,
+   "moduladora": -4,
+   "Modulada": 3.46410161513776
+ },
+ {
+   "tiempo": 229,
+   "Portadora": -3.93923101204883,
+   "Espacio": 3.06417777247591,
+   "Marca": 1.99999999999997,
+   "moduladora": -4,
+   "Modulada": 3.06417777247591
+ },
+ {
+   "tiempo": 230,
+   "Portadora": -3.93923101204883,
+   "Espacio": 2.57115043874615,
+   "Marca": 3.46410161513777,
+   "moduladora": -4,
+   "Modulada": 2.57115043874615
+ },
+ {
+   "tiempo": 231,
+   "Portadora": -3.46410161513776,
+   "Espacio": 2,
+   "Marca": 4,
+   "moduladora": -4,
+   "Modulada": 2
+ },
+ {
+   "tiempo": 232,
+   "Portadora": -2.57115043874614,
+   "Espacio": 1.36808057330267,
+   "Marca": 3.46410161513778,
+   "moduladora": -4,
+   "Modulada": 1.36808057330267
+ },
+ {
+   "tiempo": 233,
+   "Portadora": -1.36808057330269,
+   "Espacio": 0.694592710667727,
+   "Marca": 1.99999999999999,
+   "moduladora": -4,
+   "Modulada": 0.694592710667727
+ },
+ {
+   "tiempo": 234,
+   "Portadora": 1.57e-14,
+   "Espacio": -7.84e-15,
+   "Marca": 3.33e-14,
+   "moduladora": -4,
+   "Modulada": -7.84e-15
+ },
+ {
+   "tiempo": 235,
+   "Portadora": 1.36808057330266,
+   "Espacio": -0.694592710667714,
+   "Marca": -1.99999999999998,
+   "moduladora": -4,
+   "Modulada": -0.694592710667714
+ },
+ {
+   "tiempo": 236,
+   "Portadora": 2.57115043874612,
+   "Espacio": -1.36808057330265,
+   "Marca": -3.46410161513775,
+   "moduladora": -4,
+   "Modulada": -1.36808057330265
+ },
+ {
+   "tiempo": 237,
+   "Portadora": 3.46410161513775,
+   "Espacio": -1.99999999999999,
+   "Marca": -4,
+   "moduladora": -4,
+   "Modulada": -1.99999999999999
+ },
+ {
+   "tiempo": 238,
+   "Portadora": 3.93923101204882,
+   "Espacio": -2.57115043874614,
+   "Marca": -3.46410161513778,
+   "moduladora": -4,
+   "Modulada": -2.57115043874614
+ },
+ {
+   "tiempo": 239,
+   "Portadora": 3.93923101204884,
+   "Espacio": -3.06417777247591,
+   "Marca": -1.99999999999998,
+   "moduladora": -4,
+   "Modulada": -3.06417777247591
+ },
+ {
+   "tiempo": 240,
+   "Portadora": 3.46410161513775,
+   "Espacio": -3.46410161513776,
+   "Marca": -1.96e-14,
+   "moduladora": -4,
+   "Modulada": -3.46410161513776
+ },
+ {
+   "tiempo": 241,
+   "Portadora": 2.57115043874618,
+   "Espacio": -3.75877048314363,
+   "Marca": 1.99999999999994,
+   "moduladora": -4,
+   "Modulada": -3.75877048314363
+ },
+ {
+   "tiempo": 242,
+   "Portadora": 1.36808057330267,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513776,
+   "moduladora": -4,
+   "Modulada": -3.93923101204883
+ },
+ {
+   "tiempo": 243,
+   "Portadora": 2.74e-14,
+   "Espacio": -4,
+   "Marca": 4,
+   "moduladora": -4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 244,
+   "Portadora": -1.36808057330267,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513777,
+   "moduladora": -4,
+   "Modulada": -3.93923101204883
+ },
+ {
+   "tiempo": 245,
+   "Portadora": -2.57115043874613,
+   "Espacio": -3.75877048314364,
+   "Marca": 2.00000000000001,
+   "moduladora": -4,
+   "Modulada": -3.75877048314364
+ },
+ {
+   "tiempo": 246,
+   "Portadora": -3.46410161513775,
+   "Espacio": -3.46410161513776,
+   "Marca": 6.27e-14,
+   "moduladora": -4,
+   "Modulada": -3.46410161513776
+ },
+ {
+   "tiempo": 247,
+   "Portadora": -3.93923101204883,
+   "Espacio": -3.06417777247592,
+   "Marca": -2,
+   "moduladora": -4,
+   "Modulada": -3.06417777247592
+ },
+ {
+   "tiempo": 248,
+   "Portadora": -3.93923101204883,
+   "Espacio": -2.57115043874616,
+   "Marca": -3.46410161513773,
+   "moduladora": -4,
+   "Modulada": -2.57115043874616
+ },
+ {
+   "tiempo": 249,
+   "Portadora": -3.46410161513774,
+   "Espacio": -1.99999999999999,
+   "Marca": -4,
+   "moduladora": -4,
+   "Modulada": -1.99999999999999
+ },
+ {
+   "tiempo": 250,
+   "Portadora": -2.57115043874617,
+   "Espacio": -1.36808057330268,
+   "Marca": -3.46410161513776,
+   "moduladora": -4,
+   "Modulada": -1.36808057330268
+ },
+ {
+   "tiempo": 251,
+   "Portadora": -1.36808057330266,
+   "Espacio": -0.694592710667713,
+   "Marca": -1.99999999999995,
+   "moduladora": -4,
+   "Modulada": -0.694592710667713
+ },
+ {
+   "tiempo": 252,
+   "Portadora": -1.37e-14,
+   "Espacio": -6.86e-15,
+   "Marca": 7.85e-15,
+   "moduladora": -4,
+   "Modulada": -6.86e-15
+ },
+ {
+   "tiempo": 253,
+   "Portadora": 1.36808057330263,
+   "Espacio": 0.6945927106677,
+   "Marca": 1.99999999999997,
+   "moduladora": -4,
+   "Modulada": 0.6945927106677
+ },
+ {
+   "tiempo": 254,
+   "Portadora": 2.57115043874614,
+   "Espacio": 1.36808057330267,
+   "Marca": 3.46410161513777,
+   "moduladora": -4,
+   "Modulada": 1.36808057330267
+ },
+ {
+   "tiempo": 255,
+   "Portadora": 3.46410161513773,
+   "Espacio": 1.99999999999998,
+   "Marca": 4,
+   "moduladora": -4,
+   "Modulada": 1.99999999999998
+ },
+ {
+   "tiempo": 256,
+   "Portadora": 3.93923101204883,
+   "Espacio": 2.57115043874615,
+   "Marca": 3.46410161513778,
+   "moduladora": -4,
+   "Modulada": 2.57115043874615
+ },
+ {
+   "tiempo": 257,
+   "Portadora": 3.93923101204883,
+   "Espacio": 3.06417777247591,
+   "Marca": 1.99999999999999,
+   "moduladora": -4,
+   "Modulada": 3.06417777247591
+ },
+ {
+   "tiempo": 258,
+   "Portadora": 3.46410161513777,
+   "Espacio": 3.46410161513775,
+   "Marca": 3.53e-14,
+   "moduladora": -4,
+   "Modulada": 3.46410161513775
+ },
+ {
+   "tiempo": 259,
+   "Portadora": 2.57115043874615,
+   "Espacio": 3.75877048314363,
+   "Marca": -1.99999999999993,
+   "moduladora": -4,
+   "Modulada": 3.75877048314363
+ },
+ {
+   "tiempo": 260,
+   "Portadora": 1.3680805733027,
+   "Espacio": 3.93923101204883,
+   "Marca": -3.46410161513775,
+   "moduladora": -4,
+   "Modulada": 3.93923101204883
+ },
+ {
+   "tiempo": 261,
+   "Portadora": -4.95e-18,
+   "Espacio": 4,
+   "Marca": -4,
+   "moduladora": -4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 262,
+   "Portadora": -1.36808057330265,
+   "Espacio": 3.93923101204883,
+   "Marca": -3.46410161513781,
+   "moduladora": -4,
+   "Modulada": 3.93923101204883
+ },
+ {
+   "tiempo": 263,
+   "Portadora": -2.57115043874615,
+   "Espacio": 3.75877048314363,
+   "Marca": -2.00000000000003,
+   "moduladora": -4,
+   "Modulada": 3.75877048314363
+ },
+ {
+   "tiempo": 264,
+   "Portadora": -3.46410161513774,
+   "Espacio": 3.46410161513776,
+   "Marca": -7.84e-14,
+   "moduladora": -4,
+   "Modulada": 3.46410161513776
+ },
+ {
+   "tiempo": 265,
+   "Portadora": -3.93923101204883,
+   "Espacio": 3.06417777247591,
+   "Marca": 1.99999999999999,
+   "moduladora": -4,
+   "Modulada": 3.06417777247591
+ },
+ {
+   "tiempo": 266,
+   "Portadora": -3.93923101204883,
+   "Espacio": 2.57115043874615,
+   "Marca": 3.46410161513778,
+   "moduladora": -4,
+   "Modulada": 2.57115043874615
+ },
+ {
+   "tiempo": 267,
+   "Portadora": -3.46410161513776,
+   "Espacio": 2,
+   "Marca": 4,
+   "moduladora": -4,
+   "Modulada": 2
+ },
+ {
+   "tiempo": 268,
+   "Portadora": -2.57115043874614,
+   "Espacio": 1.36808057330267,
+   "Marca": 3.46410161513777,
+   "moduladora": -4,
+   "Modulada": 1.36808057330267
+ },
+ {
+   "tiempo": 269,
+   "Portadora": -1.36808057330269,
+   "Espacio": 0.694592710667728,
+   "Marca": 1.99999999999997,
+   "moduladora": -4,
+   "Modulada": 0.694592710667728
+ },
+ {
+   "tiempo": 270,
+   "Portadora": -4.31e-14,
+   "Espacio": 2.16e-14,
+   "Marca": 7.83e-15,
+   "moduladora": -4,
+   "Modulada": 2.16e-14
+ },
+ {
+   "tiempo": 271,
+   "Portadora": 1.36808057330266,
+   "Espacio": -0.694592710667713,
+   "Marca": -1.99999999999995,
+   "moduladora": 4,
+   "Modulada": -1.99999999999995
+ },
+ {
+   "tiempo": 272,
+   "Portadora": 2.57115043874612,
+   "Espacio": -1.36808057330265,
+   "Marca": -3.46410161513776,
+   "moduladora": 4,
+   "Modulada": -3.46410161513776
+ },
+ {
+   "tiempo": 273,
+   "Portadora": 3.46410161513774,
+   "Espacio": -1.99999999999999,
+   "Marca": -4,
+   "moduladora": 4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 274,
+   "Portadora": 3.93923101204882,
+   "Espacio": -2.57115043874614,
+   "Marca": -3.46410161513779,
+   "moduladora": 4,
+   "Modulada": -3.46410161513779
+ },
+ {
+   "tiempo": 275,
+   "Portadora": 3.93923101204884,
+   "Espacio": -3.0641777724759,
+   "Marca": -2,
+   "moduladora": 4,
+   "Modulada": -2
+ },
+ {
+   "tiempo": 276,
+   "Portadora": 3.46410161513775,
+   "Espacio": -3.46410161513776,
+   "Marca": -5.1e-14,
+   "moduladora": 4,
+   "Modulada": -5.1e-14
+ },
+ {
+   "tiempo": 277,
+   "Portadora": 2.57115043874618,
+   "Espacio": -3.75877048314363,
+   "Marca": 1.99999999999992,
+   "moduladora": 4,
+   "Modulada": 1.99999999999992
+ },
+ {
+   "tiempo": 278,
+   "Portadora": 1.36808057330267,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513774,
+   "moduladora": 4,
+   "Modulada": 3.46410161513774
+ },
+ {
+   "tiempo": 279,
+   "Portadora": 2.94e-14,
+   "Espacio": -4,
+   "Marca": 4,
+   "moduladora": 4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 280,
+   "Portadora": -1.36808057330267,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513776,
+   "moduladora": 4,
+   "Modulada": 3.46410161513776
+ },
+ {
+   "tiempo": 281,
+   "Portadora": -2.57115043874613,
+   "Espacio": -3.75877048314364,
+   "Marca": 2.00000000000004,
+   "moduladora": 4,
+   "Modulada": 2.00000000000004
+ },
+ {
+   "tiempo": 282,
+   "Portadora": -3.46410161513775,
+   "Espacio": -3.46410161513776,
+   "Marca": -1.96e-14,
+   "moduladora": 4,
+   "Modulada": -1.96e-14
+ },
+ {
+   "tiempo": 283,
+   "Portadora": -3.93923101204883,
+   "Espacio": -3.06417777247592,
+   "Marca": -1.99999999999998,
+   "moduladora": 4,
+   "Modulada": -1.99999999999998
+ },
+ {
+   "tiempo": 284,
+   "Portadora": -3.93923101204883,
+   "Espacio": -2.57115043874616,
+   "Marca": -3.46410161513778,
+   "moduladora": 4,
+   "Modulada": -3.46410161513778
+ },
+ {
+   "tiempo": 285,
+   "Portadora": -3.46410161513775,
+   "Espacio": -1.99999999999999,
+   "Marca": -4,
+   "moduladora": 4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 286,
+   "Portadora": -2.57115043874617,
+   "Espacio": -1.36808057330268,
+   "Marca": -3.46410161513778,
+   "moduladora": 4,
+   "Modulada": -3.46410161513778
+ },
+ {
+   "tiempo": 287,
+   "Portadora": -1.36808057330266,
+   "Espacio": -0.694592710667714,
+   "Marca": -1.99999999999998,
+   "moduladora": 4,
+   "Modulada": -1.99999999999998
+ },
+ {
+   "tiempo": 288,
+   "Portadora": -1.57e-14,
+   "Espacio": -7.84e-15,
+   "Marca": -2.35e-14,
+   "moduladora": 4,
+   "Modulada": -2.35e-14
+ },
+ {
+   "tiempo": 289,
+   "Portadora": 1.36808057330269,
+   "Espacio": 0.694592710667727,
+   "Marca": 1.99999999999994,
+   "moduladora": 4,
+   "Modulada": 1.99999999999994
+ },
+ {
+   "tiempo": 290,
+   "Portadora": 2.57115043874614,
+   "Espacio": 1.36808057330267,
+   "Marca": 3.46410161513775,
+   "moduladora": 4,
+   "Modulada": 3.46410161513775
+ },
+ {
+   "tiempo": 291,
+   "Portadora": 3.46410161513776,
+   "Espacio": 2,
+   "Marca": 4,
+   "moduladora": 4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 292,
+   "Portadora": 3.93923101204883,
+   "Espacio": 2.57115043874615,
+   "Marca": 3.4641016151378,
+   "moduladora": 4,
+   "Modulada": 3.4641016151378
+ },
+ {
+   "tiempo": 293,
+   "Portadora": 3.93923101204883,
+   "Espacio": 3.06417777247591,
+   "Marca": 2.00000000000002,
+   "moduladora": 4,
+   "Modulada": 2.00000000000002
+ },
+ {
+   "tiempo": 294,
+   "Portadora": 3.46410161513777,
+   "Espacio": 3.46410161513775,
+   "Marca": 6.66e-14,
+   "moduladora": 4,
+   "Modulada": 6.66e-14
+ },
+ {
+   "tiempo": 295,
+   "Portadora": 2.57115043874616,
+   "Espacio": 3.75877048314363,
+   "Marca": -2,
+   "moduladora": 4,
+   "Modulada": -2
+ },
+ {
+   "tiempo": 296,
+   "Portadora": 1.3680805733027,
+   "Espacio": 3.93923101204883,
+   "Marca": -3.46410161513773,
+   "moduladora": 4,
+   "Modulada": -3.46410161513773
+ },
+ {
+   "tiempo": 297,
+   "Portadora": 1.95e-15,
+   "Espacio": 4,
+   "Marca": -4,
+   "moduladora": 4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 298,
+   "Portadora": -1.3680805733027,
+   "Espacio": 3.93923101204883,
+   "Marca": -3.46410161513776,
+   "moduladora": 4,
+   "Modulada": -3.46410161513776
+ },
+ {
+   "tiempo": 299,
+   "Portadora": -2.57115043874615,
+   "Espacio": 3.75877048314363,
+   "Marca": -1.99999999999996,
+   "moduladora": 4,
+   "Modulada": -1.99999999999996
+ },
+ {
+   "tiempo": 300,
+   "Portadora": -3.46410161513777,
+   "Espacio": 3.46410161513775,
+   "Marca": 3.93e-15,
+   "moduladora": 4,
+   "Modulada": 3.93e-15
+ },
+ {
+   "tiempo": 301,
+   "Portadora": -3.93923101204883,
+   "Espacio": 3.06417777247591,
+   "Marca": 1.99999999999996,
+   "moduladora": 4,
+   "Modulada": 1.99999999999996
+ },
+ {
+   "tiempo": 302,
+   "Portadora": -3.93923101204883,
+   "Espacio": 2.57115043874615,
+   "Marca": 3.46410161513777,
+   "moduladora": 4,
+   "Modulada": 3.46410161513777
+ },
+ {
+   "tiempo": 303,
+   "Portadora": -3.46410161513779,
+   "Espacio": 2.00000000000003,
+   "Marca": 4,
+   "moduladora": 4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 304,
+   "Portadora": -2.57115043874615,
+   "Espacio": 1.36808057330267,
+   "Marca": 3.46410161513779,
+   "moduladora": 4,
+   "Modulada": 3.46410161513779
+ },
+ {
+   "tiempo": 305,
+   "Portadora": -1.36808057330274,
+   "Espacio": 0.694592710667757,
+   "Marca": 2,
+   "moduladora": 4,
+   "Modulada": 2
+ },
+ {
+   "tiempo": 306,
+   "Portadora": 1.18e-14,
+   "Espacio": -5.88e-15,
+   "Marca": 3.92e-14,
+   "moduladora": 4,
+   "Modulada": 3.92e-14
+ },
+ {
+   "tiempo": 307,
+   "Portadora": 1.36808057330271,
+   "Espacio": -0.69459271066774,
+   "Marca": -1.99999999999993,
+   "moduladora": 4,
+   "Modulada": -1.99999999999993
+ },
+ {
+   "tiempo": 308,
+   "Portadora": 2.57115043874612,
+   "Espacio": -1.36808057330265,
+   "Marca": -3.46410161513775,
+   "moduladora": 4,
+   "Modulada": -3.46410161513775
+ },
+ {
+   "tiempo": 309,
+   "Portadora": 3.46410161513777,
+   "Espacio": -2.00000000000001,
+   "Marca": -4,
+   "moduladora": 4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 310,
+   "Portadora": 3.93923101204882,
+   "Espacio": -2.57115043874614,
+   "Marca": -3.46410161513781,
+   "moduladora": 4,
+   "Modulada": -3.46410161513781
+ },
+ {
+   "tiempo": 311,
+   "Portadora": 3.93923101204884,
+   "Espacio": -3.0641777724759,
+   "Marca": -2.00000000000003,
+   "moduladora": 4,
+   "Modulada": -2.00000000000003
+ },
+ {
+   "tiempo": 312,
+   "Portadora": 3.46410161513778,
+   "Espacio": -3.46410161513774,
+   "Marca": 3.14e-14,
+   "moduladora": 4,
+   "Modulada": 3.14e-14
+ },
+ {
+   "tiempo": 313,
+   "Portadora": 2.57115043874618,
+   "Espacio": -3.75877048314363,
+   "Marca": 1.99999999999999,
+   "moduladora": 4,
+   "Modulada": 1.99999999999999
+ },
+ {
+   "tiempo": 314,
+   "Portadora": 1.36808057330273,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513778,
+   "moduladora": 4,
+   "Modulada": 3.46410161513778
+ },
+ {
+   "tiempo": 315,
+   "Portadora": 3.14e-14,
+   "Espacio": -4,
+   "Marca": 4,
+   "moduladora": 4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 316,
+   "Portadora": -1.36808057330267,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513777,
+   "moduladora": -4,
+   "Modulada": -3.93923101204883
+ },
+ {
+   "tiempo": 317,
+   "Portadora": -2.57115043874613,
+   "Espacio": -3.75877048314364,
+   "Marca": 1.99999999999997,
+   "moduladora": -4,
+   "Modulada": -3.75877048314364
+ },
+ {
+   "tiempo": 318,
+   "Portadora": -3.46410161513775,
+   "Espacio": -3.46410161513776,
+   "Marca": 1.18e-14,
+   "moduladora": -4,
+   "Modulada": -3.46410161513776
+ },
+ {
+   "tiempo": 319,
+   "Portadora": -3.93923101204883,
+   "Espacio": -3.06417777247592,
+   "Marca": -1.99999999999995,
+   "moduladora": -4,
+   "Modulada": -3.06417777247592
+ },
+ {
+   "tiempo": 320,
+   "Portadora": -3.93923101204883,
+   "Espacio": -2.57115043874616,
+   "Marca": -3.46410161513776,
+   "moduladora": -4,
+   "Modulada": -2.57115043874616
+ },
+ {
+   "tiempo": 321,
+   "Portadora": -3.46410161513778,
+   "Espacio": -2.00000000000002,
+   "Marca": -4,
+   "moduladora": -4,
+   "Modulada": -2.00000000000002
+ },
+ {
+   "tiempo": 322,
+   "Portadora": -2.57115043874617,
+   "Espacio": -1.36808057330268,
+   "Marca": -3.46410161513779,
+   "moduladora": -4,
+   "Modulada": -1.36808057330268
+ },
+ {
+   "tiempo": 323,
+   "Portadora": -1.36808057330272,
+   "Espacio": -0.694592710667743,
+   "Marca": -2.00000000000001,
+   "moduladora": -4,
+   "Modulada": -0.694592710667743
+ },
+ {
+   "tiempo": 324,
+   "Portadora": -1.76e-14,
+   "Espacio": -8.82e-15,
+   "Marca": -5.49e-14,
+   "moduladora": -4,
+   "Modulada": -8.82e-15
+ },
+ {
+   "tiempo": 325,
+   "Portadora": 1.36808057330268,
+   "Espacio": 0.694592710667726,
+   "Marca": 1.99999999999991,
+   "moduladora": -4,
+   "Modulada": 0.694592710667726
+ },
+ {
+   "tiempo": 326,
+   "Portadora": 2.57115043874614,
+   "Espacio": 1.36808057330267,
+   "Marca": 3.46410161513774,
+   "moduladora": -4,
+   "Modulada": 1.36808057330267
+ },
+ {
+   "tiempo": 327,
+   "Portadora": 3.46410161513776,
+   "Espacio": 2,
+   "Marca": 4,
+   "moduladora": -4,
+   "Modulada": 2
+ },
+ {
+   "tiempo": 328,
+   "Portadora": 3.93923101204883,
+   "Espacio": 2.57115043874615,
+   "Marca": 3.46410161513776,
+   "moduladora": -4,
+   "Modulada": 2.57115043874615
+ },
+ {
+   "tiempo": 329,
+   "Portadora": 3.93923101204883,
+   "Espacio": 3.06417777247591,
+   "Marca": 2.00000000000005,
+   "moduladora": -4,
+   "Modulada": 3.06417777247591
+ },
+ {
+   "tiempo": 330,
+   "Portadora": 3.46410161513777,
+   "Espacio": 3.46410161513775,
+   "Marca": -1.57e-14,
+   "moduladora": -4,
+   "Modulada": 3.46410161513775
+ },
+ {
+   "tiempo": 331,
+   "Portadora": 2.57115043874616,
+   "Espacio": 3.75877048314363,
+   "Marca": -1.99999999999997,
+   "moduladora": -4,
+   "Modulada": 3.75877048314363
+ },
+ {
+   "tiempo": 332,
+   "Portadora": 1.3680805733027,
+   "Espacio": 3.93923101204883,
+   "Marca": -3.46410161513777,
+   "moduladora": -4,
+   "Modulada": 3.93923101204883
+ },
+ {
+   "tiempo": 333,
+   "Portadora": 3.91e-15,
+   "Espacio": 4,
+   "Marca": -4,
+   "moduladora": -4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 334,
+   "Portadora": -1.3680805733027,
+   "Espacio": 3.93923101204883,
+   "Marca": -3.46410161513778,
+   "moduladora": -4,
+   "Modulada": 3.93923101204883
+ },
+ {
+   "tiempo": 335,
+   "Portadora": -2.57115043874615,
+   "Espacio": 3.75877048314363,
+   "Marca": -1.99999999999998,
+   "moduladora": -4,
+   "Modulada": 3.75877048314363
+ },
+ {
+   "tiempo": 336,
+   "Portadora": -3.46410161513776,
+   "Espacio": 3.46410161513775,
+   "Marca": -2.74e-14,
+   "moduladora": -4,
+   "Modulada": 3.46410161513775
+ },
+ {
+   "tiempo": 337,
+   "Portadora": -3.93923101204883,
+   "Espacio": 3.06417777247592,
+   "Marca": 1.99999999999994,
+   "moduladora": -4,
+   "Modulada": 3.06417777247592
+ },
+ {
+   "tiempo": 338,
+   "Portadora": -3.93923101204883,
+   "Espacio": 2.57115043874615,
+   "Marca": 3.46410161513775,
+   "moduladora": -4,
+   "Modulada": 2.57115043874615
+ },
+ {
+   "tiempo": 339,
+   "Portadora": -3.46410161513779,
+   "Espacio": 2.00000000000003,
+   "Marca": 4,
+   "moduladora": -4,
+   "Modulada": 2.00000000000003
+ },
+ {
+   "tiempo": 340,
+   "Portadora": -2.57115043874615,
+   "Espacio": 1.36808057330267,
+   "Marca": 3.4641016151378,
+   "moduladora": -4,
+   "Modulada": 1.36808057330267
+ },
+ {
+   "tiempo": 341,
+   "Portadora": -1.36808057330274,
+   "Espacio": 0.694592710667758,
+   "Marca": 2.00000000000002,
+   "moduladora": -4,
+   "Modulada": 0.694592710667758
+ },
+ {
+   "tiempo": 342,
+   "Portadora": -4.7e-14,
+   "Espacio": 2.35e-14,
+   "Marca": 7.06e-14,
+   "moduladora": -4,
+   "Modulada": 2.35e-14
+ },
+ {
+   "tiempo": 343,
+   "Portadora": 1.36808057330271,
+   "Espacio": -0.694592710667739,
+   "Marca": -2,
+   "moduladora": -4,
+   "Modulada": -0.694592710667739
+ },
+ {
+   "tiempo": 344,
+   "Portadora": 2.57115043874612,
+   "Espacio": -1.36808057330265,
+   "Marca": -3.46410161513773,
+   "moduladora": -4,
+   "Modulada": -1.36808057330265
+ },
+ {
+   "tiempo": 345,
+   "Portadora": 3.46410161513777,
+   "Espacio": -2.00000000000001,
+   "Marca": -4,
+   "moduladora": -4,
+   "Modulada": -2.00000000000001
+ },
+ {
+   "tiempo": 346,
+   "Portadora": 3.93923101204882,
+   "Espacio": -2.57115043874614,
+   "Marca": -3.46410161513777,
+   "moduladora": -4,
+   "Modulada": -2.57115043874614
+ },
+ {
+   "tiempo": 347,
+   "Portadora": 3.93923101204884,
+   "Espacio": -3.0641777724759,
+   "Marca": -1.99999999999996,
+   "moduladora": -4,
+   "Modulada": -3.0641777724759
+ },
+ {
+   "tiempo": 348,
+   "Portadora": 3.46410161513778,
+   "Espacio": -3.46410161513774,
+   "Marca": 9.9e-18,
+   "moduladora": -4,
+   "Modulada": -3.46410161513774
+ },
+ {
+   "tiempo": 349,
+   "Portadora": 2.57115043874618,
+   "Espacio": -3.75877048314363,
+   "Marca": 1.99999999999996,
+   "moduladora": -4,
+   "Modulada": -3.75877048314363
+ },
+ {
+   "tiempo": 350,
+   "Portadora": 1.36808057330273,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513777,
+   "moduladora": -4,
+   "Modulada": -3.93923101204883
+ },
+ {
+   "tiempo": 351,
+   "Portadora": 3.33e-14,
+   "Espacio": -4,
+   "Marca": 4,
+   "moduladora": -4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 352,
+   "Portadora": -1.36808057330267,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513779,
+   "moduladora": -4,
+   "Modulada": -3.93923101204883
+ },
+ {
+   "tiempo": 353,
+   "Portadora": -2.57115043874613,
+   "Espacio": -3.75877048314364,
+   "Marca": 2,
+   "moduladora": -4,
+   "Modulada": -3.75877048314364
+ },
+ {
+   "tiempo": 354,
+   "Portadora": -3.46410161513775,
+   "Espacio": -3.46410161513776,
+   "Marca": 4.31e-14,
+   "moduladora": -4,
+   "Modulada": -3.46410161513776
+ },
+ {
+   "tiempo": 355,
+   "Portadora": -3.93923101204883,
+   "Espacio": -3.06417777247592,
+   "Marca": -1.99999999999992,
+   "moduladora": -4,
+   "Modulada": -3.06417777247592
+ },
+ {
+   "tiempo": 356,
+   "Portadora": -3.93923101204883,
+   "Espacio": -2.57115043874616,
+   "Marca": -3.46410161513774,
+   "moduladora": -4,
+   "Modulada": -2.57115043874616
+ },
+ {
+   "tiempo": 357,
+   "Portadora": -3.46410161513778,
+   "Espacio": -2.00000000000002,
+   "Marca": -4,
+   "moduladora": -4,
+   "Modulada": -2.00000000000002
+ },
+ {
+   "tiempo": 358,
+   "Portadora": -2.57115043874617,
+   "Espacio": -1.36808057330268,
+   "Marca": -3.46410161513781,
+   "moduladora": -4,
+   "Modulada": -1.36808057330268
+ },
+ {
+   "tiempo": 359,
+   "Portadora": -1.36808057330272,
+   "Espacio": -0.694592710667744,
+   "Marca": -2.00000000000004,
+   "moduladora": -4,
+   "Modulada": -0.694592710667744
+ },
+ {
+   "tiempo": 360,
+   "Portadora": -1.96e-14,
+   "Espacio": -9.8e-15,
+   "Marca": -8.62e-14,
+   "moduladora": -4,
+   "Modulada": -9.8e-15
+ },
+ {
+   "tiempo": 361,
+   "Portadora": 1.36808057330268,
+   "Espacio": 0.694592710667725,
+   "Marca": 1.99999999999998,
+   "moduladora": 4,
+   "Modulada": 1.99999999999998
+ },
+ {
+   "tiempo": 362,
+   "Portadora": 2.57115043874614,
+   "Espacio": 1.36808057330266,
+   "Marca": 3.46410161513778,
+   "moduladora": 4,
+   "Modulada": 3.46410161513778
+ },
+ {
+   "tiempo": 363,
+   "Portadora": 3.46410161513776,
+   "Espacio": 2,
+   "Marca": 4,
+   "moduladora": 4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 364,
+   "Portadora": 3.93923101204883,
+   "Espacio": 2.57115043874615,
+   "Marca": 3.46410161513777,
+   "moduladora": 4,
+   "Modulada": 3.46410161513777
+ },
+ {
+   "tiempo": 365,
+   "Portadora": 3.93923101204883,
+   "Espacio": 3.06417777247591,
+   "Marca": 1.99999999999997,
+   "moduladora": 4,
+   "Modulada": 1.99999999999997
+ },
+ {
+   "tiempo": 366,
+   "Portadora": 3.46410161513777,
+   "Espacio": 3.46410161513775,
+   "Marca": 1.57e-14,
+   "moduladora": 4,
+   "Modulada": 1.57e-14
+ },
+ {
+   "tiempo": 367,
+   "Portadora": 2.57115043874616,
+   "Espacio": 3.75877048314363,
+   "Marca": -1.99999999999995,
+   "moduladora": 4,
+   "Modulada": -1.99999999999995
+ },
+ {
+   "tiempo": 368,
+   "Portadora": 1.36808057330271,
+   "Espacio": 3.93923101204883,
+   "Marca": -3.46410161513776,
+   "moduladora": 4,
+   "Modulada": -3.46410161513776
+ },
+ {
+   "tiempo": 369,
+   "Portadora": 6.27e-14,
+   "Espacio": 4,
+   "Marca": -4,
+   "moduladora": 4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 370,
+   "Portadora": -1.36808057330269,
+   "Espacio": 3.93923101204883,
+   "Marca": -3.4641016151378,
+   "moduladora": 4,
+   "Modulada": -3.4641016151378
+ },
+ {
+   "tiempo": 371,
+   "Portadora": -2.57115043874615,
+   "Espacio": 3.75877048314363,
+   "Marca": -2.00000000000001,
+   "moduladora": 4,
+   "Modulada": -2.00000000000001
+ },
+ {
+   "tiempo": 372,
+   "Portadora": -3.46410161513773,
+   "Espacio": 3.46410161513776,
+   "Marca": -5.88e-14,
+   "moduladora": 4,
+   "Modulada": -5.88e-14
+ },
+ {
+   "tiempo": 373,
+   "Portadora": -3.93923101204882,
+   "Espacio": 3.06417777247593,
+   "Marca": 1.99999999999991,
+   "moduladora": 4,
+   "Modulada": 1.99999999999991
+ },
+ {
+   "tiempo": 374,
+   "Portadora": -3.93923101204883,
+   "Espacio": 2.57115043874615,
+   "Marca": 3.46410161513774,
+   "moduladora": 4,
+   "Modulada": 3.46410161513774
+ },
+ {
+   "tiempo": 375,
+   "Portadora": -3.46410161513776,
+   "Espacio": 2.00000000000001,
+   "Marca": 4,
+   "moduladora": 4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 376,
+   "Portadora": -2.57115043874619,
+   "Espacio": 1.3680805733027,
+   "Marca": 3.46410161513776,
+   "moduladora": 4,
+   "Modulada": 3.46410161513776
+ },
+ {
+   "tiempo": 377,
+   "Portadora": -1.36808057330275,
+   "Espacio": 0.694592710667759,
+   "Marca": 2.00000000000005,
+   "moduladora": 4,
+   "Modulada": 2.00000000000005
+ },
+ {
+   "tiempo": 378,
+   "Portadora": 7.85e-15,
+   "Espacio": -3.92e-15,
+   "Marca": -1.18e-14,
+   "moduladora": 4,
+   "Modulada": -1.18e-14
+ },
+ {
+   "tiempo": 379,
+   "Portadora": 1.36808057330265,
+   "Espacio": -0.69459271066771,
+   "Marca": -1.99999999999997,
+   "moduladora": 4,
+   "Modulada": -1.99999999999997
+ },
+ {
+   "tiempo": 380,
+   "Portadora": 2.57115043874612,
+   "Espacio": -1.36808057330265,
+   "Marca": -3.46410161513777,
+   "moduladora": 4,
+   "Modulada": -3.46410161513777
+ },
+ {
+   "tiempo": 381,
+   "Portadora": 3.46410161513777,
+   "Espacio": -2.00000000000001,
+   "Marca": -4,
+   "moduladora": 4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 382,
+   "Portadora": 3.93923101204883,
+   "Espacio": -2.57115043874616,
+   "Marca": -3.46410161513778,
+   "moduladora": 4,
+   "Modulada": -3.46410161513778
+ },
+ {
+   "tiempo": 383,
+   "Portadora": 3.93923101204884,
+   "Espacio": -3.0641777724759,
+   "Marca": -1.99999999999999,
+   "moduladora": 4,
+   "Modulada": -1.99999999999999
+ },
+ {
+   "tiempo": 384,
+   "Portadora": 3.46410161513778,
+   "Espacio": -3.46410161513774,
+   "Marca": -3.14e-14,
+   "moduladora": 4,
+   "Modulada": -3.14e-14
+ },
+ {
+   "tiempo": 385,
+   "Portadora": 2.57115043874614,
+   "Espacio": -3.75877048314364,
+   "Marca": 2.00000000000003,
+   "moduladora": 4,
+   "Modulada": 2.00000000000003
+ },
+ {
+   "tiempo": 386,
+   "Portadora": 1.36808057330268,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513769,
+   "moduladora": 4,
+   "Modulada": 3.46410161513769
+ },
+ {
+   "tiempo": 387,
+   "Portadora": 3.53e-14,
+   "Espacio": -4,
+   "Marca": 4,
+   "moduladora": 4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 388,
+   "Portadora": -1.36808057330272,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513775,
+   "moduladora": 4,
+   "Modulada": 3.46410161513775
+ },
+ {
+   "tiempo": 389,
+   "Portadora": -2.57115043874617,
+   "Espacio": -3.75877048314363,
+   "Marca": 2.00000000000012,
+   "moduladora": 4,
+   "Modulada": 2.00000000000012
+ },
+ {
+   "tiempo": 390,
+   "Portadora": -3.46410161513775,
+   "Espacio": -3.46410161513776,
+   "Marca": 7.45e-14,
+   "moduladora": 4,
+   "Modulada": 7.45e-14
+ },
+ {
+   "tiempo": 391,
+   "Portadora": -3.93923101204882,
+   "Espacio": -3.06417777247593,
+   "Marca": -2,
+   "moduladora": 4,
+   "Modulada": -2
+ },
+ {
+   "tiempo": 392,
+   "Portadora": -3.93923101204882,
+   "Espacio": -2.57115043874614,
+   "Marca": -3.46410161513773,
+   "moduladora": 4,
+   "Modulada": -3.46410161513773
+ },
+ {
+   "tiempo": 393,
+   "Portadora": -3.46410161513781,
+   "Espacio": -2.00000000000004,
+   "Marca": -4,
+   "moduladora": 4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 394,
+   "Portadora": -2.57115043874617,
+   "Espacio": -1.36808057330268,
+   "Marca": -3.46410161513777,
+   "moduladora": 4,
+   "Modulada": -3.46410161513777
+ },
+ {
+   "tiempo": 395,
+   "Portadora": -1.36808057330272,
+   "Espacio": -0.694592710667745,
+   "Marca": -2.00000000000006,
+   "moduladora": 4,
+   "Modulada": -2.00000000000006
+ },
+ {
+   "tiempo": 396,
+   "Portadora": -7.84e-14,
+   "Espacio": -3.92e-14,
+   "Marca": -3.91e-15,
+   "moduladora": 4,
+   "Modulada": -3.91e-15
+ },
+ {
+   "tiempo": 397,
+   "Portadora": 1.36808057330268,
+   "Espacio": 0.694592710667724,
+   "Marca": 2.00000000000006,
+   "moduladora": 4,
+   "Modulada": 2.00000000000006
+ },
+ {
+   "tiempo": 398,
+   "Portadora": 2.57115043874614,
+   "Espacio": 1.36808057330266,
+   "Marca": 3.46410161513771,
+   "moduladora": 4,
+   "Modulada": 3.46410161513771
+ },
+ {
+   "tiempo": 399,
+   "Portadora": 3.46410161513778,
+   "Espacio": 2.00000000000003,
+   "Marca": 4,
+   "moduladora": 4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 400,
+   "Portadora": 3.93923101204882,
+   "Espacio": 2.57115043874612,
+   "Marca": 3.46410161513773,
+   "moduladora": 4,
+   "Modulada": 3.46410161513773
+ },
+ {
+   "tiempo": 401,
+   "Portadora": 3.93923101204883,
+   "Espacio": 3.06417777247591,
+   "Marca": 2.0000000000001,
+   "moduladora": 4,
+   "Modulada": 2.0000000000001
+ },
+ {
+   "tiempo": 402,
+   "Portadora": 3.46410161513777,
+   "Espacio": 3.46410161513775,
+   "Marca": 4.7e-14,
+   "moduladora": 4,
+   "Modulada": 4.7e-14
+ },
+ {
+   "tiempo": 403,
+   "Portadora": 2.5711504387462,
+   "Espacio": 3.75877048314362,
+   "Marca": -2.00000000000002,
+   "moduladora": 4,
+   "Modulada": -2.00000000000002
+ },
+ {
+   "tiempo": 404,
+   "Portadora": 1.36808057330276,
+   "Espacio": 3.93923101204882,
+   "Marca": -3.46410161513769,
+   "moduladora": 4,
+   "Modulada": -3.46410161513769
+ },
+ {
+   "tiempo": 405,
+   "Portadora": 7.83e-15,
+   "Espacio": 4,
+   "Marca": -4,
+   "moduladora": 4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 406,
+   "Portadora": -1.36808057330264,
+   "Espacio": 3.93923101204884,
+   "Marca": -3.46410161513775,
+   "moduladora": -4,
+   "Modulada": 3.93923101204884
+ },
+ {
+   "tiempo": 407,
+   "Portadora": -2.5711504387461,
+   "Espacio": 3.75877048314365,
+   "Marca": -2.00000000000004,
+   "moduladora": -4,
+   "Modulada": 3.75877048314365
+ },
+ {
+   "tiempo": 408,
+   "Portadora": -3.46410161513776,
+   "Espacio": 3.46410161513775,
+   "Marca": 2.35e-14,
+   "moduladora": -4,
+   "Modulada": 3.46410161513775
+ },
+ {
+   "tiempo": 409,
+   "Portadora": -3.93923101204883,
+   "Espacio": 3.06417777247592,
+   "Marca": 1.99999999999998,
+   "moduladora": -4,
+   "Modulada": 3.06417777247592
+ },
+ {
+   "tiempo": 410,
+   "Portadora": -3.93923101204884,
+   "Espacio": 2.57115043874617,
+   "Marca": 3.46410161513772,
+   "moduladora": -4,
+   "Modulada": 2.57115043874617
+ },
+ {
+   "tiempo": 411,
+   "Portadora": -3.46410161513779,
+   "Espacio": 2.00000000000003,
+   "Marca": 4,
+   "moduladora": -4,
+   "Modulada": 2.00000000000003
+ },
+ {
+   "tiempo": 412,
+   "Portadora": -2.57115043874615,
+   "Espacio": 1.36808057330267,
+   "Marca": 3.46410161513772,
+   "moduladora": -4,
+   "Modulada": 1.36808057330267
+ },
+ {
+   "tiempo": 413,
+   "Portadora": -1.36808057330269,
+   "Espacio": 0.694592710667732,
+   "Marca": 2.00000000000008,
+   "moduladora": -4,
+   "Modulada": 0.694592710667732
+ },
+ {
+   "tiempo": 414,
+   "Portadora": -5.1e-14,
+   "Espacio": 2.55e-14,
+   "Marca": 1.96e-14,
+   "moduladora": -4,
+   "Modulada": 2.55e-14
+ },
+ {
+   "tiempo": 415,
+   "Portadora": 1.36808057330271,
+   "Espacio": -0.694592710667738,
+   "Marca": -2.00000000000004,
+   "moduladora": -4,
+   "Modulada": -0.694592710667738
+ },
+ {
+   "tiempo": 416,
+   "Portadora": 2.57115043874616,
+   "Espacio": -1.36808057330268,
+   "Marca": -3.4641016151377,
+   "moduladora": -4,
+   "Modulada": -1.36808057330268
+ },
+ {
+   "tiempo": 417,
+   "Portadora": 3.46410161513774,
+   "Espacio": -1.99999999999999,
+   "Marca": -4,
+   "moduladora": -4,
+   "Modulada": -1.99999999999999
+ },
+ {
+   "tiempo": 418,
+   "Portadora": 3.93923101204882,
+   "Espacio": -2.57115043874614,
+   "Marca": -3.46410161513774,
+   "moduladora": -4,
+   "Modulada": -2.57115043874614
+ },
+ {
+   "tiempo": 419,
+   "Portadora": 3.93923101204883,
+   "Espacio": -3.06417777247592,
+   "Marca": -2.00000000000011,
+   "moduladora": -4,
+   "Modulada": -3.06417777247592
+ },
+ {
+   "tiempo": 420,
+   "Portadora": 3.46410161513776,
+   "Espacio": -3.46410161513775,
+   "Marca": -6.27e-14,
+   "moduladora": -4,
+   "Modulada": -3.46410161513775
+ },
+ {
+   "tiempo": 421,
+   "Portadora": 2.57115043874618,
+   "Espacio": -3.75877048314363,
+   "Marca": 2,
+   "moduladora": -4,
+   "Modulada": -3.75877048314363
+ },
+ {
+   "tiempo": 422,
+   "Portadora": 1.36808057330274,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513773,
+   "moduladora": -4,
+   "Modulada": -3.93923101204883
+ },
+ {
+   "tiempo": 423,
+   "Portadora": -1.96e-14,
+   "Espacio": -4,
+   "Marca": 4,
+   "moduladora": -4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 424,
+   "Portadora": -1.36808057330267,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513776,
+   "moduladora": -4,
+   "Modulada": -3.93923101204883
+ },
+ {
+   "tiempo": 425,
+   "Portadora": -2.57115043874613,
+   "Espacio": -3.75877048314364,
+   "Marca": 2.00000000000005,
+   "moduladora": -4,
+   "Modulada": -3.75877048314364
+ },
+ {
+   "tiempo": 426,
+   "Portadora": -3.46410161513778,
+   "Espacio": -3.46410161513774,
+   "Marca": -7.85e-15,
+   "moduladora": -4,
+   "Modulada": -3.46410161513774
+ },
+ {
+   "tiempo": 427,
+   "Portadora": -3.93923101204883,
+   "Espacio": -3.06417777247591,
+   "Marca": -2.00000000000007,
+   "moduladora": -4,
+   "Modulada": -3.06417777247591
+ },
+ {
+   "tiempo": 428,
+   "Portadora": -3.93923101204883,
+   "Espacio": -2.57115043874616,
+   "Marca": -3.46410161513771,
+   "moduladora": -4,
+   "Modulada": -2.57115043874616
+ },
+ {
+   "tiempo": 429,
+   "Portadora": -3.46410161513778,
+   "Espacio": -2.00000000000002,
+   "Marca": -4,
+   "moduladora": -4,
+   "Modulada": -2.00000000000002
+ },
+ {
+   "tiempo": 430,
+   "Portadora": -2.57115043874613,
+   "Espacio": -1.36808057330266,
+   "Marca": -3.46410161513773,
+   "moduladora": -4,
+   "Modulada": -1.36808057330266
+ },
+ {
+   "tiempo": 431,
+   "Portadora": -1.36808057330278,
+   "Espacio": -0.694592710667774,
+   "Marca": -2.00000000000009,
+   "moduladora": -4,
+   "Modulada": -0.694592710667774
+ },
+ {
+   "tiempo": 432,
+   "Portadora": -2.35e-14,
+   "Espacio": -1.18e-14,
+   "Marca": -3.53e-14,
+   "moduladora": -4,
+   "Modulada": -1.18e-14
+ },
+ {
+   "tiempo": 433,
+   "Portadora": 1.36808057330273,
+   "Espacio": 0.694592710667751,
+   "Marca": 2.00000000000003,
+   "moduladora": -4,
+   "Modulada": 0.694592710667751
+ },
+ {
+   "tiempo": 434,
+   "Portadora": 2.57115043874609,
+   "Espacio": 1.36808057330264,
+   "Marca": 3.46410161513769,
+   "moduladora": -4,
+   "Modulada": 1.36808057330264
+ },
+ {
+   "tiempo": 435,
+   "Portadora": 3.46410161513775,
+   "Espacio": 2,
+   "Marca": 4,
+   "moduladora": -4,
+   "Modulada": 2
+ },
+ {
+   "tiempo": 436,
+   "Portadora": 3.93923101204883,
+   "Espacio": 2.57115043874615,
+   "Marca": 3.46410161513775,
+   "moduladora": -4,
+   "Modulada": 2.57115043874615
+ },
+ {
+   "tiempo": 437,
+   "Portadora": 3.93923101204884,
+   "Espacio": 3.06417777247589,
+   "Marca": 2.00000000000013,
+   "moduladora": -4,
+   "Modulada": 3.06417777247589
+ },
+ {
+   "tiempo": 438,
+   "Portadora": 3.4641016151378,
+   "Espacio": 3.46410161513773,
+   "Marca": 7.84e-14,
+   "moduladora": -4,
+   "Modulada": 3.46410161513773
+ },
+ {
+   "tiempo": 439,
+   "Portadora": 2.57115043874616,
+   "Espacio": 3.75877048314363,
+   "Marca": -1.99999999999999,
+   "moduladora": -4,
+   "Modulada": 3.75877048314363
+ },
+ {
+   "tiempo": 440,
+   "Portadora": 1.36808057330271,
+   "Espacio": 3.93923101204883,
+   "Marca": -3.46410161513773,
+   "moduladora": -4,
+   "Modulada": 3.93923101204883
+ },
+ {
+   "tiempo": 441,
+   "Portadora": 6.66e-14,
+   "Espacio": 4,
+   "Marca": -4,
+   "moduladora": -4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 442,
+   "Portadora": -1.36808057330269,
+   "Espacio": 3.93923101204883,
+   "Marca": -3.46410161513777,
+   "moduladora": -4,
+   "Modulada": 3.93923101204883
+ },
+ {
+   "tiempo": 443,
+   "Portadora": -2.57115043874615,
+   "Espacio": 3.75877048314364,
+   "Marca": -2.00000000000007,
+   "moduladora": -4,
+   "Modulada": 3.75877048314364
+ },
+ {
+   "tiempo": 444,
+   "Portadora": -3.46410161513773,
+   "Espacio": 3.46410161513777,
+   "Marca": -7.83e-15,
+   "moduladora": -4,
+   "Modulada": 3.46410161513777
+ },
+ {
+   "tiempo": 445,
+   "Portadora": -3.93923101204882,
+   "Espacio": 3.06417777247594,
+   "Marca": 2.00000000000005,
+   "moduladora": -4,
+   "Modulada": 3.06417777247594
+ },
+ {
+   "tiempo": 446,
+   "Portadora": -3.93923101204883,
+   "Espacio": 2.57115043874615,
+   "Marca": 3.46410161513771,
+   "moduladora": -4,
+   "Modulada": 2.57115043874615
+ },
+ {
+   "tiempo": 447,
+   "Portadora": -3.46410161513776,
+   "Espacio": 2.00000000000001,
+   "Marca": 4,
+   "moduladora": -4,
+   "Modulada": 2.00000000000001
+ },
+ {
+   "tiempo": 448,
+   "Portadora": -2.5711504387462,
+   "Espacio": 1.3680805733027,
+   "Marca": 3.46410161513773,
+   "moduladora": -4,
+   "Modulada": 1.3680805733027
+ },
+ {
+   "tiempo": 449,
+   "Portadora": -1.36808057330275,
+   "Espacio": 0.694592710667761,
+   "Marca": 2.0000000000001,
+   "moduladora": -4,
+   "Modulada": 0.694592710667761
+ },
+ {
+   "tiempo": 450,
+   "Portadora": 3.93e-15,
+   "Espacio": -1.96e-15,
+   "Marca": 5.1e-14,
+   "moduladora": -4,
+   "Modulada": -1.96e-15
+ },
+ {
+   "tiempo": 451,
+   "Portadora": 1.36808057330265,
+   "Espacio": -0.694592710667709,
+   "Marca": -2.00000000000001,
+   "moduladora": 4,
+   "Modulada": -2.00000000000001
+ },
+ {
+   "tiempo": 452,
+   "Portadora": 2.57115043874611,
+   "Espacio": -1.36808057330265,
+   "Marca": -3.46410161513768,
+   "moduladora": 4,
+   "Modulada": -3.46410161513768
+ },
+ {
+   "tiempo": 453,
+   "Portadora": 3.46410161513777,
+   "Espacio": -2.00000000000001,
+   "Marca": -4,
+   "moduladora": 4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 454,
+   "Portadora": 3.93923101204883,
+   "Espacio": -2.57115043874616,
+   "Marca": -3.46410161513776,
+   "moduladora": 4,
+   "Modulada": -3.46410161513776
+ },
+ {
+   "tiempo": 455,
+   "Portadora": 3.93923101204884,
+   "Espacio": -3.0641777724759,
+   "Marca": -2.00000000000004,
+   "moduladora": 4,
+   "Modulada": -2.00000000000004
+ },
+ {
+   "tiempo": 456,
+   "Portadora": 3.46410161513779,
+   "Espacio": -3.46410161513774,
+   "Marca": -9.41e-14,
+   "moduladora": 4,
+   "Modulada": -9.41e-14
+ },
+ {
+   "tiempo": 457,
+   "Portadora": 2.57115043874614,
+   "Espacio": -3.75877048314364,
+   "Marca": 1.99999999999998,
+   "moduladora": 4,
+   "Modulada": 1.99999999999998
+ },
+ {
+   "tiempo": 458,
+   "Portadora": 1.36808057330268,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513772,
+   "moduladora": 4,
+   "Modulada": 3.46410161513772
+ },
+ {
+   "tiempo": 459,
+   "Portadora": 3.92e-14,
+   "Espacio": -4,
+   "Marca": 4,
+   "moduladora": 4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 460,
+   "Portadora": -1.36808057330272,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513772,
+   "moduladora": 4,
+   "Modulada": 3.46410161513772
+ },
+ {
+   "tiempo": 461,
+   "Portadora": -2.57115043874617,
+   "Espacio": -3.75877048314363,
+   "Marca": 2.00000000000008,
+   "moduladora": 4,
+   "Modulada": 2.00000000000008
+ },
+ {
+   "tiempo": 462,
+   "Portadora": -3.46410161513775,
+   "Espacio": -3.46410161513776,
+   "Marca": 2.35e-14,
+   "moduladora": 4,
+   "Modulada": 2.35e-14
+ },
+ {
+   "tiempo": 463,
+   "Portadora": -3.93923101204882,
+   "Espacio": -3.06417777247593,
+   "Marca": -2.00000000000004,
+   "moduladora": 4,
+   "Modulada": -2.00000000000004
+ },
+ {
+   "tiempo": 464,
+   "Portadora": -3.93923101204883,
+   "Espacio": -2.57115043874614,
+   "Marca": -3.4641016151377,
+   "moduladora": 4,
+   "Modulada": -3.4641016151377
+ },
+ {
+   "tiempo": 465,
+   "Portadora": -3.46410161513781,
+   "Espacio": -2.00000000000005,
+   "Marca": -4,
+   "moduladora": 4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 466,
+   "Portadora": -2.57115043874617,
+   "Espacio": -1.36808057330269,
+   "Marca": -3.46410161513774,
+   "moduladora": 4,
+   "Modulada": -3.46410161513774
+ },
+ {
+   "tiempo": 467,
+   "Portadora": -1.36808057330272,
+   "Espacio": -0.694592710667747,
+   "Marca": -2.00000000000012,
+   "moduladora": 4,
+   "Modulada": -2.00000000000012
+ },
+ {
+   "tiempo": 468,
+   "Portadora": 3.14e-14,
+   "Espacio": 1.57e-14,
+   "Marca": -6.66e-14,
+   "moduladora": 4,
+   "Modulada": -6.66e-14
+ },
+ {
+   "tiempo": 469,
+   "Portadora": 1.36808057330268,
+   "Espacio": 0.694592710667722,
+   "Marca": 2,
+   "moduladora": 4,
+   "Modulada": 2
+ },
+ {
+   "tiempo": 470,
+   "Portadora": 2.57115043874614,
+   "Espacio": 1.36808057330266,
+   "Marca": 3.46410161513773,
+   "moduladora": 4,
+   "Modulada": 3.46410161513773
+ },
+ {
+   "tiempo": 471,
+   "Portadora": 3.46410161513778,
+   "Espacio": 2.00000000000002,
+   "Marca": 4,
+   "moduladora": 4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 472,
+   "Portadora": 3.93923101204882,
+   "Espacio": 2.57115043874612,
+   "Marca": 3.46410161513776,
+   "moduladora": 4,
+   "Modulada": 3.46410161513776
+ },
+ {
+   "tiempo": 473,
+   "Portadora": 3.93923101204883,
+   "Espacio": 3.06417777247591,
+   "Marca": 2.00000000000006,
+   "moduladora": 4,
+   "Modulada": 2.00000000000006
+ },
+ {
+   "tiempo": 474,
+   "Portadora": 3.46410161513777,
+   "Espacio": 3.46410161513775,
+   "Marca": -3.93e-15,
+   "moduladora": 4,
+   "Modulada": -3.93e-15
+ },
+ {
+   "tiempo": 475,
+   "Portadora": 2.57115043874621,
+   "Espacio": 3.75877048314362,
+   "Marca": -2.00000000000006,
+   "moduladora": 4,
+   "Modulada": -2.00000000000006
+ },
+ {
+   "tiempo": 476,
+   "Portadora": 1.36808057330276,
+   "Espacio": 3.93923101204882,
+   "Marca": -3.46410161513771,
+   "moduladora": 4,
+   "Modulada": -3.46410161513771
+ },
+ {
+   "tiempo": 477,
+   "Portadora": 1.18e-14,
+   "Espacio": 4,
+   "Marca": -4,
+   "moduladora": 4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 478,
+   "Portadora": -1.36808057330264,
+   "Espacio": 3.93923101204884,
+   "Marca": -3.46410161513773,
+   "moduladora": 4,
+   "Modulada": -3.46410161513773
+ },
+ {
+   "tiempo": 479,
+   "Portadora": -2.5711504387461,
+   "Espacio": 3.75877048314365,
+   "Marca": -2.00000000000009,
+   "moduladora": 4,
+   "Modulada": -2.00000000000009
+ },
+ {
+   "tiempo": 480,
+   "Portadora": -3.46410161513776,
+   "Espacio": 3.46410161513775,
+   "Marca": -3.92e-14,
+   "moduladora": 4,
+   "Modulada": -3.92e-14
+ },
+ {
+   "tiempo": 481,
+   "Portadora": -3.93923101204883,
+   "Espacio": 3.06417777247592,
+   "Marca": 2.00000000000003,
+   "moduladora": 4,
+   "Modulada": 2.00000000000003
+ },
+ {
+   "tiempo": 482,
+   "Portadora": -3.93923101204884,
+   "Espacio": 2.57115043874618,
+   "Marca": 3.46410161513769,
+   "moduladora": 4,
+   "Modulada": 3.46410161513769
+ },
+ {
+   "tiempo": 483,
+   "Portadora": -3.46410161513779,
+   "Espacio": 2.00000000000003,
+   "Marca": 4,
+   "moduladora": 4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 484,
+   "Portadora": -2.57115043874615,
+   "Espacio": 1.36808057330267,
+   "Marca": 3.46410161513775,
+   "moduladora": 4,
+   "Modulada": 3.46410161513775
+ },
+ {
+   "tiempo": 485,
+   "Portadora": -1.3680805733027,
+   "Espacio": 0.694592710667734,
+   "Marca": 2.00000000000013,
+   "moduladora": 4,
+   "Modulada": 2.00000000000013
+ },
+ {
+   "tiempo": 486,
+   "Portadora": -5.49e-14,
+   "Espacio": 2.74e-14,
+   "Marca": 8.23e-14,
+   "moduladora": 4,
+   "Modulada": 8.23e-14
+ },
+ {
+   "tiempo": 487,
+   "Portadora": 1.3680805733027,
+   "Espacio": -0.694592710667736,
+   "Marca": -1.99999999999999,
+   "moduladora": 4,
+   "Modulada": -1.99999999999999
+ },
+ {
+   "tiempo": 488,
+   "Portadora": 2.57115043874616,
+   "Espacio": -1.36808057330267,
+   "Marca": -3.46410161513772,
+   "moduladora": 4,
+   "Modulada": -3.46410161513772
+ },
+ {
+   "tiempo": 489,
+   "Portadora": 3.46410161513774,
+   "Espacio": -1.99999999999999,
+   "Marca": -4,
+   "moduladora": 4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 490,
+   "Portadora": 3.93923101204882,
+   "Espacio": -2.57115043874613,
+   "Marca": -3.46410161513777,
+   "moduladora": 4,
+   "Modulada": -3.46410161513777
+ },
+ {
+   "tiempo": 491,
+   "Portadora": 3.93923101204883,
+   "Espacio": -3.06417777247592,
+   "Marca": -2.00000000000017,
+   "moduladora": 4,
+   "Modulada": -2.00000000000017
+ },
+ {
+   "tiempo": 492,
+   "Portadora": 3.46410161513776,
+   "Espacio": -3.46410161513775,
+   "Marca": -1.25e-13,
+   "moduladora": 4,
+   "Modulada": -1.25e-13
+ },
+ {
+   "tiempo": 493,
+   "Portadora": 2.57115043874619,
+   "Espacio": -3.75877048314363,
+   "Marca": 1.99999999999995,
+   "moduladora": 4,
+   "Modulada": 1.99999999999995
+ },
+ {
+   "tiempo": 494,
+   "Portadora": 1.36808057330274,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513776,
+   "moduladora": 4,
+   "Modulada": 3.46410161513776
+ },
+ {
+   "tiempo": 495,
+   "Portadora": -1.57e-14,
+   "Espacio": -4,
+   "Marca": 4,
+   "moduladora": 4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 496,
+   "Portadora": -1.36808057330266,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513779,
+   "moduladora": -4,
+   "Modulada": -3.93923101204883
+ },
+ {
+   "tiempo": 497,
+   "Portadora": -2.57115043874612,
+   "Espacio": -3.75877048314364,
+   "Marca": 2.00000000000001,
+   "moduladora": -4,
+   "Modulada": -3.75877048314364
+ },
+ {
+   "tiempo": 498,
+   "Portadora": -3.46410161513777,
+   "Espacio": -3.46410161513774,
+   "Marca": -5.88e-14,
+   "moduladora": -4,
+   "Modulada": -3.46410161513774
+ },
+ {
+   "tiempo": 499,
+   "Portadora": -3.93923101204883,
+   "Espacio": -3.06417777247591,
+   "Marca": -2.00000000000011,
+   "moduladora": -4,
+   "Modulada": -3.06417777247591
+ },
+ {
+   "tiempo": 500,
+   "Portadora": -3.93923101204884,
+   "Espacio": -2.57115043874617,
+   "Marca": -3.46410161513774,
+   "moduladora": -4,
+   "Modulada": -2.57115043874617
+ },
+ {
+   "tiempo": 501,
+   "Portadora": -3.46410161513778,
+   "Espacio": -2.00000000000002,
+   "Marca": -4,
+   "moduladora": -4,
+   "Modulada": -2.00000000000002
+ },
+ {
+   "tiempo": 502,
+   "Portadora": -2.57115043874613,
+   "Espacio": -1.36808057330266,
+   "Marca": -3.4641016151377,
+   "moduladora": -4,
+   "Modulada": -1.36808057330266
+ },
+ {
+   "tiempo": 503,
+   "Portadora": -1.36808057330278,
+   "Espacio": -0.694592710667776,
+   "Marca": -2.00000000000005,
+   "moduladora": -4,
+   "Modulada": -0.694592710667776
+ },
+ {
+   "tiempo": 504,
+   "Portadora": -2.74e-14,
+   "Espacio": -1.37e-14,
+   "Marca": 1.57e-14,
+   "moduladora": -4,
+   "Modulada": -1.37e-14
+ },
+ {
+   "tiempo": 505,
+   "Portadora": 1.36808057330273,
+   "Espacio": 0.694592710667749,
+   "Marca": 2.00000000000007,
+   "moduladora": -4,
+   "Modulada": 0.694592710667749
+ },
+ {
+   "tiempo": 506,
+   "Portadora": 2.57115043874609,
+   "Espacio": 1.36808057330263,
+   "Marca": 3.46410161513772,
+   "moduladora": -4,
+   "Modulada": 1.36808057330263
+ },
+ {
+   "tiempo": 507,
+   "Portadora": 3.46410161513775,
+   "Espacio": 2,
+   "Marca": 4,
+   "moduladora": -4,
+   "Modulada": 2
+ },
+ {
+   "tiempo": 508,
+   "Portadora": 3.93923101204883,
+   "Espacio": 2.57115043874614,
+   "Marca": 3.46410161513772,
+   "moduladora": -4,
+   "Modulada": 2.57115043874614
+ },
+ {
+   "tiempo": 509,
+   "Portadora": 3.93923101204884,
+   "Espacio": 3.06417777247589,
+   "Marca": 2.00000000000008,
+   "moduladora": -4,
+   "Modulada": 3.06417777247589
+ },
+ {
+   "tiempo": 510,
+   "Portadora": 3.4641016151378,
+   "Espacio": 3.46410161513773,
+   "Marca": 2.74e-14,
+   "moduladora": -4,
+   "Modulada": 3.46410161513773
+ },
+ {
+   "tiempo": 511,
+   "Portadora": 2.57115043874617,
+   "Espacio": 3.75877048314363,
+   "Marca": -2.00000000000004,
+   "moduladora": -4,
+   "Modulada": 3.75877048314363
+ },
+ {
+   "tiempo": 512,
+   "Portadora": 1.36808057330271,
+   "Espacio": 3.93923101204883,
+   "Marca": -3.4641016151377,
+   "moduladora": -4,
+   "Modulada": 3.93923101204883
+ },
+ {
+   "tiempo": 513,
+   "Portadora": 7.06e-14,
+   "Espacio": 4,
+   "Marca": -4,
+   "moduladora": -4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 514,
+   "Portadora": -1.36808057330269,
+   "Espacio": 3.93923101204883,
+   "Marca": -3.46410161513774,
+   "moduladora": -4,
+   "Modulada": 3.93923101204883
+ },
+ {
+   "tiempo": 515,
+   "Portadora": -2.57115043874614,
+   "Espacio": 3.75877048314364,
+   "Marca": -2.00000000000012,
+   "moduladora": -4,
+   "Modulada": 3.75877048314364
+ },
+ {
+   "tiempo": 516,
+   "Portadora": -3.46410161513773,
+   "Espacio": 3.46410161513777,
+   "Marca": -7.05e-14,
+   "moduladora": -4,
+   "Modulada": 3.46410161513777
+ },
+ {
+   "tiempo": 517,
+   "Portadora": -3.93923101204882,
+   "Espacio": 3.06417777247594,
+   "Marca": 2,
+   "moduladora": -4,
+   "Modulada": 3.06417777247594
+ },
+ {
+   "tiempo": 518,
+   "Portadora": -3.93923101204883,
+   "Espacio": 2.57115043874615,
+   "Marca": 3.46410161513767,
+   "moduladora": -4,
+   "Modulada": 2.57115043874615
+ },
+ {
+   "tiempo": 519,
+   "Portadora": -3.46410161513777,
+   "Espacio": 2.00000000000001,
+   "Marca": 4,
+   "moduladora": -4,
+   "Modulada": 2.00000000000001
+ },
+ {
+   "tiempo": 520,
+   "Portadora": -2.5711504387462,
+   "Espacio": 1.3680805733027,
+   "Marca": 3.46410161513777,
+   "moduladora": -4,
+   "Modulada": 1.3680805733027
+ },
+ {
+   "tiempo": 521,
+   "Portadora": -1.36808057330275,
+   "Espacio": 0.694592710667763,
+   "Marca": 2.00000000000016,
+   "moduladora": -4,
+   "Modulada": 0.694592710667763
+ },
+ {
+   "tiempo": 522,
+   "Portadora": 9.9e-18,
+   "Espacio": -4.95e-18,
+   "Marca": 1.14e-13,
+   "moduladora": -4,
+   "Modulada": -4.95e-18
+ },
+ {
+   "tiempo": 523,
+   "Portadora": 1.36808057330265,
+   "Espacio": -0.694592710667707,
+   "Marca": -1.99999999999996,
+   "moduladora": -4,
+   "Modulada": -0.694592710667707
+ },
+ {
+   "tiempo": 524,
+   "Portadora": 2.57115043874611,
+   "Espacio": -1.36808057330265,
+   "Marca": -3.46410161513765,
+   "moduladora": -4,
+   "Modulada": -1.36808057330265
+ },
+ {
+   "tiempo": 525,
+   "Portadora": 3.46410161513777,
+   "Espacio": -2.00000000000001,
+   "Marca": -4,
+   "moduladora": -4,
+   "Modulada": -2.00000000000001
+ },
+ {
+   "tiempo": 526,
+   "Portadora": 3.93923101204883,
+   "Espacio": -2.57115043874615,
+   "Marca": -3.46410161513779,
+   "moduladora": -4,
+   "Modulada": -2.57115043874615
+ },
+ {
+   "tiempo": 527,
+   "Portadora": 3.93923101204884,
+   "Espacio": -3.0641777724759,
+   "Marca": -2,
+   "moduladora": -4,
+   "Modulada": -3.0641777724759
+ },
+ {
+   "tiempo": 528,
+   "Portadora": 3.46410161513779,
+   "Espacio": -3.46410161513774,
+   "Marca": -1.57e-13,
+   "moduladora": -4,
+   "Modulada": -3.46410161513774
+ },
+ {
+   "tiempo": 529,
+   "Portadora": 2.57115043874614,
+   "Espacio": -3.75877048314364,
+   "Marca": 1.99999999999992,
+   "moduladora": -4,
+   "Modulada": -3.75877048314364
+ },
+ {
+   "tiempo": 530,
+   "Portadora": 1.36808057330269,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513774,
+   "moduladora": -4,
+   "Modulada": -3.93923101204883
+ },
+ {
+   "tiempo": 531,
+   "Portadora": 4.31e-14,
+   "Espacio": -4,
+   "Marca": 4,
+   "moduladora": -4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 532,
+   "Portadora": -1.36808057330271,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.4641016151377,
+   "moduladora": -4,
+   "Modulada": -3.93923101204883
+ },
+ {
+   "tiempo": 533,
+   "Portadora": -2.57115043874617,
+   "Espacio": -3.75877048314363,
+   "Marca": 2.00000000000004,
+   "moduladora": -4,
+   "Modulada": -3.75877048314363
+ },
+ {
+   "tiempo": 534,
+   "Portadora": -3.46410161513774,
+   "Espacio": -3.46410161513776,
+   "Marca": -2.75e-14,
+   "moduladora": -4,
+   "Modulada": -3.46410161513776
+ },
+ {
+   "tiempo": 535,
+   "Portadora": -3.93923101204882,
+   "Espacio": -3.06417777247593,
+   "Marca": -2.00000000000008,
+   "moduladora": -4,
+   "Modulada": -3.06417777247593
+ },
+ {
+   "tiempo": 536,
+   "Portadora": -3.93923101204883,
+   "Espacio": -2.57115043874614,
+   "Marca": -3.46410161513772,
+   "moduladora": -4,
+   "Modulada": -2.57115043874614
+ },
+ {
+   "tiempo": 537,
+   "Portadora": -3.46410161513781,
+   "Espacio": -2.00000000000005,
+   "Marca": -4,
+   "moduladora": -4,
+   "Modulada": -2.00000000000005
+ },
+ {
+   "tiempo": 538,
+   "Portadora": -2.57115043874618,
+   "Espacio": -1.36808057330269,
+   "Marca": -3.46410161513772,
+   "moduladora": -4,
+   "Modulada": -1.36808057330269
+ },
+ {
+   "tiempo": 539,
+   "Portadora": -1.36808057330273,
+   "Espacio": -0.694592710667749,
+   "Marca": -2.00000000000007,
+   "moduladora": -4,
+   "Modulada": -0.694592710667749
+ },
+ {
+   "tiempo": 540,
+   "Portadora": -8.62e-14,
+   "Espacio": -4.31e-14,
+   "Marca": -1.57e-14,
+   "moduladora": -4,
+   "Modulada": -4.31e-14
+ },
+ {
+   "tiempo": 541,
+   "Portadora": 1.36808057330267,
+   "Espacio": 0.69459271066772,
+   "Marca": 2.00000000000005,
+   "moduladora": 4,
+   "Modulada": 2.00000000000005
+ },
+ {
+   "tiempo": 542,
+   "Portadora": 2.57115043874613,
+   "Espacio": 1.36808057330266,
+   "Marca": 3.4641016151377,
+   "moduladora": 4,
+   "Modulada": 3.4641016151377
+ },
+ {
+   "tiempo": 543,
+   "Portadora": 3.46410161513778,
+   "Espacio": 2.00000000000002,
+   "Marca": 4,
+   "moduladora": 4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 544,
+   "Portadora": 3.93923101204882,
+   "Espacio": 2.57115043874612,
+   "Marca": 3.46410161513774,
+   "moduladora": 4,
+   "Modulada": 3.46410161513774
+ },
+ {
+   "tiempo": 545,
+   "Portadora": 3.93923101204883,
+   "Espacio": 3.06417777247591,
+   "Marca": 2.00000000000011,
+   "moduladora": 4,
+   "Modulada": 2.00000000000011
+ },
+ {
+   "tiempo": 546,
+   "Portadora": 3.46410161513777,
+   "Espacio": 3.46410161513774,
+   "Marca": 5.88e-14,
+   "moduladora": 4,
+   "Modulada": 5.88e-14
+ },
+ {
+   "tiempo": 547,
+   "Portadora": 2.57115043874621,
+   "Espacio": 3.75877048314362,
+   "Marca": -2.00000000000001,
+   "moduladora": 4,
+   "Modulada": -2.00000000000001
+ },
+ {
+   "tiempo": 548,
+   "Portadora": 1.36808057330277,
+   "Espacio": 3.93923101204882,
+   "Marca": -3.46410161513768,
+   "moduladora": 4,
+   "Modulada": -3.46410161513768
+ },
+ {
+   "tiempo": 549,
+   "Portadora": 1.57e-14,
+   "Espacio": 4,
+   "Marca": -4,
+   "moduladora": 4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 550,
+   "Portadora": -1.36808057330263,
+   "Espacio": 3.93923101204884,
+   "Marca": -3.46410161513776,
+   "moduladora": 4,
+   "Modulada": -3.46410161513776
+ },
+ {
+   "tiempo": 551,
+   "Portadora": -2.5711504387461,
+   "Espacio": 3.75877048314365,
+   "Marca": -2.00000000000015,
+   "moduladora": 4,
+   "Modulada": -2.00000000000015
+ },
+ {
+   "tiempo": 552,
+   "Portadora": -3.46410161513776,
+   "Espacio": 3.46410161513775,
+   "Marca": -1.02e-13,
+   "moduladora": 4,
+   "Modulada": -1.02e-13
+ },
+ {
+   "tiempo": 553,
+   "Portadora": -3.93923101204883,
+   "Espacio": 3.06417777247592,
+   "Marca": 1.99999999999997,
+   "moduladora": 4,
+   "Modulada": 1.99999999999997
+ },
+ {
+   "tiempo": 554,
+   "Portadora": -3.93923101204884,
+   "Espacio": 2.57115043874618,
+   "Marca": 3.46410161513766,
+   "moduladora": 4,
+   "Modulada": 3.46410161513766
+ },
+ {
+   "tiempo": 555,
+   "Portadora": -3.4641016151378,
+   "Espacio": 2.00000000000004,
+   "Marca": 4,
+   "moduladora": 4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 556,
+   "Portadora": -2.57115043874616,
+   "Espacio": 1.36808057330267,
+   "Marca": 3.46410161513778,
+   "moduladora": 4,
+   "Modulada": 3.46410161513778
+ },
+ {
+   "tiempo": 557,
+   "Portadora": -1.3680805733027,
+   "Espacio": 0.694592710667736,
+   "Marca": 2.00000000000019,
+   "moduladora": 4,
+   "Modulada": 2.00000000000019
+ },
+ {
+   "tiempo": 558,
+   "Portadora": -5.88e-14,
+   "Espacio": 2.94e-14,
+   "Marca": 1.45e-13,
+   "moduladora": 4,
+   "Modulada": 1.45e-13
+ },
+ {
+   "tiempo": 559,
+   "Portadora": 1.3680805733027,
+   "Espacio": -0.694592710667734,
+   "Marca": -1.99999999999993,
+   "moduladora": 4,
+   "Modulada": -1.99999999999993
+ },
+ {
+   "tiempo": 560,
+   "Portadora": 2.57115043874615,
+   "Espacio": -1.36808057330267,
+   "Marca": -3.46410161513775,
+   "moduladora": 4,
+   "Modulada": -3.46410161513775
+ },
+ {
+   "tiempo": 561,
+   "Portadora": 3.46410161513774,
+   "Espacio": -1.99999999999998,
+   "Marca": -4,
+   "moduladora": 4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 562,
+   "Portadora": 3.93923101204882,
+   "Espacio": -2.57115043874613,
+   "Marca": -3.4641016151378,
+   "moduladora": 4,
+   "Modulada": -3.4641016151378
+ },
+ {
+   "tiempo": 563,
+   "Portadora": 3.93923101204883,
+   "Espacio": -3.06417777247592,
+   "Marca": -2.00000000000003,
+   "moduladora": 4,
+   "Modulada": -2.00000000000003
+ },
+ {
+   "tiempo": 564,
+   "Portadora": 3.46410161513776,
+   "Espacio": -3.46410161513775,
+   "Marca": 3.92e-14,
+   "moduladora": 4,
+   "Modulada": 3.92e-14
+ },
+ {
+   "tiempo": 565,
+   "Portadora": 2.57115043874619,
+   "Espacio": -3.75877048314363,
+   "Marca": 2.00000000000009,
+   "moduladora": 4,
+   "Modulada": 2.00000000000009
+ },
+ {
+   "tiempo": 566,
+   "Portadora": 1.36808057330274,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513773,
+   "moduladora": 4,
+   "Modulada": 3.46410161513773
+ },
+ {
+   "tiempo": 567,
+   "Portadora": -1.18e-14,
+   "Espacio": -4,
+   "Marca": 4,
+   "moduladora": 4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 568,
+   "Portadora": -1.36808057330266,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513771,
+   "moduladora": 4,
+   "Modulada": 3.46410161513771
+ },
+ {
+   "tiempo": 569,
+   "Portadora": -2.57115043874612,
+   "Espacio": -3.75877048314364,
+   "Marca": 2.00000000000006,
+   "moduladora": 4,
+   "Modulada": 2.00000000000006
+ },
+ {
+   "tiempo": 570,
+   "Portadora": -3.46410161513777,
+   "Espacio": -3.46410161513775,
+   "Marca": 3.9e-15,
+   "moduladora": 4,
+   "Modulada": 3.9e-15
+ },
+ {
+   "tiempo": 571,
+   "Portadora": -3.93923101204883,
+   "Espacio": -3.06417777247591,
+   "Marca": -2.00000000000006,
+   "moduladora": 4,
+   "Modulada": -2.00000000000006
+ },
+ {
+   "tiempo": 572,
+   "Portadora": -3.93923101204884,
+   "Espacio": -2.57115043874617,
+   "Marca": -3.46410161513771,
+   "moduladora": 4,
+   "Modulada": -3.46410161513771
+ },
+ {
+   "tiempo": 573,
+   "Portadora": -3.46410161513778,
+   "Espacio": -2.00000000000002,
+   "Marca": -4,
+   "moduladora": 4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 574,
+   "Portadora": -2.57115043874614,
+   "Espacio": -1.36808057330266,
+   "Marca": -3.46410161513773,
+   "moduladora": 4,
+   "Modulada": -3.46410161513773
+ },
+ {
+   "tiempo": 575,
+   "Portadora": -1.36808057330278,
+   "Espacio": -0.694592710667778,
+   "Marca": -2.0000000000001,
+   "moduladora": 4,
+   "Modulada": -2.0000000000001
+ },
+ {
+   "tiempo": 576,
+   "Portadora": -3.14e-14,
+   "Espacio": -1.57e-14,
+   "Marca": -4.7e-14,
+   "moduladora": 4,
+   "Modulada": -4.7e-14
+ },
+ {
+   "tiempo": 577,
+   "Portadora": 1.36808057330272,
+   "Espacio": 0.694592710667747,
+   "Marca": 2.00000000000002,
+   "moduladora": 4,
+   "Modulada": 2.00000000000002
+ },
+ {
+   "tiempo": 578,
+   "Portadora": 2.57115043874617,
+   "Espacio": 1.36808057330269,
+   "Marca": 3.46410161513769,
+   "moduladora": 4,
+   "Modulada": 3.46410161513769
+ },
+ {
+   "tiempo": 579,
+   "Portadora": 3.46410161513769,
+   "Espacio": 1.99999999999995,
+   "Marca": 4,
+   "moduladora": 4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 580,
+   "Portadora": 3.93923101204883,
+   "Espacio": 2.57115043874614,
+   "Marca": 3.46410161513775,
+   "moduladora": 4,
+   "Modulada": 3.46410161513775
+ },
+ {
+   "tiempo": 581,
+   "Portadora": 3.93923101204884,
+   "Espacio": 3.06417777247589,
+   "Marca": 2.00000000000014,
+   "moduladora": 4,
+   "Modulada": 2.00000000000014
+ },
+ {
+   "tiempo": 582,
+   "Portadora": 3.46410161513775,
+   "Espacio": 3.46410161513776,
+   "Marca": 9.01e-14,
+   "moduladora": 4,
+   "Modulada": 9.01e-14
+ },
+ {
+   "tiempo": 583,
+   "Portadora": 2.57115043874626,
+   "Espacio": 3.75877048314361,
+   "Marca": -1.99999999999998,
+   "moduladora": 4,
+   "Modulada": -1.99999999999998
+ },
+ {
+   "tiempo": 584,
+   "Portadora": 1.36808057330272,
+   "Espacio": 3.93923101204883,
+   "Marca": -3.46410161513766,
+   "moduladora": 4,
+   "Modulada": -3.46410161513766
+ },
+ {
+   "tiempo": 585,
+   "Portadora": 7.45e-14,
+   "Espacio": 4,
+   "Marca": -4,
+   "moduladora": -4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 586,
+   "Portadora": -1.36808057330268,
+   "Espacio": 3.93923101204883,
+   "Marca": -3.46410161513778,
+   "moduladora": -4,
+   "Modulada": 3.93923101204883
+ },
+ {
+   "tiempo": 587,
+   "Portadora": -2.57115043874623,
+   "Espacio": 3.75877048314362,
+   "Marca": -2.00000000000017,
+   "moduladora": -4,
+   "Modulada": 3.75877048314362
+ },
+ {
+   "tiempo": 588,
+   "Portadora": -3.46410161513773,
+   "Espacio": 3.46410161513777,
+   "Marca": -1.33e-13,
+   "moduladora": -4,
+   "Modulada": 3.46410161513777
+ },
+ {
+   "tiempo": 589,
+   "Portadora": -3.93923101204882,
+   "Espacio": 3.06417777247594,
+   "Marca": 1.99999999999994,
+   "moduladora": -4,
+   "Modulada": 3.06417777247594
+ },
+ {
+   "tiempo": 590,
+   "Portadora": -3.93923101204883,
+   "Espacio": 2.57115043874616,
+   "Marca": 3.46410161513776,
+   "moduladora": -4,
+   "Modulada": 2.57115043874616
+ },
+ {
+   "tiempo": 591,
+   "Portadora": -3.46410161513777,
+   "Espacio": 2.00000000000001,
+   "Marca": 4,
+   "moduladora": -4,
+   "Modulada": 2.00000000000001
+ },
+ {
+   "tiempo": 592,
+   "Portadora": -2.5711504387462,
+   "Espacio": 1.3680805733027,
+   "Marca": 3.4641016151378,
+   "moduladora": -4,
+   "Modulada": 1.3680805733027
+ },
+ {
+   "tiempo": 593,
+   "Portadora": -1.36808057330276,
+   "Espacio": 0.694592710667765,
+   "Marca": 2.00000000000001,
+   "moduladora": -4,
+   "Modulada": 0.694592710667765
+ },
+ {
+   "tiempo": 594,
+   "Portadora": -3.91e-15,
+   "Espacio": 1.95e-15,
+   "Marca": -5.1e-14,
+   "moduladora": -4,
+   "Modulada": 1.95e-15
+ },
+ {
+   "tiempo": 595,
+   "Portadora": 1.36808057330264,
+   "Espacio": -0.694592710667705,
+   "Marca": -2.0000000000001,
+   "moduladora": -4,
+   "Modulada": -0.694592710667705
+ },
+ {
+   "tiempo": 596,
+   "Portadora": 2.5711504387462,
+   "Espacio": -1.3680805733027,
+   "Marca": -3.46410161513773,
+   "moduladora": -4,
+   "Modulada": -1.3680805733027
+ },
+ {
+   "tiempo": 597,
+   "Portadora": 3.46410161513771,
+   "Espacio": -1.99999999999996,
+   "Marca": -4,
+   "moduladora": -4,
+   "Modulada": -1.99999999999996
+ },
+ {
+   "tiempo": 598,
+   "Portadora": 3.93923101204883,
+   "Espacio": -2.57115043874615,
+   "Marca": -3.46410161513771,
+   "moduladora": -4,
+   "Modulada": -2.57115043874615
+ },
+ {
+   "tiempo": 599,
+   "Portadora": 3.93923101204884,
+   "Espacio": -3.0641777724759,
+   "Marca": -2.00000000000005,
+   "moduladora": -4,
+   "Modulada": -3.0641777724759
+ },
+ {
+   "tiempo": 600,
+   "Portadora": 3.46410161513773,
+   "Espacio": -3.46410161513777,
+   "Marca": 7.86e-15,
+   "moduladora": -4,
+   "Modulada": -3.46410161513777
+ },
+ {
+   "tiempo": 601,
+   "Portadora": 2.57115043874623,
+   "Espacio": -3.75877048314362,
+   "Marca": 2.00000000000007,
+   "moduladora": -4,
+   "Modulada": -3.75877048314362
+ },
+ {
+   "tiempo": 602,
+   "Portadora": 1.36808057330269,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513771,
+   "moduladora": -4,
+   "Modulada": -3.93923101204883
+ },
+ {
+   "tiempo": 603,
+   "Portadora": 4.7e-14,
+   "Espacio": -4,
+   "Marca": 4,
+   "moduladora": -4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 604,
+   "Portadora": -1.36808057330271,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513773,
+   "moduladora": -4,
+   "Modulada": -3.93923101204883
+ },
+ {
+   "tiempo": 605,
+   "Portadora": -2.57115043874616,
+   "Espacio": -3.75877048314363,
+   "Marca": 2.00000000000009,
+   "moduladora": -4,
+   "Modulada": -3.75877048314363
+ },
+ {
+   "tiempo": 606,
+   "Portadora": -3.46410161513769,
+   "Espacio": -3.46410161513779,
+   "Marca": 3.53e-14,
+   "moduladora": -4,
+   "Modulada": -3.46410161513779
+ },
+ {
+   "tiempo": 607,
+   "Portadora": -3.93923101204882,
+   "Espacio": -3.06417777247593,
+   "Marca": -2.00000000000003,
+   "moduladora": -4,
+   "Modulada": -3.06417777247593
+ },
+ {
+   "tiempo": 608,
+   "Portadora": -3.93923101204883,
+   "Espacio": -2.57115043874615,
+   "Marca": -3.46410161513769,
+   "moduladora": -4,
+   "Modulada": -2.57115043874615
+ },
+ {
+   "tiempo": 609,
+   "Portadora": -3.46410161513775,
+   "Espacio": -2,
+   "Marca": -4,
+   "moduladora": -4,
+   "Modulada": -2
+ },
+ {
+   "tiempo": 610,
+   "Portadora": -2.57115043874627,
+   "Espacio": -1.36808057330274,
+   "Marca": -3.46410161513775,
+   "moduladora": -4,
+   "Modulada": -1.36808057330274
+ },
+ {
+   "tiempo": 611,
+   "Portadora": -1.36808057330273,
+   "Espacio": -0.694592710667751,
+   "Marca": -2.00000000000013,
+   "moduladora": -4,
+   "Modulada": -0.694592710667751
+ },
+ {
+   "tiempo": 612,
+   "Portadora": 2.35e-14,
+   "Espacio": 1.18e-14,
+   "Marca": -7.84e-14,
+   "moduladora": -4,
+   "Modulada": 1.18e-14
+ },
+ {
+   "tiempo": 613,
+   "Portadora": 1.36808057330267,
+   "Espacio": 0.694592710667718,
+   "Marca": 1.99999999999999,
+   "moduladora": -4,
+   "Modulada": 0.694592710667718
+ },
+ {
+   "tiempo": 614,
+   "Portadora": 2.57115043874622,
+   "Espacio": 1.36808057330271,
+   "Marca": 3.46410161513767,
+   "moduladora": -4,
+   "Modulada": 1.36808057330271
+ },
+ {
+   "tiempo": 615,
+   "Portadora": 3.46410161513772,
+   "Espacio": 1.99999999999997,
+   "Marca": 4,
+   "moduladora": -4,
+   "Modulada": 1.99999999999997
+ },
+ {
+   "tiempo": 616,
+   "Portadora": 3.93923101204882,
+   "Espacio": 2.57115043874612,
+   "Marca": 3.46410161513777,
+   "moduladora": -4,
+   "Modulada": 2.57115043874612
+ },
+ {
+   "tiempo": 617,
+   "Portadora": 3.93923101204883,
+   "Espacio": 3.06417777247591,
+   "Marca": 2.00000000000016,
+   "moduladora": -4,
+   "Modulada": 3.06417777247591
+ },
+ {
+   "tiempo": 618,
+   "Portadora": 3.46410161513772,
+   "Espacio": 3.46410161513777,
+   "Marca": 1.22e-13,
+   "moduladora": -4,
+   "Modulada": 3.46410161513777
+ },
+ {
+   "tiempo": 619,
+   "Portadora": 2.57115043874621,
+   "Espacio": 3.75877048314362,
+   "Marca": -1.99999999999995,
+   "moduladora": -4,
+   "Modulada": 3.75877048314362
+ },
+ {
+   "tiempo": 620,
+   "Portadora": 1.36808057330277,
+   "Espacio": 3.93923101204882,
+   "Marca": -3.46410161513765,
+   "moduladora": -4,
+   "Modulada": 3.93923101204882
+ },
+ {
+   "tiempo": 621,
+   "Portadora": 1.96e-14,
+   "Espacio": 4,
+   "Marca": -4,
+   "moduladora": -4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 622,
+   "Portadora": -1.36808057330263,
+   "Espacio": 3.93923101204884,
+   "Marca": -3.46410161513779,
+   "moduladora": -4,
+   "Modulada": 3.93923101204884
+ },
+ {
+   "tiempo": 623,
+   "Portadora": -2.57115043874618,
+   "Espacio": 3.75877048314363,
+   "Marca": -2,
+   "moduladora": -4,
+   "Modulada": 3.75877048314363
+ },
+ {
+   "tiempo": 624,
+   "Portadora": -3.4641016151377,
+   "Espacio": 3.46410161513778,
+   "Marca": 6.27e-14,
+   "moduladora": -4,
+   "Modulada": 3.46410161513778
+ },
+ {
+   "tiempo": 625,
+   "Portadora": -3.93923101204883,
+   "Espacio": 3.06417777247592,
+   "Marca": 1.99999999999992,
+   "moduladora": -4,
+   "Modulada": 3.06417777247592
+ },
+ {
+   "tiempo": 626,
+   "Portadora": -3.93923101204884,
+   "Espacio": 2.57115043874618,
+   "Marca": 3.46410161513774,
+   "moduladora": -4,
+   "Modulada": 2.57115043874618
+ },
+ {
+   "tiempo": 627,
+   "Portadora": -3.46410161513774,
+   "Espacio": 1.99999999999999,
+   "Marca": 4,
+   "moduladora": -4,
+   "Modulada": 1.99999999999999
+ },
+ {
+   "tiempo": 628,
+   "Portadora": -2.57115043874625,
+   "Espacio": 1.36808057330273,
+   "Marca": 3.4641016151377,
+   "moduladora": -4,
+   "Modulada": 1.36808057330273
+ },
+ {
+   "tiempo": 629,
+   "Portadora": -1.36808057330271,
+   "Espacio": 0.694592710667737,
+   "Marca": 2.00000000000004,
+   "moduladora": -4,
+   "Modulada": 0.694592710667737
+ },
+ {
+   "tiempo": 630,
+   "Portadora": -6.27e-14,
+   "Espacio": 3.14e-14,
+   "Marca": -1.96e-14,
+   "moduladora": -4,
+   "Modulada": 3.14e-14
+ },
+ {
+   "tiempo": 631,
+   "Portadora": 1.36808057330269,
+   "Espacio": -0.694592710667732,
+   "Marca": -2.00000000000008,
+   "moduladora": 4,
+   "Modulada": -2.00000000000008
+ },
+ {
+   "tiempo": 632,
+   "Portadora": 2.57115043874615,
+   "Espacio": -1.36808057330267,
+   "Marca": -3.46410161513772,
+   "moduladora": 4,
+   "Modulada": -3.46410161513772
+ },
+ {
+   "tiempo": 633,
+   "Portadora": 3.46410161513773,
+   "Espacio": -1.99999999999998,
+   "Marca": -4,
+   "moduladora": 4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 634,
+   "Portadora": 3.93923101204882,
+   "Espacio": -2.57115043874613,
+   "Marca": -3.46410161513772,
+   "moduladora": 4,
+   "Modulada": -3.46410161513772
+ },
+ {
+   "tiempo": 635,
+   "Portadora": 3.93923101204883,
+   "Espacio": -3.06417777247592,
+   "Marca": -2.00000000000008,
+   "moduladora": 4,
+   "Modulada": -2.00000000000008
+ },
+ {
+   "tiempo": 636,
+   "Portadora": 3.46410161513776,
+   "Espacio": -3.46410161513775,
+   "Marca": -2.35e-14,
+   "moduladora": 4,
+   "Modulada": -2.35e-14
+ },
+ {
+   "tiempo": 637,
+   "Portadora": 2.57115043874628,
+   "Espacio": -3.75877048314361,
+   "Marca": 2.00000000000004,
+   "moduladora": 4,
+   "Modulada": 2.00000000000004
+ },
+ {
+   "tiempo": 638,
+   "Portadora": 1.36808057330275,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.4641016151377,
+   "moduladora": 4,
+   "Modulada": 3.4641016151377
+ },
+ {
+   "tiempo": 639,
+   "Portadora": -7.85e-15,
+   "Espacio": -4,
+   "Marca": 4,
+   "moduladora": 4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 640,
+   "Portadora": -1.36808057330265,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513774,
+   "moduladora": 4,
+   "Modulada": 3.46410161513774
+ },
+ {
+   "tiempo": 641,
+   "Portadora": -2.5711504387462,
+   "Espacio": -3.75877048314362,
+   "Marca": 2.00000000000012,
+   "moduladora": 4,
+   "Modulada": 2.00000000000012
+ },
+ {
+   "tiempo": 642,
+   "Portadora": -3.46410161513771,
+   "Espacio": -3.46410161513778,
+   "Marca": 6.66e-14,
+   "moduladora": 4,
+   "Modulada": 6.66e-14
+ },
+ {
+   "tiempo": 643,
+   "Portadora": -3.93923101204883,
+   "Espacio": -3.06417777247591,
+   "Marca": -2,
+   "moduladora": 4,
+   "Modulada": -2
+ },
+ {
+   "tiempo": 644,
+   "Portadora": -3.93923101204884,
+   "Espacio": -2.57115043874617,
+   "Marca": -3.46410161513768,
+   "moduladora": 4,
+   "Modulada": -3.46410161513768
+ },
+ {
+   "tiempo": 645,
+   "Portadora": -3.46410161513773,
+   "Espacio": -1.99999999999998,
+   "Marca": -4,
+   "moduladora": 4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 646,
+   "Portadora": -2.57115043874623,
+   "Espacio": -1.36808057330272,
+   "Marca": -3.46410161513776,
+   "moduladora": 4,
+   "Modulada": -3.46410161513776
+ },
+ {
+   "tiempo": 647,
+   "Portadora": -1.36808057330279,
+   "Espacio": -0.69459271066778,
+   "Marca": -2.00000000000015,
+   "moduladora": 4,
+   "Modulada": -2.00000000000015
+ },
+ {
+   "tiempo": 648,
+   "Portadora": -3.53e-14,
+   "Espacio": -1.76e-14,
+   "Marca": -1.1e-13,
+   "moduladora": 4,
+   "Modulada": -1.1e-13
+ },
+ {
+   "tiempo": 649,
+   "Portadora": 1.36808057330272,
+   "Espacio": 0.694592710667745,
+   "Marca": 1.99999999999996,
+   "moduladora": 4,
+   "Modulada": 1.99999999999996
+ },
+ {
+   "tiempo": 650,
+   "Portadora": 2.57115043874617,
+   "Espacio": 1.36808057330268,
+   "Marca": 3.46410161513765,
+   "moduladora": 4,
+   "Modulada": 3.46410161513765
+ },
+ {
+   "tiempo": 651,
+   "Portadora": 3.46410161513769,
+   "Espacio": 1.99999999999995,
+   "Marca": 4,
+   "moduladora": 4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 652,
+   "Portadora": 3.93923101204882,
+   "Espacio": 2.57115043874614,
+   "Marca": 3.46410161513779,
+   "moduladora": 4,
+   "Modulada": 3.46410161513779
+ },
+ {
+   "tiempo": 653,
+   "Portadora": 3.93923101204884,
+   "Espacio": 3.06417777247589,
+   "Marca": 2.00000000000019,
+   "moduladora": 4,
+   "Modulada": 2.00000000000019
+ },
+ {
+   "tiempo": 654,
+   "Portadora": 3.46410161513775,
+   "Espacio": 3.46410161513776,
+   "Marca": 1.53e-13,
+   "moduladora": 4,
+   "Modulada": 1.53e-13
+ },
+ {
+   "tiempo": 655,
+   "Portadora": 2.57115043874626,
+   "Espacio": 3.75877048314361,
+   "Marca": -1.99999999999993,
+   "moduladora": 4,
+   "Modulada": -1.99999999999993
+ },
+ {
+   "tiempo": 656,
+   "Portadora": 1.36808057330272,
+   "Espacio": 3.93923101204883,
+   "Marca": -3.46410161513775,
+   "moduladora": 4,
+   "Modulada": -3.46410161513775
+ },
+ {
+   "tiempo": 657,
+   "Portadora": 7.84e-14,
+   "Espacio": 4,
+   "Marca": -4,
+   "moduladora": 4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 658,
+   "Portadora": -1.36808057330268,
+   "Espacio": 3.93923101204883,
+   "Marca": -3.46410161513781,
+   "moduladora": 4,
+   "Modulada": -3.46410161513781
+ },
+ {
+   "tiempo": 659,
+   "Portadora": -2.57115043874623,
+   "Espacio": 3.75877048314362,
+   "Marca": -2.00000000000003,
+   "moduladora": 4,
+   "Modulada": -2.00000000000003
+ },
+ {
+   "tiempo": 660,
+   "Portadora": -3.46410161513773,
+   "Espacio": 3.46410161513777,
+   "Marca": 3.14e-14,
+   "moduladora": 4,
+   "Modulada": 3.14e-14
+ },
+ {
+   "tiempo": 661,
+   "Portadora": -3.93923101204882,
+   "Espacio": 3.06417777247594,
+   "Marca": 2.00000000000009,
+   "moduladora": 4,
+   "Modulada": 2.00000000000009
+ },
+ {
+   "tiempo": 662,
+   "Portadora": -3.93923101204883,
+   "Espacio": 2.57115043874616,
+   "Marca": 3.46410161513772,
+   "moduladora": 4,
+   "Modulada": 3.46410161513772
+ },
+ {
+   "tiempo": 663,
+   "Portadora": -3.46410161513777,
+   "Espacio": 2.00000000000001,
+   "Marca": 4,
+   "moduladora": 4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 664,
+   "Portadora": -2.5711504387462,
+   "Espacio": 1.3680805733027,
+   "Marca": 3.46410161513772,
+   "moduladora": 4,
+   "Modulada": 3.46410161513772
+ },
+ {
+   "tiempo": 665,
+   "Portadora": -1.36808057330276,
+   "Espacio": 0.694592710667766,
+   "Marca": 2.00000000000007,
+   "moduladora": 4,
+   "Modulada": 2.00000000000007
+ },
+ {
+   "tiempo": 666,
+   "Portadora": -7.83e-15,
+   "Espacio": 3.91e-15,
+   "Marca": 1.17e-14,
+   "moduladora": 4,
+   "Modulada": 1.17e-14
+ },
+ {
+   "tiempo": 667,
+   "Portadora": 1.36808057330264,
+   "Espacio": -0.694592710667703,
+   "Marca": -2.00000000000005,
+   "moduladora": 4,
+   "Modulada": -2.00000000000005
+ },
+ {
+   "tiempo": 668,
+   "Portadora": 2.57115043874619,
+   "Espacio": -1.3680805733027,
+   "Marca": -3.4641016151377,
+   "moduladora": 4,
+   "Modulada": -3.4641016151377
+ },
+ {
+   "tiempo": 669,
+   "Portadora": 3.46410161513771,
+   "Espacio": -1.99999999999996,
+   "Marca": -4,
+   "moduladora": 4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 670,
+   "Portadora": 3.93923101204883,
+   "Espacio": -2.57115043874615,
+   "Marca": -3.46410161513774,
+   "moduladora": 4,
+   "Modulada": -3.46410161513774
+ },
+ {
+   "tiempo": 671,
+   "Portadora": 3.93923101204884,
+   "Espacio": -3.0641777724759,
+   "Marca": -2.00000000000011,
+   "moduladora": 4,
+   "Modulada": -2.00000000000011
+ },
+ {
+   "tiempo": 672,
+   "Portadora": 3.46410161513773,
+   "Espacio": -3.46410161513776,
+   "Marca": -5.49e-14,
+   "moduladora": 4,
+   "Modulada": -5.49e-14
+ },
+ {
+   "tiempo": 673,
+   "Portadora": 2.57115043874624,
+   "Espacio": -3.75877048314362,
+   "Marca": 2.00000000000001,
+   "moduladora": 4,
+   "Modulada": 2.00000000000001
+ },
+ {
+   "tiempo": 674,
+   "Portadora": 1.36808057330269,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513768,
+   "moduladora": 4,
+   "Modulada": 3.46410161513768
+ },
+ {
+   "tiempo": 675,
+   "Portadora": 5.1e-14,
+   "Espacio": -4,
+   "Marca": 4,
+   "moduladora": 4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 676,
+   "Portadora": -1.36808057330271,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513776,
+   "moduladora": -4,
+   "Modulada": -3.93923101204883
+ },
+ {
+   "tiempo": 677,
+   "Portadora": -2.57115043874616,
+   "Espacio": -3.75877048314363,
+   "Marca": 2.00000000000014,
+   "moduladora": -4,
+   "Modulada": -3.75877048314363
+ },
+ {
+   "tiempo": 678,
+   "Portadora": -3.46410161513768,
+   "Espacio": -3.46410161513779,
+   "Marca": 9.8e-14,
+   "moduladora": -4,
+   "Modulada": -3.46410161513779
+ },
+ {
+   "tiempo": 679,
+   "Portadora": -3.93923101204882,
+   "Espacio": -3.06417777247593,
+   "Marca": -1.99999999999997,
+   "moduladora": -4,
+   "Modulada": -3.06417777247593
+ },
+ {
+   "tiempo": 680,
+   "Portadora": -3.93923101204883,
+   "Espacio": -2.57115043874615,
+   "Marca": -3.46410161513766,
+   "moduladora": -4,
+   "Modulada": -2.57115043874615
+ },
+ {
+   "tiempo": 681,
+   "Portadora": -3.46410161513776,
+   "Espacio": -2,
+   "Marca": -4,
+   "moduladora": -4,
+   "Modulada": -2
+ },
+ {
+   "tiempo": 682,
+   "Portadora": -2.57115043874627,
+   "Espacio": -1.36808057330274,
+   "Marca": -3.46410161513778,
+   "moduladora": -4,
+   "Modulada": -1.36808057330274
+ },
+ {
+   "tiempo": 683,
+   "Portadora": -1.36808057330274,
+   "Espacio": -0.694592710667753,
+   "Marca": -2.00000000000018,
+   "moduladora": -4,
+   "Modulada": -0.694592710667753
+ },
+ {
+   "tiempo": 684,
+   "Portadora": -9.41e-14,
+   "Espacio": -4.7e-14,
+   "Marca": -1.41e-13,
+   "moduladora": -4,
+   "Modulada": -4.7e-14
+ },
+ {
+   "tiempo": 685,
+   "Portadora": 1.36808057330267,
+   "Espacio": 0.694592710667716,
+   "Marca": 1.99999999999994,
+   "moduladora": -4,
+   "Modulada": 0.694592710667716
+ },
+ {
+   "tiempo": 686,
+   "Portadora": 2.57115043874621,
+   "Espacio": 1.36808057330271,
+   "Marca": 3.46410161513775,
+   "moduladora": -4,
+   "Modulada": 1.36808057330271
+ },
+ {
+   "tiempo": 687,
+   "Portadora": 3.46410161513772,
+   "Espacio": 1.99999999999997,
+   "Marca": 4,
+   "moduladora": -4,
+   "Modulada": 1.99999999999997
+ },
+ {
+   "tiempo": 688,
+   "Portadora": 3.93923101204881,
+   "Espacio": 2.57115043874612,
+   "Marca": 3.4641016151378,
+   "moduladora": -4,
+   "Modulada": 2.57115043874612
+ },
+ {
+   "tiempo": 689,
+   "Portadora": 3.93923101204883,
+   "Espacio": 3.06417777247591,
+   "Marca": 2.00000000000002,
+   "moduladora": -4,
+   "Modulada": 3.06417777247591
+ },
+ {
+   "tiempo": 690,
+   "Portadora": 3.46410161513772,
+   "Espacio": 3.46410161513777,
+   "Marca": -4.31e-14,
+   "moduladora": -4,
+   "Modulada": 3.46410161513777
+ },
+ {
+   "tiempo": 691,
+   "Portadora": 2.57115043874622,
+   "Espacio": 3.75877048314362,
+   "Marca": -2.0000000000001,
+   "moduladora": -4,
+   "Modulada": 3.75877048314362
+ },
+ {
+   "tiempo": 692,
+   "Portadora": 1.36808057330278,
+   "Espacio": 3.93923101204882,
+   "Marca": -3.46410161513773,
+   "moduladora": -4,
+   "Modulada": 3.93923101204882
+ },
+ {
+   "tiempo": 693,
+   "Portadora": 2.35e-14,
+   "Espacio": 4,
+   "Marca": -4,
+   "moduladora": -4,
+   "Modulada": 4
+ },
+ {
+   "tiempo": 694,
+   "Portadora": -1.36808057330262,
+   "Espacio": 3.93923101204884,
+   "Marca": -3.46410161513771,
+   "moduladora": -4,
+   "Modulada": 3.93923101204884
+ },
+ {
+   "tiempo": 695,
+   "Portadora": -2.57115043874618,
+   "Espacio": 3.75877048314363,
+   "Marca": -2.00000000000006,
+   "moduladora": -4,
+   "Modulada": 3.75877048314363
+ },
+ {
+   "tiempo": 696,
+   "Portadora": -3.4641016151377,
+   "Espacio": 3.46410161513778,
+   "Marca": 1.98e-17,
+   "moduladora": -4,
+   "Modulada": 3.46410161513778
+ },
+ {
+   "tiempo": 697,
+   "Portadora": -3.93923101204883,
+   "Espacio": 3.06417777247592,
+   "Marca": 2.00000000000006,
+   "moduladora": -4,
+   "Modulada": 3.06417777247592
+ },
+ {
+   "tiempo": 698,
+   "Portadora": -3.93923101204884,
+   "Espacio": 2.57115043874618,
+   "Marca": 3.46410161513771,
+   "moduladora": -4,
+   "Modulada": 2.57115043874618
+ },
+ {
+   "tiempo": 699,
+   "Portadora": -3.46410161513774,
+   "Espacio": 1.99999999999999,
+   "Marca": 4,
+   "moduladora": -4,
+   "Modulada": 1.99999999999999
+ },
+ {
+   "tiempo": 700,
+   "Portadora": -2.57115043874625,
+   "Espacio": 1.36808057330273,
+   "Marca": 3.46410161513773,
+   "moduladora": -4,
+   "Modulada": 1.36808057330273
+ },
+ {
+   "tiempo": 701,
+   "Portadora": -1.36808057330271,
+   "Espacio": 0.694592710667739,
+   "Marca": 2.0000000000001,
+   "moduladora": -4,
+   "Modulada": 0.694592710667739
+ },
+ {
+   "tiempo": 702,
+   "Portadora": -6.66e-14,
+   "Espacio": 3.33e-14,
+   "Marca": 4.31e-14,
+   "moduladora": -4,
+   "Modulada": 3.33e-14
+ },
+ {
+   "tiempo": 703,
+   "Portadora": 1.36808057330269,
+   "Espacio": -0.69459271066773,
+   "Marca": -2.00000000000002,
+   "moduladora": -4,
+   "Modulada": -0.69459271066773
+ },
+ {
+   "tiempo": 704,
+   "Portadora": 2.57115043874615,
+   "Espacio": -1.36808057330267,
+   "Marca": -3.46410161513769,
+   "moduladora": -4,
+   "Modulada": -1.36808057330267
+ },
+ {
+   "tiempo": 705,
+   "Portadora": 3.46410161513773,
+   "Espacio": -1.99999999999998,
+   "Marca": -4,
+   "moduladora": -4,
+   "Modulada": -1.99999999999998
+ },
+ {
+   "tiempo": 706,
+   "Portadora": 3.93923101204882,
+   "Espacio": -2.57115043874613,
+   "Marca": -3.46410161513775,
+   "moduladora": -4,
+   "Modulada": -2.57115043874613
+ },
+ {
+   "tiempo": 707,
+   "Portadora": 3.93923101204883,
+   "Espacio": -3.06417777247592,
+   "Marca": -2.00000000000013,
+   "moduladora": -4,
+   "Modulada": -3.06417777247592
+ },
+ {
+   "tiempo": 708,
+   "Portadora": 3.46410161513776,
+   "Espacio": -3.46410161513775,
+   "Marca": -8.62e-14,
+   "moduladora": -4,
+   "Modulada": -3.46410161513775
+ },
+ {
+   "tiempo": 709,
+   "Portadora": 2.57115043874628,
+   "Espacio": -3.75877048314361,
+   "Marca": 1.99999999999998,
+   "moduladora": -4,
+   "Modulada": -3.75877048314361
+ },
+ {
+   "tiempo": 710,
+   "Portadora": 1.36808057330275,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513767,
+   "moduladora": -4,
+   "Modulada": -3.93923101204883
+ },
+ {
+   "tiempo": 711,
+   "Portadora": -3.93e-15,
+   "Espacio": -4,
+   "Marca": 4,
+   "moduladora": -4,
+   "Modulada": -4
+ },
+ {
+   "tiempo": 712,
+   "Portadora": -1.36808057330265,
+   "Espacio": -3.93923101204883,
+   "Marca": 3.46410161513777,
+   "moduladora": -4,
+   "Modulada": -3.93923101204883
+ },
+ {
+   "tiempo": 713,
+   "Portadora": -2.5711504387462,
+   "Espacio": -3.75877048314362,
+   "Marca": 2.00000000000017,
+   "moduladora": -4,
+   "Modulada": -3.75877048314362
+ },
+ {
+   "tiempo": 714,
+   "Portadora": -3.46410161513771,
+   "Espacio": -3.46410161513778,
+   "Marca": 1.29e-13,
+   "moduladora": -4,
+   "Modulada": -3.46410161513778
+ },
+ {
+   "tiempo": 715,
+   "Portadora": -3.93923101204883,
+   "Espacio": -3.06417777247591,
+   "Marca": -1.99999999999995,
+   "moduladora": -4,
+   "Modulada": -3.06417777247591
+ },
+ {
+   "tiempo": 716,
+   "Portadora": -3.93923101204884,
+   "Espacio": -2.57115043874617,
+   "Marca": -3.46410161513764,
+   "moduladora": -4,
+   "Modulada": -2.57115043874617
+ },
+ {
+   "tiempo": 717,
+   "Portadora": -3.46410161513773,
+   "Espacio": -1.99999999999998,
+   "Marca": -4,
+   "moduladora": -4,
+   "Modulada": -1.99999999999998
+ },
+ {
+   "tiempo": 718,
+   "Portadora": -2.57115043874623,
+   "Espacio": -1.36808057330272,
+   "Marca": -3.4641016151378,
+   "moduladora": -4,
+   "Modulada": -1.36808057330272
+ },
+ {
+   "tiempo": 719,
+   "Portadora": -1.36808057330279,
+   "Espacio": -0.694592710667782,
+   "Marca": -2.00000000000001,
+   "moduladora": -4,
+   "Modulada": -0.694592710667782
+ },
+ {
+   "tiempo": 720,
+   "Portadora": -3.92e-14,
+   "Espacio": -1.96e-14,
+   "Marca": -1.72e-13,
+   "moduladora": -4,
+   "Modulada": -1.96e-14
+ }
+]

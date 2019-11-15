@@ -1,0 +1,100 @@
+<h6><b>MODULACIÓN POR DESPLAZAMIENTO DE FASE ASK</b></h6>
+
+<div class='row trunk-section'>
+    <div class='col-lg-7 text-center' id='ask_moduladora'/>
+</div>
+
+<div class='row trunk-section'>
+    <div class='col-lg-7 text-center' id='ask_portadora'/>
+</div>
+
+<div class='row trunk-section'>
+    <div class='col-lg-7 text-center' id='ask_moduladaASK'/>
+</div>
+<div class='row trunk-section'>
+
+    <div class='col-lg-7 text-center legend' id='ask_moduladaASKMix'/>
+    <div class='data-column' id="legendMix"></div>
+</div>
+<script>
+    d3.json('data/ASKSimulacion.json', function(data) {
+        MG.data_graphic({
+            title: "Portadora",
+            description: "Una onda portadora es una onda, generalmente senoidal, modificada en alguno de sus parámetros (amplitud, frecuencia o fase) por una señal de entrada denominada moduladora con el fin de transmitir una información.1​ Esta onda portadora es de una frecuencia mucho más alta que la de la señal moduladora.",
+            data: data,
+            width: 900,
+            height: 200,
+            right: 10,
+            target: '#ask_portadora',
+            x_accessor: 'Tiempo',
+            y_accessor: 'Portadora',
+            x_label: 'Tiempo',
+            y_label: 'Portadora',
+            y_extended_ticks: true,
+            x_extended_ticks: true,
+            animate_on_load: true,
+            area: false
+        });
+    });
+
+    d3.json('data/ASKSimulacion.json', function(data) {
+        MG.data_graphic({
+            title: "Moduladora",
+            description: "El término comunicaciones digitales abarca un área extensa de técnicas de comunicaciones, incluyendo transmisión digital y radio digital. La transmisión digital es la transmisión de pulsos digitales, entre dos o más puntos, de un sistema de comunicación. El radio digital es la transmisión de portadoras analógicas moduladas, en forma digital, entre dos o más puntos de un sistema de comunicación.",
+            data: data,
+            width: 900,
+            height: 200,
+            right: 10,
+            target: '#ask_moduladora',
+            x_accessor: 'Tiempo',
+            y_accessor: 'Moduadora',
+            x_label: 'Tiempo',
+            y_label: 'Moduadora',
+            y_extended_ticks: true,
+            x_extended_ticks: true,
+            animate_on_load: true,
+            area: false
+        });
+    });
+
+    d3.json('data/ASKSimulacion.json', function(data) {
+        MG.data_graphic({
+            title: "Modulada ASK",
+            description: "La modulación por desplazamiento de fase o PSK es una forma   en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.",
+            data: data,
+            width: 900,
+            height: 200,
+            right: 10,
+            target: '#ask_moduladaASK',
+            x_accessor: 'Tiempo',
+            y_accessor: 'ModuladaASK',
+            x_label: 'Tiempo',
+            y_label: 'ModuladaASK',
+            y_extended_ticks: true,
+            x_extended_ticks: true,
+            animate_on_load: true,
+            area: false
+        });
+    });
+    d3.json('data/ASKCombinacion.json', function(data) {
+        MG.data_graphic({
+            title: "Portadora/Moduladora ",
+            description: "La modulación por desplazamiento de fase o PSK es una forma   en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.",
+            data: data,
+            width: 900,
+            height: 200,
+            right: 10,
+            target: '#ask_moduladaASKMix',
+            x_accessor: 'Tiempo',
+            y_accessor: 'Combinacion',
+            x_label: 'Tiempo',
+            y_label: 'Moduladora/Portadora',
+            y_extended_ticks: true,
+            x_extended_ticks: true,
+            animate_on_load: true,
+            area: false,
+            legend: ['Moduladora','Portadora'],
+            legend_target: '#legendMix'
+        });
+    });
+</script>
