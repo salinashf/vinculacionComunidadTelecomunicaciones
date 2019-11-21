@@ -7,3 +7,6 @@ function RADIANS(degrees) {
 function SIN(value) {
     return Math.sin(value);
 }
+function COS(value) {
+    return Math.cos(value);
+}

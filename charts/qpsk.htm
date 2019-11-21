@@ -1,18 +1,67 @@
 <h6><b>MODULACIÓN POR DESPLAZAMIENTO DE FASE QPSK</b></h6>
-
-
-
+<form class="form-panel">
+    <div class="row">
+        <div class=" col-sm-1 text-right">
+            <button type="button" id="qpskRedraw" class="btn btn-primary ">
+                <span class="btn-label"><i class="glyphicon glyphicon-refresh"></i></span></button>
+        </div>
+        <div class=" col-sm-1 text-center">
+            <h6><b>PORTADORA</b></h6>
+        </div>
+        <div class=" col-sm-1 text-center">
+            <h6><b>I</b></h6>
+        </div>
+        <div class=" col-sm-1 text-center">
+            <h6><b>Q</b></h6>
+        </div>
+    </div>
+    <div class="row">
+        <div class=" col-sm-1 text-right">
+            <h6><b>AMP</b></h6>
+        </div>
+        <div class=" col-sm-1 text-center">
+            <input type="number" id="amp_port" value="1" step="1" min="1" max="50" class="validate form-control "
+                   data-validate="required"/>
+        </div>
+        <div class=" col-sm-1 text-center">
+            <input type="number" id="amp_i" value="1" step="1" min="1" max="50" class="validate form-control "
+                   data-validate="required"/>
+        </div>
+        <div class=" col-sm-1 text-center">
+            <input disabled="true" type="number" id="amp_q" value="1" class="validate form-control "
+                   data-validate="required"/>
+        </div>
+    </div>
+    <div class="row">
+        <div class=" col-sm-1 text-right">
+            <h6><b>FREQ</b></h6>
+        </div>
+        <div class=" col-sm-1 text-center">
+            <input type="number" id="freq_port" value="1" step="1" min="1" max="50" class="validate form-control "
+                   data-validate="required"/>
+        </div>
+        <div class=" col-sm-1 text-center">
+            <input disabled="true" type="number" id="freq_i" value="0.5" max="50" class="validate form-control "
+                   data-validate="required"/>
+        </div>
+        <div class=" col-sm-1 text-center">
+            <input disabled="true" type="number" id="freq_q" value="0.25" class="validate form-control "
+                   data-validate="required"/>
+        </div>
+    </div>
+</form>
 
 
 <div class='row trunk-section'>
     <div class='col-lg-7 text-center' id='qpsk_PortSen'/>
 </div>
-<div class='row trunk-section'>
-    <div class='col-lg-7 text-center' id='qpsk_PortCos'/>
-</div>
 
 <div class='row trunk-section'>
     <div class='col-lg-7 text-center' id='qpsk_BitI'/>
+</div>
+
+<div class='row trunk-section'>
+    <div class='col-lg-7 text-center' id='qpsk_PortCos'/>
 </div>
 
 <div class='row trunk-section'>
@@ -41,10 +90,26 @@
 
 <script>
 
+    var amp_port = $("#amp_port");
+    var amp_i = $("#amp_i");
+    var amp_q = $("#amp_q");
+    var freq_port = $("#freq_port");
+    var freq_i = $("#freq_i");
+    var freq_q = $("#freq_q");
+
+    $('#freq_port,#amp_i').change(function () {
+        freq_i.val(parseInt(freq_port.val()) / 2);
+        freq_q.val(parseInt(freq_i.val()) / 2);
+        amp_q.val(parseInt(amp_i.val()));
+    });
+    $('#qpskRedraw ').click(function () {
+        dibujar(false, amp_port.val(), amp_i.val(), amp_q.val(), freq_port.val(), freq_i.val(), freq_q.val());
+    });
+
+
     var porSen_QPSK = {
         title: "PORT. SEN",
         description: "El término comunicaciones digitales abarca un área extensa de técnicas de comunicaciones, incluyendo transmisión digital y radio digital. La transmisión digital es la transmisión de pulsos digitales, entre dos o más puntos, de un sistema de comunicación. El radio digital es la transmisión de portadoras analógicas moduladas, en forma digital, entre dos o más puntos de un sistema de comunicación.",
-        data: data,
         width: 900,
         height: 200,
         right: 10,
@@ -62,7 +127,6 @@
     var porCos_QPSK = {
         title: "PORT. COS",
         description: "Una onda portadora es una onda, generalmente senoidal, modificada en alguno de sus parámetros (amplitud, frecuencia o fase) por una señal de entrada denominada moduladora con el fin de transmitir una información.1​ Esta onda portadora es de una frecuencia mucho más alta que la de la señal moduladora.",
-        data: data,
         width: 900,
         height: 200,
         right: 10,
@@ -80,7 +144,6 @@
     var BitI_QPSK = {
         title: "BIT I",
         description: "La modulación por desplazamiento de fase o PSK es una forma   en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.",
-        data: data,
         width: 900,
         height: 200,
         right: 10,
@@ -98,7 +161,6 @@
     var BitQ_QPSK = {
         title: "BIT Q",
         description: "La modulación por desplazamiento de fase o PSK es una forma   en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.",
-        data: data,
         width: 900,
         height: 200,
         right: 10,
@@ -117,7 +179,6 @@
     var CanalI_QPSK = {
         title: "CANAL I",
         description: "La modulación por desplazamiento de fase o PSK es una forma   en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.",
-        data: data,
         width: 900,
         height: 200,
         right: 10,
@@ -134,7 +195,7 @@
     var CanalQ_QPSK = {
         title: "CANAL Q",
         description: "La modulación por desplazamiento de fase o PSK es una forma   en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.",
-        data: data,
+        //data: data,
         width: 900,
         height: 200,
         right: 10,
@@ -152,7 +213,7 @@
     var qpsk_QPSK = {
         title: "QPSK",
         description: "La modulación por desplazamiento de fase o PSK es una forma   en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.",
-        data: data,
+        //data: data,
         width: 900,
         height: 200,
         right: 10,
@@ -170,7 +231,7 @@
     var bitICanalI_QPSK = {
         title: "BIT T/CANAL I",
         description: "La modulación por desplazamiento de fase o PSK es una forma   en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.",
-        data: data,
+        //data: data,
         width: 900,
         height: 200,
         right: 10,
@@ -187,38 +248,86 @@
         legend_target: '#legendMix'
     };
 
-    /*
-        d3.json('data/QPSKSimulacion.json', function (data) {
-            MG.data_graphic();
-        });
+    function dibujar(redibujar, ampPort, ampI, ampQ, freqPort, freqI, freqQ) {
 
-        d3.json('data/QPSKSimulacion.json', function (data) {
-            MG.data_graphic();
-        });
+        let TiempoMin = 0;
+        let TiempoMax = 1440;
 
-        d3.json('data/QPSKSimulacion.json', function (data) {
-            MG.data_graphic();
-        });
+        let porSen = 0;
+        let porCos = 0;
+        let bitI = 0;
+        let bitQ = 0;
+        let canalI = 0;
+        let canalQ = 0;
+        let qpsk_join = 0;
+        let dataQPSK = [];
+        let dataBitI = [];
+        let dataCanalI = [];
+
+        let Tiempo;
+        for (Tiempo = TiempoMin; Tiempo <= TiempoMax; Tiempo++) {
+            porSen = (ampPort) * SIN(RADIANS(Tiempo * freqPort)); /// =$B$3*SIN(RADIANS(A7*$B$4))
+            porCos = (ampPort) * COS(RADIANS(Tiempo * freqPort));// =$B$3*COS(RADIANS(A7*$B$4))
+            bitI = (ampI) * SIN(RADIANS(Tiempo * freqI)) > 0 ? ampI : ampI * (-1); // =IF($C$3*SIN(RADIANS($C$4*A8))>0,C$3,-C$
+            bitQ = (ampQ) * SIN(RADIANS(Tiempo * freqQ)) > 0 ? ampQ : ampQ * (-1); //IF($D$3*SIN(RADIANS($D$4*A7))>0,D$3,-D$3)
+            canalI = porSen * bitI;
+            canalQ = porCos * bitQ;
+            qpsk_join = canalI + canalQ;
 
 
-        d3.json('data/QPSKSimulacion.json', function (data) {
-            MG.data_graphic();
-
-            d3.json('data/QPSKSimulacion.json', function (data) {
-                MG.data_graphic();
+            dataQPSK.push({
+                "Tiempo": Tiempo,
+                "PortSen": porSen,
+                "PortCos": porCos,
+                "BitI": bitI,
+                "BitQ": bitQ,
+                "CanalI": canalI,
+                "CanalQ": canalQ,
+                "QPSK": qpsk_join
+            });
+            dataBitI.push({
+                "Tiempo": Tiempo,
+                "Combinacion": bitI
+            });
+            dataCanalI.push({
+                "Tiempo": Tiempo,
+                "Combinacion": canalI
             });
 
-            d3.json('data/QPSKSimulacion.json', function (data) {
-                MG.data_graphic();
-            });
 
-            d3.json('data/QPSKSimulacion.json', function (data) {
-                MG.data_graphic();
-            });
+        }
 
-            d3.json('data/QPSKCombinacion.json', function (data) {
-                MG.data_graphic();
-            });
-    */
+        delete porSen_QPSK.data;
+        delete porCos_QPSK.data;
+        delete BitI_QPSK.data;
+        delete BitQ_QPSK.data;
+        delete CanalI_QPSK.data;
+        delete CanalQ_QPSK.data;
+        delete qpsk_QPSK.data;
+        delete bitICanalI_QPSK.data;
 
+
+        porSen_QPSK.data = dataQPSK;
+        porCos_QPSK.data = dataQPSK;
+        BitI_QPSK.data = dataQPSK;
+        BitQ_QPSK.data = dataQPSK;
+        CanalI_QPSK.data = dataQPSK;
+        CanalQ_QPSK.data = dataQPSK;
+        qpsk_QPSK.data = dataQPSK;
+        bitICanalI_QPSK.data = [dataCanalI, dataBitI];
+
+
+        MG.data_graphic(porSen_QPSK);
+        MG.data_graphic(porCos_QPSK);
+        MG.data_graphic(BitI_QPSK);
+        MG.data_graphic(BitQ_QPSK);
+        MG.data_graphic(CanalI_QPSK);
+        MG.data_graphic(CanalQ_QPSK);
+        MG.data_graphic(qpsk_QPSK);
+        MG.data_graphic(bitICanalI_QPSK);
+    }
+
+    (function () {
+        dibujar(false, amp_port.val(), amp_i.val(), amp_q.val(), freq_port.val(), freq_i.val(), freq_q.val());
+    })();
 </script>
