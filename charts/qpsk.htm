@@ -1,5 +1,9 @@
 <h6><b>MODULACIÓN POR DESPLAZAMIENTO DE FASE QPSK</b></h6>
 
+
+
+
+
 <div class='row trunk-section'>
     <div class='col-lg-7 text-center' id='qpsk_PortSen'/>
 </div>
@@ -23,179 +27,198 @@
     <div class='col-lg-7 text-center' id='qpsk_CanalQ'/>
 </div>
 
-</div><div class='row trunk-section'>
+</div>
+<div class='row trunk-section'>
     <div class='col-lg-7 text-center' id='qpsk_QPSK'/>
 </div>
 
-</div><div class='row trunk-section'>
+</div>
+<div class='row trunk-section'>
     <div class='col-lg-7 text-center' id='qpsk_MIX'/>
     <div class='data-column' id="legendMix"></div>
 </div>
 
 
 <script>
-    d3.json('data/QPSKSimulacion.json', function(data) {
-        MG.data_graphic({
-            title: "PORT. SEN",
-            description: "El término comunicaciones digitales abarca un área extensa de técnicas de comunicaciones, incluyendo transmisión digital y radio digital. La transmisión digital es la transmisión de pulsos digitales, entre dos o más puntos, de un sistema de comunicación. El radio digital es la transmisión de portadoras analógicas moduladas, en forma digital, entre dos o más puntos de un sistema de comunicación.",
-            data: data,
-            width: 900,
-            height: 200,
-            right: 10,
-            target: '#qpsk_PortSen',
-            x_accessor: 'Tiempo',
-            y_accessor: 'PortSen',
-            x_label: 'Tiempo',
-            y_label: 'PortSen',
-            y_extended_ticks: true,
-            x_extended_ticks: true,
-            animate_on_load: true,
-            area: false
+
+    var porSen_QPSK = {
+        title: "PORT. SEN",
+        description: "El término comunicaciones digitales abarca un área extensa de técnicas de comunicaciones, incluyendo transmisión digital y radio digital. La transmisión digital es la transmisión de pulsos digitales, entre dos o más puntos, de un sistema de comunicación. El radio digital es la transmisión de portadoras analógicas moduladas, en forma digital, entre dos o más puntos de un sistema de comunicación.",
+        data: data,
+        width: 900,
+        height: 200,
+        right: 10,
+        target: '#qpsk_PortSen',
+        x_accessor: 'Tiempo',
+        y_accessor: 'PortSen',
+        x_label: 'Tiempo',
+        y_label: 'PortSen',
+        y_extended_ticks: true,
+        x_extended_ticks: true,
+        animate_on_load: true,
+        area: false
+    };
+
+    var porCos_QPSK = {
+        title: "PORT. COS",
+        description: "Una onda portadora es una onda, generalmente senoidal, modificada en alguno de sus parámetros (amplitud, frecuencia o fase) por una señal de entrada denominada moduladora con el fin de transmitir una información.1​ Esta onda portadora es de una frecuencia mucho más alta que la de la señal moduladora.",
+        data: data,
+        width: 900,
+        height: 200,
+        right: 10,
+        target: '#qpsk_PortCos',
+        x_accessor: 'Tiempo',
+        y_accessor: 'PortCos',
+        x_label: 'Tiempo',
+        y_label: 'PortCos',
+        y_extended_ticks: true,
+        x_extended_ticks: true,
+        animate_on_load: true,
+        area: false
+    };
+
+    var BitI_QPSK = {
+        title: "BIT I",
+        description: "La modulación por desplazamiento de fase o PSK es una forma   en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.",
+        data: data,
+        width: 900,
+        height: 200,
+        right: 10,
+        target: '#qpsk_BitI',
+        x_accessor: 'Tiempo',
+        y_accessor: 'BitI',
+        x_label: 'Tiempo',
+        y_label: 'BitI',
+        y_extended_ticks: true,
+        x_extended_ticks: true,
+        animate_on_load: true,
+        area: false
+    };
+
+    var BitQ_QPSK = {
+        title: "BIT Q",
+        description: "La modulación por desplazamiento de fase o PSK es una forma   en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.",
+        data: data,
+        width: 900,
+        height: 200,
+        right: 10,
+        target: '#qpsk_BitQ',
+        x_accessor: 'Tiempo',
+        y_accessor: 'BitQ',
+        x_label: 'Tiempo',
+        y_label: 'BitQ',
+        y_extended_ticks: true,
+        x_extended_ticks: true,
+        animate_on_load: true,
+        area: false
+    };
+
+
+    var CanalI_QPSK = {
+        title: "CANAL I",
+        description: "La modulación por desplazamiento de fase o PSK es una forma   en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.",
+        data: data,
+        width: 900,
+        height: 200,
+        right: 10,
+        target: '#qpsk_CanalI',
+        x_accessor: 'Tiempo',
+        y_accessor: 'CanalI',
+        x_label: 'Tiempo',
+        y_label: 'CanalI',
+        y_extended_ticks: true,
+        x_extended_ticks: true,
+        animate_on_load: true,
+        area: false
+    };
+    var CanalQ_QPSK = {
+        title: "CANAL Q",
+        description: "La modulación por desplazamiento de fase o PSK es una forma   en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.",
+        data: data,
+        width: 900,
+        height: 200,
+        right: 10,
+        target: '#qpsk_CanalQ',
+        x_accessor: 'Tiempo',
+        y_accessor: 'CanalQ',
+        x_label: 'Tiempo',
+        y_label: 'CanalQ',
+        y_extended_ticks: true,
+        x_extended_ticks: true,
+        animate_on_load: true,
+        area: false
+    };
+
+    var qpsk_QPSK = {
+        title: "QPSK",
+        description: "La modulación por desplazamiento de fase o PSK es una forma   en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.",
+        data: data,
+        width: 900,
+        height: 200,
+        right: 10,
+        target: '#qpsk_QPSK',
+        x_accessor: 'Tiempo',
+        y_accessor: 'QPSK',
+        x_label: 'Tiempo',
+        y_label: 'QPSK',
+        y_extended_ticks: true,
+        x_extended_ticks: true,
+        animate_on_load: true,
+        area: false
+    };
+
+    var bitICanalI_QPSK = {
+        title: "BIT T/CANAL I",
+        description: "La modulación por desplazamiento de fase o PSK es una forma   en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.",
+        data: data,
+        width: 900,
+        height: 200,
+        right: 10,
+        target: '#qpsk_MIX',
+        x_accessor: 'Tiempo',
+        y_accessor: 'Combinacion',
+        x_label: 'Tiempo',
+        y_label: 'BIT T/CANAL I',
+        y_extended_ticks: true,
+        x_extended_ticks: true,
+        animate_on_load: true,
+        area: false,
+        legend: ['BIT I', 'CANAL I'],
+        legend_target: '#legendMix'
+    };
+
+    /*
+        d3.json('data/QPSKSimulacion.json', function (data) {
+            MG.data_graphic();
         });
-    });
 
-    d3.json('data/QPSKSimulacion.json', function(data) {
-        MG.data_graphic({
-            title: "PORT. COS",
-            description: "Una onda portadora es una onda, generalmente senoidal, modificada en alguno de sus parámetros (amplitud, frecuencia o fase) por una señal de entrada denominada moduladora con el fin de transmitir una información.1​ Esta onda portadora es de una frecuencia mucho más alta que la de la señal moduladora.",
-            data: data,
-            width: 900,
-            height: 200,
-            right: 10,
-            target: '#qpsk_PortCos',
-            x_accessor: 'Tiempo',
-            y_accessor: 'PortCos',
-            x_label: 'Tiempo',
-            y_label: 'PortCos',
-            y_extended_ticks: true,
-            x_extended_ticks: true,
-            animate_on_load: true,
-            area: false
+        d3.json('data/QPSKSimulacion.json', function (data) {
+            MG.data_graphic();
         });
-    });
 
-    d3.json('data/QPSKSimulacion.json', function(data) {
-        MG.data_graphic({
-            title: "BIT I",
-            description: "La modulación por desplazamiento de fase o PSK es una forma   en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.",
-            data: data,
-            width: 900,
-            height: 200,
-            right: 10,
-            target: '#qpsk_BitI',
-            x_accessor: 'Tiempo',
-            y_accessor: 'BitI',
-            x_label: 'Tiempo',
-            y_label: 'BitI',
-            y_extended_ticks: true,
-            x_extended_ticks: true,
-            animate_on_load: true,
-            area: false
+        d3.json('data/QPSKSimulacion.json', function (data) {
+            MG.data_graphic();
         });
-    });
 
 
-    d3.json('data/QPSKSimulacion.json', function(data) {
-        MG.data_graphic({
-            title: "BIT Q",
-            description: "La modulación por desplazamiento de fase o PSK es una forma   en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.",
-            data: data,
-            width: 900,
-            height: 200,
-            right: 10,
-            target: '#qpsk_BitQ',
-            x_accessor: 'Tiempo',
-            y_accessor: 'BitQ',
-            x_label: 'Tiempo',
-            y_label: 'BitQ',
-            y_extended_ticks: true,
-            x_extended_ticks: true,
-            animate_on_load: true,
-            area: false
-        });
-    });
+        d3.json('data/QPSKSimulacion.json', function (data) {
+            MG.data_graphic();
 
-    d3.json('data/QPSKSimulacion.json', function(data) {
-        MG.data_graphic({
-            title: "CANAL I",
-            description: "La modulación por desplazamiento de fase o PSK es una forma   en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.",
-            data: data,
-            width: 900,
-            height: 200,
-            right: 10,
-            target: '#qpsk_CanalI',
-            x_accessor: 'Tiempo',
-            y_accessor: 'CanalI',
-            x_label: 'Tiempo',
-            y_label: 'CanalI',
-            y_extended_ticks: true,
-            x_extended_ticks: true,
-            animate_on_load: true,
-            area: false
-        });
-    });
+            d3.json('data/QPSKSimulacion.json', function (data) {
+                MG.data_graphic();
+            });
 
-    d3.json('data/QPSKSimulacion.json', function(data) {
-        MG.data_graphic({
-            title: "CANAL Q",
-            description: "La modulación por desplazamiento de fase o PSK es una forma   en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.",
-            data: data,
-            width: 900,
-            height: 200,
-            right: 10,
-            target: '#qpsk_CanalQ',
-            x_accessor: 'Tiempo',
-            y_accessor: 'CanalQ',
-            x_label: 'Tiempo',
-            y_label: 'CanalQ',
-            y_extended_ticks: true,
-            x_extended_ticks: true,
-            animate_on_load: true,
-            area: false
-        });
-    });
+            d3.json('data/QPSKSimulacion.json', function (data) {
+                MG.data_graphic();
+            });
 
-    d3.json('data/QPSKSimulacion.json', function(data) {
-        MG.data_graphic({
-            title: "QPSK",
-            description: "La modulación por desplazamiento de fase o PSK es una forma   en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.",
-            data: data,
-            width: 900,
-            height: 200,
-            right: 10,
-            target: '#qpsk_QPSK',
-            x_accessor: 'Tiempo',
-            y_accessor: 'QPSK',
-            x_label: 'Tiempo',
-            y_label: 'QPSK',
-            y_extended_ticks: true,
-            x_extended_ticks: true,
-            animate_on_load: true,
-            area: false
-        });
-    });
+            d3.json('data/QPSKSimulacion.json', function (data) {
+                MG.data_graphic();
+            });
 
-    d3.json('data/QPSKCombinacion.json', function(data) {
-        MG.data_graphic({
-            title: "BIT T/CANAL I",
-            description: "La modulación por desplazamiento de fase o PSK es una forma   en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.",
-            data: data,
-            width: 900,
-            height: 200,
-            right: 10,
-            target: '#qpsk_MIX',
-            x_accessor: 'Tiempo',
-            y_accessor: 'Combinacion',
-            x_label: 'Tiempo',
-            y_label: 'BIT T/CANAL I',
-            y_extended_ticks: true,
-            x_extended_ticks: true,
-            animate_on_load: true,
-            area: false,
-            legend: ['BIT I','CANAL I'],
-            legend_target: '#legendMix'
-        });
-    });
-
+            d3.json('data/QPSKCombinacion.json', function (data) {
+                MG.data_graphic();
+            });
+    */
 
 </script>

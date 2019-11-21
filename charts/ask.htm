@@ -1,4 +1,35 @@
 <h6><b>MODULACIÓN POR DESPLAZAMIENTO DE FASE ASK</b></h6>
+<form class="form-panel">
+    <div class="row">
+        <div class=" col-sm-1">
+            <label for="Ec_B1">Ec:</label>
+            <input type="number" id="Ec_B1" value="1" step="1" min="1" max="50" class="validate form-control "
+                   data-validate="required"/>
+        </div>
+        <div class="col-sm-1">
+            <label for="fc_B2">fc:</label>
+            <input type="number" id="fc_B2" value="10" step="1" min="1" max="50" class="validate form-control"
+                   data-validate="required"/>
+        </div>
+        <div class="col-sm-1">
+            <label for="Em_D1">Em:</label>
+            <input type="number" id="Em_D1" value="5" step="1" min="1" max="50" class="validate form-control"
+                   data-validate="required"/>
+        </div>
+        <div class="col-sm-1">
+            <label for="fb_D2">fb:</label>
+            <input type="number" id="fb_D2" value="2" step="1" min="1" max="50" class="validate form-control"
+                   data-validate="required"/>
+
+        </div>
+        <div class="col-sm-1">
+            <label for="askRedraw">Regrescar</label>
+            <button type="button" id="askRedraw" class="btn btn-primary  ">
+                <span class="btn-label"><i class="glyphicon glyphicon-refresh"></i></span></button>
+        </div>
+    </div>
+</form>
+
 
 <div class='row trunk-section'>
     <div class='col-lg-7 text-center' id='ask_moduladora'/>
@@ -14,87 +45,149 @@
 <div class='row trunk-section'>
 
     <div class='col-lg-7 text-center legend' id='ask_moduladaASKMix'/>
-    <div class='data-column' id="legendMix"></div>
+    <div class='col-lg-5 data-column' id="legendMix"></div>
 </div>
 <script>
-    d3.json('data/ASKSimulacion.json', function(data) {
-        MG.data_graphic({
-            title: "Portadora",
-            description: "Una onda portadora es una onda, generalmente senoidal, modificada en alguno de sus parámetros (amplitud, frecuencia o fase) por una señal de entrada denominada moduladora con el fin de transmitir una información.1​ Esta onda portadora es de una frecuencia mucho más alta que la de la señal moduladora.",
-            data: data,
-            width: 900,
-            height: 200,
-            right: 10,
-            target: '#ask_portadora',
-            x_accessor: 'Tiempo',
-            y_accessor: 'Portadora',
-            x_label: 'Tiempo',
-            y_label: 'Portadora',
-            y_extended_ticks: true,
-            x_extended_ticks: true,
-            animate_on_load: true,
-            area: false
-        });
+    'use strict';
+    var dwPortadoraASK = {
+        title: "Portadora",
+        description: "Una onda portadora es una onda, generalmente senoidal, modificada en alguno de sus parámetros (amplitud, frecuencia o fase) por una señal de entrada denominada moduladora con el fin de transmitir una información.1​ Esta onda portadora es de una frecuencia mucho más alta que la de la señal moduladora.",
+        width: 900,
+        height: 200,
+        right: 10,
+        target: '#ask_portadora',
+        x_accessor: 'Tiempo',
+        y_accessor: 'Portadora',
+        x_label: 'Tiempo',
+        y_label: 'Portadora',
+        y_extended_ticks: true,
+        x_extended_ticks: true,
+        animate_on_load: true,
+        area: false
+    };
+
+    var dwModuladoraASK = {
+        title: "Moduladora",
+        description: "El término comunicaciones digitales abarca un área extensa de técnicas de comunicaciones, incluyendo transmisión digital y radio digital. La transmisión digital es la transmisión de pulsos digitales, entre dos o más puntos, de un sistema de comunicación. El radio digital es la transmisión de portadoras analógicas moduladas, en forma digital, entre dos o más puntos de un sistema de comunicación.",
+        width: 900,
+        height: 200,
+        right: 10,
+        target: '#ask_moduladora',
+        x_accessor: 'Tiempo',
+        y_accessor: 'Moduadora',
+        x_label: 'Tiempo',
+        y_label: 'Moduadora',
+        y_extended_ticks: true,
+        x_extended_ticks: true,
+        animate_on_load: true,
+        area: false
+    };
+
+    var dwModuladaASK = {
+        title: "Modulada ASK",
+        description: "La modulación por desplazamiento de fase o PSK es una forma   en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.",
+        width: 900,
+        height: 200,
+        right: 10,
+        target: '#ask_moduladaASK',
+        x_accessor: 'Tiempo',
+        y_accessor: 'ModuladaASK',
+        x_label: 'Tiempo',
+        y_label: 'ModuladaASK',
+        y_extended_ticks: true,
+        x_extended_ticks: true,
+        animate_on_load: true,
+        area: false
+    };
+    var varMDPDASK = {
+        title: "Portadora/Moduladora ",
+        description: "La modulación por desplazamiento de fase o PSK es una forma   en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.",
+        width: 900,
+        height: 200,
+        right: 10,
+        target: '#ask_moduladaASKMix',
+        x_accessor: 'Tiempo',
+        y_accessor: 'Combinacion',
+        x_label: 'Tiempo',
+        y_label: 'Moduladora/Portadora',
+        y_extended_ticks: true,
+        x_extended_ticks: true,
+        animate_on_load: true,
+        area: false,
+        legend: ['Moduladora', 'Portadora'],
+        legend_target: '#legendMix'
+    };
+
+
+    var Ec_txt_ASK = $("#Ec_B1");
+    var fc_txt_ASK = $("#fc_B2");
+    var Em_txt_ASK = $("#Em_D1");
+    var fb_txt_ASK = $("#fb_D2");
+
+    (function () {
+        dibujar(false, Ec_txt_ASK.val(), fc_txt_ASK.val(), Em_txt_ASK.val(), fb_txt_ASK.val());
+    })();
+
+    $('#askRedraw ').click(function () {
+        dibujar(false, Ec_txt_ASK.val(), fc_txt_ASK.val(), Em_txt_ASK.val(), fb_txt_ASK.val());
     });
 
-    d3.json('data/ASKSimulacion.json', function(data) {
-        MG.data_graphic({
-            title: "Moduladora",
-            description: "El término comunicaciones digitales abarca un área extensa de técnicas de comunicaciones, incluyendo transmisión digital y radio digital. La transmisión digital es la transmisión de pulsos digitales, entre dos o más puntos, de un sistema de comunicación. El radio digital es la transmisión de portadoras analógicas moduladas, en forma digital, entre dos o más puntos de un sistema de comunicación.",
-            data: data,
-            width: 900,
-            height: 200,
-            right: 10,
-            target: '#ask_moduladora',
-            x_accessor: 'Tiempo',
-            y_accessor: 'Moduadora',
-            x_label: 'Tiempo',
-            y_label: 'Moduadora',
-            y_extended_ticks: true,
-            x_extended_ticks: true,
-            animate_on_load: true,
-            area: false
-        });
-    });
 
-    d3.json('data/ASKSimulacion.json', function(data) {
-        MG.data_graphic({
-            title: "Modulada ASK",
-            description: "La modulación por desplazamiento de fase o PSK es una forma   en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.",
-            data: data,
-            width: 900,
-            height: 200,
-            right: 10,
-            target: '#ask_moduladaASK',
-            x_accessor: 'Tiempo',
-            y_accessor: 'ModuladaASK',
-            x_label: 'Tiempo',
-            y_label: 'ModuladaASK',
-            y_extended_ticks: true,
-            x_extended_ticks: true,
-            animate_on_load: true,
-            area: false
-        });
-    });
-    d3.json('data/ASKCombinacion.json', function(data) {
-        MG.data_graphic({
-            title: "Portadora/Moduladora ",
-            description: "La modulación por desplazamiento de fase o PSK es una forma   en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.",
-            data: data,
-            width: 900,
-            height: 200,
-            right: 10,
-            target: '#ask_moduladaASKMix',
-            x_accessor: 'Tiempo',
-            y_accessor: 'Combinacion',
-            x_label: 'Tiempo',
-            y_label: 'Moduladora/Portadora',
-            y_extended_ticks: true,
-            x_extended_ticks: true,
-            animate_on_load: true,
-            area: false,
-            legend: ['Moduladora','Portadora'],
-            legend_target: '#legendMix'
-        });
-    });
+    function dibujar(redibujar, Ec_B1, fc_B2, Em_D1, fb_D2) {
+        /**
+         X=[A]
+         Portadora [B]
+         =$B$1*SIN(RADIANS(A6*$B$2))
+         portadora  = (Ec_B1)*(sin(RADIANS(X*fc_B2))
+         Moduadora [C]
+         =IF($D$1*SIN(RADIANS($D$2*A5))>0,1,0)
+         moduladora = (Em_D1)*SIN(RADIANS(fb_D2*X))>0 ?1:0
+         Modulada ASK [D]
+         =B6*C6
+         moduladaASK= portadora*moduladora
+         */
+
+        let TiempoMin = 0;
+        let TiempoMax = 720;
+        let portadora = 0;
+        let moduladora = 0;
+        let moduladaASK = 0;
+        let dataAKS = [];
+        let dataAKSPortadora = [];
+        let dataAKSModuladora = [];
+
+        let Tiempo;
+        for (Tiempo = TiempoMin; Tiempo <= TiempoMax; Tiempo++) {
+            portadora = (Ec_B1) * (SIN(RADIANS(Tiempo * fc_B2)));
+            moduladora = (Em_D1) * (SIN(RADIANS(fb_D2 * Tiempo))) > 0 ? 1 : 0;
+            moduladaASK = portadora * moduladora;
+            //console.log("valores: " + Tiempo + "  " + portadora + "  " + moduladora + "  " + moduladaASK);
+            dataAKS.push({
+                "Tiempo": Tiempo,
+                "Portadora": portadora,
+                "Moduadora": moduladora,
+                "ModuladaASK": moduladaASK
+            });
+            dataAKSModuladora.push({
+                "Tiempo": Tiempo,
+                "Combinacion": moduladora
+            });
+            dataAKSPortadora.push({
+                "Tiempo": Tiempo,
+                "Combinacion": portadora
+            });
+        }
+        delete dwPortadoraASK.data;
+        delete dwModuladoraASK.data;
+        delete dwModuladaASK.data;
+        delete varMDPDASK.data;
+        dwPortadoraASK.data = dataAKS;
+        dwModuladoraASK.data = dataAKS;
+        dwModuladaASK.data = dataAKS;
+        varMDPDASK.data = [dataAKSPortadora, dataAKSModuladora];
+        MG.data_graphic(dwPortadoraASK);
+        MG.data_graphic(dwModuladoraASK);
+        MG.data_graphic(dwModuladaASK);
+        MG.data_graphic(varMDPDASK);
+    }
 </script>
