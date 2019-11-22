@@ -25,7 +25,7 @@
         <div class="col-sm-1">
             <label for="askRedraw">Regrescar</label>
             <button type="button" id="askRedraw" class="btn btn-primary  ">
-                <span class="btn-label"><i class="glyphicon glyphicon-refresh"></i></span></button>
+                <span class="btn-label"><i  id="askRedrawIcon"class="glyphicon glyphicon-refresh"></i></span></button>
         </div>
     </div>
 </form>
@@ -49,6 +49,15 @@
 </div>
 <script>
     'use strict';
+    var dwASKEnd = 0;
+    function completo() {
+        if (dwASKEnd=4) {
+            //Completo Imagen
+            dismiss();
+            $("#askRedrawIcon").removeClass().addClass('glyphicon glyphicon-refresh');
+        }
+    }
+
     var dwPortadoraASK = {
         title: "Portadora",
         description: "Una onda portadora es una onda, generalmente senoidal, modificada en alguno de sus parámetros (amplitud, frecuencia o fase) por una señal de entrada denominada moduladora con el fin de transmitir una información.1​ Esta onda portadora es de una frecuencia mucho más alta que la de la señal moduladora.",
@@ -129,11 +138,14 @@
     })();
 
     $('#askRedraw ').click(function () {
-        dibujar(false, Ec_txt_ASK.val(), fc_txt_ASK.val(), Em_txt_ASK.val(), fb_txt_ASK.val());
+        $("#askRedrawIcon").removeClass().addClass('fa fa-refresh fa-spin');
+        loading();
+        setTimeout(function(){dibujar(false, Ec_txt_ASK.val(), fc_txt_ASK.val(), Em_txt_ASK.val(), fb_txt_ASK.val())},10);
     });
 
 
     function dibujar(redibujar, Ec_B1, fc_B2, Em_D1, fb_D2) {
+        dwASKEnd =0;
         /**
          X=[A]
          Portadora [B]
@@ -189,5 +201,22 @@
         MG.data_graphic(dwModuladoraASK);
         MG.data_graphic(dwModuladaASK);
         MG.data_graphic(varMDPDASK);
+
+        d3.select("#ask_moduladora").transition().on("end", function () {
+            dwASKEnd = +1;
+            completo();
+        });
+        d3.select("#ask_portadora").transition().on("end", function () {
+            dwASKEnd = +1;
+            completo();
+        });
+        d3.select("#ask_moduladaASK").transition().on("end", function () {
+            dwASKEnd = +1;
+            completo();
+        });
+        d3.select("#ask_moduladaASKMix").transition().on("end", function () {
+            dwASKEnd = +1;
+            completo();
+        });
     }
 </script>

@@ -10,6 +10,7 @@ var theme = 'dark';
     });
     $('#mainHeader li a#goto-' + section).addClass('active');
     assignEventListeners();
+
     function assignEventListeners() {
         $('#mainHeader li a.pill').on('click', function (event) {
             event.preventDefault();
@@ -82,3 +83,25 @@ var theme = 'dark';
         });
     }
 })();
+var isLoadin = false;
+
+function loading() {
+    if (!isLoadin) {
+        isLoadin = true;
+        EasyLoading.show({
+            text: "dibujando..."
+        });
+
+    }
+
+}
+
+function dismiss() {
+    if (isLoadin) {
+        isLoadin = false;
+        EasyLoading.hide();
+
+    }
+
+
+}

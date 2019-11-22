@@ -1,4 +1,4 @@
-<h6><b>MODULACIÓN POR DESPLAZAMIENTO DE FASE PSK</b></h6>
+<h6><b>MODULACIÓN POR DESPLAZAMIENTO DE FASE PSK..</b></h6>
 <form class="form-panel">
     <div class="row">
         <div class="col-sm-1">
@@ -26,7 +26,7 @@
         <div class="col-sm-1">
             <label for="pskRedraw">Regrescar</label>
             <button type="button" id="pskRedraw" class="btn btn-primary  ">
-                <span class="btn-label"><i class="glyphicon glyphicon-refresh"></i></span></button>
+                <span class="btn-label"><i id="pskRedrawIcon" class="glyphicon glyphicon-refresh"></i></span></button>
         </div>
     </div>
 </form>
@@ -49,6 +49,10 @@
     var dat_txt_PSK = $("#dat_F2");
     var gd_txt_PSK = $("#gd_F3");
 
+    var dwPortadoraPSKEnd = false;
+    var dwModuladoraPSKEnd = false;
+    var dwModuladaPSKEnd = false;
+
     var dwPortadoraPSK = {
         title: "Portadora",
         description: "Una onda portadora es una onda, generalmente senoidal, modificada en alguno de sus parámetros (amplitud, frecuencia o fase) por una señal de entrada denominada moduladora con el fin de transmitir una información.1​ Esta onda portadora es de una frecuencia mucho más alta que la de la señal moduladora.",
@@ -64,6 +68,7 @@
         y_extended_ticks: true,
         x_extended_ticks: true,
         animate_on_load: true,
+        transition_on_update: true,
         area: false
     };
 
@@ -82,6 +87,7 @@
         y_extended_ticks: true,
         x_extended_ticks: true,
         animate_on_load: true,
+        transition_on_update: true,
         area: false
     };
     var dwModuladaPSK = {
@@ -99,20 +105,45 @@
         y_extended_ticks: true,
         x_extended_ticks: true,
         animate_on_load: true,
+        transition_on_update: true,
         area: false
     };
 
 
     (function () {
-        dibujar(false, amp_txt_PSK.val(), frec_txt_PSK.val(), dat_txt_PSK.val(), gd_txt_PSK.val());
+        dibujar(true);
     })();
 
     $('#pskRedraw ').click(function () {
-        dibujar(false, amp_txt_PSK.val(), frec_txt_PSK.val(), dat_txt_PSK.val(), gd_txt_PSK.val());
+        $("#pskRedrawIcon").removeClass().addClass('fa fa-refresh fa-spin');
+        loading();
+        setTimeout(function () {
+            dibujar(false)
+        }, 10);
     });
 
+    function completo() {
+        if (dwModuladaPSKEnd && dwModuladaPSKEnd && dwModuladoraPSKEnd) {
+            //Completo Imagen
+            dismiss();
+            $("#pskRedrawIcon").removeClass().addClass('glyphicon glyphicon-refresh');
 
-    function dibujar(redibujar, amp, frec, dat, grad) {
+
+        }
+    }
+
+    function dibujar(redibujar) {
+        //Cargando Imagen
+        let amp, frec, dat, grad;
+
+        amp = amp_txt_PSK.val();
+        frec = frec_txt_PSK.val();
+        dat = dat_txt_PSK.val();
+        grad = gd_txt_PSK.val();
+
+        dwPortadoraPSKEnd = false;
+        dwModuladoraPSKEnd = false;
+        dwModuladaPSKEnd = false;
 
         let TiempoMin = 0;
         let TiempoMax = 720;
@@ -144,6 +175,22 @@
         MG.data_graphic(dwPortadoraPSK);
         MG.data_graphic(dwModuladoraPSK);
         MG.data_graphic(dwModuladaPSK);
+
+
+        d3.select("#psk_moduladora").transition().on("end", function () {
+            dwModuladoraPSKEnd = true;
+            completo();
+        });
+        d3.select("#psk_portadora").transition().on("end", function () {
+            dwPortadoraPSKEnd = true;
+            completo();
+        });
+        d3.select("#psk_modulada").transition().on("end", function () {
+            dwModuladaPSKEnd = true;
+            completo();
+        });
+
     }
+
 
 </script>

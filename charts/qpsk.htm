@@ -1,9 +1,9 @@
 <h6><b>MODULACIÓN POR DESPLAZAMIENTO DE FASE QPSK</b></h6>
 <form class="form-panel">
     <div class="row">
-        <div class=" col-sm-1 text-right">
-            <button type="button" id="qpskRedraw" class="btn btn-primary ">
-                <span class="btn-label"><i class="glyphicon glyphicon-refresh"></i></span></button>
+        <div class=" col-sm-1 ">
+            <button type="button" id="qpskRedraw" class="btn btn-primary  ">
+                <span class="btn-label"><i id="qpskRedrawIcon" class="glyphicon glyphicon-refresh"></i></span></button>
         </div>
         <div class=" col-sm-1 text-center">
             <h6><b>PORTADORA</b></h6>
@@ -89,6 +89,15 @@
 
 
 <script>
+    'use strict';
+    var dwQPSKEnd = 0;
+
+    function completo() {
+        if (dwQPSKEnd = 8) {
+            dismiss();
+            $("#qpskRedrawIcon").removeClass().addClass('glyphicon glyphicon-refresh');
+        }
+    }
 
     var amp_port = $("#amp_port");
     var amp_i = $("#amp_i");
@@ -103,7 +112,11 @@
         amp_q.val(parseInt(amp_i.val()));
     });
     $('#qpskRedraw ').click(function () {
-        dibujar(false, amp_port.val(), amp_i.val(), amp_q.val(), freq_port.val(), freq_i.val(), freq_q.val());
+        $("#qpskRedrawIcon").removeClass().addClass('fa fa-refresh fa-spin');
+        loading();
+        setTimeout(function () {
+            dibujar(false, amp_port.val(), amp_i.val(), amp_q.val(), freq_port.val(), freq_i.val(), freq_q.val())
+        }, 10);
     });
 
 
@@ -250,6 +263,8 @@
 
     function dibujar(redibujar, ampPort, ampI, ampQ, freqPort, freqI, freqQ) {
 
+        dwQPSKEnd = 0;
+
         let TiempoMin = 0;
         let TiempoMax = 1440;
 
@@ -325,9 +340,47 @@
         MG.data_graphic(CanalQ_QPSK);
         MG.data_graphic(qpsk_QPSK);
         MG.data_graphic(bitICanalI_QPSK);
+
+
+        d3.select("#qpsk_PortSen").transition().on("end", function () {
+            dwQPSKEnd++;
+            completo();
+        });
+        d3.select("#qpsk_BitI").transition().on("end", function () {
+            dwQPSKEnd++;
+            completo();
+        });
+        d3.select("#qpsk_PortCos").transition().on("end", function () {
+            dwQPSKEnd++;
+            completo();
+        });
+        d3.select("#qpsk_BitQ").transition().on("end", function () {
+            dwQPSKEnd++;
+            completo();
+        });
+        d3.select("#qpsk_CanalI").transition().on("end", function () {
+            dwQPSKEnd++;
+            completo();
+        });
+
+        d3.select("#qpsk_CanalQ").transition().on("end", function () {
+            dwQPSKEnd++;
+            completo();
+        });
+        d3.select("#qpsk_QPSK").transition().on("end", function () {
+            dwQPSKEnd++;
+            completo();
+        });
+        d3.select("#qpsk_MIX").transition().on("end", function () {
+            dwQPSKEnd++;
+            completo();
+        });
+
+
     }
 
     (function () {
+        loading();
         dibujar(false, amp_port.val(), amp_i.val(), amp_q.val(), freq_port.val(), freq_i.val(), freq_q.val());
     })();
 </script>

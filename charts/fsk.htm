@@ -65,9 +65,9 @@
                    data-validate="required"/>
         </div>
         <div class="col-sm-1">
-            <label for="pskRedraw">Refrescar:</label>
-            <button type="button" id="pskRedraw" class="btn btn-primary  ">
-                <span class="btn-label"><i class="glyphicon glyphicon-refresh"></i></span></button>
+            <label for="fskRedraw">Refrescar:</label>
+            <button type="button" id="fskRedraw" class="btn btn-primary  ">
+                <span class="btn-label"><i id="fskRedrawIcon" class="glyphicon glyphicon-refresh"></i></span></button>
         </div>
     </div>
 </form>
@@ -94,6 +94,16 @@
 
 <script>
     'use strict';
+    var dwFSKEnd = 0;
+    function completo() {
+
+        if (dwFSKEnd=5) {
+            //Completo Imagen
+            dismiss();
+            $("#fskRedrawIcon").removeClass().addClass('glyphicon glyphicon-refresh');
+        }
+    }
+
     var amp_FSK = $("#amp_FSK");
     var frec_FSK = $("#frec_FSK");
     var desv_FSK = $("#desv_FSK");
@@ -201,7 +211,7 @@
     });
 
     function dibujar(redibujar, amp, frec, fEspacio, fMarca, ampM, frecM) {
-
+        dwFSKEnd =0;
         let TiempoMin = 0;
         let TiempoMax = 720;
 
@@ -247,12 +257,40 @@
         MG.data_graphic(dwModuladaFSK);
         MG.data_graphic(dwEspacioFSK);
         MG.data_graphic(dwMarcaFSK);
+
+
+
+
+        d3.select("#fsk_moduladora").transition().on("end", function () {
+            dwFSKEnd = +1;
+            completo();
+        });
+        d3.select("#fsk_marca").transition().on("end", function () {
+            dwFSKEnd = +1;
+            completo();
+        });
+        d3.select("#fsk_portadora").transition().on("end", function () {
+            dwFSKEnd = +1;
+            completo();
+        });
+        d3.select("#fsk_espacio").transition().on("end", function () {
+            dwFSKEnd = +1;
+            completo();
+        });
+        d3.select("#fsk_modulada").transition().on("end", function () {
+            dwFSKEnd = +1;
+            completo();
+        });
+
+
     }
     (function () {
         dibujar(false, amp_FSK.val(), frec_FSK.val(), freEsp_FSK.val(), freMarc_FSK.val(), ampMD_FSK.val(), frecMD_FSK.val());
     })();
 
-    $('#pskRedraw ').click(function () {
-        dibujar(false, amp_FSK.val(), frec_FSK.val(), freEsp_FSK.val(), freMarc_FSK.val(), ampMD_FSK.val(), frecMD_FSK.val());
+    $('#fskRedraw ').click(function () {
+        $("#fskRedrawIcon").removeClass().addClass('fa fa-refresh fa-spin');
+        loading();
+        setTimeout(function(){dibujar(false, amp_FSK.val(), frec_FSK.val(), freEsp_FSK.val(), freMarc_FSK.val(), ampMD_FSK.val(), frecMD_FSK.val())},10);
     });
 </script>
