@@ -2,10 +2,13 @@
 
 [![N|Solid](https://uisrael.edu.ec/wp-content/uploads/2019/04/logoWithSpace-1.png)](https://nodesource.com/products/nsolid)
 
-Esta web permite,ve graficas de modulacion  
+Esta web permite,ve graficas de modulacion
+   ### Utiliza 
   - Math
   - Html5
   - D3 library 
+  - Jquery  
+  
 ## Caracteristicas 
   - Frecuencias  ASK
   - Frecuencias PSK 
