@@ -6,25 +6,45 @@
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
-    <link href='https://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css' rel='stylesheet' type='text/css'>
+    <link href='https://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css' rel='stylesheet'
+          type='text/css'>
     <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/easy-loading.css">
-    <link href='css/metricsgraphics.css' rel='stylesheet' type='text/css'>
-    <link href='css/metricsgraphics-demo.css' rel='stylesheet' type='text/css' id='light'>
-    <link href='' rel='stylesheet' type='text/css' id='dark'>
-    <link href='' rel='stylesheet' type='text/css' id='accessible'>
-    <link href='' rel='stylesheet' type='text/css' id='dark-code'>
+    <link href="css/easy-loading.css" rel="stylesheet">
 
+
+    <link href='css/metricsgraphics.css' rel='stylesheet' type='text/css'>
+    <link href='css/metricsgraphics-demo.css' id='light' rel='stylesheet' type='text/css'>
+
+    <link href='' id='dark' rel='stylesheet' type='text/css'>
+    <link href='' id='accessible' rel='stylesheet' type='text/css'>
+    <link href='' id='dark-code' rel='stylesheet' type='text/css'>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
     <script src="https://d3js.org/d3.v4.min.js"></script>
-
-
     <script src="js/easy-loading.js"></script>
+
+
+    <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/flick/jquery-ui.css">
+    <link href="css/jquery-ui-slider-pips.css" rel="stylesheet">
+    <script src="js/lib/jquery-ui-slider-pips.js"></script>
+
+
+    <!--<script src="https://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>-->
+    <!--<link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/flick/jquery-ui.css">-->
+
+
+
+
+    <!-- plus a jQuery UI theme, here I use "flick" -->
+    <!--<link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/flick/jquery-ui.css">-->
+
+
+
 
     <!--<link href='css/highlightjs-default.css' rel='stylesheet' type='text/css' id='light-code'>-->
     <!--<script src='js/lib/highlight.pack.js'></script>-->
 
-     <!--dev start-->
+    <!--dev start-->
     <script src='js/MG.js'></script>
     <script src='js/misc/utility.js'></script>
     <script src='js/common/data_graphic.js'></script>
@@ -55,43 +75,42 @@
     <script src='js/misc/formatters.js'></script>
     <script src='js/misc/transitions.js'></script>
     <script src='js/misc/error.js'></script>
-     <!--dev end-->
+    <!--dev end-->
 
 </head>
 <body>
 <div id="preloader">
-    <div  id="loader" class=""></div>
+    <div class="" id="loader"></div>
 </div>
+<div class='container'>
+    <div class='head'>
+        <ul id="mainHeader">
+            <li class='divider'>|</li>
+            <li><a href='./index.htm'>Inicio</a></li>
+            <li><a class='pill ' href='#' id='dark-css'>Estilo Oscuro</a></li>
+            <li><a class='pill active' href='#' id='light-css'>Estilo Claro</a></li>
+            <li><a class='pill' href='#' id='accessible-css'>Estilo Mas Accesible</a></li>
+            <li class='divider'>|</li>
+            <li><a class='pill' href='#' id='goto-ask'>ASK Simulación</a></li>
+            <li><a class='pill' href='#' id='goto-fsk'>FSK Simulación</a></li>
+            <li><a class='pill' href='#' id='goto-psk'>PSK Simulación</a></li>
+            <li><a class='pill' href='#' id='goto-qpsk'>QPSK Simulación</a></li>
+            <li><a class='pill' href='#' id='goto-8psk'>8PSK Simulación</a></li>
+            <li><a class='pill' href='#' id='Notgoto-8am'>8AM Simulación</a></li>
+        </ul>
+        <img src='images/logoUIsrael.png'/>
+    </div>
+    <div id='trunk'></div>
 
-    <div class='container'>
-
-        <div class='head'>
-            <ul id="mainHeader">
-                <li class='divider'>|</li>
-                <li><a href='./index.htm'>Inicio</a></li>
-                <li><a href='#' id='dark-css' class='pill '>Estilo Oscuro</a></li>
-                <li><a href='#' id='light-css' class='pill active'>Estilo Claro</a></li>
-
-                <li><a href='#' id='accessible-css' class='pill'>Estilo Mas Accesible</a></li>
-                <li class='divider'>|</li>
-                <li><a href='#' id='goto-psk' class='pill'>PSK Simulación</a></li>
-                <li><a href='#' id='goto-ask' class='pill'>ASK Simulación</a></li>
-                <li><a href='#' id='goto-fsk' class='pill'>FSK Simulación</a></li>
-                <li><a href='#' id='goto-qpsk' class='pill'>QPSK Simulación</a></li>
-            </ul>
-            <img src='images/logoUIsrael.png'  />
-        </div>
-        <div id='trunk'></div>
-
-        <div class='footer'>
-            Created by <a href='https://uisrael.edu.ec/'>Universidad Israel</a>, 2018-2019
-            <br />Shared under the <a href='http://www.apache.org/licenses/'>
-            Apache License</a>.
-            <br />Source Code<a href='https://github.com/salinashf/vinculacionComunidadTelecomunicaciones'>
-            GitHub </a>.
-        </div>
-    </div> <!-- end container -->
-    <script src='js/functionMath.js'></script>
-    <script src='js/main.js'></script>
+    <div class='footer'>
+        Created by <a href='https://uisrael.edu.ec/'>Universidad Israel</a>, 2018-2019
+        <br/>Shared under the <a href='http://www.apache.org/licenses/'>
+        Apache License</a>.
+        <br/>Source Code<a href='https://github.com/salinashf/vinculacionComunidadTelecomunicaciones'>
+        GitHub </a>.
+    </div>
+</div> <!-- end container -->
+<script src='js/functionMath.js'></script>
+<script src='js/main.js'></script>
 </body>
 </html>

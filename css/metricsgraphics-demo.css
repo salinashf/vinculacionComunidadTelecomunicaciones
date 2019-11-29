@@ -76,7 +76,7 @@ body {
 
 .footer {
     font-size: 0.9rem;
-    padding: 40px;
+    padding: 5px;
     text-align: center;
 }
 
@@ -120,7 +120,7 @@ html {
 
 .legend {
     font-size: 0.9rem;
-    padding: 25px 0 15px 0;
+    padding: 5px 0 5px 0;
 }
 
 #logo {
@@ -171,7 +171,9 @@ pre, code, text-area {
 }
 
 svg {
-    margin-top: 30px;
+    margin-top: 0px;
+    /*linea  guia*/
+    /*border:1px solid red;*/
 }
 
 #table1 .chart_title {
@@ -205,8 +207,8 @@ svg {
 
 .trunk-section {
     border-top: 1px solid #ccc;
-    padding-bottom: 25px;
-    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 .wip {

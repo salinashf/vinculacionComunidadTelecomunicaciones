@@ -1,8 +1,10 @@
 .mg-active-datapoint {
-    fill: black;
-    font-size: 0.9rem;
+    fill: #db7c22;
+    font-size: 1rem;
     font-weight: 400;
     opacity: 0.8;
+    padding-bottom: 100px;
+    border: 1px dotted red;
 }
 
 .mg-area-color {
@@ -442,6 +444,7 @@ tspan.mg-points-mono {
 .mg-points circle.selected {
     fill-opacity: 1;
     stroke-opacity: 1;
+
 }
 
 .mg-voronoi path {

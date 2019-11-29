@@ -2,7 +2,7 @@ var theme = 'dark';
 
 (function () {
     'use strict';
-    var section = (document.location.hash) ? document.location.hash.slice(1) : 'psk';
+    var section = (document.location.hash) ? document.location.hash.slice(1) : 'ask';
     $('#trunk').load('charts/' + section + '.htm', function () {
         $('pre code').each(function (i, block) {
             hljs.highlightBlock(block);

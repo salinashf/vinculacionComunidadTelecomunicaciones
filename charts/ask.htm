@@ -1,69 +1,148 @@
+<style>
+
+
+</style>
+
+
+<div id="flat-slider"></div>
+<div class="vertical">
+
+    <div id="flat-slider-vertical-1"></div>
+    <div id="flat-slider-vertical-2"></div>
+    <div id="flat-slider-vertical-3"></div>
+
+</div>
+
+
 <h6><b>MODULACIÓN POR DESPLAZAMIENTO DE FASE ASK</b></h6>
 <form class="form-panel">
     <div class="row">
         <div class=" col-sm-1">
-            <label for="Ec_B1">Ec:</label>
-            <input type="number" id="Ec_B1" value="1" step="1" min="1" max="50" class="validate form-control "
+            <label for="amp_ask_p">Ec:</label>
+            <input type="number" id="amp_ask_p" value="1" step="1" min="1" max="50" class="validate form-control "
                    data-validate="required"/>
         </div>
         <div class="col-sm-1">
-            <label for="fc_B2">fc:</label>
-            <input type="number" id="fc_B2" value="10" step="1" min="1" max="50" class="validate form-control"
+            <label for="freq_ask">fc:</label>
+            <input type="number" id="freq_ask" value="10" step="1" min="1" max="50" class="validate form-control"
                    data-validate="required"/>
         </div>
         <div class="col-sm-1">
-            <label for="Em_D1">Em:</label>
-            <input type="number" id="Em_D1" value="5" step="1" min="1" max="50" class="validate form-control"
+            <label for="amp_ask_m">Em:</label>
+            <input type="number" id="amp_ask_m" value="5" step="1" min="1" max="50" class="validate form-control"
                    data-validate="required"/>
         </div>
         <div class="col-sm-1">
-            <label for="fb_D2">fb:</label>
-            <input type="number" id="fb_D2" value="2" step="1" min="1" max="50" class="validate form-control"
+            <label for="freq_ask_m">fb:</label>
+            <input type="number" id="freq_ask_m" value="2" step="1" min="1" max="50" class="validate form-control"
                    data-validate="required"/>
 
         </div>
         <div class="col-sm-1">
             <label for="askRedraw">Regrescar</label>
             <button type="button" id="askRedraw" class="btn btn-primary  ">
-                <span class="btn-label"><i  id="askRedrawIcon"class="glyphicon glyphicon-refresh"></i></span></button>
+                <span class="btn-label"><i id="askRedrawIcon" class="glyphicon glyphicon-refresh"></i></span></button>
         </div>
     </div>
 </form>
 
 
 <div class='row trunk-section'>
-    <div class='col-lg-7 text-center' id='ask_moduladora'/>
+    <div class='col-lg-10' id='ask_moduladora'/>
+    <div class="col-lg-2">
+        <span>
+          <h5>Moduladora</h5>
+               <h6 class="text-justify">
+                   Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide) entre dos valores posibles.
+               </h6>
+        </span>
+    </div>
 </div>
 
 <div class='row trunk-section'>
-    <div class='col-lg-7 text-center' id='ask_portadora'/>
+    <div class='col-lg-10 ' id='ask_portadora'/>
+    <div class="col-lg-2">
+         <span>
+          <h5>Portadora</h5>
+               <h6 class="text-justify">
+                   Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide) entre dos valores posibles.
+               </h6>
+        </span>
+    </div>
 </div>
 
 <div class='row trunk-section'>
-    <div class='col-lg-7 text-center' id='ask_moduladaASK'/>
+    <div class='col-lg-10' id='ask_moduladaASK'/>
+    <div class="col-lg-2">
+         <span>
+          <h5>Modulada</h5>
+               <h6 class="text-justify">
+                   Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide) entre dos valores posibles.
+               </h6>
+        </span>
+    </div>
 </div>
 <div class='row trunk-section'>
+    <div class='col-lg-10' id='ask_moduladaASKMix'/>
+    <div class="col-lg-2">
+        <span>
+          <h5>Portadora/Moduladora</h5>
+               <h6 class="text-justify">
+                   Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide) entre dos valores posibles.
+               </h6>
+        </span>
+        <h6 class='text-center' id="legendMix"/>
+    </div>
 
-    <div class='col-lg-7 text-center legend' id='ask_moduladaASKMix'/>
-    <div class='col-lg-5 data-column' id="legendMix"></div>
+
 </div>
 <script>
     'use strict';
+
+
     var dwASKEnd = 0;
+
     function completo() {
-        if (dwASKEnd=4) {
+        if (dwASKEnd = 4) {
             //Completo Imagen
             dismiss();
             $("#askRedrawIcon").removeClass().addClass('glyphicon glyphicon-refresh');
         }
     }
 
+    var dwModuladoraASK = {
+        custom_line_color_map: [9],
+        inflator: 1.3,
+        missing_is_hidden: true,
+        point_size: 4.5,
+        active_point_on_lines: true,
+        top: 10,
+        active_point_size: 10,
+        width: 960,
+        height: 150,
+        right: 1,
+        target: '#ask_moduladora',
+        x_accessor: 'Tiempo',
+        y_accessor: 'Moduladora',
+        x_label: 'Tiempo',
+        y_label: 'Moduladora',
+        y_extended_ticks: true,
+        x_extended_ticks: true,
+        animate_on_load: true,
+        area: false
+    };
+
     var dwPortadoraASK = {
-        title: "Portadora",
-        description: "Una onda portadora es una onda, generalmente senoidal, modificada en alguno de sus parámetros (amplitud, frecuencia o fase) por una señal de entrada denominada moduladora con el fin de transmitir una información.1​ Esta onda portadora es de una frecuencia mucho más alta que la de la señal moduladora.",
-        width: 900,
-        height: 200,
-        right: 10,
+        custom_line_color_map: [8],
+        inflator: 1.6,
+        missing_is_hidden: true,
+        point_size: 4.5,
+        active_point_on_lines: true,
+        top: 10,
+        active_point_size: 10,
+        width: 960,
+        height: 150,
+        right: 1,
         target: '#ask_portadora',
         x_accessor: 'Tiempo',
         y_accessor: 'Portadora',
@@ -75,48 +154,42 @@
         area: false
     };
 
-    var dwModuladoraASK = {
-        title: "Moduladora",
-        description: "El término comunicaciones digitales abarca un área extensa de técnicas de comunicaciones, incluyendo transmisión digital y radio digital. La transmisión digital es la transmisión de pulsos digitales, entre dos o más puntos, de un sistema de comunicación. El radio digital es la transmisión de portadoras analógicas moduladas, en forma digital, entre dos o más puntos de un sistema de comunicación.",
-        width: 900,
-        height: 200,
-        right: 10,
-        target: '#ask_moduladora',
-        x_accessor: 'Tiempo',
-        y_accessor: 'Moduadora',
-        x_label: 'Tiempo',
-        y_label: 'Moduadora',
-        y_extended_ticks: true,
-        x_extended_ticks: true,
-        animate_on_load: true,
-        area: false
-    };
 
     var dwModuladaASK = {
-        title: "Modulada ASK",
-        description: "La modulación por desplazamiento de fase o PSK es una forma   en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.",
-        width: 900,
-        height: 200,
-        right: 10,
+        custom_line_color_map: [3],
+        inflator: 1.6,
+        missing_is_hidden: true,
+        point_size: 4.5,
+        active_point_on_lines: true,
+        top: 10,
+        active_point_size: 10,
+        width: 960,
+        height: 150,
+        right: 1,
         target: '#ask_moduladaASK',
         x_accessor: 'Tiempo',
-        y_accessor: 'ModuladaASK',
+        y_accessor: 'Modulada',
         x_label: 'Tiempo',
-        y_label: 'ModuladaASK',
+        y_label: 'Modulada',
         y_extended_ticks: true,
         x_extended_ticks: true,
         animate_on_load: true,
         area: false
     };
     var varMDPDASK = {
-        title: "Portadora/Moduladora ",
-        description: "La modulación por desplazamiento de fase o PSK es una forma   en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.",
-        width: 900,
-        height: 200,
-        right: 10,
+        custom_line_color_map: [8, 9],
+        inflator: 1.6,
+        missing_is_hidden: true,
+        point_size: 4.5,
+        active_point_on_lines: true,
+        top: 10,
+        active_point_size: 10,
+        width: 960,
+        height: 170,
+        right: 1,
         target: '#ask_moduladaASKMix',
         x_accessor: 'Tiempo',
-        y_accessor: 'Combinacion',
+        y_accessor: 'Valor',
         x_label: 'Tiempo',
         y_label: 'Moduladora/Portadora',
         y_extended_ticks: true,
@@ -128,10 +201,10 @@
     };
 
 
-    var Ec_txt_ASK = $("#Ec_B1");
-    var fc_txt_ASK = $("#fc_B2");
-    var Em_txt_ASK = $("#Em_D1");
-    var fb_txt_ASK = $("#fb_D2");
+    var Ec_txt_ASK = $("#amp_ask_p");
+    var fc_txt_ASK = $("#freq_ask");
+    var Em_txt_ASK = $("#amp_ask_m");
+    var fb_txt_ASK = $("#freq_ask_m");
 
     (function () {
         dibujar(false, Ec_txt_ASK.val(), fc_txt_ASK.val(), Em_txt_ASK.val(), fb_txt_ASK.val());
@@ -140,25 +213,14 @@
     $('#askRedraw ').click(function () {
         $("#askRedrawIcon").removeClass().addClass('fa fa-refresh fa-spin');
         loading();
-        setTimeout(function(){dibujar(false, Ec_txt_ASK.val(), fc_txt_ASK.val(), Em_txt_ASK.val(), fb_txt_ASK.val())},10);
+        setTimeout(function () {
+            dibujar(false, Ec_txt_ASK.val(), fc_txt_ASK.val(), Em_txt_ASK.val(), fb_txt_ASK.val())
+        }, 10);
     });
 
 
-    function dibujar(redibujar, Ec_B1, fc_B2, Em_D1, fb_D2) {
-        dwASKEnd =0;
-        /**
-         X=[A]
-         Portadora [B]
-         =$B$1*SIN(RADIANS(A6*$B$2))
-         portadora  = (Ec_B1)*(sin(RADIANS(X*fc_B2))
-         Moduadora [C]
-         =IF($D$1*SIN(RADIANS($D$2*A5))>0,1,0)
-         moduladora = (Em_D1)*SIN(RADIANS(fb_D2*X))>0 ?1:0
-         Modulada ASK [D]
-         =B6*C6
-         moduladaASK= portadora*moduladora
-         */
-
+    function dibujar(redibujar, amp_ask_p, freq_ask, amp_ask_m, freq_ask_m) {
+        dwASKEnd = 0;
         let TiempoMin = 0;
         let TiempoMax = 720;
         let portadora = 0;
@@ -170,23 +232,23 @@
 
         let Tiempo;
         for (Tiempo = TiempoMin; Tiempo <= TiempoMax; Tiempo++) {
-            portadora = (Ec_B1) * (SIN(RADIANS(Tiempo * fc_B2)));
-            moduladora = (Em_D1) * (SIN(RADIANS(fb_D2 * Tiempo))) > 0 ? 1 : 0;
+            portadora = (amp_ask_p) * (SIN(RADIANS(Tiempo * freq_ask)));
+            moduladora = (amp_ask_m) * (SIN(RADIANS(freq_ask_m * Tiempo))) > 0 ? 1 : 0;
             moduladaASK = portadora * moduladora;
             //console.log("valores: " + Tiempo + "  " + portadora + "  " + moduladora + "  " + moduladaASK);
             dataAKS.push({
                 "Tiempo": Tiempo,
                 "Portadora": portadora,
-                "Moduadora": moduladora,
-                "ModuladaASK": moduladaASK
+                "Moduladora": moduladora,
+                "Modulada": moduladaASK
             });
             dataAKSModuladora.push({
                 "Tiempo": Tiempo,
-                "Combinacion": moduladora
+                "Valor": moduladora
             });
             dataAKSPortadora.push({
                 "Tiempo": Tiempo,
-                "Combinacion": portadora
+                "Valor": portadora
             });
         }
         delete dwPortadoraASK.data;
