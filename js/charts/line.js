@@ -112,6 +112,7 @@
                     .attr('d', plot.area(data[which_line]))
                     .attr('clip-path', `url(#mg-plot-window-${mg_target_ref(target)})`);
             } else { // otherwise, add the area
+                console.log(line_id);
                 svg.append('path')
                     .classed('mg-main-area', true)
                     .classed(`mg-area${line_id}`, true)

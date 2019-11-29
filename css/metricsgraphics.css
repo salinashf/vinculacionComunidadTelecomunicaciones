@@ -48,8 +48,13 @@
 }
 
 .mg-area10-color {
-    fill: #92514f;
+    fill: #921330;
 }
+
+.mg-area11-color {
+    fill: #224c92;
+}
+
 
 text.mg-barplot-group-label {
     font-weight:900;

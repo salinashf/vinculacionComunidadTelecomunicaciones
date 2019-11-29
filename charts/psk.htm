@@ -32,15 +32,39 @@
 </form>
 
 <div class='row trunk-section'>
-    <div class='col-lg-7 text-center' id='psk_moduladora'/>
+    <div class='col-lg-10' id='psk_moduladora'/>
+    <div class="col-lg-2">
+         <span>
+          <h5>Moduladora</h5>
+               <h6 class="text-justify">
+                   Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide) entre dos valores posibles.
+               </h6>
+        </span>
+    </div>
 </div>
 
 <div class='row trunk-section'>
-    <div class='col-lg-7 text-center' id='psk_portadora'/>
+    <div class='col-lg-10' id='psk_portadora'/>
+    <div class="col-lg-2">
+         <span>
+          <h5>Portadora</h5>
+               <h6 class="text-justify">
+                   Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide) entre dos valores posibles.
+               </h6>
+        </span>
+    </div>
 </div>
 
 <div class='row trunk-section'>
-    <div class='col-lg-7 text-center' id='psk_modulada'/>
+    <div class='col-lg-10' id='psk_modulada'/>
+    <div class="col-lg-2">
+         <span>
+          <h5>Modulada</h5>
+               <h6 class="text-justify">
+                   Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide) entre dos valores posibles.
+               </h6>
+        </span>
+    </div>
 </div>
 <script>
     'use strict';
@@ -54,17 +78,26 @@
     var dwModuladaPSKEnd = false;
 
     var dwPortadoraPSK = {
-        title: "Portadora",
+        /*title: "Portadora",
         description: "Una onda portadora es una onda, generalmente senoidal, modificada en alguno de sus parámetros (amplitud, frecuencia o fase) por una señal de entrada denominada moduladora con el fin de transmitir una información.1​ Esta onda portadora es de una frecuencia mucho más alta que la de la señal moduladora.",
-
         width: 900,
         height: 200,
-        right: 10,
+        right: 10,*/
+        custom_line_color_map: [8],
+        inflator: 1.8,
+        missing_is_hidden: true,
+        point_size: 4.5,
+        active_point_on_lines: true,
+        top: 10,
+        active_point_size: 10,
+        width: 960,
+        height: 150,
+        right: 1,
         target: '#psk_portadora',
-        x_accessor: 'tiempo',
-        y_accessor: 'portadora',
+        x_accessor: 'Tiempo',
+        y_accessor: 'Portadora',
         x_label: 'Tiempo',
-        y_label: 'portadora',
+        y_label: 'Portadora',
         y_extended_ticks: true,
         x_extended_ticks: true,
         animate_on_load: true,
@@ -73,17 +106,26 @@
     };
 
     var dwModuladoraPSK = {
-        title: "Moduladora",
+        /*title: "Moduladora",
         description: "El término comunicaciones digitales abarca un área extensa de técnicas de comunicaciones, incluyendo transmisión digital y radio digital. La transmisión digital es la transmisión de pulsos digitales, entre dos o más puntos, de un sistema de comunicación. El radio digital es la transmisión de portadoras analógicas moduladas, en forma digital, entre dos o más puntos de un sistema de comunicación.",
-
         width: 900,
         height: 200,
-        right: 10,
+        right: 10,*/
+        custom_line_color_map: [9],
+        inflator: 1.8,
+        missing_is_hidden: true,
+        point_size: 4.5,
+        active_point_on_lines: true,
+        top: 10,
+        active_point_size: 10,
+        width: 960,
+        height: 150,
+        right: 1,
         target: '#psk_moduladora',
-        x_accessor: 'tiempo',
-        y_accessor: 'moduladora',
+        x_accessor: 'Tiempo',
+        y_accessor: 'Moduladora',
         x_label: 'Tiempo',
-        y_label: 'moduladora',
+        y_label: 'Moduladora',
         y_extended_ticks: true,
         x_extended_ticks: true,
         animate_on_load: true,
@@ -91,14 +133,23 @@
         area: false
     };
     var dwModuladaPSK = {
-        title: "Modulada",
+        /*title: "Modulada",
         description: "La modulación por desplazamiento de fase o PSK (Phase Shift Keying) es una forma de ... es continua, en función de la señal moduladora, en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.",
-
         width: 900,
         height: 200,
-        right: 10,
+        right: 10,*/
+        custom_line_color_map: [3],
+        inflator: 1.8,
+        missing_is_hidden: true,
+        point_size: 4.5,
+        active_point_on_lines: true,
+        top: 10,
+        active_point_size: 10,
+        width: 960,
+        height: 150,
+        right: 1,
         target: '#psk_modulada',
-        x_accessor: 'tiempo',
+        x_accessor: 'Tiempo',
         y_accessor: 'Modulada',
         x_label: 'Tiempo',
         y_label: 'Modulada',
@@ -127,8 +178,6 @@
             //Completo Imagen
             dismiss();
             $("#pskRedrawIcon").removeClass().addClass('glyphicon glyphicon-refresh');
-
-
         }
     }
 
@@ -151,21 +200,20 @@
         let moduladora = 0;
         let moduladaPSK = 0;
         let dataPKS = [];
-
         let Tiempo;
+
         for (Tiempo = TiempoMin; Tiempo <= TiempoMax; Tiempo++) {
             portadora = (amp) * SIN(RADIANS(Tiempo * frec));
             moduladora = (dat) * SIN(RADIANS(grad * Tiempo)) > 0 ? dat : ((-1) * dat);
             moduladaPSK = portadora * moduladora;
             dataPKS.push({
-                "tiempo": Tiempo,
-                "portadora": portadora,
-                "moduladora": moduladora,
+                "Tiempo": Tiempo,
+                "Portadora": portadora,
+                "Moduladora": moduladora,
                 "Modulada": moduladaPSK
             });
 
         }
-
         delete dwPortadoraPSK.data;
         delete dwModuladoraPSK.data;
         delete dwModuladaPSK.data;
@@ -175,7 +223,6 @@
         MG.data_graphic(dwPortadoraPSK);
         MG.data_graphic(dwModuladoraPSK);
         MG.data_graphic(dwModuladaPSK);
-
 
         d3.select("#psk_moduladora").transition().on("end", function () {
             dwModuladoraPSKEnd = true;
@@ -189,8 +236,5 @@
             dwModuladaPSKEnd = true;
             completo();
         });
-
     }
-
-
 </script>

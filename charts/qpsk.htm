@@ -53,40 +53,103 @@
 
 
 <div class='row trunk-section'>
-    <div class='col-lg-7 text-center' id='qpsk_PortSen'/>
+    <div class='col-lg-10' id='qpsk_PortSen'/>
+    <div class="col-lg-2">
+         <span>
+          <h5>Portadora Seno</h5>
+               <h6 class="text-justify">
+                   Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide) entre dos valores posibles.
+               </h6>
+        </span>
+    </div>
 </div>
 
 <div class='row trunk-section'>
-    <div class='col-lg-7 text-center' id='qpsk_BitI'/>
+    <div class='col-lg-10' id='qpsk_BitI'/>
+    <div class="col-lg-2">
+         <span>
+          <h5>Bit I</h5>
+               <h6 class="text-justify">
+                   Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide) entre dos valores posibles.
+               </h6>
+        </span>
+    </div>
 </div>
 
 <div class='row trunk-section'>
-    <div class='col-lg-7 text-center' id='qpsk_PortCos'/>
+    <div class='col-lg-10' id='qpsk_PortCos'/>
+    <div class="col-lg-2">
+         <span>
+          <h5>Portadora Coseno</h5>
+               <h6 class="text-justify">
+                   Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide) entre dos valores posibles.
+               </h6>
+        </span>
+    </div>
 </div>
 
 <div class='row trunk-section'>
-    <div class='col-lg-7 text-center' id='qpsk_BitQ'/>
+    <div class='col-lg-10' id='qpsk_BitQ'/>
+    <div class="col-lg-2">
+         <span>
+          <h5>Bit Q</h5>
+               <h6 class="text-justify">
+                   Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide) entre dos valores posibles.
+               </h6>
+        </span>
+    </div>
 </div>
 
 <div class='row trunk-section'>
-    <div class='col-lg-7 text-center' id='qpsk_CanalI'/>
+    <div class='col-lg-10' id='qpsk_CanalI'/>
+    <div class="col-lg-2">
+         <span>
+          <h5>Canal I</h5>
+               <h6 class="text-justify">
+                   Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide) entre dos valores posibles.
+               </h6>
+        </span>
+    </div>
 </div>
 
 <div class='row trunk-section'>
-    <div class='col-lg-7 text-center' id='qpsk_CanalQ'/>
+    <div class='col-lg-10' id='qpsk_CanalQ'/>
+    <div class="col-lg-2">
+         <span>
+          <h5>Canal Q</h5>
+               <h6 class="text-justify">
+                   Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide) entre dos valores posibles.
+               </h6>
+        </span>
+    </div>
 </div>
 
-</div>
+
 <div class='row trunk-section'>
-    <div class='col-lg-7 text-center' id='qpsk_QPSK'/>
+    <div class='col-lg-10' id='qpsk_QPSK'/>
+    <div class="col-lg-2">
+         <span>
+          <h5>QPSK</h5>
+               <h6 class="text-justify">
+                   Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide) entre dos valores posibles.
+               </h6>
+        </span>
+    </div>
 </div>
 
-</div>
+
 <div class='row trunk-section'>
-    <div class='col-lg-7 text-center' id='qpsk_MIX'/>
-    <div class='col-lg-5  data-column' id="legendMix"></div>
+    <div class='col-lg-10' id='qpsk_MIX'/>
+    <div class="col-lg-2">
+                 <span>
+                  <h5>Bit I/Canal I</h5>
+                       <h6 class="text-justify">
+                           Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide) entre dos valores posibles.
+                       </h6>
+                </span>
+        <h6 class='text-center' id="legendMix"/>
+    </div>
 </div>
-
 
 <script>
     'use strict';
@@ -121,11 +184,21 @@
 
 
     var porSen_QPSK = {
-        title: "PORT. SEN",
+        /*title: "PORT. SEN",
         description: "El término comunicaciones digitales abarca un área extensa de técnicas de comunicaciones, incluyendo transmisión digital y radio digital. La transmisión digital es la transmisión de pulsos digitales, entre dos o más puntos, de un sistema de comunicación. El radio digital es la transmisión de portadoras analógicas moduladas, en forma digital, entre dos o más puntos de un sistema de comunicación.",
         width: 900,
         height: 200,
-        right: 10,
+        right: 10,*/
+        custom_line_color_map: [8],
+        inflator: 1.6,
+        missing_is_hidden: true,
+        point_size: 4.5,
+        active_point_on_lines: true,
+        top: 10,
+        active_point_size: 10,
+        width: 960,
+        height: 150,
+        right: 1,
         target: '#qpsk_PortSen',
         x_accessor: 'Tiempo',
         y_accessor: 'PortSen',
@@ -138,11 +211,21 @@
     };
 
     var porCos_QPSK = {
-        title: "PORT. COS",
+        /*title: "PORT. COS",
         description: "Una onda portadora es una onda, generalmente senoidal, modificada en alguno de sus parámetros (amplitud, frecuencia o fase) por una señal de entrada denominada moduladora con el fin de transmitir una información.1​ Esta onda portadora es de una frecuencia mucho más alta que la de la señal moduladora.",
         width: 900,
         height: 200,
-        right: 10,
+        right: 10,*/
+        custom_line_color_map: [6],
+        inflator: 1.6,
+        missing_is_hidden: true,
+        point_size: 4.5,
+        active_point_on_lines: true,
+        top: 10,
+        active_point_size: 10,
+        width: 960,
+        height: 150,
+        right: 1,
         target: '#qpsk_PortCos',
         x_accessor: 'Tiempo',
         y_accessor: 'PortCos',
@@ -155,11 +238,21 @@
     };
 
     var BitI_QPSK = {
-        title: "BIT I",
+        /*title: "BIT I",
         description: "La modulación por desplazamiento de fase o PSK es una forma   en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.",
         width: 900,
         height: 200,
-        right: 10,
+        right: 10,*/
+        custom_line_color_map: [1],
+        inflator: 1.6,
+        missing_is_hidden: true,
+        point_size: 4.5,
+        active_point_on_lines: true,
+        top: 10,
+        active_point_size: 10,
+        width: 960,
+        height: 150,
+        right: 1,
         target: '#qpsk_BitI',
         x_accessor: 'Tiempo',
         y_accessor: 'BitI',
@@ -172,11 +265,21 @@
     };
 
     var BitQ_QPSK = {
-        title: "BIT Q",
+        /*title: "BIT Q",
         description: "La modulación por desplazamiento de fase o PSK es una forma   en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.",
         width: 900,
         height: 200,
-        right: 10,
+        right: 10,*/
+        custom_line_color_map: [0],
+        inflator: 1.6,
+        missing_is_hidden: true,
+        point_size: 4.5,
+        active_point_on_lines: true,
+        top: 10,
+        active_point_size: 10,
+        width: 960,
+        height: 150,
+        right: 1,
         target: '#qpsk_BitQ',
         x_accessor: 'Tiempo',
         y_accessor: 'BitQ',
@@ -190,11 +293,21 @@
 
 
     var CanalI_QPSK = {
-        title: "CANAL I",
+        /*title: "CANAL I",
         description: "La modulación por desplazamiento de fase o PSK es una forma   en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.",
         width: 900,
         height: 200,
-        right: 10,
+        right: 10,*/
+        custom_line_color_map: [4],
+        inflator: 1.6,
+        missing_is_hidden: true,
+        point_size: 4.5,
+        active_point_on_lines: true,
+        top: 10,
+        active_point_size: 10,
+        width: 960,
+        height: 150,
+        right: 1,
         target: '#qpsk_CanalI',
         x_accessor: 'Tiempo',
         y_accessor: 'CanalI',
@@ -206,12 +319,21 @@
         area: false
     };
     var CanalQ_QPSK = {
-        title: "CANAL Q",
+        /*title: "CANAL Q",
         description: "La modulación por desplazamiento de fase o PSK es una forma   en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.",
-        //data: data,
         width: 900,
         height: 200,
-        right: 10,
+        right: 10,*/
+        custom_line_color_map: [7],
+        inflator: 1.6,
+        missing_is_hidden: true,
+        point_size: 4.5,
+        active_point_on_lines: true,
+        top: 10,
+        active_point_size: 10,
+        width: 960,
+        height: 150,
+        right: 1,
         target: '#qpsk_CanalQ',
         x_accessor: 'Tiempo',
         y_accessor: 'CanalQ',
@@ -224,12 +346,21 @@
     };
 
     var qpsk_QPSK = {
-        title: "QPSK",
+        /*title: "QPSK",
         description: "La modulación por desplazamiento de fase o PSK es una forma   en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.",
-        //data: data,
         width: 900,
         height: 200,
-        right: 10,
+        right: 10,*/
+        custom_line_color_map: [9],
+        inflator: 1.6,
+        missing_is_hidden: true,
+        point_size: 4.5,
+        active_point_on_lines: true,
+        top: 10,
+        active_point_size: 10,
+        width: 960,
+        height: 150,
+        right: 1,
         target: '#qpsk_QPSK',
         x_accessor: 'Tiempo',
         y_accessor: 'QPSK',
@@ -242,12 +373,21 @@
     };
 
     var bitICanalI_QPSK = {
-        title: "BIT I/CANAL I",
+        /*title: "BIT I/CANAL I",
         description: "La modulación por desplazamiento de fase o PSK es una forma   en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.",
-        //data: data,
         width: 900,
         height: 200,
-        right: 10,
+        right: 10,*/
+        custom_line_color_map: [4,1],
+        inflator: 1.6,
+        missing_is_hidden: true,
+        point_size: 4.5,
+        active_point_on_lines: true,
+        top: 10,
+        active_point_size: 10,
+        width: 960,
+        height: 150,
+        right: 1,
         target: '#qpsk_MIX',
         x_accessor: 'Tiempo',
         y_accessor: 'Combinacion',

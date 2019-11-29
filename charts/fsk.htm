@@ -74,30 +74,68 @@
 
 
 <div class='row trunk-section'>
-    <div class='col-lg-7 text-center' id='fsk_moduladora'/>
+    <div class='col-lg-10' id='fsk_moduladora'/>
+    <div class="col-lg-2">
+        <span>
+          <h5>Moduladora</h5>
+               <h6 class="text-justify">
+                   Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide) entre dos valores posibles.
+               </h6>
+        </span>
+    </div>
 </div>
 <div class='row trunk-section'>
-    <div class='col-lg-7 text-center' id='fsk_marca'/>
+    <div class='col-lg-10 ' id='fsk_marca'/>
+    <div class="col-lg-2">
+        <span>
+          <h5>Frecuencia de Marca</h5>
+               <h6 class="text-justify">
+                   Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide) entre dos valores posibles.
+               </h6>
+        </span>
+    </div>
 </div>
-
 <div class='row trunk-section'>
-    <div class='col-lg-7 text-center' id='fsk_portadora'/>
+    <div class='col-lg-10 ' id='fsk_portadora'/>
+    <div class="col-lg-2">
+                <span>
+                  <h5>Portadora</h5>
+                       <h6 class="text-justify">
+                           Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide) entre dos valores posibles.
+                       </h6>
+                </span>
+    </div>
 </div>
-
 <div class='row trunk-section'>
-    <div class='col-lg-7 text-center' id='fsk_espacio'/>
+    <div class='col-lg-10' id='fsk_espacio'/>
+    <div class="col-lg-2">
+        <span>
+          <h5>Frecuencia de Espacio</h5>
+               <h6 class="text-justify">
+                   Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide) entre dos valores posibles.
+               </h6>
+        </span>
+    </div>
 </div>
 <div class='row trunk-section'>
-    <div class='col-lg-7 text-center' id='fsk_modulada'/>
+    <div class='col-lg-10' id='fsk_modulada'/>
+    <div class="col-lg-2">
+        <span>
+          <h5>Modulada</h5>
+               <h6 class="text-justify">
+                   Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide) entre dos valores posibles.
+               </h6>
+        </span>
+    </div>
 </div>
-
 
 <script>
     'use strict';
     var dwFSKEnd = 0;
+
     function completo() {
 
-        if (dwFSKEnd=5) {
+        if (dwFSKEnd = 5) {
             //Completo Imagen
             dismiss();
             $("#fskRedrawIcon").removeClass().addClass('glyphicon glyphicon-refresh');
@@ -114,14 +152,24 @@
 
 
     var dwPortadoraFSK = {
-        title: "Portadora",
+        /*title: "Portadora",
         description: "La modulación por desplazamiento de fase o PSK es una forma   en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.",
         //data: data,
         width: 900,
         height: 200,
-        right: 10,
+        right: 10,*/
+        custom_line_color_map: [8],
+        inflator: 1.8,
+        missing_is_hidden: true,
+        point_size: 4.5,
+        active_point_on_lines: true,
+        top: 10,
+        active_point_size: 10,
+        width: 960,
+        height: 150,
+        right: 1,
         target: '#fsk_portadora',
-        x_accessor: 'tiempo',
+        x_accessor: 'Tiempo',
         y_accessor: 'Portadora',
         x_label: 'Tiempo',
         y_label: 'Portadora',
@@ -131,15 +179,24 @@
         area: false
     };
     var dwModuladoraFSK = {
-        title: "Moduladora",
+        /*title: "Moduladora",
         description: "El término comunicaciones digitales abarca un área extensa de técnicas de comunicaciones, incluyendo transmisión digital y radio digital. La transmisión digital es la transmisión de pulsos digitales, entre dos o más puntos, de un sistema de comunicación. El radio digital es la transmisión de portadoras analógicas moduladas, en forma digital, entre dos o más puntos de un sistema de comunicación.",
-        //data: data,
         width: 900,
         height: 200,
-        right: 10,
+        right: 10,*/
+        custom_line_color_map: [9],
+        inflator: 1.8,
+        missing_is_hidden: true,
+        point_size: 4.5,
+        active_point_on_lines: true,
+        top: 10,
+        active_point_size: 10,
+        width: 960,
+        height: 150,
+        right: 1,
         target: '#fsk_moduladora',
-        x_accessor: 'tiempo',
-        y_accessor: 'moduladora',
+        x_accessor: 'Tiempo',
+        y_accessor: 'Moduladora',
         x_label: 'Tiempo',
         y_label: 'Moduladora',
         y_extended_ticks: true,
@@ -148,14 +205,23 @@
         area: false
     };
     var dwModuladaFSK = {
-        title: "Modulada",
+        /*title: "Modulada",
         description: "La modulación por desplazamiento de fase o PSK es una forma   en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.",
-        //data: data,
         width: 900,
         height: 200,
-        right: 10,
+        right: 10,*/
+        custom_line_color_map: [3],
+        inflator: 1.8,
+        missing_is_hidden: true,
+        point_size: 4.5,
+        active_point_on_lines: true,
+        top: 10,
+        active_point_size: 10,
+        width: 960,
+        height: 150,
+        right: 1,
         target: '#fsk_modulada',
-        x_accessor: 'tiempo',
+        x_accessor: 'Tiempo',
         y_accessor: 'Modulada',
         x_label: 'Tiempo',
         y_label: 'Modulada',
@@ -166,34 +232,52 @@
     };
 
     var dwEspacioFSK = {
-        title: "Frecuencia de Espacio",
+        /*title: "Frecuencia de Espacio",
         description: "La modulación por desplazamiento de fase o PSK es una forma   en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.",
-        //data: data,
         width: 900,
         height: 200,
-        right: 10,
+        right: 10,*/
+        custom_line_color_map: [10],
+        inflator: 1.8,
+        missing_is_hidden: true,
+        point_size: 4.5,
+        active_point_on_lines: true,
+        top: 10,
+        active_point_size: 10,
+        width: 960,
+        height: 150,
+        right: 1,
         target: '#fsk_espacio',
-        x_accessor: 'tiempo',
+        x_accessor: 'Tiempo',
         y_accessor: 'Espacio',
         x_label: 'Tiempo',
-        y_label: 'Espacio',
+        y_label: 'Frecuencia Espacio',
         y_extended_ticks: true,
         x_extended_ticks: true,
         animate_on_load: true,
         area: false
     };
     var dwMarcaFSK = {
-        title: "Frecuencia de Marca",
+        /*title: "Frecuencia de Marca",
         description: "Una onda portadora es una onda, generalmente senoidal, modificada en alguno de sus parámetros (amplitud, frecuencia o fase) por una señal de entrada denominada moduladora con el fin de transmitir una información.1​ Esta onda portadora es de una frecuencia mucho más alta que la de la señal moduladora.",
-        //data: data,
         width: 900,
         height: 200,
-        right: 10,
+        right: 10,*/
+        custom_line_color_map: [5],
+        inflator: 1.8,
+        missing_is_hidden: true,
+        point_size: 4.5,
+        active_point_on_lines: true,
+        top: 10,
+        active_point_size: 10,
+        width: 960,
+        height: 150,
+        right: 1,
         target: '#fsk_marca',
-        x_accessor: 'tiempo',
+        x_accessor: 'Tiempo',
         y_accessor: 'Marca',
         x_label: 'Tiempo',
-        y_label: 'Marca',
+        y_label: 'Frecuencia Marca',
         y_extended_ticks: true,
         x_extended_ticks: true,
         animate_on_load: true,
@@ -211,7 +295,7 @@
     });
 
     function dibujar(redibujar, amp, frec, fEspacio, fMarca, ampM, frecM) {
-        dwFSKEnd =0;
+        dwFSKEnd = 0;
         let TiempoMin = 0;
         let TiempoMax = 720;
 
@@ -231,11 +315,11 @@
             modulada = (moduladora) < 0 ? espacio : marca;  //IF(E11<0,C11,D11)
 
             dataFSK.push({
-                "tiempo": Tiempo,
+                "Tiempo": Tiempo,
                 "Portadora": portadora,
-                "Espacio":  marca,
+                "Espacio": marca,
                 "Marca": espacio,
-                "moduladora": moduladora,
+                "Moduladora": moduladora,
                 "Modulada": modulada
             });
         }
@@ -257,8 +341,6 @@
         MG.data_graphic(dwModuladaFSK);
         MG.data_graphic(dwEspacioFSK);
         MG.data_graphic(dwMarcaFSK);
-
-
 
 
         d3.select("#fsk_moduladora").transition().on("end", function () {
@@ -284,6 +366,7 @@
 
 
     }
+
     (function () {
         dibujar(false, amp_FSK.val(), frec_FSK.val(), freEsp_FSK.val(), freMarc_FSK.val(), ampMD_FSK.val(), frecMD_FSK.val());
     })();
@@ -291,6 +374,8 @@
     $('#fskRedraw ').click(function () {
         $("#fskRedrawIcon").removeClass().addClass('fa fa-refresh fa-spin');
         loading();
-        setTimeout(function(){dibujar(false, amp_FSK.val(), frec_FSK.val(), freEsp_FSK.val(), freMarc_FSK.val(), ampMD_FSK.val(), frecMD_FSK.val())},10);
+        setTimeout(function () {
+            dibujar(false, amp_FSK.val(), frec_FSK.val(), freEsp_FSK.val(), freMarc_FSK.val(), ampMD_FSK.val(), frecMD_FSK.val())
+        }, 10);
     });
 </script>
