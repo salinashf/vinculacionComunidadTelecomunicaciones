@@ -1,51 +1,66 @@
 <style>
-
-
+    /*.row > div {*/
+        /*background: lightgrey;*/
+        /*border: 1px solid grey;*/
+    /*}*/
+    /*.col-lg-4 > div {*/
+        /*background: #3a3f44;*/
+        /*border: 1px solid red;*/
+    /*}*/
+    /*.btn-labeled {padding-top: 0;padding-bottom: 0;}*/
+    /*.btn { margin-bottom:5px;margin-left: 1px }*/
 </style>
 
-
-<div id="flat-slider"></div>
-<div class="vertical">
-
-    <div id="flat-slider-vertical-1"></div>
-    <div id="flat-slider-vertical-2"></div>
-    <div id="flat-slider-vertical-3"></div>
-
-</div>
-
-
-<h6><b>MODULACIÓN POR DESPLAZAMIENTO DE FASE ASK</b></h6>
 <form class="form-panel">
     <div class="row">
-        <div class=" col-sm-1">
-            <label for="amp_ask_p">Ec:</label>
-            <input type="number" id="amp_ask_p" value="1" step="1" min="1" max="50" class="validate form-control "
-                   data-validate="required"/>
+        <div class=" col-lg-3 justify-content-center">
+            <img src='images/logoUIsrael3.png'/>
         </div>
-        <div class="col-sm-1">
-            <label for="freq_ask">fc:</label>
-            <input type="number" id="freq_ask" value="10" step="1" min="1" max="50" class="validate form-control"
-                   data-validate="required"/>
+        <div class=" col-lg-4 justify-content-center">
+            <h6><b>MODULACIÓN POR DESPLAZAMIENTO DE FASE ASK</b></h6>
+            <h6 class="text-justify">
+                Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide)
+                entre dos valores posibles.
+            </h6>
+            <div class="text-right ">
+                <button type="button" id="askRedraw" class="label label-primary">graficar
+                    <span class="btn-label"><i class="glyphicon glyphicon-ok" id="askRedrawIcon"></i></span></button>
+                </button>
+            </div>
         </div>
-        <div class="col-sm-1">
-            <label for="amp_ask_m">Em:</label>
-            <input type="number" id="amp_ask_m" value="5" step="1" min="1" max="50" class="validate form-control"
-                   data-validate="required"/>
-        </div>
-        <div class="col-sm-1">
-            <label for="freq_ask_m">fb:</label>
-            <input type="number" id="freq_ask_m" value="2" step="1" min="1" max="50" class="validate form-control"
-                   data-validate="required"/>
 
-        </div>
-        <div class="col-sm-1">
-            <label for="askRedraw">Regrescar</label>
-            <button type="button" id="askRedraw" class="btn btn-primary  ">
-                <span class="btn-label"><i id="askRedrawIcon" class="glyphicon glyphicon-refresh"></i></span></button>
+        <div class="col-lg-4 text-center">
+            <div class="row">
+                <div class="col-lg-3 text-center">
+                    <input id="amp_ask_p" type="text" value="1"/>
+                    <span class="label label-success">Amplitud</span>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <input id="freq_ask_p" type="text" value="10"/>
+                    <span class="label label-success">Frecuencia</span>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <input id="amp_ask_m" type="text" value="5"/>
+                    <span class="label label-info">Amplitud</span>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <input id="freq_ask_m" type="text" value="2"/>
+                    <span class="label label-info">Frecuencia</span>
+                </div>
+            </div>
+            <div class="row  label-section text-center " >
+                <div class=" col-lg-6 text-center">
+                    <span class="label label-success">SEÑAL PORTADORA</span>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <span class="label label-info">SEÑAL MODULADORA</span>
+                </div>
+            </div>
         </div>
     </div>
-</form>
 
+
+</form>
 
 <div class='row trunk-section'>
     <div class='col-lg-10' id='ask_moduladora'/>
@@ -104,7 +119,7 @@
         if (dwASKEnd = 4) {
             //Completo Imagen
             dismiss();
-            $("#askRedrawIcon").removeClass().addClass('glyphicon glyphicon-refresh');
+            $("#askRedrawIcon").removeClass().addClass('glyphicon glyphicon-ok');
         }
     }
 
@@ -200,24 +215,39 @@
 
 
     var Ec_txt_ASK = $("#amp_ask_p");
-    var fc_txt_ASK = $("#freq_ask");
+    var fc_txt_ASK = $("#freq_ask_p");
     var Em_txt_ASK = $("#amp_ask_m");
     var fb_txt_ASK = $("#freq_ask_m");
 
     (function () {
         dibujar(false, Ec_txt_ASK.val(), fc_txt_ASK.val(), Em_txt_ASK.val(), fb_txt_ASK.val());
+        $("#amp_ask_p").knob(
+            confAmpPortadora
+        );
+        $("#freq_ask_p").knob(
+            confFrecPortadora
+        );
+        $("#amp_ask_m").knob(
+            confAmpModuladora
+        );
+        $("#freq_ask_m").knob(
+            confFrecModuladora
+        );
+
+
     })();
 
     $('#askRedraw ').click(function () {
         $("#askRedrawIcon").removeClass().addClass('fa fa-refresh fa-spin');
         loading();
         setTimeout(function () {
-            dibujar(false, Ec_txt_ASK.val(), fc_txt_ASK.val(), Em_txt_ASK.val(), fb_txt_ASK.val())
+            dibujar(false, Ec_txt_ASK.val().replace(/Hz|m/g, ""), fc_txt_ASK.val().replace(/Hz|m/g, ""), Em_txt_ASK.val().replace(/Hz|m/g, ""), fb_txt_ASK.val().replace(/Hz|m/g, ""))
         }, 10);
     });
 
 
-    function dibujar(redibujar, amp_ask_p, freq_ask, amp_ask_m, freq_ask_m) {
+    function dibujar(redibujar, amp_ask_p, freq_ask_p, amp_ask_m, freq_ask_m) {
+
         dwASKEnd = 0;
         let TiempoMin = 0;
         let TiempoMax = 720;
@@ -230,7 +260,7 @@
 
         let Tiempo;
         for (Tiempo = TiempoMin; Tiempo <= TiempoMax; Tiempo++) {
-            portadora = (amp_ask_p) * (SIN(RADIANS(Tiempo * freq_ask)));
+            portadora = (amp_ask_p) * (SIN(RADIANS(Tiempo * freq_ask_p)));
             moduladora = (amp_ask_m) * (SIN(RADIANS(freq_ask_m * Tiempo))) > 0 ? 1 : 0;
             moduladaASK = portadora * moduladora;
             //console.log("valores: " + Tiempo + "  " + portadora + "  " + moduladora + "  " + moduladaASK);

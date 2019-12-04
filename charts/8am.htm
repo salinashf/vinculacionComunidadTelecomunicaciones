@@ -1,0 +1,115 @@
+<input class="dial"
+       data-displayPrevious=true
+       data-fgColor="#14A71D"
+       data-height="60"
+       data-inputColor="#A7145B"
+       data-skin="tron"
+       data-thickness=".2"
+       data-width="60"
+       id="dx"
+       type="text"
+       value="75"
+>
+<input id="xds" type="text" value="75">
+<div id="example"></div>
+<div class="start"></div>
+<div class="end"></div>
+<div class="duration"></div>
+
+<div class="graph-left"></div>
+<div id="knobcontainer"></div>
+<div class="graph-right"></div>
+<div class="graph-center"></div>
+
+
+<ul class="row">
+    <li>
+        <input class="preset1" type="range" min="0" max="10" data-width="100" data-height="100" data-angleOffset="220"
+               data-angleRange="280">
+    </li>
+    <li>
+        <input class="preset2" type="range" min="0" max="10" data-width="100" data-height="100" data-angleOffset="220"
+               data-angleRange="280">
+    </li>
+    <li>
+        <input class="preset3" type="range" min="0" max="10" data-width="100" data-height="100" data-angleOffset="220"
+               data-angleRange="280">
+    </li>
+    <li>
+        <input class="preset4" type="range" min="0" max="10" data-width="100" data-height="100" data-angleOffset="220"
+               data-angleRange="280">
+    </li>
+    <li>
+        <input class="preset5" type="range" min="0" max="10" data-width="100" data-height="100" data-angleOffset="220"
+               data-angleRange="280">
+    </li>
+</ul>
+
+
+<script>
+    $(function () {
+
+        confAmpM.format= formatAmplitud;
+        $("#xds").knob(
+            confAmpPortadora
+        );
+        $(".dial").knob({
+            'format': formatFrecuencia
+        });
+    });
+
+
+    /*
+        $("#example").timerangewheel({
+            data: {
+                "start": "18:00",
+                "end": "02:00"
+            },
+            width: 120,
+            height: 120,
+            margin: {top: 20, left: 20, bottom: 20, right: 20},
+            offset: 80,
+            indicatorWidth:8,
+            accentColor: '#b3d829',
+            handleRadius: 14,
+            handleStrokeWidth: 2,
+            handleStrokeColor: "#ff212d",
+            handleIconColor: "#333333",
+            handleFillColorStart: "#1fff50",
+            handleFillColorEnd: "#d81b60",
+            rangeTotal: 24,
+            tickColor: "#f9ae70",
+            indicatorBackgroundColor: "#d3c50e",
+            onChange: function (timeObj) {
+                $(".start").html("Start: "+timeObj.start);
+                $(".end").html("End: "+timeObj.end);
+                $(".duration").html("Duration: "+timeObj.duration);
+            }
+        });
+    */
+    /*
+    console.log("sdfsdf");
+        $("#knobcontainer").timerangewheel({
+            handleIconColor: "#3f48db",
+             rangeTotal: 65,
+            indicatorWidth: 12,
+            handleRadius: 15,
+            handleStrokeWidth: 1,
+            accentColor: '#28fe00',
+            // handleIconColor: "#8a9097",
+            handleStrokeColor: "#8a9097",
+            handleFillColorStart: "#374149",
+            handleFillColorEnd: "#374149",
+            tickColor: "#8a9097",
+            indicatorBackgroundColor: "#8a9097",
+            data: {"start":"19:10", "end":"02:00"},
+            onChange: function (timeObj) {
+                $(".graph-left").html("Start: "+timeObj.start);
+                $(".graph-right").html("End: "+timeObj.end);
+                $(".graph-center").html("Duration: "+timeObj.duration);
+            }
+        });
+    */
+
+
+</script>

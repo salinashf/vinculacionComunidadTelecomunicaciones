@@ -135,15 +135,16 @@ p {
     line-height: 24px;
 }
 
-.pill {
+.pill, pillHeader {
     font-family: 'Open Sans', serif;
     font-size: 1rem;
     text-transform: uppercase;
 }
 
-.pill:hover {
+.pill:hover, pillHeader.hover {
     text-decoration: none;
 }
+
 
 pre {
     background-color: transparent;
@@ -191,7 +192,7 @@ svg {
 }
 
 #trunk {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 #trunk h2 {
@@ -210,7 +211,11 @@ svg {
     padding-bottom: 5px;
     padding-top: 5px;
 }
-
+.label-section {
+    /*border-top: 1px solid #ccc;*/
+    /*padding-bottom: 5px;*/
+    padding-top: 10px;
+}
 .wip {
     background-color: #f1f1f1;
     font-size: 1.3rem;
