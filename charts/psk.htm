@@ -1,35 +1,56 @@
-<h6><b>MODULACIÓN POR DESPLAZAMIENTO DE FASE PSK..</b></h6>
 <form class="form-panel">
     <div class="row">
-        <div class="col-sm-1">
-            <label for="amp_B2">Amplitud:</label>
-            <input type="number" id="amp_B2" value="2" step="1" min="1" max="50" class="validate form-control "
-                   data-validate="required"/>
+        <div class=" col-lg-3 justify-content-center">
+            <img src='images/logoUIsrael3.png'/>
         </div>
-        <div class="col-sm-1">
-            <label for="frec_B3">Frecuencia:</label>
-            <input type="number" id="frec_B3" value="4" step="1" min="1" max="50" class="validate form-control"
-                   data-validate="required"/>
+        <div class=" col-lg-4 justify-content-center">
+            <h6><b>MODULACIÓN POR DESPLAZAMIENTO DE FASE PSK</b></h6>
+            <h6 class="text-justify">
+                Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide)
+                entre dos valores posibles.
+            </h6>
+            <div class="text-right ">
+                <button class="label label-primary" id="pskRedraw" type="button">graficar
+                    <span class="btn-label"><i class="glyphicon glyphicon-ok" id="pskRedrawIcon"></i></span></button>
+                </button>
+            </div>
         </div>
 
-        <div class="col-sm-1">
-            <label for="dat_F2">Datos :</label>
-            <input type="number" id="dat_F2" value="3" step="1" min="1" max="50" class="validate form-control"
-                   data-validate="required"/>
-        </div>
-        <div class="col-sm-1">
-            <label for="gd_F3">Grados:</label>
-            <input type="number" id="gd_F3" value="2" step="1" min="1" max="50" class="validate form-control"
-                   data-validate="required"/>
 
+        <div class="col-lg-4 text-center">
+            <div class="row">
+                <div class="col-sm-3">
+                    <input   id="amp_psk_p" type="text" value="2"/>
+                    <span class="label label-success">Amplitud</span>
+                </div>
+                <div class="col-sm-3">
+                    <input  id="freq_psk_p" type="text" value="4"/>
+                    <span class="label label-success">Frecuencia</span>
+                </div>
+
+                <div class="col-sm-3">
+                    <input  id="amp_psk_m"  type="text" value="3"/>
+                    <span class="label label-info">Amplitud</span>
+                </div>
+                <div class="col-sm-3">
+                    <input  id="freq_psk_m"  type="text" value="2"/>
+                    <span class="label label-info">Frecuencia</span>
+                </div>
+
+            </div>
+            <div class="row  label-section text-center " >
+                <div class=" col-lg-6 text-center">
+                    <span class="label label-success">SEÑAL PORTADORA</span>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <span class="label label-info">SEÑAL MODULADORA</span>
+                </div>
+            </div>
         </div>
-        <div class="col-sm-1">
-            <label for="pskRedraw">Regrescar</label>
-            <button type="button" id="pskRedraw" class="btn btn-primary  ">
-                <span class="btn-label"><i id="pskRedrawIcon" class="glyphicon glyphicon-refresh"></i></span></button>
-        </div>
+
     </div>
 </form>
+
 
 <div class='row trunk-section'>
     <div class='col-lg-10' id='psk_moduladora'/>
@@ -68,10 +89,10 @@
 </div>
 <script>
     'use strict';
-    var amp_txt_PSK = $("#amp_B2");
-    var frec_txt_PSK = $("#frec_B3");
-    var dat_txt_PSK = $("#dat_F2");
-    var gd_txt_PSK = $("#gd_F3");
+    var amp_txt_PSK = $("#amp_psk_p");
+    var frec_txt_PSK = $("#freq_psk_p");
+    var dat_txt_PSK = $("#amp_psk_m");
+    var gd_txt_PSK = $("#freq_psk_m");
 
     var dwPortadoraPSKEnd = false;
     var dwModuladoraPSKEnd = false;
@@ -163,6 +184,22 @@
 
     (function () {
         dibujar(true);
+        $("#amp_psk_p").knob(
+            confAmpPortadora
+        );
+        $("#freq_psk_p").knob(
+            confFrecPortadora
+        );
+        $("#amp_psk_m").knob(
+            confAmpModuladora
+        );
+        $("#freq_psk_m").knob(
+            confFrecModuladora
+        );
+
+
+
+
     })();
 
     $('#pskRedraw ').click(function () {
@@ -177,7 +214,7 @@
         if (dwModuladaPSKEnd && dwModuladaPSKEnd && dwModuladoraPSKEnd) {
             //Completo Imagen
             dismiss();
-            $("#pskRedrawIcon").removeClass().addClass('glyphicon glyphicon-refresh');
+            $("#pskRedrawIcon").removeClass().addClass('glyphicon glyphicon-ok');
         }
     }
 
@@ -185,10 +222,10 @@
         //Cargando Imagen
         let amp, frec, dat, grad;
 
-        amp = amp_txt_PSK.val();
-        frec = frec_txt_PSK.val();
-        dat = dat_txt_PSK.val();
-        grad = gd_txt_PSK.val();
+        amp = amp_txt_PSK.val().replace(/Hz|m/g, "");
+        frec = frec_txt_PSK.val().replace(/Hz|m/g, "");
+        dat = dat_txt_PSK.val().replace(/Hz|m/g, "");
+        grad = gd_txt_PSK.val().replace(/Hz|m/g, "");
 
         dwPortadoraPSKEnd = false;
         dwModuladoraPSKEnd = false;
