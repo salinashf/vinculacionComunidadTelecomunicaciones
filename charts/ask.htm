@@ -1,4 +1,23 @@
+<style>
 
+
+    /*.col-lg-1,*/
+    /*.col-lg-2,*/
+    /*.col-lg-3,*/
+    /*.col-lg-4,*/
+    /*.col-lg-5,*/
+    /*.col-lg-6,*/
+    /*.col-lg-7,*/
+    /*.col-lg-8,*/
+    /*.col-lg-9,*/
+    /*.col-lg-10,*/
+    /*.col-lg-11,*/
+    /*.col-lg-12 > div {*/
+        /*background: #441102;*/
+        /*border: 1px solid #1efe52;*/
+    /*}*/
+
+</style>
 <form class="form-panel">
     <div class="row">
         <div class=" col-lg-3 justify-content-center">
@@ -11,38 +30,37 @@
                 entre dos valores posibles.
             </h6>
             <div class="text-right ">
-                <button type="button" id="askRedraw" class="label label-primary">graficar
-                    <span class="btn-label"><i class="glyphicon glyphicon-ok" id="askRedrawIcon"></i></span></button>
-                </button>
+                <button type="button" class="btn btn-labeled btn-primary" id="askRedraw" >
+                    <span class="btn-label"><i class="fa fa-check" id="askRedrawIcon"></i></span>|graficar</button>
+
             </div>
         </div>
 
         <div class="col-lg-4 text-center">
+            <div class="row  label-section-top text-center " >
+                <div class=" col-lg-6 text-center">
+                    <span class="badge badge-success">SEÑAL PORTADORA</span>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <span class="badge badge-info">SEÑAL MODULADORA</span>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-lg-3 text-center">
                     <input id="amp_ask_p" type="text" value="1"/>
-                    <span class="label label-success">Amplitud</span>
+                    <span class="badge badge-success">Amplitud</span>
                 </div>
                 <div class="col-lg-3 text-center">
                     <input id="freq_ask_p" type="text" value="10"/>
-                    <span class="label label-success">Frecuencia</span>
+                    <span class="badge badge-success">Frecuencia</span>
                 </div>
                 <div class="col-lg-3 text-center">
                     <input id="amp_ask_m" type="text" value="5"/>
-                    <span class="label label-info">Amplitud</span>
+                    <span class="badge badge-info">Amplitud</span>
                 </div>
                 <div class="col-lg-3 text-center">
                     <input id="freq_ask_m" type="text" value="2"/>
-                    <span class="label label-info">Frecuencia</span>
-                </div>
-            </div>
-
-            <div class="row  label-section text-center " >
-                <div class=" col-lg-6 text-center">
-                    <span class="label label-success">SEÑAL PORTADORA</span>
-                </div>
-                <div class="col-lg-6 text-center">
-                    <span class="label label-info">SEÑAL MODULADORA</span>
+                    <span class="badge badge-info">Frecuencia</span>
                 </div>
             </div>
         </div>
@@ -99,14 +117,12 @@
 <script>
     'use strict';
 
-
     var dwASKEnd = 0;
-
     function completo() {
         if (dwASKEnd = 4) {
             //Completo Imagen
             dismiss();
-            $("#askRedrawIcon").removeClass().addClass('glyphicon glyphicon-ok');
+            $("#askRedrawIcon").removeClass().addClass('fa fa-check');
         }
     }
 

@@ -216,6 +216,12 @@ svg {
     /*padding-bottom: 5px;*/
     padding-top: 10px;
 }
+.label-section-top {
+    /*border-top: 1px solid #ccc;*/
+    /*padding-bottom: 5px;*/
+    padding-bottom: 7px;
+}
+
 .wip {
     background-color: #f1f1f1;
     font-size: 1.3rem;

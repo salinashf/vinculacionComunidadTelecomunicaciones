@@ -1,77 +1,69 @@
-<style type="text/css">
-    .v-divider {
-        margin-left: 5px;
-        margin-right: 5px;
-        width: 1px;
-        height: 5%;
-        border-left: 0px solid gray;
-    }
-</style>
-<h5><b>MODULACIÓN POR DESPLAZAMIENTO DE FASE FSK</b></h5>
-
 <form class="form-panel">
-
     <div class="row">
-        <div class="col-sm-5  text-center">
-            <h6><b>SEÑAL PORTADORA</b></h6>
+        <div class=" col-lg-3 justify-content-center">
+            <img src='images/logoUIsrael3.png'/>
         </div>
-        <div class="col-sm-2 v-divider"/>
-        <div class="col-sm-5 ">
-            <h6><b>SEÑAL MODULADORA</b></h6>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-sm-1">
-            <label for="amp_FSK">Amplitud</label>
-            <input type="number" id="amp_FSK" value="4" step="1" min="1" max="50" class="validate form-control "
-                   data-validate="required"/>
-        </div>
-        <div class="col-sm-1">
-            <label for="frec_FSK">Frecuencia</label>
-            <input type="number" id="frec_FSK" value="20" step="1" min="1" max="50" class="validate form-control"
-                   data-validate="required"/>
+        <div class=" col-lg-3 justify-content-center">
+            <h6><b>MODULACIÓN POR DESPLAZAMIENTO DE FASE FSK</b></h6>
+            <h6 class="text-justify">
+                Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide)
+                entre dos valores posibles.
+            </h6>
+            <div class="text-right ">
+                <button class="btn btn-labeled btn-primary" id="fskRedraw" type="button">
+                    <span class="btn-label"><i class="fa fa-check" id="fskRedrawIcon"></i></span>|graficar
+                </button>
+            </div>
         </div>
 
-        <div class="col-sm-1">
-            <label for="desv_FSK">Desviacion</label>
-            <input type="number" id="desv_FSK" value="10" step="1" min="1" max="50" class="validate form-control"
-                   data-validate="required"/>
-        </div>
-        <div class="col-sm-1">
-            <label for="freEsp_FSK">Frec.Espacio</label>
-            <input disabled="true" type="number" id="freEsp_FSK" value="10" class="validate form-control"
-                   data-validate="required"/>
-        </div>
-        <div class="col-sm-1">
-            <label for="freMarc_FSK">Frec.Marca</label>
-            <input disabled="true" type="number" id="freMarc_FSK" value="30" class="validate form-control"
-                   data-validate="required"/>
+        <div class="col-lg-5 text-center">
+            <div class="row label-section-top ">
+                <div class="col-lg-3 nopadding text-center">
+                    <span class="badge badge-danger">PORTADORA|MODULADORA</span>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <span class="badge badge-success">SEÑAL PORTADORA</span>
+                </div>
+                <div class="col-lg-3 nopadding text-center">
+                    <span class="badge badge-info">SEÑAL MODULADORA</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 text-center">
+                    <input id="amp_FSK" type="text" value="4"/>
+                    <span class="badge badge-danger">Amplitud</span>
+                </div>
+                <!--SEÑAL PORTADORA-->
+                <div class="col-lg-3 text-center">
+                    <input id="frec_FSK" type="text" value="20"/>
+                    <span class="badge badge-success">Frecuencia</span>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <input id="desv_FSK" type="text" value="10"/>
+                    <span class="badge badge-success">Desviacion</span>
+                </div>
+                <!--SEÑAL MODULADORA-->
+                <div class="col-lg-3 text-center">
+                    <input id="frecMD_FSK" type="text" value="4"/>
+                    <span class="badge badge-info">Frecuencia</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 ">
 
-        </div>
-
-
-        <div class="col-sm-1 v-divider"/>
-
-        <div class="col-sm-1">
-            <label for="ampMD_FSK">Amplitud</label>
-            <input disabled="true" type="number" id="ampMD_FSK" value="4" step="1" min="1" max="50"
-                   class="validate form-control "
-                   data-validate="required"/>
-        </div>
-        <div class="col-sm-1">
-            <label for="frecMD_FSK">Frecuencia</label>
-            <input type="number" id="frecMD_FSK" value="4" step="1" min="1" max="50" class="validate form-control"
-                   data-validate="required"/>
-        </div>
-        <div class="col-sm-1">
-            <label for="fskRedraw">Refrescar:</label>
-            <button type="button" id="fskRedraw" class="btn btn-primary  ">
-                <span class="btn-label"><i id="fskRedrawIcon" class="glyphicon glyphicon-refresh"></i></span></button>
+                </div>
+                <div class="col-lg-6 text-center nopadding">
+                    <span class="badge badge-success fontSize">Freq.Espacio: <span class="badge badge-light fontSize"
+                                                                                   id="freEsp_FSK">10Hz</span></span>
+                    <span class="badge badge-success fontSize">Freq. Marca: <span class="badge badge-light fontSize"
+                                                                                  id="freMarc_FSK">30Hz</span></span>
+                </div>
+                <div class="col-lg-3 nopadding text-center">
+                </div>
+            </div>
         </div>
     </div>
 </form>
-
 
 <div class='row trunk-section'>
     <div class='col-lg-10' id='fsk_moduladora'/>
@@ -138,16 +130,19 @@
         if (dwFSKEnd = 5) {
             //Completo Imagen
             dismiss();
-            $("#fskRedrawIcon").removeClass().addClass('glyphicon glyphicon-refresh');
+            $("#fskRedrawIcon").removeClass().addClass('fa fa-check');
         }
     }
 
     var amp_FSK = $("#amp_FSK");
+    var ampMD_FSK = $("#amp_FSK");
+
     var frec_FSK = $("#frec_FSK");
     var desv_FSK = $("#desv_FSK");
     var freMarc_FSK = $("#freMarc_FSK");
     var freEsp_FSK = $("#freEsp_FSK");
-    var ampMD_FSK = $("#ampMD_FSK");
+
+
     var frecMD_FSK = $("#frecMD_FSK");
 
 
@@ -284,15 +279,21 @@
         area: false
     };
 
+
+    var eventoDesv = function (value) {
+        updateEspacioMarca();
+    };
+    var eventoFreq = function (value) {
+        updateEspacioMarca();
+    };
+
     function updateEspacioMarca() {
-        freEsp_FSK.val(parseInt(frec_FSK.val()) - parseInt(desv_FSK.val()));
-        freMarc_FSK.val(parseInt(frec_FSK.val()) + parseInt(desv_FSK.val()));
+        let freq = parseInt(frec_FSK.val().replace(/Hz|m/g, ""));
+        let desv = parseInt(desv_FSK.val().replace(/Hz|m/g, ""));
+        freEsp_FSK.text((freq - desv) + "Hz");
+        freMarc_FSK.text((freq + desv) + "Hz");
     }
 
-    $('#frec_FSK, #desv_FSK, #amp_FSK').change(function () {
-        ampMD_FSK.val(amp_FSK.val());
-        updateEspacioMarca();
-    });
 
     function dibujar(redibujar, amp, frec, fEspacio, fMarca, ampM, frecM) {
         dwFSKEnd = 0;
@@ -363,19 +364,46 @@
             dwFSKEnd = +1;
             completo();
         });
-
-
     }
 
     (function () {
-        dibujar(false, amp_FSK.val(), frec_FSK.val(), freEsp_FSK.val(), freMarc_FSK.val(), ampMD_FSK.val(), frecMD_FSK.val());
+        dibujar(
+            false,
+            amp_FSK.val().replace(/Hz|m/g, ""),
+            frec_FSK.val().replace(/Hz|m/g, ""),
+            freEsp_FSK.text().replace(/Hz|m/g, ""),
+            freMarc_FSK.text().replace(/Hz|m/g, ""),
+            ampMD_FSK.val().replace(/Hz|m/g, ""),
+            frecMD_FSK.val().replace(/Hz|m/g, ""));
+        $("#amp_FSK").knob(
+            confAmpPortadora
+        );
+        confFrecPortadora.release = eventoFreq;
+        $("#frec_FSK").knob(
+            confFrecPortadora
+        );
+        confDesvPortadora.release = eventoDesv;
+        $("#desv_FSK").knob(
+            confDesvPortadora
+        );
+
+        $("#frecMD_FSK").knob(
+            confFrecModuladora
+        );
     })();
 
     $('#fskRedraw ').click(function () {
         $("#fskRedrawIcon").removeClass().addClass('fa fa-refresh fa-spin');
         loading();
         setTimeout(function () {
-            dibujar(false, amp_FSK.val(), frec_FSK.val(), freEsp_FSK.val(), freMarc_FSK.val(), ampMD_FSK.val(), frecMD_FSK.val())
+            dibujar(
+                false,
+                amp_FSK.val().replace(/Hz|m/g, ""),
+                frec_FSK.val().replace(/Hz|m/g, ""),
+                freEsp_FSK.text().replace(/Hz|m/g, ""),
+                freMarc_FSK.text().replace(/Hz|m/g, ""),
+                ampMD_FSK.val().replace(/Hz|m/g, ""),
+                frecMD_FSK.val().replace(/Hz|m/g, ""))
         }, 10);
     });
 </script>

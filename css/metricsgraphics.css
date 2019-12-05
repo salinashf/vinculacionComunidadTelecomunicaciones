@@ -549,3 +549,11 @@ tspan.mg-points-mono {
     -ms-user-select: none;
     user-select: none;
 }
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.fontSize{
+    font-size:85% !important;
+}

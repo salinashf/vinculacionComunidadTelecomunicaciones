@@ -18,7 +18,10 @@ var  formatFrecuencia = function (value) {
     return value +  "Hz"//String.fromCharCode(0x3390);
 
 };
+var  formatDesviacion = function (value) {
+    return value + String.fromCharCode(0x03c3); ///&sigma;
 
+};
 var confAmpPortadora ={
     "displayPrevious":true,
     "fgColor":"#1da780",
@@ -26,7 +29,8 @@ var confAmpPortadora ={
     "thickness":.2,
     "width":50,
     "height":50,
-    'format': formatAmplitud
+    'format': formatAmplitud,
+    'release': null
 };
 var confFrecPortadora ={
     "displayPrevious":true,
@@ -35,8 +39,22 @@ var confFrecPortadora ={
     "thickness":.2,
     "width":50,
     "height":50,
-    'format': formatFrecuencia
+    'format': formatFrecuencia,
+    'release': null
 };
+var confDesvPortadora ={
+    "displayPrevious":true,
+    "fgColor":"#d86b39",
+    "inputColor":"#fe081c",
+    "thickness":.2,
+    "width":50,
+    "height":50,
+    'format': formatDesviacion,
+    'release': null
+};
+
+
+
 //######################
 var confAmpModuladora ={
     "displayPrevious":true,
@@ -45,7 +63,8 @@ var confAmpModuladora ={
     "thickness":.2,
     "width":50,
     "height":50,
-    'format': formatAmplitud
+    'format': formatAmplitud,
+    'release': null
 };
 var confFrecModuladora ={
     "displayPrevious":true,
@@ -54,6 +73,7 @@ var confFrecModuladora ={
     "thickness":.2,
     "width":50,
     "height":50,
-    'format': formatFrecuencia
+    'format': formatFrecuencia,
+    'release': null
 };
 

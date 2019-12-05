@@ -578,7 +578,7 @@
                               );
 
                     v = max(min(v, s.o.max), s.o.min);
-                    console.log(v);
+
                     s.val(v, false);
 
                     if (s.rH) {
