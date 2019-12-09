@@ -1,52 +1,78 @@
-<h6><b>MODULACIÓN POR DESPLAZAMIENTO DE FASE QPSK</b></h6>
 <form class="form-panel">
     <div class="row">
-        <div class=" col-sm-1 ">
-            <button type="button" id="qpskRedraw" class="btn btn-primary  ">
-                <span class="btn-label"><i id="qpskRedrawIcon" class="glyphicon glyphicon-refresh"></i></span></button>
+        <div class=" col-lg-3 justify-content-center">
+            <img src='images/logoUIsrael3.png'/>
         </div>
-        <div class=" col-sm-1 text-center">
-            <h6><b>PORTADORA</b></h6>
+        <div class=" col-lg-4 justify-content-center">
+            <h6><b>MODULACIÓN POR DESPLAZAMIENTO DE FASE QPSK</b></h6>
+            <h6 class="text-justify">
+                Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide)
+                entre dos valores posibles.
+            </h6>
+            <div class="text-right ">
+                <button class="btn btn-labeled btn-primary" id="qpskRedraw" type="button">
+                    <span class="btn-label"><i class="fa fa-check" id="qpskRedrawIcon"></i></span>|graficar
+                </button>
+            </div>
         </div>
-        <div class=" col-sm-1 text-center">
-            <h6><b>I</b></h6>
-        </div>
-        <div class=" col-sm-1 text-center">
-            <h6><b>Q</b></h6>
-        </div>
-    </div>
-    <div class="row">
-        <div class=" col-sm-1 text-right">
-            <h6><b>AMP</b></h6>
-        </div>
-        <div class=" col-sm-1 text-center">
-            <input type="number" id="amp_port" value="1" step="1" min="1" max="50" class="validate form-control "
-                   data-validate="required"/>
-        </div>
-        <div class=" col-sm-1 text-center">
-            <input type="number" id="amp_i" value="1" step="1" min="1" max="50" class="validate form-control "
-                   data-validate="required"/>
-        </div>
-        <div class=" col-sm-1 text-center">
-            <input disabled="true" type="number" id="amp_q" value="1" class="validate form-control "
-                   data-validate="required"/>
-        </div>
-    </div>
-    <div class="row">
-        <div class=" col-sm-1 text-right">
-            <h6><b>FREQ</b></h6>
-        </div>
-        <div class=" col-sm-1 text-center">
-            <input type="number" id="freq_port" value="1" step="1" min="1" max="50" class="validate form-control "
-                   data-validate="required"/>
-        </div>
-        <div class=" col-sm-1 text-center">
-            <input disabled="true" type="number" id="freq_i" value="0.5" max="50" class="validate form-control "
-                   data-validate="required"/>
-        </div>
-        <div class=" col-sm-1 text-center">
-            <input disabled="true" type="number" id="freq_q" value="0.25" class="validate form-control "
-                   data-validate="required"/>
+        <div class="col-lg-4 text-center">
+            <!--los controles-->
+            <div class="row">
+                <div class=" col-lg-3 text-right">
+                    <h6><b>x</b></h6>
+                </div>
+                <div class=" col-lg-3 text-center">
+                    <h6><b>PORTADORA</b></h6>
+                </div>
+                <div class=" col-lg-3 text-center">
+                    <h6><b> Moduladora I</b></h6>
+                </div>
+                <div class=" col-lg-3 text-center">
+                    <h6><b>Moduladora Q</b></h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class=" col-lg-3 text-right">
+                    <h6><b>AMP</b></h6>
+                </div>
+                <div class=" col-lg-3 text-center">
+                    <input class="validate form-control " data-validate="required" id="amp_port" max="50" min="1"
+                           step="1"
+                           type="number"
+                           value="1"/>
+                </div>
+                <div class=" col-lg-3 text-center">
+                    <input class="validate form-control " data-validate="required" id="amp_i" max="50" min="1" step="1"
+                           type="number"
+                           value="1"/>
+                </div>
+                <div class=" col-lg-3 text-center">
+                    <input class="validate form-control " data-validate="required" disabled="true" id="amp_q"
+                           type="number"
+                           value="1"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class=" col-lg-3 text-right">
+                    <h6><b>FREQ</b></h6>
+                </div>
+                <div class=" col-lg-3 text-center">
+                    <input class="validate form-control " data-validate="required" id="freq_port" max="50" min="1"
+                           step="1"
+                           type="number"
+                           value="1"/>
+                </div>
+                <div class=" col-lg-3 text-center">
+                    <input class="validate form-control " data-validate="required" disabled="true" id="freq_i" max="50"
+                           type="number"
+                           value="0.5"/>
+                </div>
+                <div class=" col-lg-3 text-center">
+                    <input class="validate form-control " data-validate="required" disabled="true" id="freq_q"
+                           type="number"
+                           value="0.25"/>
+                </div>
+            </div>
         </div>
     </div>
 </form>
@@ -158,7 +184,7 @@
     function completo() {
         if (dwQPSKEnd = 8) {
             dismiss();
-            $("#qpskRedrawIcon").removeClass().addClass('glyphicon glyphicon-refresh');
+            $("#qpskRedrawIcon").removeClass().addClass('fa fa-check');
         }
     }
 
@@ -378,7 +404,7 @@
         width: 900,
         height: 200,
         right: 10,*/
-        custom_line_color_map: [4,1],
+        custom_line_color_map: [4, 1],
         inflator: 1.6,
         missing_is_hidden: true,
         point_size: 4.5,
