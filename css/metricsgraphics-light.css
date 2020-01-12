@@ -231,3 +231,9 @@ svg {
     border-top-right-radius: 6px;
     opacity: 0.8;
 }
+.scrollContent{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 400px;
+    width: auto;
+}

@@ -13,8 +13,8 @@
     /*.col-lg-10,*/
     /*.col-lg-11,*/
     /*.col-lg-12 > div {*/
-        /*background: #441102;*/
-        /*border: 1px solid #1efe52;*/
+    /*background: #441102;*/
+    /*border: 1px solid #1efe52;*/
     /*}*/
 
 </style>
@@ -30,14 +30,15 @@
                 entre dos valores posibles.
             </h6>
             <div class="text-right ">
-                <button type="button" class="btn btn-labeled btn-primary" id="askRedraw" >
-                    <span class="btn-label"><i class="fa fa-check" id="askRedrawIcon"></i></span>|graficar</button>
+                <button type="button" class="btn btn-labeled btn-primary" id="askRedraw">
+                    <span class="btn-label"><i class="fa fa-check" id="askRedrawIcon"></i></span>|graficar
+                </button>
 
             </div>
         </div>
 
         <div class="col-lg-4 text-center">
-            <div class="row  label-section-top text-center " >
+            <div class="row  label-section-top text-center ">
                 <div class=" col-lg-6 text-center">
                     <span class="badge badge-success">SEÑAL PORTADORA</span>
                 </div>
@@ -67,57 +68,58 @@
     </div>
 </form>
 
-<div class='row trunk-section'>
-    <div class='col-lg-10' id='ask_moduladora'/>
-    <div class="col-lg-2">
+<div class="scrollContent">
+    <div class='row trunk-section'>
+        <div class='col-lg-10' id='ask_moduladora'/>
+        <div class="col-lg-2">
         <span>
           <h5>Moduladora</h5>
                <h6 class="text-justify">
                    Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide) entre dos valores posibles.
                </h6>
         </span>
+        </div>
     </div>
-</div>
-
-<div class='row trunk-section'>
-    <div class='col-lg-10 ' id='ask_portadora'/>
-    <div class="col-lg-2">
+    <div class='row trunk-section'>
+        <div class='col-lg-10 ' id='ask_portadora'/>
+        <div class="col-lg-2">
          <span>
           <h5>Portadora</h5>
                <h6 class="text-justify">
                    Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide) entre dos valores posibles.
                </h6>
         </span>
+        </div>
     </div>
-</div>
-
-<div class='row trunk-section'>
-    <div class='col-lg-10' id='ask_moduladaASK'/>
-    <div class="col-lg-2">
+    <div class='row trunk-section'>
+        <div class='col-lg-10' id='ask_moduladaASK'/>
+        <div class="col-lg-2">
          <span>
           <h5>Modulada</h5>
                <h6 class="text-justify">
                    Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide) entre dos valores posibles.
                </h6>
         </span>
+        </div>
     </div>
-</div>
-<div class='row trunk-section'>
-    <div class='col-lg-10' id='ask_moduladaASKMix'/>
-    <div class="col-lg-2">
+    <div class='row trunk-section'>
+        <div class='col-lg-10' id='ask_moduladaASKMix'/>
+        <div class="col-lg-2">
         <span>
           <h5>Portadora/Moduladora</h5>
                <h6 class="text-justify">
                    Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide) entre dos valores posibles.
                </h6>
         </span>
-        <h6 class='text-center' id="legendMix"/>
+            <h6 class='text-center' id="legendMix"/>
+        </div>
     </div>
 </div>
 <script>
     'use strict';
 
     var dwASKEnd = 0;
+
     function completo() {
         if (dwASKEnd = 4) {
             //Completo Imagen
