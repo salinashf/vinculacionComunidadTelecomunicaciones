@@ -33,7 +33,7 @@ var theme = 'dark';
 
             $('.head ul li a.pillHeader').removeClass('active');
             $(this).toggleClass('active');
-            $('#dark').attr({href: 'css/metricsgraphics-demo-dark.css'});
+            $('#dark').attr({href: 'css/metricsgraphics-dark.css'});
             $('#dark-code').attr({href: 'css/railscasts.css'});
             $('#accessible').attr({href: ''});
 
@@ -66,7 +66,7 @@ var theme = 'dark';
         $('#accessible-css').on('click', function () {
             $('.head ul li a.pillHeader').removeClass('active');
             $(this).toggleClass('active');
-            $('#accessible').attr({href: 'css/metricsgraphics-demo-accessible.css'});
+            $('#accessible').attr({href: 'css/metricsgraphics-accessible.css'});
 
             return false;
         });
