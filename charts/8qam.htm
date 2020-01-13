@@ -1,0 +1,416 @@
+<style>
+    .col-lg-1,
+    .col-lg-2,
+    .col-lg-3,
+    .col-lg-4,
+    .col-lg-5,
+    .col-lg-6,
+    .col-lg-7,
+    .col-lg-8,
+    .col-lg-9,
+    .col-lg-10,
+    .col-lg-11,
+    .col-lg-12 > div {
+        border: 1px solid #1efe52;
+    }
+</style>
+<form class="form-panel">
+    <div class="row">
+        <div class=" col-lg-3 justify-content-center">
+            <img src='images/logoUIsrael3.png'/>
+        </div>
+        <div class=" col-lg-3 justify-content-center">
+            <h6><b>MODULACIÓN POR DESPLAZAMIENTO DE FASE 8-QAM</b></h6>
+            <h6 class="text-justify">
+                Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide)
+                entre dos valores posibles.
+            </h6>
+            <div class="text-right ">
+                <button class="btn btn-labeled btn-primary" id="eqamRedraw" type="button">
+                    <span class="btn-label"><i class="fa fa-check" id="eqamRedrawIcon"></i></span>|graficar
+                </button>
+            </div>
+        </div>
+
+        <div class="col-lg-6 text-center">
+            <div class="row label-section-top ">
+                <div class="col-lg-6 nopadding text-center">
+                    <span class="badge badge-danger">AMPLITUD</span>
+                </div>
+                <div class="col-lg-2 nopadding text-center">
+                    <span class="badge badge-success">FRECUENCIA</span>
+                </div>
+                <div class="col-lg-4 nopadding text-center">
+                    <span class="badge badge-warning">BIT C</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2 text-center">
+                    <input id="eQAMAmp" type="text" value="1"/>
+                    <span class="badge badge-danger">Amplitud</span>
+                </div>
+                <div class="col-lg-2 text-center">
+                    <input id="eQAMAmpI" type="text" value="1"/>
+                    <span class="badge badge-danger">I</span>
+                </div>
+                <div class="col-lg-2 text-center">
+                    <input id="eQAMAmpQ" type="text" value="1"/>
+                    <span class="badge badge-danger">Q</span>
+                </div>
+
+                <div class="col-lg-2 text-center">
+                    <input id="eQAMFrecuencia" type="text" value="4"/>
+                    <span class="badge badge-success">Frecuencia</span>
+                </div>
+
+                <div class="col-lg-2 text-center">
+                    <input id="eQAMBitC0L" type="text" value="0.541" />
+                    <span class="badge badge-warning">0L</span>
+                </div>
+
+                <div class="col-lg-2 text-center">
+                    <input id="eQAMBitC1L" type="text" value="1.307" step="0.5"/>
+                    <span class="badge badge-warning">1L</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 nopadding text-right">
+                    <span class="badge badge-success fontSize">Frecuen.I: <span class="badge badge-light fontSize"
+                                                                                id="freqI8QAM">2kHz</span></span>
+                    <span class="badge badge-success fontSize">Frecuen.Q: <span class="badge badge-light fontSize"
+                                                                                id="freqQ8QAM">1kHz</span></span>
+                </div>
+                <div class="col-lg-2 text-center nopadding">
+                    <span class="badge badge-success fontSize">Frecuen.C: <span class="badge badge-light fontSize"
+                                                                                id="freqC8QAM">0.5kHz</span></span>
+                </div>
+                <div class="col-lg-2 nopadding text-center">
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+<div class="scrollContent">
+    <div class='row trunk-section' style="margin-right: 1px;">
+        <div class='col-lg-10' id='e_qam_port_sen'/>
+        <div class="col-lg-2">
+        <span class="description">
+          <h5>PORT. SEN</h5>
+               <h6 class="text-justify">
+                   Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora entre dos valores posibles.
+               </h6>
+        </span>
+        </div>
+    </div>
+    <div class='row trunk-section' style="margin-right: 4px;">
+        <div class='col-lg-10' id='e_qam_port_cos'/>
+        <div class="col-lg-2">
+         <span>
+          <h5>PORT. COS</h5>
+               <h6 class="text-justify">
+                   Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide) entre dos valores posibles.
+               </h6>
+        </span>
+        </div>
+    </div>
+    <div class='row trunk-section' style="margin-right: 4px;">
+        <div class='col-lg-10' id='e_qam_freq_bit'/>
+        <div class="col-lg-2">
+         <span>
+          <h5>FREQ BIT</h5>
+               <h6 class="text-justify">
+                   Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide) entre dos valores posibles.
+               </h6>
+        </span>
+        </div>
+    </div>
+
+    <div class='row trunk-section' style="margin-right: 4px;">
+        <div class='col-lg-10' id='e_qam_ic'/>
+        <div class="col-lg-2">
+        <span>
+          <h5>IC</h5>
+               <h6 class="text-justify">
+                   Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide) entre dos valores posibles.
+               </h6>
+        </span>
+            <h6 class='text-center' id="e_qam_title_ic"/>
+        </div>
+    </div>
+
+    <div class='row trunk-section' style="margin-right: 4px;">
+        <div class='col-lg-10' id='e_qam_canal_i'/>
+        <div class="col-lg-2">
+        <span>
+          <h5>CANA I</h5>
+               <h6 class="text-justify">
+                   Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide) entre dos valores posibles.
+               </h6>
+        </span>
+            <h6 class='text-center' id="e_qam_title_canal_i"/>
+        </div>
+    </div>
+
+    <div class='row trunk-section' style="margin-right: 4px;">
+        <div class='col-lg-10' id='e_qam_qc'/>
+        <div class="col-lg-2">
+        <span>
+          <h5>QC</h5>
+               <h6 class="text-justify">
+                   Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide) entre dos valores posibles.
+               </h6>
+        </span>
+            <h6 class='text-center' id="e_qam_title_qc"/>
+        </div>
+    </div>
+    <div class='row trunk-section' style="margin-right: 4px;">
+        <div class='col-lg-10' id='e_qam_canal_q'/>
+        <div class="col-lg-2">
+        <span>
+          <h5>CANAL Q</h5>
+               <h6 class="text-justify">
+                   Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide) entre dos valores posibles.
+               </h6>
+        </span>
+            <h6 class='text-center' id="e_qam_title_canal_q"/>
+        </div>
+    </div>
+    <div class='row trunk-section' style="margin-right: 4px;">
+        <div class='col-lg-10' id='e_qam_full'/>
+        <div class="col-lg-2">
+        <span>
+          <h5>8-QAM</h5>
+               <h6 class="text-justify">
+                   Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide) entre dos valores posibles.
+               </h6>
+        </span>
+            <h6 class='text-center' id="e_qam_title_full"/>
+        </div>
+    </div>
+</div>
+
+<script>
+    'use strict';
+    var dw8qamPortSen,
+        dw8qamPortCos,
+        dw8qamFreqBit,
+        dw8qamIC,
+        dw8qamCanalI,
+        dw8qamQC,
+        dw8qamCanalQ,
+        dw8qamFull;
+    var dw8QAMEnd = 0;
+
+    var valeQAMAmp = $("#eQAMAmp");
+    var valeQAMAmpI = $("#eQAMAmpI");
+    var valeQAMAmpQ = $("#eQAMAmpQ");
+    var valeQAMFreq = $("#eQAMFrecuencia");
+    var valeQAMBitC0L = $("#eQAMBitC0L");
+    var valeQAMBitC1L = $("#eQAMBitC1L");
+
+    var valefreqI8QAM = $("#freqI8QAM");
+    var valefreqQ8QAM = $("#freqQ8QAM");
+    var valefreqC8QAM = $("#freqC8QAM");
+
+    $('#eqamRedraw ').click(function () {
+        $("#eqamRedrawIcon").removeClass().addClass('fa fa-refresh fa-spin');
+        loading();
+        setTimeout(function () {
+            dibujar(
+                false,
+                limpiarControles(valeQAMAmp), limpiarControles(valeQAMAmpI),  limpiarControles(valeQAMAmpQ),
+                4, 2, 1, 0.5,
+                limpiarControles(valeQAMBitC0L), limpiarControles(valeQAMBitC1L)
+            );
+        }, 10);
+    });
+    (function () {
+        dw8qamPortSen = template8QAM('#e_qam_port_sen', 'Port.Sen', 'PortSen', [9]);
+        dw8qamPortCos = template8QAM('#e_qam_port_cos', 'Port.Cos', 'PortCos', [8]);
+        dw8qamFreqBit = template8QAM('#e_qam_freq_bit', 'Freq Bit', 'FreqBit', [7]);
+        dw8qamIC = template8QAM('#e_qam_ic', 'IC', 'IC', [6]);
+        dw8qamCanalI = template8QAM('#e_qam_canal_i', 'CanalI', 'CanalI', [5]);
+        dw8qamQC = template8QAM('#e_qam_qc', 'QC', 'QC', [4]);
+        dw8qamCanalQ = template8QAM('#e_qam_canal_q', 'CanalQ', 'CanalQ', [3]);
+        dw8qamFull = template8QAM('#e_qam_full', 'Freq Bit/8QAM', 'Valor', [7, 2]);
+        dw8qamFull.legend = ['FREQ BIT', '8 QAM'];
+        dw8qamFull.legend_target = '#e_qam_title_full';
+        dibujarControles8QAM();
+        dibujar(
+            false,
+            1, 1, 1,
+            4, 2, 1, 0.5,
+            0.541, 1.307
+        );
+    })();
+    function limpiarControles( value ) {
+        return value.val().replace(/Hz|m|kHz|v/g, "");
+    }
+    function deleteData8qam() {
+        delete dw8qamPortSen.data;
+        delete dw8qamPortCos.data;
+        delete dw8qamFreqBit.data;
+        delete dw8qamIC.data;
+        delete dw8qamQC.data;
+        delete dw8qamCanalI.data;
+        delete dw8qamCanalQ.data;
+    }
+
+    function completo() {
+        if (dw8QAMEnd = 7) {
+            dismiss();
+            $("#eqamRedrawIcon").removeClass().addClass('fa fa-check');
+        }
+    }
+
+    function dibujarControles8QAM() {
+        $("#eQAMAmp").knob(
+            confAmpPortadora
+        );
+        $("#eQAMAmpI").knob(
+            confAmpI
+        );
+        $("#eQAMAmpQ").knob(
+            confAmpQ
+        );
+        confFrecModuladora.release = eventoFreq8;
+        $("#eQAMFrecuencia").knob(
+            confFrecModuladora
+        );
+
+        $("#eQAMBitC0L").knob(
+            confBitC0L
+        );
+        $("#eQAMBitC1L").knob(
+            confBitC1L
+        );
+    }
+    var eventoFreq8 = function (value) {
+        console.log("jaon");
+        let freq = parseInt(limpiarControles(valeQAMFreq));
+        valefreqI8QAM.text((freq/2) + "kHz");
+        valefreqQ8QAM.text((freq/4) + "kHz");
+        valefreqC8QAM.text((freq/8) + "kHz");
+
+    };
+
+    function template8QAM(renderID, yLabel, yAixsValue, lineColor) {
+        return {
+            inflator: 1.6,
+            point_size: 4.5,
+            top: 10,
+            active_point_size: 10,
+            width: 900,
+            height: 150,
+            right: 1,
+            data: [],
+            missing_is_hidden: true,
+            active_point_on_lines: true,
+            y_extended_ticks: true,
+            x_extended_ticks: true,
+            animate_on_load: true,
+            area: false,
+            x_accessor: 'Tiempo',
+            x_label: 'Tiempo',
+            custom_line_color_map: lineColor,
+            target: renderID,
+            y_accessor: yAixsValue,
+            y_label: yLabel
+        }
+    }
+
+    function dibujar(
+        redibujar,
+        amplitud,
+        amplitudI,
+        amplitudQ,
+        frecuencia,
+        frecuenciaC,
+        frecuenciaI,
+        frecuenciaQ,
+        bitC0L,
+        bitC1L
+    ) {
+        dw8QAMEnd = 0;
+
+
+
+        let Tiempo;
+        let TiempoMin = 0;
+        let TiempoMax = 1440;
+        let portSen = 0;
+        let portCos = 0;
+        let freqBit = 0;
+        let bitC = 0;
+        let bitI = 0;
+        let bitQ = 0;
+        let iC = 0;
+        let qC = 0;
+        let canalI = 0;
+        let canalQ = 0;
+        let eightQAM = 0;
+        let data8QAM = [];
+        let data8QAMfreqBit = [];
+        let data8QAMFull = [];
+        for (Tiempo = TiempoMin; Tiempo <= TiempoMax; Tiempo++) {
+            portSen = (amplitud) * (SIN(RADIANS(Tiempo * frecuencia)));
+            portCos = (amplitud) * (COS(RADIANS(Tiempo * frecuencia)));
+            freqBit = ((amplitudI) * SIN(RADIANS(frecuenciaC * Tiempo))) > 0 ? (-1) * amplitudI : amplitudI;
+
+
+            bitC = (amplitudQ * SIN(RADIANS(frecuenciaC * Tiempo))) > 0 ? bitC0L : bitC1L;
+
+            bitI = (amplitudI * SIN(RADIANS(frecuenciaI * Tiempo)) > 0) ? (-1) * amplitudI : amplitudI;
+            bitQ = (amplitudI * SIN(RADIANS(frecuenciaQ * Tiempo)) > 0) ? (-1) * amplitudI : amplitudI;
+            iC = bitC * bitI;
+            qC = bitC * bitQ;
+            canalI = iC * portSen;
+            canalQ = qC * portCos;
+            eightQAM = canalI + canalQ;
+
+            data8QAM.push({
+                "Tiempo": Tiempo,
+                "PortSen": portSen,
+                "PortCos": portCos,
+                "FreqBit": freqBit,
+                "BitC": bitC,
+                "BitI": bitI,
+                "BitQ": bitQ,
+                "IC": iC,
+                "QC": qC,
+                "CanalI": canalI,
+                "CanalQ": canalQ,
+                "8QAM": eightQAM
+            });
+            data8QAMfreqBit.push({
+                "Tiempo": Tiempo,
+                "Valor": freqBit
+            });
+            data8QAMFull.push({
+                "Tiempo": Tiempo,
+                "Valor": eightQAM
+            });
+        }
+        deleteData8qam();
+        dw8qamPortSen.data = data8QAM;
+        dw8qamPortCos.data = data8QAM;
+        dw8qamFreqBit.data = data8QAM;
+        dw8qamIC.data = data8QAM;
+        dw8qamCanalI.data = data8QAM;
+        dw8qamCanalQ.data = data8QAM;
+        dw8qamQC.data = data8QAM;
+        dw8qamFull.data = [data8QAMfreqBit, data8QAMFull];
+
+        MG.data_graphic(dw8qamPortSen);
+        MG.data_graphic(dw8qamPortCos);
+        MG.data_graphic(dw8qamFreqBit);
+        MG.data_graphic(dw8qamIC);
+        MG.data_graphic(dw8qamCanalI);
+        MG.data_graphic(dw8qamCanalQ);
+        MG.data_graphic(dw8qamQC);
+        MG.data_graphic(dw8qamFull);
+        d3.selectAll("#e_qam_port_sen , #e_qam_port_cos , #e_qam_freq_bit , #e_qam_ic , #e_qam_canal_i , #e_qam_qc , #e_qam_canal_q , #e_qam_full ").transition().on("end", function () {
+            completo();
+        });
+    }
+</script>
