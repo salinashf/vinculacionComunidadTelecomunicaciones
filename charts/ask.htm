@@ -246,7 +246,7 @@
         $("#askRedrawIcon").removeClass().addClass('fa fa-refresh fa-spin');
         loading();
         setTimeout(function () {
-            dibujar(false, Ec_txt_ASK.val().replace(/Hz|m/g, ""), fc_txt_ASK.val().replace(/Hz|m/g, ""), Em_txt_ASK.val().replace(/Hz|m/g, ""), fb_txt_ASK.val().replace(/Hz|m/g, ""))
+            dibujar(false, Ec_txt_ASK.val().replace(/Hz|m|kHz|v/g, ""), fc_txt_ASK.val().replace(/Hz|m|kHz|v/g, ""), Em_txt_ASK.val().replace(/Hz|m|kHz|v/g, ""), fb_txt_ASK.val().replace(/Hz|m|kHz|v/g, ""))
         }, 10);
     });
 

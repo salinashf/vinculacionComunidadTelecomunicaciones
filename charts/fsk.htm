@@ -15,7 +15,6 @@
                 </button>
             </div>
         </div>
-
         <div class="col-lg-5 text-center">
             <div class="row label-section-top ">
                 <div class="col-lg-3 nopadding text-center">
@@ -54,9 +53,9 @@
                 </div>
                 <div class="col-lg-6 text-center nopadding">
                     <span class="badge badge-success fontSize">Freq.Espacio: <span class="badge badge-light fontSize"
-                                                                                   id="freEsp_FSK">10Hz</span></span>
+                                                                                   id="freEsp_FSK">10kHz</span></span>
                     <span class="badge badge-success fontSize">Freq. Marca: <span class="badge badge-light fontSize"
-                                                                                  id="freMarc_FSK">30Hz</span></span>
+                                                                                  id="freMarc_FSK">30kHz</span></span>
                 </div>
                 <div class="col-lg-3 nopadding text-center">
                 </div>
@@ -288,8 +287,8 @@
     };
 
     function updateEspacioMarca() {
-        let freq = parseInt(frec_FSK.val().replace(/Hz|m/g, ""));
-        let desv = parseInt(desv_FSK.val().replace(/Hz|m/g, ""));
+        let freq = parseInt(frec_FSK.val().replace(/Hz|m|kHz|v/g, ""));
+        let desv = parseInt(desv_FSK.val().replace(/Hz|m|kHz|v/g, ""));
         freEsp_FSK.text((freq - desv) + "Hz");
         freMarc_FSK.text((freq + desv) + "Hz");
     }
@@ -369,12 +368,12 @@
     (function () {
         dibujar(
             false,
-            amp_FSK.val().replace(/Hz|m/g, ""),
-            frec_FSK.val().replace(/Hz|m/g, ""),
-            freEsp_FSK.text().replace(/Hz|m/g, ""),
-            freMarc_FSK.text().replace(/Hz|m/g, ""),
-            ampMD_FSK.val().replace(/Hz|m/g, ""),
-            frecMD_FSK.val().replace(/Hz|m/g, ""));
+            amp_FSK.val().replace(/Hz|m|kHz|v/g, ""),
+            frec_FSK.val().replace(/Hz|m|kHz|v/g, ""),
+            freEsp_FSK.text().replace(/Hz|m|kHz|v/g, ""),
+            freMarc_FSK.text().replace(/Hz|m|kHz|v/g, ""),
+            ampMD_FSK.val().replace(/Hz|m|kHz|v/g, ""),
+            frecMD_FSK.val().replace(/Hz|m|kHz|v/g, ""));
         $("#amp_FSK").knob(
             confAmpPortadora
         );
@@ -398,12 +397,12 @@
         setTimeout(function () {
             dibujar(
                 false,
-                amp_FSK.val().replace(/Hz|m/g, ""),
-                frec_FSK.val().replace(/Hz|m/g, ""),
-                freEsp_FSK.text().replace(/Hz|m/g, ""),
-                freMarc_FSK.text().replace(/Hz|m/g, ""),
-                ampMD_FSK.val().replace(/Hz|m/g, ""),
-                frecMD_FSK.val().replace(/Hz|m/g, ""))
+                amp_FSK.val().replace(/Hz|m|kHz|v/g, ""),
+                frec_FSK.val().replace(/Hz|m|kHz|v/g, ""),
+                freEsp_FSK.text().replace(/Hz|m|kHz|v/g, ""),
+                freMarc_FSK.text().replace(/Hz|m|kHz|v/g, ""),
+                ampMD_FSK.val().replace(/Hz|m|kHz|v/g, ""),
+                frecMD_FSK.val().replace(/Hz|m|kHz|v/g, ""))
         }, 10);
     });
 </script>

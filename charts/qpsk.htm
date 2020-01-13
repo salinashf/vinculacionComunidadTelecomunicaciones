@@ -3,8 +3,8 @@
         <div class=" col-lg-3 justify-content-center">
             <img src='images/logoUIsrael3.png'/>
         </div>
-        <div class=" col-lg-4 justify-content-center">
-            <h6><b>MODULACIÓN POR DESPLAZAMIENTO DE FASE QPSK</b></h6>
+        <div class=" col-lg-3 justify-content-center">
+            <h6><b>MODULACIÓN POR DESPLAZAMIENTO DE FASE FSK</b></h6>
             <h6 class="text-justify">
                 Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide)
                 entre dos valores posibles.
@@ -15,62 +15,36 @@
                 </button>
             </div>
         </div>
-        <div class="col-lg-4 text-center">
-            <!--los controles-->
-            <div class="row">
-                <div class=" col-lg-3 text-right">
-                    <h6><b>x</b></h6>
+        <div class="col-lg-6 text-center">
+            <div class="row label-section-top ">
+                <div class="col-lg-4 nopadding text-center">
+                    <span class="badge badge-danger">SEÑAL PORTADORA</span>
                 </div>
-                <div class=" col-lg-3 text-center">
-                    <h6><b>PORTADORA</b></h6>
-                </div>
-                <div class=" col-lg-3 text-center">
-                    <h6><b> Moduladora I</b></h6>
-                </div>
-                <div class=" col-lg-3 text-center">
-                    <h6><b>Moduladora Q</b></h6>
+                <div class="col-lg-5 nopadding text-center">
+                    <span class="badge badge-info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SEÑAL MODULADORA &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
                 </div>
             </div>
             <div class="row">
-                <div class=" col-lg-3 text-right">
-                    <h6><b>AMP</b></h6>
+                <div class="col-lg-2 text-center">
+                    <input id="QPSKAmp" type="text" value="1"/>
+                    <span class="badge badge-warning">Amplitud</span>
                 </div>
-                <div class=" col-lg-3 text-center">
-                    <input class="validate form-control " data-validate="required" id="amp_port" max="50" min="1"
-                           step="1"
-                           type="number"
-                           value="1"/>
+                <div class="col-lg-2 text-center">
+                    <input id="QPSKFrec" type="text" value="1"/>
+                    <span class="badge badge-success">Frecuencia</span>
                 </div>
-                <div class=" col-lg-3 text-center">
-                    <input class="validate form-control " data-validate="required" id="amp_i" max="50" min="1" step="1"
-                           type="number"
-                           value="1"/>
+                <div class="col-lg-2 text-center">
+                    <input id="QPSKAmpI" type="text" value="1"/>
+                    <span class="badge badge-warning">Amplitud  I</span>
                 </div>
-                <div class=" col-lg-3 text-center">
-                    <input class="validate form-control " data-validate="required" disabled="true" id="amp_q"
-                           type="number"
-                           value="1"/>
-                </div>
-            </div>
-            <div class="row">
-                <div class=" col-lg-3 text-right">
-                    <h6><b>FREQ</b></h6>
-                </div>
-                <div class=" col-lg-3 text-center">
-                    <input class="validate form-control " data-validate="required" id="freq_port" max="50" min="1"
-                           step="1"
-                           type="number"
-                           value="1"/>
-                </div>
-                <div class=" col-lg-3 text-center">
-                    <input class="validate form-control " data-validate="required" disabled="true" id="freq_i" max="50"
-                           type="number"
-                           value="0.5"/>
-                </div>
-                <div class=" col-lg-3 text-center">
-                    <input class="validate form-control " data-validate="required" disabled="true" id="freq_q"
-                           type="number"
-                           value="0.25"/>
+                <div class="col-lg-3 text-left">
+                     <span class="badge badge-success fontSize">Freq.Q:<span class="badge badge-light fontSize"
+                                                                             id="freqQQPSK">0.25kHz</span></span>
+                    <span class="badge badge-success fontSize">Freq.I:<span class="badge badge-light fontSize"
+                                                                            id="freqIQPSK">0.5kHz</span></span>
+
+                    <span class="badge badge-warning fontSize">Amp. Q:<span class="badge badge-light fontSize"
+                                                                            id="ampQQPSK">1v</span></span>
                 </div>
             </div>
         </div>
@@ -179,23 +153,33 @@
         }
     }
 
-    var amp_port = $("#amp_port");
+/*    var amp_port = $("#amp_port");
     var amp_i = $("#amp_i");
     var amp_q = $("#amp_q");
     var freq_port = $("#freq_port");
     var freq_i = $("#freq_i");
-    var freq_q = $("#freq_q");
+    var freq_q = $("#freq_q");*/
 
-    $('#freq_port,#amp_i').change(function () {
-        freq_i.val(parseInt(freq_port.val()) / 2);
-        freq_q.val(parseInt(freq_i.val()) / 2);
-        amp_q.val(parseInt(amp_i.val()));
-    });
+    var valeQPSKAmp = $("#QPSKAmp");
+    var valeQPSKAmpI = $("#QPSKAmpI");
+        var valeQPSKAmpQ = $("#ampQQPSK");
+    var valeQPSKFreq = $("#QPSKFrec");
+        var valefreqIQPSK = $("#freqIQPSK");
+        var valefreqQQPSK = $("#freqQQPSK");
+
+
     $('#qpskRedraw ').click(function () {
         $("#qpskRedrawIcon").removeClass().addClass('fa fa-refresh fa-spin');
         loading();
         setTimeout(function () {
-            dibujar(false, amp_port.val(), amp_i.val(), amp_q.val(), freq_port.val(), freq_i.val(), freq_q.val())
+            dibujar(false,
+                limpiarControles(valeQPSKAmp),
+                limpiarControles(valeQPSKAmpI),
+                limpiarControles(valeQPSKAmpQ),
+                limpiarControles(valeQPSKFreq),
+                limpiarControles(valefreqIQPSK),
+                limpiarControles(valefreqQQPSK)
+            )
         }, 10);
     });
 
@@ -532,12 +516,47 @@
             dwQPSKEnd++;
             completo();
         });
-
-
     }
 
     (function () {
+        $("#QPSKAmp ,#QPSKAmpI").knob(
+            {
+                "displayPrevious": true,
+                "fgColor": "#5fa736",
+                "inputColor": "#fe081c",
+                "thickness": .2,
+                "width": 50,
+                "height": 50,
+                'format': formatAmplitud,
+                "release": function (value) {
+                    let freq = parseInt(limpiarControles(valeQPSKAmpI));
+                    valeQPSKAmpQ.text(freq + "v");
+                }
+            }
+        );
+        valeQPSKFreq.knob(
+            {
+                "displayPrevious": true,
+                "fgColor": "#23b3ae",
+                "inputColor": "#fe081c",
+                "thickness": .2,
+                "width": 50,
+                "height": 50,
+                "release": function (value) {
+                    let freq = parseInt(limpiarControles(valeQPSKFreq));
+                    valefreqIQPSK.text((freq / 2) + "kHz");
+                    valefreqQQPSK.text((freq / 4) + "kHz");
+                },
+                "format": formatFrecuencia
+            }
+        );
         loading();
-        dibujar(false, amp_port.val(), amp_i.val(), amp_q.val(), freq_port.val(), freq_i.val(), freq_q.val());
+        dibujar(false, limpiarControles(valeQPSKAmp),
+            limpiarControles(valeQPSKAmpI),
+            limpiarControles(valeQPSKAmpQ),
+            limpiarControles(valeQPSKFreq),
+            limpiarControles(valefreqIQPSK),
+            limpiarControles(valefreqQQPSK)
+        );
     })();
 </script>

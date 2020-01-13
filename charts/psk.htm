@@ -222,10 +222,10 @@
         //Cargando Imagen
         let amp, frec, dat, grad;
 
-        amp = amp_txt_PSK.val().replace(/Hz|m/g, "");
-        frec = frec_txt_PSK.val().replace(/Hz|m/g, "");
-        dat = dat_txt_PSK.val().replace(/Hz|m/g, "");
-        grad = gd_txt_PSK.val().replace(/Hz|m/g, "");
+        amp = amp_txt_PSK.val().replace(/Hz|m|kHz|v/g, "");
+        frec = frec_txt_PSK.val().replace(/Hz|m|kHz|v/g, "");
+        dat = dat_txt_PSK.val().replace(/Hz|m|kHz|v/g, "");
+        grad = gd_txt_PSK.val().replace(/Hz|m|kHz|v/g, "");
 
         dwPortadoraPSKEnd = false;
         dwModuladoraPSKEnd = false;

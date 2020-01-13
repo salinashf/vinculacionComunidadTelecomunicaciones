@@ -34,8 +34,14 @@
 
         <div class="col-lg-6 text-center">
             <div class="row label-section-top ">
-                <div class="col-lg-6 nopadding text-center">
-                    <span class="badge badge-danger">AMPLITUD</span>
+                <div class="col-lg-2 nopadding text-center">
+                    <span class="badge badge-danger">SEÑAL:</span>
+                </div>
+                <div class="col-lg-2 nopadding text-center">
+                    <span class="badge badge-danger">MODULADORA</span>
+                </div>
+                <div class="col-lg-2 nopadding text-center">
+                    <span class="badge badge-danger">MODULADA</span>
                 </div>
                 <div class="col-lg-2 nopadding text-center">
                     <span class="badge badge-success">FRECUENCIA</span>
@@ -51,7 +57,7 @@
                 </div>
                 <div class="col-lg-2 text-center">
                     <input id="eQAMAmpI" type="text" value="1"/>
-                    <span class="badge badge-danger">I</span>
+                    <span class="badge badge-danger"> &nbspI&nbsp </span>
                 </div>
                 <div class="col-lg-2 text-center">
                     <input id="eQAMAmpQ" type="text" value="1"/>
@@ -243,13 +249,7 @@
             limpiarControles(valeQAMBitC0L), limpiarControles(valeQAMBitC1L)
         );
     })();
-    function limpiarControles( value ) {
-        if (value.is("input")){
-            return value.val().replace(/Hz|m|kHz|v/g, "");
-        }
-        return value.text().replace(/Hz|m|kHz|v/g, "");
 
-    }
     function deleteData8qam() {
         delete dw8qamPortSen.data;
         delete dw8qamPortCos.data;
