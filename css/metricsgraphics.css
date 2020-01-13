@@ -557,3 +557,6 @@ tspan.mg-points-mono {
 .fontSize{
     font-size:85% !important;
 }
+.description {
+    margin-right: 20px;!important;
+}
