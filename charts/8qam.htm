@@ -1,19 +1,19 @@
-<style>
-    .col-lg-1,
-    .col-lg-2,
-    .col-lg-3,
-    .col-lg-4,
-    .col-lg-5,
-    .col-lg-6,
-    .col-lg-7,
-    .col-lg-8,
-    .col-lg-9,
-    .col-lg-10,
-    .col-lg-11,
-    .col-lg-12 > div {
-        border: 1px solid #1efe52;
-    }
-</style>
+<!--<style>-->
+    <!--.col-lg-1,-->
+    <!--.col-lg-2,-->
+    <!--.col-lg-3,-->
+    <!--.col-lg-4,-->
+    <!--.col-lg-5,-->
+    <!--.col-lg-6,-->
+    <!--.col-lg-7,-->
+    <!--.col-lg-8,-->
+    <!--.col-lg-9,-->
+    <!--.col-lg-10,-->
+    <!--.col-lg-11,-->
+    <!--.col-lg-12 > div {-->
+        <!--border: 1px solid #1efe52;-->
+    <!--}-->
+<!--</style>-->
 <form class="form-panel">
     <div class="row">
         <div class=" col-lg-3 justify-content-center">
@@ -75,13 +75,13 @@
             </div>
             <div class="row">
                 <div class="col-lg-6 nopadding text-right">
-                    <span class="badge badge-success fontSize">Frecuen.I: <span class="badge badge-light fontSize"
+                    <span class="badge badge-success fontSize">Freq.I: <span class="badge badge-light fontSize"
                                                                                 id="freqI8QAM">2kHz</span></span>
-                    <span class="badge badge-success fontSize">Frecuen.Q: <span class="badge badge-light fontSize"
+                    <span class="badge badge-success fontSize">Freq.Q: <span class="badge badge-light fontSize"
                                                                                 id="freqQ8QAM">1kHz</span></span>
                 </div>
                 <div class="col-lg-2 text-center nopadding">
-                    <span class="badge badge-success fontSize">Frecuen.C: <span class="badge badge-light fontSize"
+                    <span class="badge badge-success fontSize">Freq.C: <span class="badge badge-light fontSize"
                                                                                 id="freqC8QAM">0.5kHz</span></span>
                 </div>
                 <div class="col-lg-2 nopadding text-center">
@@ -204,10 +204,9 @@
     var valeQAMAmp = $("#eQAMAmp");
     var valeQAMAmpI = $("#eQAMAmpI");
     var valeQAMAmpQ = $("#eQAMAmpQ");
-    var valeQAMFreq = $("#eQAMFrecuencia");
     var valeQAMBitC0L = $("#eQAMBitC0L");
     var valeQAMBitC1L = $("#eQAMBitC1L");
-
+    var valeQAMFreq = $("#eQAMFrecuencia");
     var valefreqI8QAM = $("#freqI8QAM");
     var valefreqQ8QAM = $("#freqQ8QAM");
     var valefreqC8QAM = $("#freqC8QAM");
@@ -219,7 +218,7 @@
             dibujar(
                 false,
                 limpiarControles(valeQAMAmp), limpiarControles(valeQAMAmpI),  limpiarControles(valeQAMAmpQ),
-                4, 2, 1, 0.5,
+                limpiarControles(valeQAMFreq), limpiarControles(valefreqI8QAM),  limpiarControles(valefreqQ8QAM), limpiarControles(valefreqC8QAM),
                 limpiarControles(valeQAMBitC0L), limpiarControles(valeQAMBitC1L)
             );
         }, 10);
@@ -236,15 +235,20 @@
         dw8qamFull.legend = ['FREQ BIT', '8 QAM'];
         dw8qamFull.legend_target = '#e_qam_title_full';
         dibujarControles8QAM();
+        loading();
         dibujar(
             false,
-            1, 1, 1,
-            4, 2, 1, 0.5,
-            0.541, 1.307
+            limpiarControles(valeQAMAmp), limpiarControles(valeQAMAmpI),  limpiarControles(valeQAMAmpQ),
+            limpiarControles(valeQAMFreq), limpiarControles(valefreqI8QAM),  limpiarControles(valefreqQ8QAM), limpiarControles(valefreqC8QAM),
+            limpiarControles(valeQAMBitC0L), limpiarControles(valeQAMBitC1L)
         );
     })();
     function limpiarControles( value ) {
-        return value.val().replace(/Hz|m|kHz|v/g, "");
+        if (value.is("input")){
+            return value.val().replace(/Hz|m|kHz|v/g, "");
+        }
+        return value.text().replace(/Hz|m|kHz|v/g, "");
+
     }
     function deleteData8qam() {
         delete dw8qamPortSen.data;
@@ -273,9 +277,22 @@
         $("#eQAMAmpQ").knob(
             confAmpQ
         );
-        confFrecModuladora.release = eventoFreq8;
-        $("#eQAMFrecuencia").knob(
-            confFrecModuladora
+        valeQAMFreq.knob(
+            {
+                "displayPrevious":true,
+                "fgColor":"#23b3ae",
+                "inputColor":"#fe081c",
+                "thickness":.2,
+                "width":50,
+                "height":50,
+                "release":function (value) {
+                    let freq = parseInt(limpiarControles(valeQAMFreq));
+                    valefreqI8QAM.text((freq/2) + "kHz");
+                    valefreqQ8QAM.text((freq/4) + "kHz");
+                    valefreqC8QAM.text((freq/8) + "kHz");
+                },
+                "format":formatFrecuencia
+            }
         );
 
         $("#eQAMBitC0L").knob(
@@ -285,15 +302,6 @@
             confBitC1L
         );
     }
-    var eventoFreq8 = function (value) {
-        console.log("jaon");
-        let freq = parseInt(limpiarControles(valeQAMFreq));
-        valefreqI8QAM.text((freq/2) + "kHz");
-        valefreqQ8QAM.text((freq/4) + "kHz");
-        valefreqC8QAM.text((freq/8) + "kHz");
-
-    };
-
     function template8QAM(renderID, yLabel, yAixsValue, lineColor) {
         return {
             inflator: 1.6,
@@ -332,9 +340,6 @@
         bitC1L
     ) {
         dw8QAMEnd = 0;
-
-
-
         let Tiempo;
         let TiempoMin = 0;
         let TiempoMax = 1440;
@@ -356,10 +361,7 @@
             portSen = (amplitud) * (SIN(RADIANS(Tiempo * frecuencia)));
             portCos = (amplitud) * (COS(RADIANS(Tiempo * frecuencia)));
             freqBit = ((amplitudI) * SIN(RADIANS(frecuenciaC * Tiempo))) > 0 ? (-1) * amplitudI : amplitudI;
-
-
             bitC = (amplitudQ * SIN(RADIANS(frecuenciaC * Tiempo))) > 0 ? bitC0L : bitC1L;
-
             bitI = (amplitudI * SIN(RADIANS(frecuenciaI * Tiempo)) > 0) ? (-1) * amplitudI : amplitudI;
             bitQ = (amplitudI * SIN(RADIANS(frecuenciaQ * Tiempo)) > 0) ? (-1) * amplitudI : amplitudI;
             iC = bitC * bitI;
