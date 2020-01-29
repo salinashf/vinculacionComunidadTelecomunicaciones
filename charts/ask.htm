@@ -121,7 +121,7 @@
     var dwASKEnd = 0;
 
     function completo() {
-        if (dwASKEnd = 4) {
+        if (dwASKEnd = 3) {
             //Completo Imagen
             dismiss();
             $("#askRedrawIcon").removeClass().addClass('fa fa-check');
@@ -136,7 +136,7 @@
         active_point_on_lines: true,
         top: 10,
         active_point_size: 10,
-        width: 960,
+        width: 940,
         height: 150,
         right: 1,
         target: '#ask_moduladora',
@@ -158,7 +158,7 @@
         active_point_on_lines: true,
         top: 10,
         active_point_size: 10,
-        width: 960,
+        width: 940,
         height: 150,
         right: 1,
         target: '#ask_portadora',
@@ -181,7 +181,7 @@
         active_point_on_lines: true,
         top: 10,
         active_point_size: 10,
-        width: 960,
+        width: 940,
         height: 150,
         right: 1,
         target: '#ask_moduladaASK',
@@ -202,7 +202,7 @@
         active_point_on_lines: true,
         top: 10,
         active_point_size: 10,
-        width: 960,
+        width: 940,
         height: 170,
         right: 1,
         target: '#ask_moduladaASKMix',
@@ -295,7 +295,7 @@
         MG.data_graphic(dwPortadoraASK);
         MG.data_graphic(dwModuladoraASK);
         MG.data_graphic(dwModuladaASK);
-        MG.data_graphic(varMDPDASK);
+        //MG.data_graphic(varMDPDASK);
 
         d3.select("#ask_moduladora").transition().on("end", function () {
             dwASKEnd = +1;
@@ -309,9 +309,9 @@
             dwASKEnd = +1;
             completo();
         });
-        d3.select("#ask_moduladaASKMix").transition().on("end", function () {
+       /* d3.select("#ask_moduladaASKMix").transition().on("end", function () {
             dwASKEnd = +1;
             completo();
-        });
+        });*/
     }
 </script>
