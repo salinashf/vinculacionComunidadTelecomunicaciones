@@ -140,6 +140,21 @@
             <h6 class='text-center' id="legendMix"/>
         </div>
     </div>
+
+    <div class='row trunk-section'>
+        <div class='col-lg-10' id='qpskbiti_MIX'/>
+        <div class="col-lg-2">
+                 <span>
+                  <h5>Bit I / QPSK</h5>
+                       <h6 class="text-justify">
+                           Forma de modulación digital que consiste en cambiar la amplitud de una onda portadora (una sinusoide) entre dos valores posibles.
+                       </h6>
+                </span>
+            <h6 class='text-center' id="legendqpskbitiMix"/>
+        </div>
+    </div>
+
+
 </div>
 
 <script>
@@ -147,7 +162,7 @@
     var dwQPSKEnd = 0;
 
     function completo() {
-        if (dwQPSKEnd = 8) {
+        if (dwQPSKEnd = 9) {
             dismiss();
             $("#qpskRedrawIcon").removeClass().addClass('fa fa-check');
         }
@@ -402,6 +417,39 @@
         legend_target: '#legendMix'
     };
 
+    var bitI_QPSK_MIX = {
+        /*title: "BIT I/CANAL I",
+        description: "La modulación por desplazamiento de fase o PSK es una forma   en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.",
+        width: 900,
+        height: 200,
+        right: 10,*/
+        custom_line_color_map: [4, 9],
+        inflator: 1.6,
+        missing_is_hidden: true,
+        point_size: 4.5,
+        active_point_on_lines: true,
+        top: 10,
+        active_point_size: 10,
+        width: 960,
+        height: 150,
+        right: 1,
+        target: '#qpskbiti_MIX',
+        x_accessor: 'Tiempo',
+        y_accessor: 'Combinacion',
+        x_label: 'Tiempo',
+        y_label: 'BIT T/QPSK',
+        y_extended_ticks: true,
+        x_extended_ticks: true,
+        animate_on_load: true,
+        area: false,
+        legend: ['BIT I', 'QPSK'],
+        legend_target: '#legendqpskbitiMix'
+    };
+
+
+
+
+
     function dibujar(redibujar, ampPort, ampI, ampQ, freqPort, freqI, freqQ) {
 
         dwQPSKEnd = 0;
@@ -419,7 +467,7 @@
         let dataQPSK = [];
         let dataBitI = [];
         let dataCanalI = [];
-
+        let dataMixQPSK = [];
         let Tiempo;
         for (Tiempo = TiempoMin; Tiempo <= TiempoMax; Tiempo++) {
             porSen = (ampPort) * SIN(RADIANS(Tiempo * freqPort)); /// =$B$3*SIN(RADIANS(A7*$B$4))
@@ -449,7 +497,10 @@
                 "Tiempo": Tiempo,
                 "Combinacion": canalI
             });
-
+            dataMixQPSK.push({
+                "Tiempo": Tiempo,
+                "Combinacion": qpsk_join
+            });
 
         }
 
@@ -461,6 +512,7 @@
         delete CanalQ_QPSK.data;
         delete qpsk_QPSK.data;
         delete bitICanalI_QPSK.data;
+        delete bitI_QPSK_MIX.data;
 
 
         porSen_QPSK.data = dataQPSK;
@@ -471,6 +523,7 @@
         CanalQ_QPSK.data = dataQPSK;
         qpsk_QPSK.data = dataQPSK;
         bitICanalI_QPSK.data = [dataCanalI, dataBitI];
+        bitI_QPSK_MIX.data = [dataBitI, dataMixQPSK];
 
 
         MG.data_graphic(porSen_QPSK);
@@ -481,6 +534,7 @@
         MG.data_graphic(CanalQ_QPSK);
         MG.data_graphic(qpsk_QPSK);
         MG.data_graphic(bitICanalI_QPSK);
+        MG.data_graphic(bitI_QPSK_MIX);
 
 
         d3.select("#qpsk_PortSen").transition().on("end", function () {
@@ -513,6 +567,10 @@
             completo();
         });
         d3.select("#qpsk_MIX").transition().on("end", function () {
+            dwQPSKEnd++;
+            completo();
+        });
+        d3.select("#qpskbiti_MIX").transition().on("end", function () {
             dwQPSKEnd++;
             completo();
         });
