@@ -307,12 +307,7 @@
                 "min" :0,
                 "max" :20,
                 "release":function (value) {
-                    console.log(value);
                     valeQAMBitC1L.val(parseFloat(value)*parseFloat(2.41589648798521)).trigger('change');
-                    //let freq = parseInt(limpiarControles(valeQAMFreq));
-                    //valefreqI8QAM.text((freq/2) + "kHz");
-                    //valefreqQ8QAM.text((freq/4) + "kHz");
-                    //valefreqC8QAM.text((freq/8) + "kHz");
                 },
             }
         );
@@ -327,8 +322,10 @@
                 "step":0.03,
                 "min" :0,
                 "max" :20,
+
             }
         );
+        //valeQAMBitC1L.enable();
     }
     function template8QAM(renderID, yLabel, yAixsValue, lineColor) {
         return {
